@@ -1,0 +1,22 @@
+ Copyright (C) 2005, 2006, 2007  Brice Burgess <bhb@iceburg.net>
+ 
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2 or
+ any later version published by the Free Software Foundation.
+     
+ 
+[DEVELOPER README]
+   We kindly request that you notify the above author or project webpage of any
+   modifications. Why? Because this is a GPL community project. We would love
+   to have the opportunity to include your derivative works or patches! We would
+   love to coordinate around your development efforts -- and  and provide assistance!
+   Stop by, ask us questions, tell us what you're doing. DON'T BE A STRANGER!
+
+[DEVELOPER RESOURCES]
+
+  For Developer Documentation, see; 
+  	http://pommo.org/Development
+  	http://pommo.org/Devlib  (The "Development Library")
+  	
+  See the OVERVIEW file for Directory Structure + Organizational Hiearchy
+  	

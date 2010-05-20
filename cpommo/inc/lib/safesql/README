@@ -1,0 +1,364 @@
+NAME:
+
+    SafeSQL - an SQL query processer to automate the tedious tasks of syntax
+    testing, injection attack-proofing, dropping parts of queries and other
+    misc features. It has only been tested with MySQL syntax, but any ANSI
+    SQL-92 compliant db library should work OK.
+
+    For a detailed review of what SQL injection attacks are, see this article:
+    http://www.webmasterbase.com/article/794
+
+AUTHOR:
+    Monte Ohrt <monte@ispi.net>
+
+LATEST VERSION:
+    2.1 - August 13, 2004
+
+SYNOPSIS:
+
+    require 'SafeSQL.class.php';
+
+    // dummy up a variable with a single quote in it
+    $section_name = "fred's place";
+    
+    // run the query through SafeSQL
+    $safesql =& new SafeSQL_MySQL;
+    $query_string = $safesql->query("select * from sections
+       where Section_Name = '%s'", array($section_name));
+
+    echo $query_string;
+
+    OUTPUT:
+    select * from sections where Section_Name = 'fred\'s place'
+
+    // $query_string is now safe to pass to your SQL library
+    
+DESCRIPTION:
+
+    SafeSQL is a wrapper for any database library or abstraction layer. It
+    assists in the process of assembling a query string such as character
+    escapement, imploding arrays of data for use with an "IN" clause, and
+    conditionally dropping portions of a query.
+    
+    First, lets look at an example of how a programmer might
+    have to prepare an SQL query without SafeSQL:
+    
+    PHP code: Example of manual query preparation
+    ---------------------------------------------
+    
+    // dummy up values for this example
+    $sec_name = "Fred's place";
+    $section_ids = array("a","b","c's and d's");
+    $location = "Lincoln's best";
+
+    // now the logic to prepare the variables for the query
+
+    // we don't want the location clause unless $location has
+    // a value, so we test for that and build the clause.
+    if(!empty($location)) {
+        $location_clause = " and Location = '" . addslashes($location);
+    } else {
+        $location_clause = '';
+    }
+    
+    // $section_ids will be used with an "IN" clause, so
+    // we set its type to array() and then run addslashes()
+    // on each element, then it is prepared for implode()
+    set_type($section_ids, 'array');
+    foreach($section_ids as key=$key val=$val) {
+        $section_ids[$key] = addslashes($val);
+    }
+    
+    // now we assemble the query into one long string
+    $query_string = "select * from sections
+        where SectionName ='" . addslashes($sec_name) . "'
+        and id in ('" . implode("','",slash_array($section_ids)) . "')
+        and timestamp >= " . time() . "
+        $location_clause";
+        
+    // $query_string is now ready for use
+    
+    As you can see, there are several things the programmer must to do prepare
+    this SQL query. For one, the data must be properly escaped to be sure no
+    syntax breaking or SQL injection holes are possible. This is normally
+    accomplished by running the variables through addslashes(), or turning on
+    magic_quotes in the php.ini file. For the IN clause, the section_ids array
+    must be imploded and quote escaped. And, the location clause must be
+    inserted if there is indeed a $location variable set, otherwise it is left
+    off of the query.
+    
+    The programmer must be aware of all these things, and take caution with
+    each SQL query assembled. One slipup and security is compromised, leaving
+    the database open to injection attacks or syntax breakage.
+    
+    Now lets look at the same example using SafeSQL:
+    
+    PHP code: Example of SafeSQL query preparation
+    ----------------------------------------------
+    
+    require('SafeSQL.class.php');
+    
+    // dummy up values
+    $sec_name = "Fred's place";
+    $section_ids = array("a","b","c's and d's");
+    $location = "Lincoln's best";
+    
+    $safesql =& new SafeSQL_MySQL;
+    
+    $query_string = <<< EOQ
+
+        select *
+        from   sections
+        where  SectionName  =  '%s'
+        and    id           in (%q)
+        and    timestamp    >=  %i
+      [ and    Location     =  '%S' ]
+
+    EOQ;
+        
+    $safe_q = $safesql->query(
+                $query_string,
+                    array(
+                        $sec_name,
+                        $section_ids,
+                        time(),
+                        $location
+                    )
+                );
+        
+    // $safe_q is now safe to use!
+
+    
+    That's it. Here is the resulting value of $safe_q:
+    
+        select * from sections
+        where SectionName = 'Fred\'s place'
+        and id in ('a','b','c\'s and d\'s')
+        and timestamp >= 987654321
+        and Location = 'Lincoln\'s best'
+    
+        
+    SafeSQL accomplishes several things for you. For one, it automates the
+    escapement of variables used in the query. Each % placeholder is replaced
+    with the corresponding variable passed in the array after the query.
+    Therefore, %s is replaced with $sec_name, %q is replaced with $section_ids
+    (which is automatically quote/comma separated), %i is replaced with time(),
+    and the %S is replaced with $location. %S is the same as %s, except that if
+    $location is empty, everything within brackets is removed from the query.
+
+    The programmer does not need to deal with escapement, imploding lists to be
+    used in an IN clause, or building conditional portions of a query. SafeSQL
+    automates these tasks, lessening the risks of improper sql syntax or sql
+    injection attacks, and makes the code much easier to read and maintain.
+
+
+USE INSTRUCTIONS:
+-----------------
+
+    SafeSQL only makes your query safe, it does not execute your query. You
+    must pass the resulting query from SafeSQL through your DB library of
+    choice, such as PEAR DB.
+
+    Two classes are currently supported: SafeSQL_MySQL and SafeSQL_ANSI. The
+    first should be used with MySQL, and the latter used with any ANSI
+    compliant SQL database. The difference is in the escapement. With ANSI,
+    single quotes are escaped with two quotes in a row (''). With MySQL,
+    SafeSQL will attempt to use mysql_real_escape_string() if the function
+    exists, otherwise it uses mysql_escape_string(). If that doesn't exist, it
+    falls back to addslashes(). mysql_real_escape_string() needs a link
+    identifier, so if you don't want to use the default (last connection
+    opened), you can pass one when instantiating the class:
+
+    $safesql =& new SafeSQL_MySQL($link_id);
+
+
+    SafeSQL queries use printf style placeholders for your variable content.
+    Possible placeholders are %s, %i, %f, %c, %l, %q, %S, %I, %F, %C, %L, %Q.
+    Examples of each type are outlined below.
+
+    using %s
+    --------
+
+    %s is used for string values, typically inside single quotes.
+
+    $foobar = 'blah';
+    $safe_q = $safesql->query(
+                "select * from foo where bar='%s'",
+                array($foobar)
+                );
+
+    RESULT QUERY:
+    select * from foo where bar = 'blah'
+
+    In the above query, the %s placeholder will be replaced with the value of
+    $foobar, properly escaped. You can pass as many variables as you like:
+
+    $foobar = 'blah';
+    $foobar2 = 'blah2';
+    $safe_q = $safesql->query(
+                "select * from foo where bar = '%s' and bar2 = '%s'",
+                array($foobar, $foobar2)
+                );
+
+    RESULT QUERY:
+    select * from foo where bar = 'blah' and bar2 = 'blah2'
+
+    Here the first %s is replace with $foobar, and the second %s is replaced
+    with $foobar2. The number of placeholders must always match the number of
+    variables passed, otherwise an error is reported.
+
+    using %i
+    --------
+
+    %i is used when passing an integer, typically outside of single quotes.
+
+    $foobar = 34;
+    $safe_q = $safesql->query(
+                "select * from foo where bar=%i",
+                array($foobar)
+                );
+
+    RESULT QUERY:
+    select * from foo where bar=34
+
+    Here %i is replaced with the value of $foobar. If $foobar is not set or not
+    recognizable, a zero (0) is used instead. This is to ensure that a syntax
+    error in the query cannot happen.
+
+    using %f
+    --------
+
+    $foobar = 17.55;
+    $safe_q = $safesql->query(
+                "select * from foo where bar=%f",
+                array($foobar)
+                );
+
+    RESULT QUERY:
+    select * from foo where bar=17.55
+
+    %f is identical to %i, except that floating point values are acceptible. If
+    $foobar is not identifiable, 0.0 will be used.
+
+    using %c
+    --------
+
+    $foobar = array(1,2,34,55);
+    $safe_q = $safesql->query(
+                "select * from foo where bar in (%c)",
+                array($foobar)
+                );
+
+    RESULT QUERY:
+    select * from foo where bar in (1,2,34,55)
+
+    %c will implode the values as integers with commas in between. $foobar is
+    expected to be an array, or will get converted to one automatically. If any
+    value in the array is not valid, a zero (0) is used instead.
+
+    using %l
+    --------
+
+    $foobar = array('one','two','three','four');
+    $safe_q = $safesql->query(
+                "insert into foo (myset) values (%l);",
+                array($foobar)
+                );
+
+    RESULT QUERY:
+    insert into foo (myset) values (one,two,three,four);
+
+    %l will implode the values with commas in between. No quotes or casting is
+    applied. $foobar is expected to be an array, or will get converted to one
+    automatically.
+
+    using %q
+    --------
+
+    $foobar = array('a','b','c','d','e');
+    $safe_q = $safesql->query(
+                "select * from foo where bar in (%q)",
+                array($foobar)
+                );
+
+    RESULT QUERY:
+    select * from foo where bar in ('a','b','c','d','e')
+
+    %q will implode the values as quote delimited strings and commas in
+    between. $foobar is expected to be an array, or will get converted to
+    one automatically. Empty values are allowed.
+
+    using %S, %I, %F, %C, %L, %Q
+    ----------------------------
+
+    The upper-case equivalent of each placeholder is used for the special case
+    of dropping parts of a query dynamically. Each placeholder must be
+    contained inside of [] brackets in the query, otherwise an error is
+    reported. You can put multiple placeholders within a set of brackets, and
+    if any one of them is empty the entire bracketed portion is removed.
+
+    // dummy up some values
+    $string = 'mystring';
+    $int = null;
+    $float = null;
+    $intvals = array(1,2,4,5);
+    $stringvals = array();
+
+    $query_string = <<< EOQ
+
+      select *                
+      from   foo              
+      where  1=1              
+    [ and    bar =  '%S' ]    
+    [ and    bar =  '%I' ]    
+    [ and    bar =  '%F' ]    
+    [ and    bar in (%C) ]    
+    [ and    bar in (%Q) and bar = '%S' ]    
+    
+    EOQ;
+
+    $safe_q = $safesql->query(
+                $query_string,
+                    array(
+                        $string,
+                        $int,
+                        $float,
+                        $intvals,
+                        $stringvals,
+                        $string
+                    )
+                );
+
+    RESULT QUERY:
+    select * from foo
+    where 1=1
+    and bar = 'mystring'
+    and bar in (1,2,4,5)
+
+    As you can see, the elements within brackets are dropped if the
+    corresponding variable or array is unset/empty. Also notice the "where
+    1=1", that is a dummy clause to prevent the problems with the first clause
+    of a query being dropped and breaking syntax.
+
+    If you put more than one placeholder within a set of brackets, the entire
+    bracketed portion will be dropped if any one of the placeholders are empty.
+
+    By default, empty strings determine what gets dropped. If you want to
+    change this, you can use the set_drop_values() method of the class:
+
+    $safesql->set_drop_values(array('NONE',''));
+
+    You can also use get_drop_values() to see what they are currently.
+
+
+    To pass a literal value that conflicts with SafeSQL's syntax, (ie. a %s in
+    the query that is NOT a SafeSQL placeholder or a '[' not meant to be a
+    bracketed segment delimiter), you need to pass this as a SafeSQL parameter:
+
+    $safe_q = $safesql->query("select Date_Format(StartDate, '%s') as StartDate
+    from foo where bar = '%s'", array('%Y/%m/%d %H:%m:%s', $date));
+
+
+That is about it. If you have any questions, drop me a line.
+
+Monte

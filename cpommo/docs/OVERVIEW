@@ -1,0 +1,134 @@
+Directory Structure + Organizational Hierarchy of poMMo (http://www.pommo.org/)
+	A.K.A. "What you should expect to be in that file"
+	 
+ Copyright (C) 2005, 2006, 2007  Brice Burgess <bhb@iceburg.net>
+ 
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2 or
+ any later version published by the Free Software Foundation.
+ 
+-----------
+
+
+pommo/ 
+		"Base Directory"
+		$pommo->_baseURL will point to this directory relative to its location on the webserver's URL
+		$pommo->_baseDir will point to this directory relative to its location on the server filesystem
+			 
+
+pommo/config.php
+		The configuration file. Sets up database, locale, debugging, and forced hostname/port.
+			
+			
+pommo/bootstrap.php
+		This file is required to access poMMo. It sets up the "$pommo" global and loads the API
+		functions. All PHP scripts require this file @ their header.
+			
+			
+pommo/admin/
+		"Administrative Directory" - web enabled
+		This directory contains all the pages available to the poMMo administrator. Since
+		poMMo is built around a MVC framework, the "view" (or page content) for each page
+		is found in the pommo/themes/ directory. The themes structure correlates exactly
+		to that of pommo/user or pommo/admin, so that;
+		
+		"pommo/admin/mailings/admin_mailings.php" will call;
+		"pommo/themes/default/admin/mailings/admin_mailings.tpl" for its view if the "default"
+		 theme is selected.
+
+
+pommo/admin/*/ajax/
+		"AJAX directory"
+		Files in "AJAX" directories are called via an ajax request & typically return JSON. They
+		are (usually) not associated with a view.
+		
+		
+pommo/cache/
+		"Work directory" - web disabled (no URL's point here)
+		This is the default working directory, if not explicitly defined in config.php.
+		This directory should be writable by the webserver. SMARTY compiles and caches
+		its templates in this directory.
+		
+pommo/docs/
+		"Documentation Directory"
+		License information, Readme, TODO, This File, etc.
+		
+pommo/inc/
+		"Include Directory" - web disabled (no URL's point here)
+
+
+pommo/inc/classes/
+		"API Directory" 
+		This directory contains poMMo's base API.
+		db.php 			= database class
+		api.php 		= base api functions
+		install.php		= install api
+		log.php 		= logging class
+		mailctl.php		= mailing controller API
+		mailer.php		= mailing class (extends PHPMailer)
+		pommo.php		= *** pommo class and basic API *** loaded by bootstrap.php
+		prototypes.php	= defines mailing, group, subscriber, and field class objects (used by "helpers")
+		sql.gen.php		= SQL generator -- generates grouping SQL statements
+		template.php	= view controller (extends SMARTY)
+		throttler.php	= mail throttle class
+		
+pommo/inc/helpers/
+		"API Helpers Directory"
+		common.php		= common API helpers. Loaded during bootstrap process.
+		debug.php		= debugging API. Provides functions to dump system info.
+		fields.php		= subscriber field API (add/edit/remove/etc)
+		groups.php		= subscriber groups API (add/edit/remove/etc)
+		import.php		= subscriber import routines
+		l10n.php		= Localization API (gettext). Loads PHP Gettext emulation layer (if necessary)
+		mailings.php	= mailing API (add/edit/reload/etc)
+		maintenance.php	= maintenance routines. executed after successful admin login.
+		messages.php	= common message routines (e.g. welcome new subscriber, unsubscribe request, etc).
+		pending.php		= pending subscriber API (add/edit/remove/etc)
+		personalize.php	= mailing personalization routines
+		rules.php		= group rules API (add/edit/remove/etc) (used to be called "filters")
+		subscribers.php	= subscriber API (add/edit/remove/etc)
+		validate.php	= validation routines - e.g. verify subscriber data is sane.
+		
+pommo/inc/lib/
+		"3rd Party Directory"
+		Holds third-party contributions and utilizations -- e.g. Smarty, PHP Gettext, SafeSQL
+		
+pommo/install/
+		"Installation Directory" - Installation & Upgrading related
+		helper.upgrade.php	= incremental upgrade file.
+		install.php			= installation script
+		sql.sample.php		= sample data (loaded @ support library)
+		sql.schema.php		= database schema (loaded @ install)
+		upgrade.php			= upgrade script
+		
+pommo/language
+		"Language Directory" - gettext localizations of poMMo - web disabled (no URL's point here)
+		
+pommo/language/pommo.pot
+		".POT Translation File" - Up to date base translation file. Contains all strings
+		to be translated.
+		
+pommo/language/[language]/[language]-pommo.po
+		"Translated .PO file" - A .POT file translated to [language]
+		
+pommo/language/[language]/LC_MESSAGES/pommo.mo
+		"Compiled .mo file" - A compiled .po file (binary for speed)
+
+
+pommo/support/
+		"Support Area" - web enabled
+		contains the support library tools & tests.
+		
+		
+pommo/themes/
+		"Theme Template Directory" - web disabled (no URL's point here)
+		Contains the VIEWS (page output) of pommo/admin/*.php and pommo/user/*.php files
+		See the note under pommo/admin for more information.
+		
+pommo/user/
+		"User Directory" - web enabled
+		This directory contains all the pages available to users/subscribers of poMMo.
+		It hosts the subscription form, subscriber login, and subscriber update/unsubscribe
+		pages. Since poMMo is built around a MVC framework, the "view" (or page content) for each page
+		is found in the pommo/themes/ directory. See note under pommo/admin for more information.
+		

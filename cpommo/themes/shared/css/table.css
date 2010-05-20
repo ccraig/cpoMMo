@@ -1,0 +1,112 @@
+/**********************/
+/* BASE TABLE STYLING */
+/**********************/
+
+table {
+	border: 1px solid #000;
+	border-spacing: 0;
+	text-align: left;
+	margin-top: 5px;
+}
+
+table tr td {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+table thead tr th {
+	background: #000;
+	border-left: #aaa solid 1px;
+	padding: 0 0 0 3px;
+	height: 30px;
+	color: #e0e0e0;
+	white-space: nowrap;
+}
+
+
+table tr td input[type="text"] {
+	width: 12em;
+}
+
+/************************/
+/* SORTABLE TABLE STYLE */
+/************************/
+
+table thead tr th.sort {
+	background-image: url(../images/table/bg.png);
+	background-repeat: no-repeat;
+	padding: 0 8px 0 35px;
+	cursor: pointer;
+}
+
+table thead tr th.sortUp {
+	background-image: url(../images/table/bg_asc.png);
+}
+
+table thead tr th.sortDown {
+	background-image: url(../images/table/bg_desc.png);
+}
+
+
+/**********************/
+/* ROW STRIPING STYLE */
+/**********************/
+
+table tr.r1 { background: #fff;}
+table tr.r2 { background: #f8ffe5; }
+table tr.r3 { background: #edf5f8; }
+
+
+/****************/
+/* MISC STYLING */
+/****************/
+
+/* Assigned when tableEditor makes new row */
+table tr.newRow { background: #FFF6E5; }
+
+/* Assigned to quickSearch form label */
+.quickSearch {
+	font-weight: bold;
+}
+
+/* shows the number of records */
+p.count {
+	float: right;
+	font-size: 80%;
+	color: #666;
+}
+
+/****************************/
+/* LI -> GRID TABLE STYLING */
+/****************************/
+
+#grid {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #000;
+}
+
+#grid div.header {
+    background: #000;
+    color: #e0e0e0;
+}
+
+#grid div {
+    padding: 6px 0;
+}
+
+#grid div span {
+    padding: 0 8px;
+}
+
+#grid div img {
+    vertical-align: middle;
+}
+
+#grid div.r1 { background: #fff;}
+#grid div.r2 { background: #f8ffe5; }
+#grid div.r3 { background: #edf5f8; }
+
+
+/* FOR Drag n' Drop */
+img.handle, div.handle {cursor: move;}

@@ -47,7 +47,6 @@ $GLOBALS['pommo']->requireOnce($GLOBALS['pommo']->_baseDir. 'inc/classes/prototy
  	// ============ NON STATIC METHODS ===================
  	function PommoGroup($groupID = NULL, $status = 1, $filter = FALSE) {
  		$this->_status = $status;
-		//$ids = explode( ',',
  		if (!is_numeric($groupID)) { // exception if no group ID was passed -- group assumes "all subscribers".
  			$GLOBALS['pommo']->requireOnce($GLOBALS['pommo']->_baseDir. 'inc/helpers/subscribers.php');
  			

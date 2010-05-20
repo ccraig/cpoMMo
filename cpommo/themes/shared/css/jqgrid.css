@@ -1,0 +1,119 @@
+	table.scroll {
+	table-layout: fixed;
+	background-color: white;
+}
+	
+	table.scroll tr.over td {
+	background: #E1DCF4;
+}
+	
+	table.scroll tr.alt {
+	background: #F9F9F9;
+}
+	
+	table.scroll tr.selected td {
+	background: #FFFFB9;
+	color: Black;
+}
+
+	table.scroll tbody td  {
+	padding: 2px;
+	text-align: left;
+	border-bottom: 1px solid #D4D0C8;
+	border-left: 1px solid #D4D0C8; 
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+	
+	table.scroll th  {
+	padding: 2px;
+/*	background-color: #ebf3fd; */
+	border-bottom: 1px solid #CBC7B8; 
+	border-left: 1px solid #D4D0C8; 
+	text-align: left;
+	font-weight: bold;
+	overflow: hidden;
+	background-image: url(../images/grid/grid-blue-hd.gif);
+}
+	
+	table.scroll th div {
+	overflow: hidden;
+	white-space: nowrap;
+}
+	table.scroll th span {
+	cursor: e-resize;
+/*	border-right: 1px solid #D6D2C2;  */
+	width: 10px;
+	float: right;
+	display: block;
+	margin: -2px -1px -2px 0px;
+	height: 18px;
+	overflow: hidden;
+}
+	
+table.scroll thead {
+}
+	
+div.loading {
+	position: absolute;
+	padding: 3px;
+	text-align: center;
+	font-weight: bold;
+	background: red;
+	color: white;
+	display: none;
+}
+	div.scroll {
+/*	padding: 0px; */
+	background-color: #ADD8E6;
+/*	border-bottom: 1px solid #ADD8E6; */
+/*	font-weight: normal; */
+	background: url(../images/grid/grid-blue-ft.gif);
+}
+
+div.scroll input {width: auto; margin: auto; }
+.selbox {
+	font-size: x-small;
+}
+.cbox {
+	height: 10px;
+	width: 10px;
+	/*border:1px solid #999;*/
+}
+
+img.jsHover {
+		 border: 1px solid #99CCFF;
+}
+.tablediv {
+	display: table;
+	background-color: White;
+	border-spacing: 1px; /*cellspacing:poor IE support for  this*/
+	border-collapse: separate;
+	width:100%; /* FF hack poor when scroling subgrid */
+}
+.celldiv {
+	float: left;
+	display: table-cell;
+	border: 1px dotted #CCCCCC;
+	overflow: auto;
+}
+.celldivth {
+	float: left; /*fix for  buggy browsers*/
+	border: 1px solid #CCCCCC;
+	background-color: #99CCFF;
+	border-bottom: 1px solid #CBC7B8;
+	text-align: left;
+	overflow: auto;
+}
+.rowdiv  {
+	display: table-row;
+	background: #F9F9F9 none;
+	color: #000000;
+	width: 100%;
+	overflow:auto;
+}
+.subgrid {
+	overflow:  auto;
+}
+

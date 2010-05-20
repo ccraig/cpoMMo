@@ -1,0 +1,349 @@
+/*	Look originally based on  
+	template: What's your solution? 
+	author: Luka Cvrk (www.solucija.com)
+	from: Open Source Web Design (www.oswd.org)
+	Intergration & optimisation: R Walker (www.rmwpublishing.net)
+*/
+
+/********************/
+/* BASE PAGE LAYOUT */
+/********************/
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	background: #FFF url(../images/bg_body.gif) repeat-x;
+	font: 80% Tahoma, Arial, Helvetica, sans-serif;
+	color: #7E7E7E;
+	
+	/* remove for a liquid layout  */
+	width: 780px;
+}
+
+#content {
+	display: inline-block;
+	margin-left: 200px;
+	padding: 5px 15px;
+	background: #FFF;
+}
+
+#content.wide {
+	margin: 0;
+}
+
+#footer {
+	clear: both;
+	padding: 10px 0;
+	border-top: 1px solid #E6E6E6;
+	background: #FFF;
+	color: #999;
+	text-align: center;
+	line-height: 1.3;
+}
+
+/*********************/
+/* BASE PAGE STYLING */
+/*********************/
+
+a { color: #339CC7; }
+a:hover { color: #575757; }
+
+#content li {
+	padding-top: .5em;
+}
+
+#footer a {
+	text-decoration: underline;
+}
+
+img.navimage {
+	float: left;
+	margin-right: 10px;
+	padding: 5px;
+	border: 1px solid #EEE;
+}
+
+img.navimage.right {
+    float: right;
+    margin: 0 0 0 10px;
+}
+
+a:hover img.navimage {
+	border: 1px solid #000;
+}
+
+a img {
+	border: none;
+	vertical-align: middle;
+}
+
+h1
+{
+	margin: 0;
+	padding: 0;
+	font: bold 1.8em Arial, sans-serif;
+	letter-spacing: -1px;
+}
+h2 a, h3 a { text-decoration: none;}
+h3 {
+	margin: 0;
+	padding: 3px 0 6px;
+	font: 130% Arial, sans-serif;
+	font-weight: bold;
+	color: #808080;
+	text-transform: uppercase;
+}
+h3 a { color: #6AC65D; }
+
+pre {
+	padding: 4px;
+	border: 1px dashed #CCC;
+	font-size: 110%;
+	color: #333;
+}
+
+
+/**************************/
+/* Menu & Sidebar Styling */
+/**************************/
+
+#boxMenu { float: left; }
+
+#boxMenu div { 
+    clear: both;
+    padding: 15px 0;
+}
+
+ul.inpage_menu {
+	margin: 5px 0;
+	text-align: right;
+}
+
+ul.inpage_menu li {
+	display: inline;
+	padding: .5em 1em;
+}
+
+#header {
+	margin: 0;
+	padding: 5px;
+	border-top: 2px solid #333;
+	background: #FFF url(../images/bg_header.gif) bottom repeat-x;
+	color: #808080;
+}
+#header h1 {
+	margin: 0;
+}
+#header a {
+	vertical-align: middle;
+	text-decoration: none;
+}
+#header img {
+	border: none;
+}
+#header strong {
+	position: relative;
+	left: 100px;
+	top: -40px; 
+}
+#menu {
+	height: 25px;
+	margin: 0;
+	background: #F6F6F6 url(../images/bg_menu.gif) repeat-x;
+	text-align: right;
+}
+#menu ul {
+	color: #626262;
+}
+#menu li {
+	list-style: none;
+	display: inline;
+}
+#menu a {
+	float: right;
+	height: 19px;
+	margin: 0 10px;
+	padding: 3px 8px;
+	color: #626262;
+	font-weight: bold;
+	text-decoration: none;
+}
+#menu a:hover {
+	background: #33ADDB url(../images/bg_sidebar.gif) repeat-x;
+	color: #FFF;
+}
+
+#sidebar {
+	float: left;
+	width: 198px;
+	padding: 0 1px;
+	margin-top: -25px;
+	border-right: 1px solid #E6E6E6;
+	background: #FFF;
+	color: #A1CC31; /* green */
+}
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+}
+#sidebar li {
+	list-style: none;
+}
+* html #sidebar li { /* IE Filter */
+	display: inline;
+}
+#sidebar a {
+	display: block;
+	margin-top: 1px;
+	padding: 8px 4px;
+	background: #239DCB url(../images/bg_sidebar.gif) repeat-x;
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+#sidebar a:hover {
+	background: #239DCB;
+}
+#sidebar li li a {
+	border-left: 10px solid #A1CC31;
+}
+#sidebar p {
+	margin-top: 2em;
+	text-align: center;
+}
+#sidebar img {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/*********************/
+/* HTML Form Styling */
+/*********************/
+
+label {
+	color: #333;
+}
+
+form div {
+	margin: .5em 0;
+}
+fieldset {
+	border: none;
+	border-top: 1px solid #F2F2F2;
+	border-bottom: 1px solid #F2F2F2;
+}
+legend {
+	padding: 5px 10px;
+	font-size: 110%;
+	color: #89AA34;
+}
+
+div.buttons {
+	margin: 1em;
+}
+
+div.buttons button, div.buttons input[type="submit"] {
+    margin-right: 1em;
+}
+
+input[type="text"],
+input[type="password"] {
+	margin: 0;
+	width: 250px;
+	border: 1px solid #CCC;
+	background: #FFF;
+	color: #000;
+}
+input[type="text"]:hover,
+input[type="password"]:hover {
+	border: 1px solid #808080;
+}
+
+.required {
+	font-weight: bold;
+	color: #333;
+}
+
+/* inline help || field footer */
+.notes {
+	display: block;
+	font-size: 90%;
+	color: #666;
+	font-style: italic;
+}
+
+/* tied to validation JS */
+input.pvInvalid,
+select.pvInvalid {
+	border: 1px solid red;
+}
+
+
+/*******************/
+/* Message Styling */
+/*******************/
+
+#alertmsg {
+	margin: .5em 0;
+}
+#alertmsg img {
+	float: left;
+	margin-right: 25px;
+}
+.alert,
+.warn,
+.error {
+	clear: right;
+	padding: 5px;
+	color: #000;
+}
+.alert {
+	background: #DDF0BD;
+	color: green;
+}
+
+#alertmsg.warn {
+	border: 1px solid #FF8000;
+}
+.warn {
+	background: #FFF6E5;
+	color: #FF8000;
+}
+#alertmsg.error {
+	border: 1px solid #F3D5D5;
+}
+.error {
+	background: #FFF1F1;
+	color: red;
+}
+.error input,
+.error textarea {
+	background: #FFF;
+}
+
+
+/****************/
+/* MISC STYLING */
+/****************/
+
+.hidden { display: none; }
+.clear { clear: both; }
+.right { float: right; }
+
+div.pager {text-align:center;}
+
+div.helpToggle img {cursor: pointer;}
+
+/* make the button look like a link */
+#resetPassword {
+	background: none;
+	border: none;
+}
+
+.green { color: #0E9749; }
+
+fieldset.click {border-bottom: none;}
+fieldset.click ul {display: none;}
+legend.click {font-size: 110%; font-weight: bold; cursor: pointer;}

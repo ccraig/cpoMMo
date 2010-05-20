@@ -1,0 +1,23 @@
+=== Release Notes for poMMo Aardvark PR16.1 ===
+ .: Released April 02, 2008
+
+[Additions]
+	* Added fine grain control of all messages sent to users
+	* Added jqValidate and jqStripe plugins
+
+[Improvements]
+	* Updated all language files, removed fuzzy translations.
+	* WYSIWYG output is formatted to comply with 8bit encoded emails
+	* Improved HTML standard compliance in default theme
+	* Sort Column, Order, and Row limit are now preserved in Data Grids
+	* Latest Mailings appear first in History
+
+[Bug Fixes]
+	* Fixed a PHP Notice when utilizing the PHP Gettext library
+	* WYSIWYG (FCKEditor) now properly inherits poMMo's language
+	* Duplicate options are no longer appended to select boxes when editing Multiple Choice Subscriber fields
+	
+[Notes]
+    * IMPORTANT! You will need to re-create messages you have customized
+    ** in Setup > Configure > Messages  if you are upgrading !!!
+    
