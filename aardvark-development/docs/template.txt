@@ -1,0 +1,90 @@
+Theme documentation for poMMo (http://www.pommo.org/)
+	 
+ Copyright (C) 2005, 2006, 2007  Brice Burgess <bhb@iceburg.net>
+ 
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2 or
+ any later version published by the Free Software Foundation.
+ 
+-----------
+
+IN PROGRESS;
+
+[README]
+
+[DIALOG CREATION]
+
+[FORM FIELD VALIDATION]
+
+poMMo uses a succint method for form field validation based on Smarty Validate.
+The Smarty Validate README can be found in inc/lib/smarty-plugins/validate
+
+Field validation rules and their error messages are defined in the PHP file (not .TPL).
+
+The error messages are stored in the template variable $vMsg (array). If a field is found 
+invalid, its error message is stored in the template variable $vErr (array).
+
+To simplify validating form fields and processing the error messages, poMMo uses its
+custom smarty function "fv".
+
+The "fv" function accepts the following paramaters;
+------------------------------------------------------
+
+	validate  =  (field name)
+		Activates validation on passed field name. Field name should match
+		The name attribute of a form input.
+		
+	prepend  =  (error message prefix string)
+		Sets the default string to be prepended to form validation error messages.
+		Default: '' (blank)
+		
+	append  =  (error message postfix string)
+		Sets the default string to be appended to form validation error messages.
+		Default: '' (blank)
+		
+	message  =  (field name)
+		If field name is found invalid, print the error message assosiated with
+		the invalid field.
+		
+		NOTE; by default the message is wrapped with the prepend & append strings.
+		If you would like to override the prepend + append strings for a particular
+		error message, you can pass the "pre" and "post" parameters. e.g.
+		
+		{fv message="email" pre="<div>ERROR! <br />" post="</div>"}
+		
+
+Here is a typical example of using poMMo's {fv} function;
+  REMEMBER; Field validation criteria (e.g. "isEmail", "notEmpty", "isPhone")
+  	and error messages (e.g. "not a email", "cannot be empty", "not a phone number")
+  	are assigned in the PHP file & are not controlled in the Smarty template files.
+  	
+--------------------------------------------
+{* INITIALIZE FIELD VALIDATION *}
+	{* Set default error message prefix & postfix *}
+	{fv prepend='<span class="error">' append='</span>'}
+	
+	{* Activate validation on form fields *}
+	{fv validate="email"}
+	{fv validate="password"}
+	{fv validate="captcha"}
+	
+<form method="post" action="">
+
+<p>
+{fv message="email"}
+<input type="text" name="email" />
+</p>
+
+<p>
+{fv message="password"}
+<input type="text" name="password" />
+</p>
+
+<p>
+{fv message="captcha" pre="Having Trouble? <a href='captcha_help.html'>click here</a>" post=""}
+<input type="text" name="password" />
+</p>
+
+</form>
+--------------------------------------------
+

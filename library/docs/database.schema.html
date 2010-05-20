@@ -1,0 +1,293 @@
+<html>
+<head>
+<title>[poMMo DevLib] - Database Schema</title>
+<LINK rel="stylesheet" type="text/css" href="inc/style/site.css">
+<script type="text/javascript" src="inc/js/jquery.js"></script>
+
+</head>
+<body>
+
+<i>Written for poMMo PR14 and above. Versions prior support MySQL 3.23 and use an entirely different API.</i>
+
+<h2>Introduction</h2>
+<hr />
+
+<p>
+Following is the schema of poMMo's database as well my explanatory notes and thoughts. I am not a SQL expert, and
+would greatly benefit from your advice if you are one.
+</p>
+
+<p>
+I have not yet listed the queries that poMMo typically makes -- e.g., those executed during subscriber addition, deletion,
+or group filtering. To examine the queries you can, of course, use MySQL's logging mechanism -- or more
+conveniently; enable debugging in your config.php. With debugging enabled, all queries made  will be printed to your browser. 
+</p>
+
+<p>
+You can also examine queries within the PHP source code. Of interest is the internal API, found in; inc/classes/*.php 
+and inc/helpers/*.php. All queries are clearly marked using the $query variable to hold the query string and blockquote notation.
+Most queries are prepared with the safeSQL class whose documentation is in inc/lib/safesql/README.
+</p>
+
+<br />
+
+<h2>Database Requirements</h2>
+<hr />
+
+<p>MySQL 4.1 or higher -- Subqueries are used in the group filtering function as well as mailing queue creation and completion</p>
+
+<br />
+
+<h2>Proposed Changes</h2>
+<hr />
+
+<p>Remove 'flag' column from subscribers table. Create own subscriber_flagged table consisting of subscriber_id column.</p>
+<p>Add subscriber_bounces table consisting of subscriber_id, num_bounces (tinyint) columns</p>
+<p>Add autoincrementing key column to mailing_notices, drop timestamp</p>
+
+<br />
+
+<h2>Database Schema</h2>
+<hr />
+
+<p>
+The database schema is available in install/sql.schema.php. This plain text file is syntatically similar 
+to the output produced by mysqldump.  The file is parsed during  installation (install/install.php) to produce 
+poMMo's database on the MySQL server.
+</p>
+
+<p>
+For a better understanding, I have provided a UML model with notes. This model does NOT include keys and indexes.
+The keys are listed below with the table comments found in the database model.
+</p>
+
+<ul>
+<li>Database Model with notes
+    <ul>
+    <li>
+    <a href="inc/img/db.model.dia">dia</a> - (<a href="http://www.gnome.org/projects/dia/">gnome diagram</a>, 130k)
+    </li>
+    <li>
+    <a href="inc/img/db.model.gif">gif</a> - (141k, 256 color)
+    </li>
+    <li>
+    <a href="inc/img/db.model.png">png</a> - (248k, full color)
+    </ul>
+</li>
+</ul>
+
+<br />
+
+<h2>Database Tables and Keys</h2>
+<hr />
+
+<div>
+<h3>config</h3>
+<p>
+Holds poMMo's configuration values. If autoload is set to true, the particular configuration option is automatically loaded into PHP's config array ($pommo->_config) during bootstrapping. If user change is set to 'off', the administrater will NOT be able to change the value held in config_value.. and must manually do so via the MySQL shell/PHPMyAdmin.
+</p>
+
+<p>
+KEYS/INDEXES
+<ul>
+<li>PRIMARY KEY  (`config_name`)</li>
+</ul>
+</p>
+</div>
+
+
+<div>
+<h3>fields</h3>
+<p>
+Holds subscriber fields which appear on the subscription form. field_array is explicitly included for 'multiple' type fields and contains a serialized PHP array of options which appear in the drop down selection box.
+</p>
+
+<p>
+KEYS/INDEXES
+<ul>
+<li>PRIMARY KEY  (`field_id`)</li>
+<li>KEY `active` (`field_active`,`field_ordering`)</li>
+</ul>
+</p>
+</div>
+
+<div>
+<h3>group_criteria</h3>
+<p>
+Group filters. If logic is set to 'is_in' or 'not_in', poMMo includes or excludes members from the group whose ID populates field_id
+</p>
+
+<p>
+KEYS/INDEXES
+<ul>
+<li>PRIMARY KEY  (`criteria_id`)</li>
+<li>KEY `group_id` (`group_id`)</li>
+</ul>
+</p>
+</div>
+
+<div>
+<h3>groups</h3>
+<p>
+Groups are defined by filters which match subscriber field values. For instance, you can create a group which matches subscriber's who are 21 and over.
+</p>
+
+<p>
+KEYS/INDEXES
+<ul>
+<li>PRIMARY KEY  (`group_id`)</li>
+</ul>
+</p>
+</div>
+
+<div>
+<h3>mailing_current</h3>
+<p>
+When a mailing is taking place, an assosiated row will exist in this table. The timestamp is updated whenever it is polled by the mailing processor so that the mailing status page can detect a 'frozen' (mailing processor failed to spawn || died unexpectedly) mailing. Serials and securityCodes are used to prevent hijacking && toe stepping.
+</p>
+
+<p>
+KEYS/INDEXES
+<ul>
+<li>PRIMARY KEY  (`current_id`)</li>
+</ul>
+</p>
+</div>
+
+<div>
+<h3>mailing_notices</h3>
+<p>
+The poll function (executed @ every 10 seconds) logs mailing messages to this table. On update, only the last 50 are kept..  so that no mailing will ever have > 50 notices in this table.
+</p>
+
+<p>
+KEYS/INDEXES
+<ul>
+<li>KEY `mailing_id` (`mailing_id`)</li>
+</ul>
+</p>
+</div>
+
+<div>
+<h3>mailings</h3>
+
+<p>
+KEYS/INDEXES
+<ul>
+<li>PRIMARY KEY  (`mailing_id`)</li>
+<li>KEY `status` (`status`)</li>
+</ul>
+</p>
+</div>
+
+<div>
+<h3>queue</h3>
+<p>
+The subscriber queue of a current mailing. Status is 0: unsent (default), 1: sent, 2: failed to send. When a background processor "checks out" subscribers from the Queue, it sets the smtp column to its relay ID, and when finished, resets it to 0. It only "checks out" subscribers who have status and smtp columns set to 0.
+<br />
+When simultaneous mailings are implemented, I will include a mailing_id column. For now.. only 1 mailing can take place at a time.. hence only 1 queue.
+</p>
+
+<p>
+KEYS/INDEXES
+<ul>
+<li>PRIMARY KEY  (`subscriber_id`)</li>
+<li>KEY `status` (`status`,`smtp`)</li>
+</ul>
+</p>
+</div>
+
+<div>
+<h3>subscriber_data</h3>
+<p>
+Subscriber field values are stored here. If they have a null value for a field, there will be no existing row. Note the varchar(60). I did this for faster indexing -- is this appropriate?
+</p>
+
+<p>
+KEYS/INDEXES
+<ul>
+<li>PRIMARY KEY  (`data_id`)</li>
+<li>KEY `subscriber_id` (`subscriber_id`,`field_id`)</li>
+</ul>
+</p>
+</div>
+
+<div>
+<h3>subscriber_pending</h3>
+<p>
+If a subscriber is pending to be subscribed, unsubscribed, or updated, entries will exist here. Pending_array holds subscriber data (IP, date registered, field values, etc.) as a serialized PHP array.
+</p>
+
+<p>
+KEYS/INDEXES
+<ul>
+<li>PRIMARY KEY  (`pending_id`)</li>
+<li>KEY `code` (`pending_code`)</li>
+<li>KEY `subscriber_id` (`subscriber_id`)</li>
+</ul>
+</p>
+</div>
+
+<div>
+<h3>subscriber_update</h3>
+<p>
+When a subscriber wants to update their records, their email address must be verified. A code is stored in this table, and mailed to their email address. Codes expire/are inactivated after 12 hours, hence the timestamp.
+</p>
+
+<p>
+KEYS/INDEXES
+<ul>
+<li>PRIMARY KEY ( `email` )</li>
+</ul>
+</p>
+</div>
+
+<div>
+<h3>subscribers</h3>
+<p>
+The status column indicates if the user is unsubscribed (0), subscribed (1), or pending to be subscribed (2) -- and is thus frequently appears in the WHERE clause of queries involving subscribers.
+<br />
+Dupe checking verifies that no subscriber exists with the same email address whose status is > 0 [so you can have inactive subscribers with duplicate email addresses].
+<br />
+The flag column is set to 1 if the subscriber has invalid entries in the subscriber_data column -- e.g. missing a required field.
+</p>
+
+<p>
+KEYS/INDEXES
+<ul>
+<li>PRIMARY KEY  (`subscriber_id`)</li>
+<li>KEY `status` (`status`,`subscriber_id`)</li>
+<li>KEY `status_2` (`status`,`email`)</li>
+<li>KEY `status_3` (`status`,`time_touched`)</li>
+<li>KEY `status_4` (`status`,`time_registered`)</li>
+<li>KEY `status_5` (`status`,`ip`)</li>
+<li>KEY `flag` (`flag`)</li>
+</ul>
+</p>
+</div>
+
+<div>
+<h3>updates</h3>
+<p>
+Used by the upgrader. When an incremental is successful, it is serialized here... so that it is not performed again.
+</p>
+
+<p>
+KEYS/INDEXES
+<ul>
+<li>PRIMARY KEY  (`serial`)</li>
+</ul>
+</p>
+</div>
+
+
+
+
+
+
+
+    
+
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+div.slide {
+	width: 218px;
+	margin: 10px 0 0 34px;
+	position: relative;
+}
+
+div.track {
+	background: url(../images/slider_track.png) no-repeat;
+	height: 28px;
+	width: 218px;
+}
+
+div.trackAlt { background: url(../images/slider_track2.png); }
+
+div.handle {
+	background: url(../images/slider_handle.png) no-repeat bottom center;
+	height: 28px;
+	width: 18px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+a.minus, a.plus {
+	position: absolute;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.67em;
+	color: #777;
+}
+a.minus {left: -25px;} a.plus {right: -25px;}
+
+a.plus:visited, a.minus:visited {color: #777;}

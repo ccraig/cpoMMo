@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>poMMo README</title>
+</head>
+<body>
+You can find updated installation instructions at the <a href="http://www.pommo.org/">poMMo Website</a>.
+<br><br>
+<b>Requirements</b><br>
+
+Server:
+<ul>
+<li>PHP version 4.3.2 or greater</li>
+    <ul>
+    <li>Apache Timeout directive or IIS CGI timeout should be 100+ seconds (both default to 300)</li>
+    <li>For i18n (other languages) PHP should have gettext support</li>
+    </ul>
+<li>MySQL Server 4.1 or higher (or 3.23 for Legacy poMMo)</li>
+</ul>
+
+<br>
+For the administrative area you must use a modern webbrowser with JavaScript enabled and supporting CSS2 standards. We recommend;
+
+<ul>
+<li> <a href="http://www.getfirefox.com">Firefox</a> version 1.2 + </li>
+<li> <a href="http://www.opera.com">Opera</a> version 8.0 + </li>
+</ul>
+    
+<br><br>
+<b>Quick Install Instructions:</b>
+
+<ol>
+<li>Make sure your webhost meets the Minimal Requirements</li>
+<li>Download and extract the latest version of poMMo</li>
+	<ul><li>This should create a directory named 'pommo' wherever you unpacked it. This is known as the poMMo Root. </li></ul>
+<li>Create a MySQL database on your webserver for poMMo to use.</li>
+<li>Create (and edit) the config.php in your poMMo Root</li>
+	<ul><li>Save the included config.sample.php (or the simplified config.simple.sample.php) as config.php. </li></ul>
+	<ul><li>Make sure the database name, host, and username/password match the values provided in config.php </li></ul>
+<li>If you have not done so already, copy the entire contents of the poMMo Root to the directory you'd like poMMo to run from on your webserver.</li>
+	<ul><li>You can use FTP to install poMMo on your webserver </li></ul>
+<li>Make sure the webserver can write to the "cache" directory in the poMMo root.</li>
+	<ul><li>This can be accomplished by setting permissions to "777" on a *nix system. </li></ul>
+<li>Visit your poMMo installation in a web browser and complete the online install procedure.</li>
+</ol>
+
+
+<br>
+
+<b>Upgrading poMMo</b>
+<br>It is recommended to check the <a href="http://www.pommo.org">poMMo Website</a>'s upgrade page
+for any bulletins releated to this release BEFORE upgrading.
+<br>
+<br>If you are upgrading poMMo simply copy the new files over the old ones. A clean way
+to do this is to backup your config.php file, then remove the entire pommo
+directory from your webserver. After this is done, copy the new pommo diretory in the old one's place and
+replace your config.php file. When finished, visit poMMo on your webserver and an upgrade script will
+automatically be called.
+
+<br><br>
+
+<b>Using poMMo</b><br>
+<br>Once you have copied poMMo to your webserver, visit its location on the web. A script will
+help you through the rest of the way. When finished, login and visit the settings page to further configure
+poMMo. After configuration, you'll want to setup subscriber fields and generate a subscription form
+for your website. 
+<br><br>
+
+
+</body>
+</html>

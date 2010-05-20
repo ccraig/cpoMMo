@@ -1,0 +1,85 @@
+2.1 August 13, 2004
+-------------------
+
+fix bug with empty values not doing strict type checking
+add ability to put multiple tokens in a single set of braces
+add %l and %L for making comma separated list with no casting or quoting
+
+2.0.1
+-----
+
+fix get_drop_values function, remove unnecessary parameter
+fix bug with escaping arrays in MySQL class extension
+
+2.0 (December 23, 2003)
+-----------------------
+
+2.0 Now correctly escapes all mysql strings for any local using the
+mysql_real_escape_string() function. To make this happen, the msyql link
+identifier must be passed to SafeSQL (or the last opened one will be used by
+default.) This triggered some fundamental structure changes to SafeSQL.
+
+2.0 takes a turn toward the object-oriented zealot way of doing things. As a
+consequence:
+
+*) 2.0 is not backward compatabile with 1.X
+*) SafeSQL can no longer be called statically
+
+Here are the differences:
+
+Instead of passing a separate escape_mode parameter for each database type,
+There is now a separate class to call. Here are some examples that compares the
+old and new way of doing things:
+
+// OLD METHOD
+
+// instantiate new class
+$safesql =& new SafeSQL();
+// passing a parameter for the database type
+$query_string = $safesql->query('select * ...', array($foo1, $foo2));
+$query_string = $safesql->query('select * ...', array($foo1, $foo2), 'ansi');
+$query_string = $safesql->query('select * ...', array($foo1, $foo2), 'mysql');
+
+// same thing, only calling statically
+$query_string = SafeSQL::query('select * ...', array($foo1, $foo2));
+$query_string = SafeSQL::query('select * ...', array($foo1, $foo2), 'ansi');
+$query_string = SafeSQL::query('select * ...', array($foo1, $foo2), 'mysql');
+
+// NEW METHOD
+
+// now we have a separate class for each database type
+
+$safesql =& new SafeSQL_ANSI;
+$query_string = $safesql->query('select * ...', array($foo1, $foo2));
+
+// use the last link identifier
+$safesql =& new SafeSQL_MySQL;
+$query_string = $safesql->query('select * ...', array($foo1, $foo2));
+
+// use specific link identifier
+$safesql =& new SafeSQL_MySQL($link_id);
+$query_string = $safesql->query('select * ...', array($foo1, $foo2));
+
+
+Notice the optional $link_id parameter passed to the MySQL class. SafeSQL will
+now use the mysql_real_escape_string() function if it exists. If not, it will
+use mysql_escape_string(). If that doesn't exist, it will fall back to
+addslashes(). mysql_real_escape_string() requires a database connection link
+id. If you do not want to use the default (last connection opened), you must
+explicitly pass it.
+
+In SafeSQL 1.X, bracketed portions of a query were dropped if the given value
+was empty. This is now configurable via a new property array called
+$drop_values. This array contains the values that cause the bracketed portion
+to be dropped. By default this is set to one value, an empty string which is the
+same behavior as 1.X.
+
+1.0.1
+-----
+
+fix minor bug in sql_escape recursion
+
+1.0
+---
+
+initial release

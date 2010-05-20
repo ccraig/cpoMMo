@@ -1,0 +1,2549 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pommo\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2006-05-31 22:10-0500\n"
+"Last-Translator: Brice Burgess <bhb@iceburg.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Country: NETHERLANDS\n"
+
+#. poMMo/themes/default/user/process.tpl
+#: pommo_theme_lang.php:3
+msgid "Subscription Review"
+msgstr "Aanmeldings Voorbeeld"
+
+#. poMMo/themes/default/user/process.tpl
+#: pommo_theme_lang.php:6
+msgid "Back to Subscription Form"
+msgstr "Terug naar het Aanmeldings Formulier"
+
+#. poMMo/themes/default/user/process.tpl
+#. poMMo/themes/default/user/user_pending.tpl
+#. poMMo/themes/default/user/confirm.tpl
+#. poMMo/themes/default/user/user_update.tpl
+#. poMMo/themes/default/admin/setup/setup_messages.tpl
+#. poMMo/themes/default/admin/setup/setup_throttle.tpl
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#. poMMo/themes/default/admin/subscribers/subscribers_mod.tpl
+#. poMMo/themes/default/admin/subscribers/subscribers_import2.tpl
+#: pommo_theme_lang.php:9
+#: pommo_theme_lang.php:33
+#: pommo_theme_lang.php:48
+#: pommo_theme_lang.php:54
+#: pommo_theme_lang.php:180
+#: pommo_theme_lang.php:300
+#: pommo_theme_lang.php:477
+#: pommo_theme_lang.php:750
+#: pommo_theme_lang.php:876
+#: pommo_theme_lang.php:942
+#: pommo_theme_lang.php:966
+#: pommo_theme_lang.php:984
+msgid "Return to %1"
+msgstr "Terug naar %1"
+
+#. poMMo/themes/default/user/process.tpl
+#: pommo_theme_lang.php:12
+msgid "If you would like to update your records click %1here%2"
+msgstr "Wanneer u uw records wil updaten klik dan %1hier%2"
+
+#. poMMo/themes/default/user/login.tpl
+#: pommo_theme_lang.php:15
+msgid "Subscriber Login"
+msgstr "Leden Login"
+
+#. poMMo/themes/default/user/login.tpl
+#: pommo_theme_lang.php:18
+msgid "In order to check your subscribtion status, update your information, or unsubscribe, you must enter your email address in the field below."
+msgstr "Om uw aanmelding status te bekijken, uw profiel te wijzigen, of u af te melden, moet u uw e-mailadres in onderstaand veld invullen."
+
+#. poMMo/themes/default/user/login.tpl
+#: pommo_theme_lang.php:21
+#: pommo_theme_lang.php:27
+msgid "Login"
+msgstr "Inloggen"
+
+#. poMMo/themes/default/user/login.tpl
+#. poMMo/themes/default/subscribe/form.subscribe.tpl
+#. poMMo/themes/default/subscribe/form.update.tpl
+#. poMMo/themes/default/subscribe/form.mini.tpl
+#: pommo_theme_lang.php:24
+#: pommo_theme_lang.php:1350
+#: pommo_theme_lang.php:1371
+#: pommo_theme_lang.php:1386
+msgid "Your Email:"
+msgstr "Uw E-mail:"
+
+#. poMMo/themes/default/user/user_pending.tpl
+#: pommo_theme_lang.php:30
+msgid "Pending Changes"
+msgstr "Wijzigingen in Behandeling"
+
+#. poMMo/themes/default/user/user_pending.tpl
+#: pommo_theme_lang.php:36
+msgid "Click to *send* another confirmation email"
+msgstr "Klik om nog een bevestigings e-mail te *verzenden*"
+
+#. poMMo/themes/default/user/user_pending.tpl
+#: pommo_theme_lang.php:39
+msgid "Click to *cancel* your pending request"
+msgstr "Klik om uw verzoek dat in behandeling is te *annuleren*"
+
+#. poMMo/themes/default/user/inc.footer.tpl
+#. poMMo/themes/default/install.tpl
+#. poMMo/themes/default/admin/inc.footer.tpl
+#. poMMo/themes/default/upgrade.tpl
+#. poMMo/themes/default/index.tpl
+#: pommo_theme_lang.php:42
+#: pommo_theme_lang.php:132
+#: pommo_theme_lang.php:1287
+#: pommo_theme_lang.php:1344
+#: pommo_theme_lang.php:1440
+msgid "Page fueled by %1 mailing management software."
+msgstr "Pagina powered door %1 mailinglijst software."
+
+#. poMMo/themes/default/user/confirm.tpl
+#: pommo_theme_lang.php:45
+msgid "Subscriber Confirmation"
+msgstr "Leden Bevestiging"
+
+#. poMMo/themes/default/user/user_update.tpl
+#: pommo_theme_lang.php:51
+msgid "Subscriber Update"
+msgstr "Leden Update"
+
+#. poMMo/themes/default/user/user_update.tpl
+#: pommo_theme_lang.php:57
+msgid "Click to Unsubscribe"
+msgstr "Klik om uit te schrijven"
+
+#. poMMo/themes/default/install.tpl
+#. poMMo/themes/default/upgrade.tpl
+#. poMMo/themes/default/index.tpl
+#: pommo_theme_lang.php:60
+#: pommo_theme_lang.php:66
+#: pommo_theme_lang.php:1314
+#: pommo_theme_lang.php:1392
+msgid "poMMo Installation"
+msgstr "PoMMo Installatie"
+
+#. poMMo/themes/default/install.tpl
+#. poMMo/themes/default/admin/inc.header.tpl
+#. poMMo/themes/default/upgrade.tpl
+#: pommo_theme_lang.php:63
+#: pommo_theme_lang.php:1311
+#: pommo_theme_lang.php:1317
+msgid "Admin Page"
+msgstr "Administratie Pagina"
+
+#. poMMo/themes/default/install.tpl
+#: pommo_theme_lang.php:69
+msgid "Online install"
+msgstr "Online installeren"
+
+#. poMMo/themes/default/install.tpl
+#: pommo_theme_lang.php:72
+msgid "Welcome to the poMMo online installation process. We have connected to the database and set your language successfully. Fill in the values below, and you'll be on your way!"
+msgstr "Welkom bij het poMMo online installatie programma. We hebben verbinding met de database gemaakt en uw taal ingesteld. Vul onderstaande waardes in en u bent zo aan de slag!"
+
+#. poMMo/themes/default/install.tpl
+#. poMMo/themes/default/upgrade.tpl
+#: pommo_theme_lang.php:75
+#: pommo_theme_lang.php:1329
+msgid "To disable debugging"
+msgstr "Om debuggen uit te schakelen"
+
+#. poMMo/themes/default/install.tpl
+#. poMMo/themes/default/upgrade.tpl
+#. poMMo/themes/default/index.tpl
+#: pommo_theme_lang.php:78
+#: pommo_theme_lang.php:84
+#: pommo_theme_lang.php:1332
+#: pommo_theme_lang.php:1338
+#: pommo_theme_lang.php:1434
+msgid "Click Here"
+msgstr "Klik Hier"
+
+#. poMMo/themes/default/install.tpl
+#. poMMo/themes/default/upgrade.tpl
+#: pommo_theme_lang.php:81
+#: pommo_theme_lang.php:1335
+msgid "To enable debugging"
+msgstr "Om debuggen te activeren"
+
+#. poMMo/themes/default/install.tpl
+#: pommo_theme_lang.php:87
+msgid "Configuration Options"
+msgstr "Configuratie Opties"
+
+#. poMMo/themes/default/install.tpl
+#: pommo_theme_lang.php:90
+msgid "Name of Mailing List:"
+msgstr "Naam van de Mailinglijst:"
+
+#. poMMo/themes/default/install.tpl
+#: pommo_theme_lang.php:93
+msgid "(ie. Brice's Mailing List)"
+msgstr "(ibijv. Brice's Mailing Lijst)"
+
+#. poMMo/themes/default/install.tpl
+#: pommo_theme_lang.php:96
+msgid "Name of Website:"
+msgstr "Website Naam:"
+
+#. poMMo/themes/default/install.tpl
+#: pommo_theme_lang.php:99
+msgid "(ie. The poMMo Website)"
+msgstr "(bijv. De poMMo Website)"
+
+#. poMMo/themes/default/install.tpl
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:102
+#: pommo_theme_lang.php:594
+msgid "Website URL:"
+msgstr "Website URL:"
+
+#. poMMo/themes/default/install.tpl
+#: pommo_theme_lang.php:105
+msgid "(ie. http://www.pommo-rocks.com/)"
+msgstr "(bijv. http://www.pommol-rocks.com/)"
+
+#. poMMo/themes/default/install.tpl
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:108
+#: pommo_theme_lang.php:567
+msgid "Administrator Password:"
+msgstr "Administrator Wachtwoord:"
+
+#. poMMo/themes/default/install.tpl
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:111
+#: pommo_theme_lang.php:564
+#: pommo_theme_lang.php:570
+msgid "(you will use this to login)"
+msgstr "(u bent deze nodig om in te loggen)"
+
+#. poMMo/themes/default/install.tpl
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:114
+#: pommo_theme_lang.php:573
+msgid "Verify Password:"
+msgstr "Wachtwoord opnieuw:"
+
+#. poMMo/themes/default/install.tpl
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:117
+#: pommo_theme_lang.php:576
+msgid "(enter password again)"
+msgstr "(wachtwoord opnieuw)"
+
+#. poMMo/themes/default/install.tpl
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:120
+#: pommo_theme_lang.php:579
+msgid "Administrator Email:"
+msgstr "Administrator Email:"
+
+#. poMMo/themes/default/install.tpl
+#: pommo_theme_lang.php:123
+msgid "(enter your valid email address)"
+msgstr "(vul uw geldig email adres in)"
+
+#. poMMo/themes/default/install.tpl
+#: pommo_theme_lang.php:126
+msgid "Install"
+msgstr "Installeer"
+
+#. poMMo/themes/default/install.tpl
+#. poMMo/themes/default/upgrade.tpl
+#: pommo_theme_lang.php:129
+#: pommo_theme_lang.php:1341
+msgid "Continue to login page"
+msgstr "Ga verder naar de inlog pagina"
+
+#. poMMo/themes/default/admin/setup/setup_form.tpl
+#: pommo_theme_lang.php:135
+msgid "Subscription Forms"
+msgstr "Aanmeldings Formulieren"
+
+#. poMMo/themes/default/admin/setup/setup_form.tpl
+#: pommo_theme_lang.php:138
+msgid "Default Subscription Form"
+msgstr "Standaard Aanmeldings Formulier"
+
+#. poMMo/themes/default/admin/setup/setup_form.tpl
+#: pommo_theme_lang.php:141
+msgid "Preview the default subscription form. Its look and feel can be adjusted through the theme template ([theme]/user/subscribe.tpl)."
+msgstr "Bekijk het standaard aanmeldings formulier. Het kan aangepast worden door de sjabloon van het thema te bewerken ([theme]/user/subscribe.tpl)."
+
+#. poMMo/themes/default/admin/setup/setup_form.tpl
+#: pommo_theme_lang.php:144
+msgid "Embedded Subscription From"
+msgstr "Geintegreerd Aanmelding Formulier"
+
+#. poMMo/themes/default/admin/setup/setup_form.tpl
+#: pommo_theme_lang.php:147
+msgid "Preview subscription forms that you can embed into an area of an existing webpage."
+msgstr "Bekijk aanmeldings formulieren die u kan integreren in een bestaande website."
+
+#. poMMo/themes/default/admin/setup/setup_form.tpl
+#: pommo_theme_lang.php:150
+msgid "HTML Subscription Form"
+msgstr "HTML Aanmeldings Formulier"
+
+#. poMMo/themes/default/admin/setup/setup_form.tpl
+#: pommo_theme_lang.php:153
+msgid "Generate a plain HTML subscription form that you can customize to fit your site.."
+msgstr "Genereer een HTML aanmeldings formulier dat u kan aanpassen aan de look van uw website.."
+
+#. poMMo/themes/default/admin/setup/setup_form.tpl
+#: pommo_theme_lang.php:156
+msgid "Important URLs"
+msgstr "Belangrijke URLs"
+
+#. poMMo/themes/default/admin/setup/setup_form.tpl
+#: pommo_theme_lang.php:159
+msgid "Default Form"
+msgstr "Standaard Formulier"
+
+#. poMMo/themes/default/admin/setup/setup_form.tpl
+#: pommo_theme_lang.php:162
+msgid "Embedded Form"
+msgstr "Geintegreerd Formulier"
+
+#. poMMo/themes/default/admin/setup/setup_form.tpl
+#: pommo_theme_lang.php:165
+msgid "Embedded Mini Form"
+msgstr "Geintegreerd Mini Formulier"
+
+#. poMMo/themes/default/admin/setup/setup_messages.tpl
+#: pommo_theme_lang.php:168
+msgid "Message Settings"
+msgstr "Bericht Instellingen"
+
+#. poMMo/themes/default/admin/setup/setup_messages.tpl
+#: pommo_theme_lang.php:171
+msgid "You can configure the messages poMMo sends when users try to subscribe, unsubscribe, or update their records. You can also configure the messages displayed when the user successfully completes this task."
+msgstr "U kan de berichten die poMMo vestuurd wanneer leden zich proberen aan te melden, af te melden, of hun profiel proberen te wijzigen. Tevens de berichten die getoond worden wanneer dit succesvol gebeurt kan u wijzigen."
+
+#. poMMo/themes/default/admin/setup/setup_messages.tpl
+#: pommo_theme_lang.php:174
+msgid "Note:"
+msgstr "Opmerking:"
+
+#. poMMo/themes/default/admin/setup/setup_messages.tpl
+#: pommo_theme_lang.php:177
+msgid "Using '[[url]]' in the message body will reference the confirmation link."
+msgstr "'[[url]]' in de berichten body resulteert in de bevestigings link."
+
+#. poMMo/themes/default/admin/setup/setup_messages.tpl
+#: pommo_theme_lang.php:183
+msgid "Messages"
+msgstr "Berichten"
+
+#. poMMo/themes/default/admin/setup/setup_messages.tpl
+#. poMMo/themes/default/subscribe/form.subscribe.tpl
+#. poMMo/themes/default/subscribe/form.mini.tpl
+#: pommo_theme_lang.php:186
+#: pommo_theme_lang.php:1359
+#: pommo_theme_lang.php:1389
+msgid "Subscribe"
+msgstr "Aanmelden"
+
+#. poMMo/themes/default/admin/setup/setup_messages.tpl
+#. poMMo/themes/default/admin/mailings/mailings_send3.tpl
+#: pommo_theme_lang.php:189
+#: pommo_theme_lang.php:216
+#: pommo_theme_lang.php:243
+#: pommo_theme_lang.php:270
+#: pommo_theme_lang.php:1152
+msgid "Subject:"
+msgstr "Onderwerp:"
+
+#. poMMo/themes/default/admin/setup/setup_messages.tpl
+#: pommo_theme_lang.php:192
+#: pommo_theme_lang.php:219
+#: pommo_theme_lang.php:246
+#: pommo_theme_lang.php:273
+msgid "(Subject of Sent Email)"
+msgstr "(Onderwerp van verzonden E-mail)"
+
+#. poMMo/themes/default/admin/setup/setup_messages.tpl
+#. poMMo/themes/default/admin/mailings/mailings_send2.tpl
+#: pommo_theme_lang.php:195
+#: pommo_theme_lang.php:222
+#: pommo_theme_lang.php:249
+#: pommo_theme_lang.php:276
+#: pommo_theme_lang.php:1134
+msgid "Message:"
+msgstr "Boodschap:"
+
+#. poMMo/themes/default/admin/setup/setup_messages.tpl
+#: pommo_theme_lang.php:198
+#: pommo_theme_lang.php:225
+#: pommo_theme_lang.php:252
+#: pommo_theme_lang.php:279
+msgid "(Use [[url]] for the confirm link at least once)"
+msgstr "(Gebruik [[url]] voor de bevestigings link minimaal 1 keer)"
+
+#. poMMo/themes/default/admin/setup/setup_messages.tpl
+#: pommo_theme_lang.php:201
+#: pommo_theme_lang.php:228
+#: pommo_theme_lang.php:255
+#: pommo_theme_lang.php:282
+msgid "Success:"
+msgstr "Gelukt:"
+
+#. poMMo/themes/default/admin/setup/setup_messages.tpl
+#: pommo_theme_lang.php:204
+#: pommo_theme_lang.php:231
+#: pommo_theme_lang.php:258
+#: pommo_theme_lang.php:285
+msgid "(Message displayed upon success)"
+msgstr "(Bericht wat wordt weergegeven bij gelukt)"
+
+#. poMMo/themes/default/admin/setup/setup_messages.tpl
+#. poMMo/themes/default/admin/setup/fields_edit.tpl
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#. poMMo/themes/default/admin/subscribers/subscribers_mod.tpl
+#: pommo_theme_lang.php:207
+#: pommo_theme_lang.php:234
+#: pommo_theme_lang.php:261
+#: pommo_theme_lang.php:288
+#: pommo_theme_lang.php:456
+#: pommo_theme_lang.php:612
+#: pommo_theme_lang.php:684
+#: pommo_theme_lang.php:951
+msgid "Update"
+msgstr "Update"
+
+#. poMMo/themes/default/admin/setup/setup_messages.tpl
+#: pommo_theme_lang.php:210
+#: pommo_theme_lang.php:237
+#: pommo_theme_lang.php:264
+#: pommo_theme_lang.php:291
+msgid "Restore to Defaults"
+msgstr "Standaard instellen"
+
+#. poMMo/themes/default/admin/setup/setup_messages.tpl
+#: pommo_theme_lang.php:213
+msgid "Unsubscribe"
+msgstr "Afmelden"
+
+#. poMMo/themes/default/admin/setup/setup_messages.tpl
+#. poMMo/themes/default/subscribe/form.update.tpl
+#: pommo_theme_lang.php:240
+#: pommo_theme_lang.php:1383
+msgid "Update Records"
+msgstr "Update Records"
+
+#. poMMo/themes/default/admin/setup/setup_messages.tpl
+#: pommo_theme_lang.php:267
+msgid "Change Password"
+msgstr "Wijzig Wachtwoord"
+
+#. poMMo/themes/default/admin/setup/setup_throttle.tpl
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#. poMMo/themes/default/admin/setup/admin_setup.tpl
+#. poMMo/themes/default/admin/inc.sidebar.tpl
+#: pommo_theme_lang.php:294
+#: pommo_theme_lang.php:471
+#: pommo_theme_lang.php:552
+#: pommo_theme_lang.php:690
+#: pommo_theme_lang.php:1008
+#: poMMo/admin/setup/setup_messages.php:32
+#: poMMo/admin/setup/setup_throttle.php:32
+#: poMMo/admin/setup/setup_smtp.php:33
+msgid "Configure"
+msgstr "Configureer"
+
+#. poMMo/themes/default/admin/setup/setup_throttle.tpl
+#: pommo_theme_lang.php:297
+msgid "poMMo can throttle mails so you don't overload your server or slam a common domain (such as hotmail/yahoo.com). Mail volume and bandwith can be controlled. Additionally, you can limit the mails and kilobytes sent to a single domain during a specified time frame."
+msgstr "Pommo kan mailings afremmen zodat u uw server niet overbelast of  een gemeenschappelijk domein (zoals hotmail/yahoo. com) dichtgooit. Mailing volume en bandbreedte kunnen gecontroleerd worden. Daarbij kan u het aantal mails en het aantal kilobytes verstuurd naar een enkel domijn gedurende een gespecificeerd tijdsbestek instellen. "
+
+#. poMMo/themes/default/admin/setup/setup_throttle.tpl
+#: pommo_theme_lang.php:303
+msgid "Throttling"
+msgstr "Afremmen/Regelen"
+
+#. poMMo/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:306
+msgid "Fields Page"
+msgstr "Velden Pagina"
+
+#. poMMo/themes/default/admin/setup/setup_fields.tpl
+#. poMMo/themes/default/admin/inc.sidebar.tpl
+#: pommo_theme_lang.php:309
+#: pommo_theme_lang.php:1011
+msgid "Fields"
+msgstr "Velden"
+
+#. poMMo/themes/default/admin/setup/setup_fields.tpl
+#. poMMo/themes/default/admin/subscribers/subscribers_groups.tpl
+#: pommo_theme_lang.php:312
+#: pommo_theme_lang.php:717
+msgid "Make New"
+msgstr "Maak Nieuw"
+
+#. poMMo/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:315
+#: pommo_theme_lang.php:318
+msgid "type new field name"
+msgstr "vul een nieuwe veldnaam in"
+
+#. poMMo/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:321
+msgid "Text"
+msgstr "Tekst"
+
+#. poMMo/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:324
+msgid "Number"
+msgstr "Nummeriek"
+
+#. poMMo/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:327
+msgid "Check Box"
+msgstr "Selectie Vak"
+
+#. poMMo/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:330
+msgid "Multiple Choice"
+msgstr "Meer Keuze"
+
+#. poMMo/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:333
+msgid "Date"
+msgstr "Datum"
+
+#. poMMo/themes/default/admin/setup/setup_fields.tpl
+#. poMMo/themes/default/admin/subscribers/subscribers_groups.tpl
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:336
+#: pommo_theme_lang.php:726
+#: pommo_theme_lang.php:825
+msgid "Add"
+msgstr "Voeg toe"
+
+#. poMMo/themes/default/admin/setup/setup_fields.tpl
+#. poMMo/themes/default/admin/subscribers/subscribers_groups.tpl
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:339
+#: pommo_theme_lang.php:729
+#: pommo_theme_lang.php:813
+#: pommo_theme_lang.php:906
+msgid "Delete"
+msgstr "Verwijder"
+
+#. poMMo/themes/default/admin/setup/setup_fields.tpl
+#. poMMo/themes/default/admin/subscribers/subscribers_groups.tpl
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:342
+#: pommo_theme_lang.php:732
+#: pommo_theme_lang.php:819
+#: pommo_theme_lang.php:909
+msgid "Edit"
+msgstr "Wijzig"
+
+#. poMMo/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:345
+msgid "Order"
+msgstr "Volgorde"
+
+#. poMMo/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:348
+msgid "Field Name"
+msgstr "Veld Naam"
+
+#. poMMo/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:351
+msgid "No fields have been assigned."
+msgstr "Er zijn geen velden toegewezen."
+
+#. poMMo/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:354
+msgid "Names in <strong>bold</strong> are active."
+msgstr "Vetgedrukte namen <strong>bold</strong> zijn actief."
+
+#. poMMo/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:357
+msgid "Change the ordering of fields on the subscription form by dragging and dropping the order icon"
+msgstr "Wijzig de volgorde van de velden op het aanmeldings formulier door de volgorde icoon te veslepen "
+
+#. poMMo/themes/default/admin/setup/form_embed.tpl
+#: pommo_theme_lang.php:360
+msgid "Embedded Subscription Forms"
+msgstr "Geintegreerde Aanmeldings Formulieren"
+
+#. poMMo/themes/default/admin/setup/form_embed.tpl
+#: pommo_theme_lang.php:363
+msgid "Subscription forms can easily be added to your website using a line of code. You can use the PHP include listed below, or embed the actual HTML. Remember, you can also direct subscribers to the "
+msgstr "Aanmeldings formulieren kunnen eenvoudig aan uw website  worden toegevoegd door een regel code te gebruiken. U kan de onderstaande PHP include gebruiken, of de HTML code integreren. Onthoud wel dat u de leden kan door verwijzen naar de "
+
+#. poMMo/themes/default/admin/setup/form_embed.tpl
+#: pommo_theme_lang.php:366
+msgid "Default Subscribe Form"
+msgstr "Standaard Aanmeldings Formulier"
+
+#. poMMo/themes/default/admin/setup/form_embed.tpl
+#: pommo_theme_lang.php:369
+msgid "Return to Subscription Forms"
+msgstr "Terug naar de Aanmeldings Formulieren"
+
+#. poMMo/themes/default/admin/setup/form_embed.tpl
+#: pommo_theme_lang.php:372
+#: pommo_theme_lang.php:396
+msgid "Mini Subscription Form"
+msgstr "Mini Aanmeldings Formulier"
+
+#. poMMo/themes/default/admin/setup/form_embed.tpl
+#: pommo_theme_lang.php:375
+#: pommo_theme_lang.php:387
+#: pommo_theme_lang.php:399
+#: pommo_theme_lang.php:405
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#. poMMo/themes/default/admin/setup/form_embed.tpl
+#: pommo_theme_lang.php:378
+#: pommo_theme_lang.php:390
+msgid "URL"
+msgstr "URL"
+
+#. poMMo/themes/default/admin/setup/form_embed.tpl
+#: pommo_theme_lang.php:381
+msgid "This prints a form which prompts for a user's email address. If the inputted email exists as a registered subscriber, it redirects to the subscriber update page. If not, it redirects to the the default subscription form."
+msgstr "Dit geeft een formulier weer die een leden e-mailadres vraagt. Wanneer het ingevulde e-mail adres bestaat als een geregistreerde gebruiker, wordt er doorverwezen naar de  leden wijzigings pagina. Zoniet, dan wordt doorverwezen naar het aanmeldings formulier."
+
+#. poMMo/themes/default/admin/setup/form_embed.tpl
+#: pommo_theme_lang.php:384
+msgid "Full Subscription Form"
+msgstr "Volledig Aanmeldings Formulier"
+
+#. poMMo/themes/default/admin/setup/form_embed.tpl
+#: pommo_theme_lang.php:393
+msgid "This prints the entire subscription form."
+msgstr "Dit print het volledige aanmeldings formulier"
+
+#. poMMo/themes/default/admin/setup/form_embed.tpl
+#. poMMo/themes/default/admin/setup/admin_setup.tpl
+#: pommo_theme_lang.php:402
+#: pommo_theme_lang.php:702
+msgid "Subscription Form"
+msgstr "Aanmeldings Formulier"
+
+#. poMMo/themes/default/admin/setup/fields_edit.tpl
+#: pommo_theme_lang.php:408
+msgid "Edit Field"
+msgstr "Wijzig Veld"
+
+#. poMMo/themes/default/admin/setup/fields_edit.tpl
+#: pommo_theme_lang.php:411
+msgid "Return to Fields Page"
+msgstr "Terug naar de  Velden Pagina"
+
+#. poMMo/themes/default/admin/setup/fields_edit.tpl
+#: pommo_theme_lang.php:414
+msgid "Name:"
+msgstr "Naam:"
+
+#. poMMo/themes/default/admin/setup/fields_edit.tpl
+#: pommo_theme_lang.php:417
+msgid "A descriptive name to help you identify this field. End users will never see this."
+msgstr "Een duidelijke naam om dit veld te identificeren. Niet zichtbaar voor de eindgebruiker."
+
+#. poMMo/themes/default/admin/setup/fields_edit.tpl
+#: pommo_theme_lang.php:420
+msgid "Prompt:"
+msgstr "Vraag:"
+
+#. poMMo/themes/default/admin/setup/fields_edit.tpl
+#: pommo_theme_lang.php:423
+msgid "The prompt for this field on the subscription form. ie. 'Type your city'"
+msgstr "De vraag voor dit veld op het aanmeldings formulier. d.w.z. 'Typ uw plaats' "
+
+#. poMMo/themes/default/admin/setup/fields_edit.tpl
+#: pommo_theme_lang.php:426
+msgid "Required:"
+msgstr "Vereist:"
+
+#. poMMo/themes/default/admin/setup/fields_edit.tpl
+#: pommo_theme_lang.php:429
+msgid "Check to require this field on the subscription form. ie. user cannot leave blank."
+msgstr "Aanvinken om dit veld verplicht te stellen op het aanmeldings formulier. Dit veld moet dan ingevuld worden."
+
+#. poMMo/themes/default/admin/setup/fields_edit.tpl
+#: pommo_theme_lang.php:432
+msgid "Hidden:"
+msgstr "Verborgen:"
+
+#. poMMo/themes/default/admin/setup/fields_edit.tpl
+#: pommo_theme_lang.php:435
+msgid "Check to hide this field from the subscription form."
+msgstr "Aanvinken om dit veld te verbergen op het aanmeldings formulier."
+
+#. poMMo/themes/default/admin/setup/fields_edit.tpl
+#: pommo_theme_lang.php:438
+#: pommo_theme_lang.php:444
+#: pommo_theme_lang.php:450
+msgid "Default:"
+msgstr "Standaard:"
+
+#. poMMo/themes/default/admin/setup/fields_edit.tpl
+#: pommo_theme_lang.php:441
+msgid "If provided, this value will be pre-filled in on the subscription form"
+msgstr "Wanneer gebruikt, zal deze waarde al ingevuld worden op het aanmeldings formulier"
+
+#. poMMo/themes/default/admin/setup/fields_edit.tpl
+#: pommo_theme_lang.php:447
+msgid "The initial state of the checkbox on the subscription form"
+msgstr "De standaard status van het aankruisvakje op het aanmeldings formulier"
+
+#. poMMo/themes/default/admin/setup/fields_edit.tpl
+#: pommo_theme_lang.php:453
+msgid "Initial value selected on the subscription form"
+msgstr "De eerste geselecteerde waarde op het aanmeldings formulier"
+
+#. poMMo/themes/default/admin/setup/fields_edit.tpl
+#: pommo_theme_lang.php:459
+msgid "type option(s)"
+msgstr "type optie(s)"
+
+#. poMMo/themes/default/admin/setup/fields_edit.tpl
+#: pommo_theme_lang.php:462
+msgid "Add Option(s)"
+msgstr "Toevoeg Optie(s)"
+
+#. poMMo/themes/default/admin/setup/fields_edit.tpl
+#: pommo_theme_lang.php:465
+msgid "NOTE: You can multiple options by separating each with a comma. To include special characters such as quote marks and commas, prefix them with a backslash (\\)."
+msgstr "OPMERKING: U kunt meerder opties gebruiken door ze te scheiden dmv een comma. Om speciale karakters te gebruiken dient u ze vooraf te laten gaan door een backslash (\\)."
+
+#. poMMo/themes/default/admin/setup/fields_edit.tpl
+#: pommo_theme_lang.php:468
+msgid "Remove Selected Option"
+msgstr "Verwijder de geselecteerde Optie"
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:474
+msgid "poMMo can relay mail through up to 4 SMTP servers simutaneously. Throttle settings can either be shared or individually controlled per SMTP relay (for maximum thoroughput)."
+msgstr "poMMo kan 4 SMTP servers tegelijk regelen. Snelheid kan gezamelijk of indivueel of apart ingesteld worden."
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:480
+msgid "SMTP Relays"
+msgstr "SMTP relais"
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:483
+msgid "SMTP Throttling"
+msgstr "SMTP Throttling"
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:486
+msgid "Throttle Controller:"
+msgstr "Throttle regelaar:"
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:489
+msgid "Individual Throttler per Server"
+msgstr "Aparte Throttler per Server"
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:492
+msgid "Share a Global Throttler"
+msgstr "Deel een globale Throttler"
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:495
+msgid "(throttle control can be shared or individual)"
+msgstr "(Throttle regeling kan gezamelijk op apart zijn)"
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:498
+msgid "SMTP #%1"
+msgstr "SMTP #%1"
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:501
+msgid "SMTP Status:"
+msgstr "SMTP Status:"
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:504
+msgid "Connected to SMTP server"
+msgstr "Verbonden met de SMTP server"
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:507
+msgid "Unable to connect to SMTP server"
+msgstr "Kan geen verbinding met de SMTP server maken"
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:510
+msgid "SMTP Host:"
+msgstr "SMTP Host:"
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:513
+msgid "(IP Address or Name of SMTP server)"
+msgstr "(IP Adres of Naam van de SMTP server)"
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:516
+msgid "Port Number:"
+msgstr "Poort Nummer:"
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:519
+msgid "(Port # of SMTP server [usually 25])"
+msgstr "(poort # van de SMTP server[meestal 25])"
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:522
+msgid "SMTP Authentication:"
+msgstr "SMTP Autorisatie:"
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:525
+msgid "(Toggle SMTP Authentication [usually off])"
+msgstr "(Wijzig SMTP Toegang [meestal uit])"
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:528
+msgid "SMTP Username:"
+msgstr "SMTP  Gebruikersnaam:"
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:531
+#: pommo_theme_lang.php:537
+msgid "(optional)"
+msgstr "(optioneel)"
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:534
+msgid "SMTP Password:"
+msgstr "SMTP wachtwoord:"
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:540
+msgid "Update Relay #%1"
+msgstr "Wijzig Relais #%1"
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:543
+msgid "This is your default relay"
+msgstr "Dit is uw standaard relais"
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:546
+msgid "Remove Relay #%1"
+msgstr "Verwijder Relais "
+
+#. poMMo/themes/default/admin/setup/setup_smtp.tpl
+#: pommo_theme_lang.php:549
+msgid "Add Another Relay"
+msgstr "Voeg nog een Relais toe"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:555
+msgid "Use this page to configure poMMo. You can change the login information, set website and mailing list parameters, end enable demonstration mode. If you enable demonstration mode, no emails will be sent from the system."
+msgstr "Gebruik deze pagina om poMMo te configureren. U kunt de inlog informatie wijzigen, de website en mailing parameters instellen, en de demonstratie modus inschakelen. Wanneer u de demo mode inschakeld worden er geen e-mails door het systeem verzonden."
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:558
+msgid "Administrative"
+msgstr "Administratief"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:561
+msgid "Administrator Username:"
+msgstr "Administrator Gebruikersnaam:"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:582
+msgid "(email address of administrator)"
+msgstr "(e-mailadres van de administrator)"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:585
+msgid "Website"
+msgstr "Website"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:588
+msgid "Website Name:"
+msgstr "Website Naam:"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:591
+msgid "(The name of your Website)"
+msgstr "(De naam van uw Website)"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:597
+msgid "(Web address of your Website)"
+msgstr "(URL van uw website)"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:600
+msgid "Success URL:"
+msgstr "Succes URL:"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:603
+msgid "(Webpage users will see upon successfull subscription. Leave blank to display default welcome page.)"
+msgstr "(Pagina die de leden zien wanneer de aanmelding gelukt is. Leeg laten om de standaard welkom pagina te tonen.)"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:606
+msgid "Confirm URL:"
+msgstr "Bevestigings URL:"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:609
+msgid "(Webpage users will see upon subscription attempt. Leave blank to display default confirmation page.)"
+msgstr "(Pagina die de leden zien bij een aanmeldings verzoek. Leeg laten om de standaard bevestigings pagina te tonen.)"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:615
+msgid "Mailing List"
+msgstr "Mailinglijst"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:618
+msgid "Demonstration Mode:"
+msgstr "Demonstratie modus:"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:621
+msgid "(Toggle Demonstration Mode)"
+msgstr "(Wijzig Demonstratie Modus)"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:624
+msgid "Email Confirmation:"
+msgstr "E-mail bevestiging."
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:627
+msgid "(Set to validate email upon subscription attempt.)"
+msgstr "(Instellen bevestigings e-mail bij aanmeldings verzoek)"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:630
+msgid "List Name:"
+msgstr "Lijst Naam:"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:633
+msgid "(The name of your Mailing List)"
+msgstr "(De naam van uw Mailinglijst)"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#. poMMo/themes/default/admin/mailings/mailings_send.tpl
+#: pommo_theme_lang.php:636
+#: pommo_theme_lang.php:1056
+msgid "From Name:"
+msgstr "Van Naam:"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:639
+msgid "(Default name mails will be sent from)"
+msgstr "(Standaard Naam gebruikt voor afzender van de verzonden e-mails)"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#. poMMo/themes/default/admin/mailings/mailings_send.tpl
+#: pommo_theme_lang.php:642
+#: pommo_theme_lang.php:1062
+msgid "From Email:"
+msgstr "Van E-mail:"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:645
+msgid "(Default email mails will be sent from)"
+msgstr "(Standaard e-mail gebruikt voor afzendere-mail van de verzonden e-mails)"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:648
+msgid "Bounce Address:"
+msgstr "Return/Bounce Adres:"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:651
+msgid "(Returned emails will be sent to this address)"
+msgstr "(Niet verzonden e-mails worden naar dit adres gezonden)"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:654
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:657
+msgid "Mail Exchanger:"
+msgstr "Mail Programma:"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:660
+msgid "PHP Mail Function"
+msgstr "PHP Mail Functie"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:663
+msgid "(Select Mail Exchanger)"
+msgstr "(Kies Mail programma)"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:666
+msgid "SMTP Servers: %1 Click Here %2 to setup your relays."
+msgstr "SMTP Servers: %1 Klik Hier %2 om uw relais in te stellen."
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:669
+msgid "(configure SMTP relays)"
+msgstr "(configureer SMTP relais)"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:672
+msgid "Messages: %1 Click Here %2 to customize mailed messages."
+msgstr "Berichte: %1 Klik Hier %2 om verzonden berichten aan te passen."
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:675
+msgid "(define the email messages sent during subscription, updates, etc.)"
+msgstr "(definieer de e-mail berichten die verzonden worden gedurende aanmelding, udates, etc.)"
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:678
+msgid "Throttling: %1 Click Here %2 to set mail throttle values."
+msgstr "Throttling: %1 Klik Hier %2 om mail throttle waarden in te stellen."
+
+#. poMMo/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:681
+msgid "(controls mails per second, bytes per second, and domain limits)"
+msgstr "(controleert e-mails per seconde, bytes per seconde, en domein limieten)"
+
+#. poMMo/themes/default/admin/setup/admin_setup.tpl
+#: pommo_theme_lang.php:687
+msgid "Setup Page"
+msgstr "Setup Pagina"
+
+#. poMMo/themes/default/admin/setup/admin_setup.tpl
+#: pommo_theme_lang.php:693
+msgid "poMMo. Set your mailing list name, its default behavior, and the administrator's information."
+msgstr "poMMo. Stel uw mailing  lijst naam, de standaard waarden, en de administrator informatie in."
+
+#. poMMo/themes/default/admin/setup/admin_setup.tpl
+#: pommo_theme_lang.php:696
+msgid "Subscriber Fields"
+msgstr "Leden Velden"
+
+#. poMMo/themes/default/admin/setup/admin_setup.tpl
+#: pommo_theme_lang.php:699
+msgid "Choose the information you'd like to collect from your subscribers."
+msgstr "Kies de informatie die u wil vergaren van uw leden."
+
+#. poMMo/themes/default/admin/setup/admin_setup.tpl
+#: pommo_theme_lang.php:705
+msgid "Preview and Generate the subscription form for your website."
+msgstr "Bekijk of Maak het aanmeldings formulier voor uw website."
+
+#. poMMo/themes/default/admin/subscribers/subscribers_groups.tpl
+#: pommo_theme_lang.php:708
+#: poMMo/admin/subscribers/groups_edit.php:33
+msgid "Groups Page"
+msgstr "Groepen Pagina"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_groups.tpl
+#: pommo_theme_lang.php:711
+msgid "Create groups of subscribers based off the values of subscriber fields. You can then mail subscribers belonging to a group instead your entire list."
+msgstr "Maak groepen van leden gebaseerd op op de waarden van de leden velden. U kunt dan leden mailen die tot een groep behoren ipv de hele lijst te mailen."
+
+#. poMMo/themes/default/admin/subscribers/subscribers_groups.tpl
+#. poMMo/themes/default/admin/subscribers/admin_subscribers.tpl
+#. poMMo/themes/default/admin/inc.sidebar.tpl
+#: pommo_theme_lang.php:714
+#: pommo_theme_lang.php:849
+#: pommo_theme_lang.php:1035
+msgid "Groups"
+msgstr "Groepen"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_groups.tpl
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:720
+#: pommo_theme_lang.php:723
+#: pommo_theme_lang.php:882
+msgid "type new group name"
+msgstr "vul een groepsnaam in"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_groups.tpl
+#: pommo_theme_lang.php:735
+msgid "Group Name"
+msgstr "Groep Naam"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_groups.tpl
+#: pommo_theme_lang.php:738
+msgid "No groups have been assigned."
+msgstr "Er zijn geen groepen toegewezen."
+
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:741
+msgid "View Pending"
+msgstr "Bekijk in behandeling"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:744
+msgid "View Subscribed"
+msgstr "Bekijk Leden"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:747
+msgid "Export to CSV"
+msgstr "Exporteer naar CSV"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:753
+msgid "Subscribers per Page:"
+msgstr "Leden per Pagina:"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:756
+msgid "Belonging to Group:"
+msgstr "Behoort tot Groep:"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:759
+msgid "All Subscribers"
+msgstr "Alle Leden"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:762
+msgid "Order by:"
+msgstr "Volgorde:"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#. poMMo/themes/default/admin/subscribers/subscribers_mod.tpl
+#: pommo_theme_lang.php:765
+#: pommo_theme_lang.php:789
+#: pommo_theme_lang.php:945
+msgid "email"
+msgstr "e-mail"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:768
+msgid "ascending"
+msgstr "oplopend"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:771
+msgid "descending"
+msgstr "aflopend"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:774
+msgid "%1 subscribers"
+msgstr "%1 leden"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:777
+msgid "select"
+msgstr "kies"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#. poMMo/themes/default/admin/mailings/mailings_send3.tpl
+#: pommo_theme_lang.php:780
+#: pommo_theme_lang.php:792
+#: pommo_theme_lang.php:1143
+#: pommo_theme_lang.php:1167
+msgid "edit"
+msgstr "wijzig"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:783
+#: pommo_theme_lang.php:795
+msgid "add"
+msgstr "Toevoegen"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:786
+#: pommo_theme_lang.php:798
+msgid "delete"
+msgstr "verwijder"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:801
+msgid "Check All"
+msgstr "Selecteer Alles"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:804
+msgid "Clear All"
+msgstr "Deselecteer Alles"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:807
+msgid "Ignore"
+msgstr "Negeer"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:810
+#: pommo_theme_lang.php:816
+#: pommo_theme_lang.php:822
+#: pommo_theme_lang.php:828
+msgid "checked subscribers"
+msgstr "Geselecteerde Leden"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:831
+msgid "go"
+msgstr "ga"
+
+#. poMMo/themes/default/admin/subscribers/admin_subscribers.tpl
+#: pommo_theme_lang.php:834
+#: poMMo/admin/subscribers/subscribers_manage.php:79
+#: poMMo/admin/subscribers/subscribers_import2.php:33
+#: poMMo/admin/subscribers/subscribers_import2.php:76
+msgid "Subscribers Page"
+msgstr "Leden Pagina"
+
+#. poMMo/themes/default/admin/subscribers/admin_subscribers.tpl
+#. poMMo/themes/default/admin/inc.sidebar.tpl
+#: pommo_theme_lang.php:837
+#: pommo_theme_lang.php:1029
+msgid "Manage"
+msgstr "Bewerk"
+
+#. poMMo/themes/default/admin/subscribers/admin_subscribers.tpl
+#: pommo_theme_lang.php:840
+msgid "subscribers. See an overview of your current and pending subscribers. You can add, delete, and edit subscribers from here."
+msgstr "Leden. Bekijk een overzicht van uw huidige leden en onbevestigde leden. U kan hier leden toevoegen, verwijderen, en wijzigen."
+
+#. poMMo/themes/default/admin/subscribers/admin_subscribers.tpl
+#. poMMo/themes/default/admin/inc.sidebar.tpl
+#: pommo_theme_lang.php:843
+#: pommo_theme_lang.php:1032
+msgid "Import"
+msgstr "Importeer"
+
+#. poMMo/themes/default/admin/subscribers/admin_subscribers.tpl
+#: pommo_theme_lang.php:846
+msgid "Subscribers.  You can import large amounts of subscribers using files stored on your computer."
+msgstr "Leden. U kunt hier in een keer grote aantallen leden importeren uit bestanden die opgeslagen zijn op uw computer."
+
+#. poMMo/themes/default/admin/subscribers/admin_subscribers.tpl
+#: pommo_theme_lang.php:852
+msgid "Manage \"mailing groups\" from this area. Mailing groups allow you to mail subsets of your subscribers, rather than just the entire list."
+msgstr "Onderhoud \"leden groepen\" vanaf hier. Met mailing groepen kunt u leden groepen mailen in plaats van naar de hele lijst."
+
+#. poMMo/themes/default/admin/subscribers/subscribers_import.tpl
+#: pommo_theme_lang.php:855
+msgid "Import Subscribers"
+msgstr "Importeer Leden"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_import.tpl
+#: pommo_theme_lang.php:858
+msgid "poMMo supports importing subscribers from %1 CSV %2 files. Your CSV file should have one subscriber(email) per line with field information seperated by commas(,)."
+msgstr "poMMo ondersteund  het importeren van leden uit %1 CSV %2 bestanden. Uw CSV bestand moet 1 leden(e-mail) per regel bevatten met verdere veld informatie gescheiden door kommas(,)."
+
+#. poMMo/themes/default/admin/subscribers/subscribers_import.tpl
+#: pommo_theme_lang.php:861
+msgid "Popular programs such as Microsoft Excel and %1 Open Office %2 support saving files in Comma-Seperated-Value format."
+msgstr "Programma's zoals Microsoft Excel en %1 Open Office %2 ondersteunen het opslaan in Komma-Gescheiden formaat."
+
+#. poMMo/themes/default/admin/subscribers/subscribers_import.tpl
+#: pommo_theme_lang.php:864
+msgid "Your CSV file:"
+msgstr "Uw CSV bestand:"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_import.tpl
+#: pommo_theme_lang.php:867
+msgid "Upload"
+msgstr "Uploaden"
+
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:870
+msgid "Edit Group"
+msgstr "Bewerk Groep"
+
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:873
+msgid "They are made up of \"filters\" that match field values or other groups. For instance, if you collect  \"age\" and \"country\", you can match subscribers 21 and older living in Japan by creating two filtering critiera; one which matches \"age\" to a value GREATER THAN 20, and another which matches \"country\" EQUAL TO \"Japan\""
+msgstr "Ze worden gemaakt op basis van \"filters\" de voldoen aan veld waarden of aan andere groepen. Bijvoorbeeld, wanneer u \"leeftijd\" en \"land\" verzamelt, kan u leden selecteren die 21 jaar en ouder zijn en die bijvoorbeeld in Nederland leven door 2 filtercriteria te maken, 1 die voldoet aan \"leeftijd\" met een waarde die GROTER IS DAN 20, en een andere die voldoet aan \"land\" IS GELIJK AAN \"japan\""
+
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:879
+msgid "Group Name:"
+msgstr "Groep Naam:"
+
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:885
+msgid "Rename"
+msgstr "Naam wijzigen"
+
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:888
+msgid "Select a %1 field %2 to filter"
+msgstr "Kies een %1 veld %2 om te filteren"
+
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:891
+msgid "Choose subscriber field"
+msgstr "Kies leden veld"
+
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:894
+msgid "or, Select a %1 group %2 to"
+msgstr "of, Kies een %1 groep %2 om te "
+
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:897
+msgid "Include"
+msgstr "Toevoegen"
+
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:900
+msgid "Exclude"
+msgstr "Uitsluiten"
+
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:903
+msgid "%1 filters match a total of %2 subscribers"
+msgstr "%1 filters komen overeen met totaal %2 leden"
+
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:912
+msgid "Filter Details"
+msgstr "Filter Details"
+
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:915
+#: poMMo/admin/subscribers/ajax_filters.php:211
+msgid "Include subscribers belonging to"
+msgstr "Voeg leden toe die behoren tot"
+
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:918
+#: poMMo/admin/subscribers/ajax_filters.php:222
+msgid "Exclude subscribers belonging to"
+msgstr "Sluit leden uit die behoren tot"
+
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:921
+msgid "Include subscribers who have %1 equal to %2"
+msgstr "Voeg leden toe die %1 gelijk aan %2 hebben"
+
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:924
+msgid "Exclude subscribers who have %1 equal to %2"
+msgstr "Sluit leden uit die %1 gelijk aan %2 hebben"
+
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:927
+msgid "Include subscribers who have %1 greater than %2"
+msgstr "Voeg leden toe die %1 groter dan %2 hebben"
+
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:930
+msgid "Include subscribers who have %1 less than %2"
+msgstr "Voeg leden toe die %1 minder dan %2 hebben"
+
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:933
+msgid "Exclude subscribers that checked"
+msgstr "Sluit leden uit die geselecteerd zijn"
+
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:936
+msgid "Include subscribers that checked"
+msgstr "Voeg leden toe die geselecteerd zijn"
+
+#. poMMo/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:939
+msgid "No filters have been assigned."
+msgstr "Er zijn geen filters toegekend"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_mod.tpl
+#. poMMo/themes/default/subscribe/form.subscribe.tpl
+#. poMMo/themes/default/subscribe/form.update.tpl
+#: pommo_theme_lang.php:948
+#: pommo_theme_lang.php:1353
+#: pommo_theme_lang.php:1377
+msgid "Unsupported Field Type."
+msgstr "Veld type niet ondersteund"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_mod.tpl
+#: pommo_theme_lang.php:954
+msgid "The following will be deleted"
+msgstr "De volgende leden worden verwijderd"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_mod.tpl
+#: pommo_theme_lang.php:957
+msgid "Click to Delete"
+msgstr "Klik om te verwijderen"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_mod.tpl
+#: pommo_theme_lang.php:960
+msgid "The following will be added as subscribers"
+msgstr "De volgende leden worden toegevoegd"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_mod.tpl
+#: pommo_theme_lang.php:963
+msgid "Click to Add"
+msgstr "Klik om toe te voegen"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_import2.tpl
+#: pommo_theme_lang.php:969
+msgid "Upload a different file"
+msgstr "Upload een ander bestand"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_import2.tpl
+#: pommo_theme_lang.php:972
+msgid "Preview Import"
+msgstr "Import Voorbeeld"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_import2.tpl
+#: pommo_theme_lang.php:975
+msgid "%1 Subscribers will be imported. Of these, %2 will be flagged for update due to invalidity."
+msgstr "%1 Leden worden geimporteerd. Van deze worden er %2 gemarkeerd als zijnde foutief."
+
+#. poMMo/themes/default/admin/subscribers/subscribers_import2.tpl
+#: pommo_theme_lang.php:978
+msgid "%1 Duplicate"
+msgstr "%1 Dubbel"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_import2.tpl
+#: pommo_theme_lang.php:981
+msgid "Import Complete!"
+msgstr "Importeren Gereed!"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_import2.tpl
+#: pommo_theme_lang.php:987
+msgid "Upload Success"
+msgstr "Uploaden Gelukt"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_import2.tpl
+#: pommo_theme_lang.php:990
+msgid "Optionally, you may match the values to a subscriber field. If an imported subscriber is missing a value for a required field, they will be %1 flagged %2 to update their information."
+msgstr "Optioneel, kunt u de waarden refereren aan een leden veld. Wanneer een geimporteerd lid een waarde mist voor een verplicht veld, krijgt deze een %1 indicatie %2 om zijn/haar profiel te updaten."
+
+#. poMMo/themes/default/admin/subscribers/subscribers_import2.tpl
+#: pommo_theme_lang.php:993
+msgid "Field #%1"
+msgstr "Veld #&1"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_import2.tpl
+#: pommo_theme_lang.php:996
+msgid "Ignore Field"
+msgstr "Negeer Veld"
+
+#. poMMo/themes/default/admin/subscribers/subscribers_import2.tpl
+#: pommo_theme_lang.php:999
+msgid "%1 subscribers to import."
+msgstr "%1 leden om te importeren."
+
+#. poMMo/themes/default/admin/subscribers/subscribers_import2.tpl
+#: pommo_theme_lang.php:1002
+msgid "Click to Preview"
+msgstr "Toon Voorbeeld"
+
+#. poMMo/themes/default/admin/inc.sidebar.tpl
+#: pommo_theme_lang.php:1005
+#: pommo_theme_lang.php:1017
+#: pommo_theme_lang.php:1026
+msgid "poMMo Setup"
+msgstr "poMMo Setup"
+
+#. poMMo/themes/default/admin/inc.sidebar.tpl
+#: pommo_theme_lang.php:1014
+msgid "Setup Form"
+msgstr "Setup Formulier"
+
+#. poMMo/themes/default/admin/inc.sidebar.tpl
+#. poMMo/themes/default/admin/mailings/admin_mailings.tpl
+#: pommo_theme_lang.php:1020
+#: pommo_theme_lang.php:1251
+msgid "Send"
+msgstr "Verstuur"
+
+#. poMMo/themes/default/admin/inc.sidebar.tpl
+#. poMMo/themes/default/admin/mailings/admin_mailings.tpl
+#: pommo_theme_lang.php:1023
+#: pommo_theme_lang.php:1257
+msgid "History"
+msgstr "Historie"
+
+#. poMMo/themes/default/admin/inc.sidebar.tpl
+#. poMMo/themes/default/admin/admin.tpl
+#: pommo_theme_lang.php:1038
+#: pommo_theme_lang.php:1281
+msgid "Mailings"
+msgstr "Mailingen"
+
+#. poMMo/themes/default/admin/inc.sidebar.tpl
+#. poMMo/themes/default/admin/admin.tpl
+#: pommo_theme_lang.php:1041
+#: pommo_theme_lang.php:1275
+msgid "Subscribers"
+msgstr "Leden"
+
+#. poMMo/themes/default/admin/inc.sidebar.tpl
+#. poMMo/themes/default/admin/admin.tpl
+#: pommo_theme_lang.php:1044
+#: pommo_theme_lang.php:1269
+msgid "Setup"
+msgstr "Setup"
+
+#. poMMo/themes/default/admin/inc.sidebar.tpl
+#: pommo_theme_lang.php:1047
+msgid "Demonstration mode is ON."
+msgstr "Demonstratie modus is AAN."
+
+#. poMMo/themes/default/admin/inc.sidebar.tpl
+#: pommo_theme_lang.php:1050
+msgid "Demonstration mode is OFF."
+msgstr "Demonstratie modus is UIT."
+
+#. poMMo/themes/default/admin/mailings/mailings_send.tpl
+#: pommo_theme_lang.php:1053
+msgid "Mailing Patameters"
+msgstr "Mailing Parameters"
+
+#. poMMo/themes/default/admin/mailings/mailings_send.tpl
+#: pommo_theme_lang.php:1059
+#: pommo_theme_lang.php:1065
+#: pommo_theme_lang.php:1071
+#: pommo_theme_lang.php:1077
+msgid "(maximum of 60 characters)"
+msgstr "(maximaal 60 karakters)"
+
+#. poMMo/themes/default/admin/mailings/mailings_send.tpl
+#: pommo_theme_lang.php:1068
+msgid "Bounce/Returnl:"
+msgstr "Niet verzonden/Terug:"
+
+#. poMMo/themes/default/admin/mailings/mailings_send.tpl
+#: pommo_theme_lang.php:1074
+msgid "Mailing Subject:"
+msgstr "Mailing Onderwerp:"
+
+#. poMMo/themes/default/admin/mailings/mailings_send.tpl
+#: pommo_theme_lang.php:1080
+msgid "Mail Format:"
+msgstr "Mail Type:"
+
+#. poMMo/themes/default/admin/mailings/mailings_send.tpl
+#: pommo_theme_lang.php:1083
+msgid "Plain Text Mailing"
+msgstr "Plain tekst Mailing"
+
+#. poMMo/themes/default/admin/mailings/mailings_send.tpl
+#: pommo_theme_lang.php:1086
+msgid "HTML Mailing"
+msgstr "HTML Mailing"
+
+#. poMMo/themes/default/admin/mailings/mailings_send.tpl
+#: pommo_theme_lang.php:1089
+msgid "(Select the format of this mailing)"
+msgstr "(Kies het type mailing)"
+
+#. poMMo/themes/default/admin/mailings/mailings_send.tpl
+#: pommo_theme_lang.php:1092
+msgid "Send Mail To:"
+msgstr "Verstuur Mail Naar:"
+
+#. poMMo/themes/default/admin/mailings/mailings_send.tpl
+#: pommo_theme_lang.php:1095
+msgid "All subscribers"
+msgstr "Alle Leden"
+
+#. poMMo/themes/default/admin/mailings/mailings_send.tpl
+#: pommo_theme_lang.php:1098
+msgid "(Select who should recieve the mailing)"
+msgstr "(Kies de ontvangers van deze mailing)"
+
+#. poMMo/themes/default/admin/mailings/mailings_send.tpl
+#. poMMo/themes/default/subscribe/form.subscribe.tpl
+#. poMMo/themes/default/subscribe/form.update.tpl
+#: pommo_theme_lang.php:1101
+#: pommo_theme_lang.php:1356
+#: pommo_theme_lang.php:1380
+msgid "Fields in %1bold%2 are required"
+msgstr "Velden in %1vet%2 zijn verplicht"
+
+#. poMMo/themes/default/admin/mailings/mailings_send2.tpl
+#: pommo_theme_lang.php:1104
+msgid "Use WYSIWYG Editor"
+msgstr "Gebruik WYSIWYG Editor"
+
+#. poMMo/themes/default/admin/mailings/mailings_send2.tpl
+#: pommo_theme_lang.php:1107
+msgid "Use Plain Text Editor"
+msgstr "Gebruik Plain Text Editor"
+
+#. poMMo/themes/default/admin/mailings/mailings_send2.tpl
+#: pommo_theme_lang.php:1110
+msgid "Include alternative text body?"
+msgstr "Alternatieve tekstbody invoegen?"
+
+#. poMMo/themes/default/admin/mailings/mailings_send2.tpl
+#. poMMo/themes/default/admin/confirm.tpl
+#: pommo_theme_lang.php:1113
+#: pommo_theme_lang.php:1296
+msgid "Yes"
+msgstr "Ja"
+
+#. poMMo/themes/default/admin/mailings/mailings_send2.tpl
+#. poMMo/themes/default/admin/confirm.tpl
+#: pommo_theme_lang.php:1116
+#: pommo_theme_lang.php:1302
+msgid "No"
+msgstr "Nee"
+
+#. poMMo/themes/default/admin/mailings/mailings_send2.tpl
+#: pommo_theme_lang.php:1119
+#: pommo_theme_lang.php:1137
+msgid "Continue"
+msgstr "Ga verder"
+
+#. poMMo/themes/default/admin/mailings/mailings_send2.tpl
+#: pommo_theme_lang.php:1122
+msgid "HTML Message"
+msgstr "HTML Bericht"
+
+#. poMMo/themes/default/admin/mailings/mailings_send2.tpl
+#: pommo_theme_lang.php:1125
+msgid "Text Message"
+msgstr "Tekst Bericht"
+
+#. poMMo/themes/default/admin/mailings/mailings_send2.tpl
+#: pommo_theme_lang.php:1128
+msgid "Copy text from HTML Message"
+msgstr "Kopieer tekst van HTML Bericht"
+
+#. poMMo/themes/default/admin/mailings/mailings_send2.tpl
+#: pommo_theme_lang.php:1131
+msgid "Mailing Body"
+msgstr "Mailing Body"
+
+#. poMMo/themes/default/admin/mailings/mailings_send3.tpl
+#: pommo_theme_lang.php:1140
+msgid "Preview Mailing"
+msgstr "Mailing Voorbeeld"
+
+#. poMMo/themes/default/admin/mailings/mailings_send3.tpl
+#: pommo_theme_lang.php:1146
+msgid "From:"
+msgstr "Van:"
+
+#. poMMo/themes/default/admin/mailings/mailings_send3.tpl
+#: pommo_theme_lang.php:1149
+msgid "Bounces:"
+msgstr "Niet verzonden:"
+
+#. poMMo/themes/default/admin/mailings/mailings_send3.tpl
+#: pommo_theme_lang.php:1155
+msgid "To:"
+msgstr "Aan:"
+
+#. poMMo/themes/default/admin/mailings/mailings_send3.tpl
+#: pommo_theme_lang.php:1158
+msgid "recipients."
+msgstr "ontvangers."
+
+#. poMMo/themes/default/admin/mailings/mailings_send3.tpl
+#: pommo_theme_lang.php:1161
+msgid "Test Mailing on:"
+msgstr "Test Mailing op:"
+
+#. poMMo/themes/default/admin/mailings/mailings_send3.tpl
+#: pommo_theme_lang.php:1164
+msgid "Send Test"
+msgstr "Test Versturen"
+
+#. poMMo/themes/default/admin/mailings/mailings_send3.tpl
+#: pommo_theme_lang.php:1170
+msgid "HTML Body:"
+msgstr "HTML Bericht:"
+
+#. poMMo/themes/default/admin/mailings/mailings_send3.tpl
+#: pommo_theme_lang.php:1173
+msgid "Click here %1 to view in a new browser window."
+msgstr "Klik hier %1 om in een nieuw venster te bekijken."
+
+#. poMMo/themes/default/admin/mailings/mailings_send3.tpl
+#: pommo_theme_lang.php:1176
+msgid "Alt Body:"
+msgstr "Alt Bericht:"
+
+#. poMMo/themes/default/admin/mailings/mailings_send3.tpl
+#: pommo_theme_lang.php:1179
+msgid "Body:"
+msgstr "Body:"
+
+#. poMMo/themes/default/admin/mailings/mailings_send3.tpl
+#: pommo_theme_lang.php:1182
+msgid "Send Mailing"
+msgstr "Verstuur Mailing"
+
+#. poMMo/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1185
+msgid "The mailing process takes place in the background, so feel free to close your browser, visit other sites, or work within poMMo. Throttle settings can be adjusted, although you must pause and revive a mailings before the changes take effect."
+msgstr "De mailing vindt plaats in de achtergrond, dus u kan uw browser sluiten, andere websites bezoeken, of verder met poMMo werken."
+
+#. poMMo/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1188
+msgid "Sending message to %1 subscribers."
+msgstr "Verstuur bericht naar %1 leden."
+
+#. poMMo/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1191
+msgid "Processing Mailing"
+msgstr "Mailing aan het verwerken.."
+
+#. poMMo/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1194
+msgid "Mailing Paused"
+msgstr "Mailing Gepauzeerd"
+
+#. poMMo/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1197
+#: pommo_theme_lang.php:1212
+msgid "Mailing Finished"
+msgstr "Mailing Gereed"
+
+#. poMMo/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1200
+msgid "Pause Mailing"
+msgstr "Pauzeer Mailing"
+
+#. poMMo/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1203
+#: pommo_theme_lang.php:1206
+msgid "Resume Mailing"
+msgstr "Ga verder met de Mailing"
+
+#. poMMo/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1209
+msgid "Cancel Mailing"
+msgstr "Mailing Annuleren"
+
+#. poMMo/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1215
+msgid "Return to"
+msgstr "Terug naar"
+
+#. poMMo/themes/default/admin/mailings/mailing_status.tpl
+#. poMMo/themes/default/admin/mailings/admin_mailings.tpl
+#: pommo_theme_lang.php:1218
+#: pommo_theme_lang.php:1242
+msgid "Mailings Page"
+msgstr "Mailing Pagina"
+
+#. poMMo/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1221
+msgid "Command Recieved... Please wait."
+msgstr "Opdracht ontvangen..... Moment aub."
+
+#. poMMo/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1224
+msgid "Polling in %1 seconds"
+msgstr "Polling over %1 seconden"
+
+#. poMMo/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1227
+msgid "sent"
+msgstr "verzonden"
+
+#. poMMo/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1230
+msgid "NOTICES"
+msgstr "OPMERKINGEN"
+
+#. poMMo/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1233
+msgid "Clear Notices"
+msgstr "Verwijder opmerkingen"
+
+#. poMMo/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1236
+msgid "Too many notices. Displaying the last 50..."
+msgstr "Teveel opmerkingen. Laatste 50 zichtbaar..."
+
+#. poMMo/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1239
+msgid "Clear Last 50 Notices"
+msgstr "Verwijder laatste 50 opmerkingen"
+
+#. poMMo/themes/default/admin/mailings/admin_mailings.tpl
+#: pommo_theme_lang.php:1245
+msgid "Status"
+msgstr "Status"
+
+#. poMMo/themes/default/admin/mailings/admin_mailings.tpl
+#: pommo_theme_lang.php:1248
+msgid "A mailing is currently taking place. You can not create a mailing until this one completes. Visit this page to check on the status of this mailing."
+msgstr "Er wordt op dit moment een mailing verzonden. U kunt niet eerder een nieuwe mailing maken tot deze compleet is. Bezoek deze pagina om de status van deze mailing te bekijken."
+
+#. poMMo/themes/default/admin/mailings/admin_mailings.tpl
+#: pommo_theme_lang.php:1254
+msgid "Create and send a mailing."
+msgstr "Maak en verstuur een mailing."
+
+#. poMMo/themes/default/admin/mailings/admin_mailings.tpl
+#: pommo_theme_lang.php:1260
+msgid "View mailings that have already been sent."
+msgstr "Bekijk mailingen die al verstuurd zijn."
+
+#. poMMo/themes/default/admin/admin.tpl
+#: pommo_theme_lang.php:1263
+msgid "Hello and welcome to the poMMo \"Aardvark\" release. The \"A\" in Aardvark stands for \"alpha\" and designates this as an early version of poMMo. Much development is underway, so please report your findings and suggestions to the %1."
+msgstr "Welkom bij poMMo \"Aardvark\" release. De \"A\" in Aardvark staat voor \"alpha\" en verwijst naar een eerdere versie van poMMo. Er wordt voortdurend door ontwikkeld, dus geef uw bevindingen en suggesties door aan %1."
+
+#. poMMo/themes/default/admin/admin.tpl
+#: pommo_theme_lang.php:1266
+msgid "Admin Menu"
+msgstr "Administratie Menu"
+
+#. poMMo/themes/default/admin/admin.tpl
+#: pommo_theme_lang.php:1272
+msgid "This area allows you to configure poMMo and its default behavior. Set mailing list parameters, choose the information you'd like to collect from subscribers, and generate subscription forms from here."
+msgstr "Hier kunt u poMMO configureren. Stel mailing lijst parameters in, kies de informatie die u wil verzamelen van uw leden, en maak hier tevens aanmeldings formulieren."
+
+#. poMMo/themes/default/admin/admin.tpl
+#: pommo_theme_lang.php:1278
+msgid "Here you can list, add, delete, import, export, and update your subscribers. You can also create groups (subsets) of your subsribers from here."
+msgstr "Hier kunt u leden bekijken, toevoegen,verwijderen,importeren,exporteren en wijzigen. U kan hier ook ledengroepen maken."
+
+#. poMMo/themes/default/admin/admin.tpl
+#: pommo_theme_lang.php:1284
+msgid "Send mailings to the entire list or to a subset of subscribers. Mailing status and history can also be viewed from here."
+msgstr "Verzend mailings naar de complete lijst of naar een bepaalde ledengroep. Mailing voortgang en historie kan ook vanaf hier bekeken worden."
+
+#. poMMo/themes/default/admin/confirm.tpl
+#: pommo_theme_lang.php:1290
+msgid "Confirm"
+msgstr "Bevestig"
+
+#. poMMo/themes/default/admin/confirm.tpl
+#: pommo_theme_lang.php:1293
+msgid "Confirm your action."
+msgstr "Bevestig uw actie."
+
+#. poMMo/themes/default/admin/confirm.tpl
+#: pommo_theme_lang.php:1299
+msgid "I confirm."
+msgstr "Ik bevestig."
+
+#. poMMo/themes/default/admin/confirm.tpl
+#: pommo_theme_lang.php:1305
+msgid "Please Return."
+msgstr "Ga aub Terug"
+
+#. poMMo/themes/default/admin/inc.header.tpl
+#: pommo_theme_lang.php:1308
+msgid "Logout"
+msgstr "Uitloggen"
+
+#. poMMo/themes/default/upgrade.tpl
+#: pommo_theme_lang.php:1320
+msgid "poMMo Upgrader"
+msgstr "poMMo Upgrader"
+
+#. poMMo/themes/default/upgrade.tpl
+#: pommo_theme_lang.php:1323
+msgid "Online Upgrade Script"
+msgstr "Online Upgrade Script"
+
+#. poMMo/themes/default/upgrade.tpl
+#: pommo_theme_lang.php:1326
+msgid "Welcome to the poMMo online upgrade process. This script will automatically upgrade your old version of poMMo."
+msgstr "Welkom bij het poMMo online upgrade programma. Dit script zal automatisch uw oude versie van poMMo upgraden."
+
+#. poMMo/themes/default/subscribe/form.subscribe.tpl
+#. poMMo/themes/default/subscribe/form.update.tpl
+#: pommo_theme_lang.php:1347
+#: pommo_theme_lang.php:1368
+msgid "Your Information"
+msgstr "Uw Informatie"
+
+#. poMMo/themes/default/subscribe/subscribe.tpl
+#: pommo_theme_lang.php:1362
+#: pommo_theme_lang.php:1365
+msgid "Subscription"
+msgstr "Aanmelding"
+
+#. poMMo/themes/default/subscribe/form.update.tpl
+#: pommo_theme_lang.php:1374
+msgid "Verify Email:"
+msgstr "Controleer E-mail:"
+
+#. poMMo/themes/default/index.tpl
+#: pommo_theme_lang.php:1395
+#: pommo_theme_lang.php:1401
+msgid "The poMMo Website"
+msgstr "De poMMo Website"
+
+#. poMMo/themes/default/index.tpl
+#: pommo_theme_lang.php:1398
+msgid "Links"
+msgstr "Links"
+
+#. poMMo/themes/default/index.tpl
+#: pommo_theme_lang.php:1404
+msgid "Administrative Login"
+msgstr "Administrator Login:"
+
+#. poMMo/themes/default/index.tpl
+#: pommo_theme_lang.php:1407
+msgid "You have requested to reset your password. If you are sure you want to do this, please fill in the captcha below. Enter the text you see between the brackets ([])."
+msgstr "U heeft verzocht om uw wachtwoord te resetten. Wanneer u er zeker van bent dat u dit echt wil, vul dan onderstaande captcha in. Vul de tekst in die tussen de ([]) haken ziet staan."
+
+#. poMMo/themes/default/index.tpl
+#: pommo_theme_lang.php:1410
+msgid "Captcha"
+msgstr "Captcha"
+
+#. poMMo/themes/default/index.tpl
+#: pommo_theme_lang.php:1413
+msgid "Captcha Text:"
+msgstr "Captcha Tekst:"
+
+#. poMMo/themes/default/index.tpl
+#: pommo_theme_lang.php:1416
+msgid "Reset Password"
+msgstr "Reset Wachtwoord"
+
+#. poMMo/themes/default/index.tpl
+#: pommo_theme_lang.php:1419
+msgid "You must first login before accessing this area."
+msgstr "Toegang geweigerd. U moet ingelogd zijn om toegang tot deze pagina te krijgen."
+
+#. poMMo/themes/default/index.tpl
+#: pommo_theme_lang.php:1422
+msgid "USERNAME"
+msgstr "GEBRUIKERSNAAM"
+
+#. poMMo/themes/default/index.tpl
+#: pommo_theme_lang.php:1425
+msgid "PASSWORD"
+msgstr "WACHTWOORD"
+
+#. poMMo/themes/default/index.tpl
+#: pommo_theme_lang.php:1428
+msgid "Log In"
+msgstr "Inloggen"
+
+#. poMMo/themes/default/index.tpl
+#: pommo_theme_lang.php:1431
+msgid "Forgot your password?"
+msgstr "Wachtwoord vergeten?"
+
+#. poMMo/themes/default/index.tpl
+#: pommo_theme_lang.php:1437
+msgid "to reset it"
+msgstr "om te resetten"
+
+#: poMMo/inc/db_mailing.php:199
+#: poMMo/inc/lib.mailings.php:55
+#: poMMo/inc/lib.mailings.php:74
+#: poMMo/admin/mailings/mailings_send4.php:230
+msgid "Error Sending Mail"
+msgstr "Fout bij het versturen van de E-mail"
+
+#: poMMo/inc/db_procedures.php:74
+#, php-format
+msgid "You have requested to subscribe to %s. We would like to validate your email address before adding you as a subscriber. Please click the link below to be added ->"
+msgstr "U heeft zich aangemeld bij %s. Wij willen uw e-mailadres verifieren alvorens u als lid toe te voegen.  Klik aub op onderstaande link om definitief toegevoegd te worden ->"
+
+#: poMMo/inc/db_procedures.php:74
+#: poMMo/inc/db_procedures.php:81
+#: poMMo/inc/db_procedures.php:88
+#: poMMo/inc/db_procedures.php:95
+msgid "If you have received this message in error, please ignore it."
+msgstr "Wanneer u dit bericht onterecht heeft ontvangen, mag u deze negeren."
+
+#: poMMo/inc/db_procedures.php:75
+msgid "Subscription request"
+msgstr "Aanmeldings verzoek"
+
+#: poMMo/inc/db_procedures.php:76
+msgid "Welcome to our mailing list. Enjoy your stay."
+msgstr "Welkom bij onze mailing list."
+
+#: poMMo/inc/db_procedures.php:81
+#, php-format
+msgid "You have requested to unsubscribe from %s."
+msgstr "U heeft verzocht zich af te melden van %s."
+
+#: poMMo/inc/db_procedures.php:81
+#: poMMo/inc/db_procedures.php:88
+#: poMMo/inc/db_procedures.php:95
+msgid "Before processing this request, you must validate your email by clicking the link below ->"
+msgstr "Om dit verzoek te verwerken, moet u uw e-mail bevestigen door te klikken op onderstaande  link ->"
+
+#: poMMo/inc/db_procedures.php:82
+msgid "Unsubscription request"
+msgstr "Afmeldings verzoek"
+
+#: poMMo/inc/db_procedures.php:83
+msgid "You have successfully unsubscribed. Enjoy your travels."
+msgstr "U bent afgemeld. Veel succes nog."
+
+#: poMMo/inc/db_procedures.php:88
+#: poMMo/inc/db_procedures.php:95
+#, php-format
+msgid "You have requested to change your password for %s."
+msgstr "U heeft verzocht het wachtwoord te wijzigen voor %s."
+
+#: poMMo/inc/db_procedures.php:89
+msgid "Change Password request"
+msgstr "Wachtwoord Wijzigings verzoek"
+
+#: poMMo/inc/db_procedures.php:90
+msgid "Your password has been reset. Enjoy!"
+msgstr "Uw wachtwoord is gereset."
+
+#: poMMo/inc/db_procedures.php:96
+msgid "Update Records request"
+msgstr "Profiel wijzigings verzoek."
+
+#: poMMo/inc/db_procedures.php:97
+msgid "Your records have been updated. Enjoy!"
+msgstr "Uw profiel is gewijzigd."
+
+#: poMMo/inc/lib.import.php:51
+msgid "Maximum failures reached. CSV processing aborted."
+msgstr "Maximaal aantal fouten bereikt. CSV verwerking afgebroken."
+
+#: poMMo/inc/lib.import.php:59
+#, php-format
+msgid "Line #%s could not be processed."
+msgstr "Regel #%s kon niet verwerkt worden."
+
+#: poMMo/inc/lib.import.php:66
+#, php-format
+msgid "Line #%s had too many fields."
+msgstr "Regel #%s had teveel velden."
+
+#: poMMo/inc/lib.import.php:77
+#, php-format
+msgid "Line #%s had email address in a different field(cell)."
+msgstr "Regel #%s had een e-mailadres in een ander veld."
+
+#: poMMo/inc/lib.import.php:87
+#, php-format
+msgid "Line #%s had more than one email address."
+msgstr "Regel #%s had meer dan 1 e-mailadres."
+
+#: poMMo/inc/lib.import.php:93
+#, php-format
+msgid "Line #%s had no email address."
+msgstr "Regel #%s heeft geen E-mailadres."
+
+#: poMMo/inc/lib.import.php:189
+#, php-format
+msgid "Subscriber on line %1$s has an unknown option (%2$s) for field %3$s"
+msgstr "Lid op regel %1$s heeft een onbekende optie (%2$s) voor veld %3$s"
+
+#: poMMo/inc/lib.import.php:198
+#, php-format
+msgid "Subscriber on line %1$s has an invalid date (%2$s) for field %3$s"
+msgstr "Lid op regel %1$s heeft een foute datum (%2$s) voor veld %3$s"
+
+#: poMMo/inc/lib.import.php:209
+#, php-format
+msgid "Subscriber on line %1$s has a non number (%2$s) for field %3$s"
+msgstr "Lid op regel %1$s heeft een niet numeriek (%2$s) voor veld %3$s"
+
+#: poMMo/inc/lib.import.php:224
+#, php-format
+msgid "Subscriber on line %1$s has a empty required field (%2$s)"
+msgstr "Lid op regel %1$s heeft een leeg verplicht veld (%2$s)"
+
+#: poMMo/inc/class.template.php:34
+msgid "Template file not found in default theme."
+msgstr "Template bestand niet gevonden in standaard Thema."
+
+#: poMMo/inc/lib.validate_subscriber.php:30
+#: poMMo/admin/mailings/mailings_send3.php:59
+msgid "Invalid Email Address"
+msgstr "Ongeldig E-mail adres"
+
+#: poMMo/inc/lib.validate_subscriber.php:34
+msgid "Emails must match."
+msgstr "E-mailadressen moeten gelijk zijn."
+
+#: poMMo/inc/lib.validate_subscriber.php:56
+msgid "was a required field."
+msgstr "is een verplicht veld."
+
+#: poMMo/inc/lib.common.php:73
+msgid "Redirecting, please wait..."
+msgstr "Doorsturen, een ogenblik....."
+
+#: poMMo/inc/lib.common.php:173
+#: poMMo/inc/lib.common.php:180
+msgid "poMMo Website"
+msgstr "poMMo Website"
+
+#: poMMo/inc/lib.mailings.php:75
+#, php-format
+msgid "Test sent to %s"
+msgstr "Test is verzonden naar %s"
+
+#: poMMo/user/process.php:79
+msgid "Subscription request received."
+msgstr "Aanmeldings verzoek ontvangen."
+
+#: poMMo/user/process.php:79
+#: poMMo/user/user_update.php:70
+#: poMMo/user/user_update.php:81
+msgid "A confirmation email has been sent. You should receive this letter within the next few minutes. Please follow its instructions."
+msgstr "Een bevestigings e-mail is verzonden. U ontvangt deze binnen enkele minuten. Volg aub de de genoemde instructies op."
+
+#: poMMo/user/process.php:81
+msgid "Problem sending mail! Please contact the administrator."
+msgstr "Fout bij het verzenden van de Mail! Neem contact op met de administrator."
+
+#: poMMo/user/process.php:88
+msgid "Problem adding subscriber. Please contact the administrator."
+msgstr "Fout bij het toevoegen van het lid. Neem contact op met de administrator."
+
+#: poMMo/user/login.php:31
+msgid "subscriber logon"
+msgstr "Leden Login"
+
+#: poMMo/user/login.php:42
+#: poMMo/admin/setup/setup_configure.php:60
+#: poMMo/admin/mailings/mailings_send.php:60
+msgid "Invalid email address"
+msgstr "Ongeldig E-mailadres"
+
+#: poMMo/user/login.php:63
+msgid "That email address was not found in our system. Please try again."
+msgstr "Dit e-mailadres is niet in ons systeem aanwezig. Probeer aub opnieuw."
+
+#: poMMo/user/user_pending.php:59
+#, php-format
+msgid "A confirmation email has been sent to %s. It should arrive within the next few minutes. Please follow its instructions to complete your request. Thanks!"
+msgstr "Een bevestigings e-mail is verzonden naar %s. Deze ontvangt u binnen enkele minuten. Volg de daarin aanwezige instructies op om uw verzoek te af te ronden. Hartelijk Dank!"
+
+#: poMMo/user/user_pending.php:63
+msgid "Your pending request has been cancelled."
+msgstr "Uw verzoek in behandeling is geannuleerd."
+
+#: poMMo/user/user_pending.php:65
+msgid "Error cancelling your request. Contact the administrator."
+msgstr "Fout bij het annuleren van uw verzoek. Neem contact op met de administrator."
+
+#: poMMo/user/user_pending.php:79
+msgid "You have pending changes. Please respond to your confirmation email"
+msgstr "U heeft een wijzigingsverzoek in behandeling. Beantwoord aub de bevestigings e-mail"
+
+#: poMMo/user/user_pending.php:83
+#, php-format
+msgid "Please Try Again! %s login %s"
+msgstr "Probeer AUB opnieuw! %s Inloggen %s"
+
+#: poMMo/user/confirm.php:35
+msgid "No code given."
+msgstr "Geen code ingevoerd."
+
+#: poMMo/user/confirm.php:42
+msgid "Invalid code! Make sure you copied it correctly from the email."
+msgstr "Verkeerde code! Verzeker u ervan dat u deze goed gekopieerd heeft uit de e-mail."
+
+#: poMMo/user/confirm.php:63
+msgid "Subscription Successful. Redirecting..."
+msgstr "Aanmelding gelukt. Doorverwijzen....."
+
+#: poMMo/user/confirm.php:86
+#, php-format
+msgid "You may now login with username: %1$s and password: %2$s "
+msgstr "U kan nu inloggen met gebruikersnaam: %1$s an wachtwoord: %2$s"
+
+#: poMMo/user/confirm.php:89
+msgid "Could not reset password. Contact Administrator."
+msgstr "Wachtwoord kon niet gereset worden. Neem contact met de Administrator op."
+
+#: poMMo/user/confirm.php:91
+msgid "Can only reset the administrator password"
+msgstr "Alleen het administrator wachtwoord kan gereset worden"
+
+#: poMMo/user/confirm.php:94
+msgid "Unknown type. Contact Administrator."
+msgstr "Onbekend type. Neem contact op met de Administrator."
+
+#: poMMo/user/user_update.php:66
+#: poMMo/user/user_update.php:77
+msgid "The system could not process your request. Perhaps you already have requested a change?"
+msgstr "Het systeem kan uw verzoek niet uitvoeren. Heeft al een wijzigingsverzoek in behandeling?"
+
+#: poMMo/user/user_update.php:67
+#: poMMo/user/user_update.php:78
+#, php-format
+msgid "%s Click Here %s to try again."
+msgstr "%s Klik Hier %s om opnieuw te proberen."
+
+#: poMMo/user/user_update.php:70
+msgid "Update request received."
+msgstr "Wijzigings verzoek ontvangen."
+
+#: poMMo/user/user_update.php:81
+msgid "Unsubscribe request received."
+msgstr "Verwijder verzoek ontvangen."
+
+#: poMMo/admin/setup/setup_messages.php:71
+#: poMMo/admin/setup/fields_edit.php:79
+#: poMMo/admin/setup/setup_configure.php:57
+#: poMMo/admin/mailings/mailings_send.php:58
+#: poMMo/admin/mailings/mailings_send2.php:49
+#: poMMo/install/install.php:60
+msgid "Cannot be empty."
+msgstr "Mag niet leeg zijn."
+
+#: poMMo/admin/setup/setup_messages.php:77
+msgid "You must include \"[[URL]]\" for the confirm link"
+msgstr "U moet  \"[[URL]]\" invoegen voor de bevestigings link."
+
+#: poMMo/admin/setup/setup_messages.php:141
+#: poMMo/admin/setup/fields_edit.php:111
+msgid "Settings updated."
+msgstr "Instellingen opgeslagen."
+
+#: poMMo/admin/setup/setup_messages.php:145
+#: poMMo/admin/setup/fields_edit.php:115
+#: poMMo/admin/setup/setup_configure.php:114
+#: poMMo/admin/mailings/mailings_send.php:99
+#: poMMo/install/install.php:122
+msgid "Please review and correct errors with your submission."
+msgstr "Controleer AUB en verbeter de fouten van uw aanmelding."
+
+#: poMMo/admin/setup/setup_fields.php:32
+msgid "Subscriber fields are used to gather and sort information on your list members. Any number of fields can be assigned to the subscription form.  Each field is categorized as either <em>TEXT</em>, <em>NUMBER</em>, <em>MULTIPLE CHOICE</em>, <em>CHECK BOX</em>, or <em>DATE</em> depending on kind of information it collects."
+msgstr "Leden velden worden gebruikt om informatie te verzamelen van uw leden. Een onbeperkt aantal velden kan gebruikt worden. Elk veld is van de categorie <em>TEKST</em>, <em>NUMMER</em>, <em>MEER KEUZE</em>, <em>CHECK BOX</em>, of <em>DATUM</em> afhankelijk van de gevraagde informatie."
+
+#: poMMo/admin/setup/setup_fields.php:48
+#: poMMo/admin/setup/setup_fields.php:66
+msgid "Field cannot be deleted."
+msgstr "Veld kan niet verwijdert worden."
+
+#: poMMo/admin/setup/setup_fields.php:56
+msgid "Delete Field"
+msgstr "Verwijder Veld"
+
+#: poMMo/admin/setup/setup_fields.php:59
+#, php-format
+msgid "Currently, %1$s subscribers have a non empty value for this field. All Subscriber data relating to this field will be lost. Are you sure you want to remove field %2$s?"
+msgstr "Er zijn op dit moment %1$s leden waarvan dit veld niet leeg is. Alle data mbt dit veld zal verwijderd worden. Weet u zeker dat u veld %2$s wil verwijderen?"
+
+#: poMMo/admin/setup/fields_edit.php:54
+msgid "Remove Option"
+msgstr "Verwijder Optie"
+
+#: poMMo/admin/setup/fields_edit.php:57
+#, php-format
+msgid "Deleting option %1$s will affect %2$s subscribers who have selected this choice. They will be flagged as needing to update their records."
+msgstr "Wanneer optie %1$s verwijdert wordt, betreft dat %2$s leden die deze keuze gemaakt hebben. Zij worden gevraagd hun profiel te updaten."
+
+#: poMMo/admin/setup/fields_edit.php:121
+msgid "This is a <b>TEXT</b> based field. Subscribers will be allowed to type in any value in for this field. Text fields are useful for collecting names, cities, and such."
+msgstr "Dit is een <b>TEKST</b> veld. Leden kunnen elke waarde invullen."
+
+#: poMMo/admin/setup/fields_edit.php:124
+msgid "This is a <b>CHECKBOX</b> based field. Subscribers will be allowed to toggle this field ON and OFF. Checkboxes are useful for asking a user if they'd like to be included or excluded in something."
+msgstr "Dit is een <b>SELECTIE VAK</b> veld. Leden kunnen deze aan of uit zetten. "
+
+#: poMMo/admin/setup/fields_edit.php:127
+msgid "This is a <b>NUMBER</b> based field -- <b>UNSUPPORTED</b>. Support for this type will be added later."
+msgstr "Dit is een <b> NUMMERIEK</b> veld -- <b>NIET ONDERSTEUND</b>. Wordt later ondersteund."
+
+#: poMMo/admin/setup/fields_edit.php:130
+msgid "This is a <b>DATE</b> based field -- <b>UNSUPPORTED</b>. Support for this type will be added later."
+msgstr "Dit is een <b>DATUM</b> veld -- <b>NIET ONDERSTEUND</b>. Wordt later ondersteund."
+
+#: poMMo/admin/setup/fields_edit.php:133
+msgid "This is a <b>MULTIPLE CHOICE</b> based field. Subscribers will be able to select a value from the options you provide below. Multiple choice fields have reliable values, and are useful for collecting subsscriber Country, income range, and such."
+msgstr "Dit is een <b>MEER KEUZE</b> veld. Leden kunnen een waarde kiezen die u bij onderstaande opties definieert. Dit is betrouwbare informatie, te gebruiken bij bijv. Land. "
+
+#: poMMo/admin/setup/ajax_demoOrder.php:30
+#: poMMo/admin/setup/ajax_demoOrder.php:34
+msgid "Error updating order"
+msgstr "Fout bij het wijzigen van de volgorde"
+
+#: poMMo/admin/setup/setup_configure.php:62
+#: poMMo/install/install.php:61
+msgid "Passwords must match."
+msgstr "Wachtwoorden moeten gelijk zijn."
+
+#: poMMo/admin/setup/setup_configure.php:65
+#: poMMo/install/install.php:62
+msgid "Must be a valid URL"
+msgstr "Moet een geldige URL zijn"
+
+#: poMMo/admin/setup/setup_configure.php:106
+msgid "Configuration Updated."
+msgstr "Configuratie Gewijzigd."
+
+#: poMMo/admin/subscribers/ajax_filters.php:106
+#: poMMo/admin/subscribers/ajax_filters.php:121
+#: poMMo/admin/subscribers/ajax_filters.php:139
+#: poMMo/admin/subscribers/ajax_filters.php:153
+#: poMMo/admin/subscribers/ajax_filters.php:176
+#, php-format
+msgid "Match subscribers where %s"
+msgstr "Vergelijk leden met %s"
+
+#: poMMo/admin/subscribers/ajax_filters.php:108
+msgid "Is Checked"
+msgstr "Is Geselecteerd"
+
+#: poMMo/admin/subscribers/ajax_filters.php:110
+msgid "Is Not Checked"
+msgstr "Is Niet Geselecteerd"
+
+#: poMMo/admin/subscribers/ajax_filters.php:123
+#: poMMo/admin/subscribers/ajax_filters.php:141
+#: poMMo/admin/subscribers/ajax_filters.php:157
+#: poMMo/admin/subscribers/ajax_filters.php:180
+msgid "Is"
+msgstr "Is"
+
+#: poMMo/admin/subscribers/ajax_filters.php:125
+#: poMMo/admin/subscribers/ajax_filters.php:143
+#: poMMo/admin/subscribers/ajax_filters.php:162
+#: poMMo/admin/subscribers/ajax_filters.php:185
+msgid "Is Not"
+msgstr "Is Niet"
+
+#: poMMo/admin/subscribers/ajax_filters.php:126
+msgid "NOTE: You can select multiple values by holding the SHIFT or CONTROL keys"
+msgstr "OPMERKING: U kan meerdere waarden selecteren door de SHIFT of CONTROL toetsen vast te houden"
+
+#: poMMo/admin/subscribers/ajax_filters.php:159
+msgid "Is Before"
+msgstr "Is Voor"
+
+#: poMMo/admin/subscribers/ajax_filters.php:164
+msgid "Is After"
+msgstr "Is Na"
+
+#: poMMo/admin/subscribers/ajax_filters.php:182
+msgid "Is Less Than"
+msgstr "Is kleiner dan"
+
+#: poMMo/admin/subscribers/ajax_filters.php:187
+msgid "Is Greater Than"
+msgstr "Is groter dan"
+
+#: poMMo/admin/subscribers/ajax_filters.php:237
+msgid "Add Filter"
+msgstr "Voeg Filter toe"
+
+#: poMMo/admin/subscribers/ajax_filters.php:238
+msgid "Update Filter"
+msgstr "Update Filter"
+
+#: poMMo/admin/subscribers/ajax_filters.php:245
+#: poMMo/admin/subscribers/ajax_filters.php:252
+msgid "Go Back"
+msgstr "Ga Terug"
+
+#: poMMo/admin/subscribers/subscribers_groups.php:36
+#, php-format
+msgid "Group %s Added"
+msgstr "Groep %s Toegevoegd"
+
+#: poMMo/admin/subscribers/subscribers_groups.php:42
+#: poMMo/admin/subscribers/subscribers_groups.php:62
+msgid "Group cannot be deleted."
+msgstr "Groep kan niet verwijderd worden."
+
+#: poMMo/admin/subscribers/subscribers_groups.php:50
+msgid "Delete Group"
+msgstr "Verwijder Groep"
+
+#: poMMo/admin/subscribers/subscribers_groups.php:53
+#, php-format
+msgid "%1$s filters belong this group . Are you sure you want to remove %2$s?"
+msgstr "%1$s filters behoren tot deze groep. Weet u zeker dat u %2$s wil verwijderen?"
+
+#: poMMo/admin/subscribers/subscribers_groups.php:59
+#, php-format
+msgid "%s deleted."
+msgstr "%s verwijderd."
+
+#: poMMo/admin/subscribers/groups_edit.php:46
+msgid "Filter Removed"
+msgstr "Filter Verwijderd"
+
+#: poMMo/admin/subscribers/groups_edit.php:135
+msgid "Filter Updated"
+msgstr "Filter Gewijzigd"
+
+#: poMMo/admin/subscribers/groups_edit.php:137
+msgid "Update failed"
+msgstr "Update Mislukt!"
+
+#: poMMo/admin/subscribers/groups_edit.php:140
+msgid "Filter Added"
+msgstr "Filter Toegevoegd"
+
+#: poMMo/admin/subscribers/groups_edit.php:142
+msgid "Could not add filter. Perhaps it negates the effect of an existing one?"
+msgstr "Filter niet toegevoegd. Waarschijnlijk beinvloed het een bestaand filter?"
+
+#: poMMo/admin/subscribers/groups_edit.php:145
+msgid "Filter failed validation"
+msgstr "Filter niet bevestigd"
+
+#: poMMo/admin/subscribers/subscribers_mod.php:33
+msgid "Subscribers Manage"
+msgstr "Leden Administratie"
+
+#: poMMo/admin/mailings/mailings_send.php:35
+#: poMMo/admin/mailings/mailings_send2.php:35
+#: poMMo/admin/mailings/mailings_send3.php:36
+#, php-format
+msgid "A mailing is already taking place. Please allow it to finish before creating another. Return to the %s Mailing Page %s"
+msgstr "Een wordt een mailing verzonden. Wacht aub tot deze is beeindigd voordat u met een nieuwe begint. Terug naar de %s Mailing Pagina %s"
+
+#: poMMo/admin/mailings/mailings_send.php:43
+msgid "Demonstration Mode is on. No Emails will be sent."
+msgstr "Demonstratie modus is AAN. E-mails worden niet verzonden."
+
+#: poMMo/admin/mailings/mailings_send.php:62
+msgid "Invalid Input"
+msgstr "Verkeerde Ingave"
+
+#: poMMo/admin/mailings/mailings_send4.php:34
+#, php-format
+msgid "Background script with serial %d spawned"
+msgstr "Achtergrondscript met serienr %d verwerkt"
+
+#: poMMo/admin/admin.php:31
+msgid "poMMo Aardvark"
+msgstr "poMMol Aardvark"
+
+#: poMMo/admin/admin.php:32
+msgid "Powerful mailing list software for"
+msgstr "Mailinglijst software voor"
+
+#: poMMo/bootstrap.php:56
+msgid "Work Directory not found! Make sure it exists and the webserver can write to it. You can change its location from the config.php file."
+msgstr "Werkdirectory niet gevonden! Verzeker u ervan dat deze bestaat en deze beschrijfbaar is. U kan de locatie wijzigen in het config.php bestand."
+
+#: poMMo/bootstrap.php:58
+msgid "Webserver cannot write to Work Directory. Make sure it has the proper permissions."
+msgstr "Webserver kan de werkdirectory niet beschrijven. Verzker u er van dat deze de juiste toegangsrechten heeft."
+
+#: poMMo/bootstrap.php:61
+#: poMMo/bootstrap.php:63
+msgid "Could not create directory"
+msgstr "Kon directory niet maken"
+
+#: poMMo/bootstrap.php:134
+#: poMMo/bootstrap.php:145
+#, php-format
+msgid "Error loading configuration. Have you %s installed %s ?"
+msgstr "Fout bij het laden van de configuratie. Heeft u wel %s geinstalleerd %s ?"
+
+#: poMMo/bootstrap.php:149
+#, php-format
+msgid "Version Mismatch. Have you %s upgraded %s ?"
+msgstr "Verkeerde Versie. Heeft u %s geupdated %s ?"
+
+#: poMMo/bootstrap.php:158
+#, php-format
+msgid "Denied access. You must %s logon %s to access this page..."
+msgstr "Toegang geweigerd. U moet %s ingelogd zijn %s om toegang tot deze pagina te krijgen..."
+
+#: poMMo/index.php:52
+msgid "Failed login attempt. Try again."
+msgstr "Inloggen mislukt. Probeer opnieuw."
+
+#: poMMo/index.php:85
+msgid "Password reset request recieved. Check your email."
+msgstr "Wachtwoord reset verzoek ontvangen. Controleer uw e-mail."
+
+#: poMMo/index.php:90
+msgid "Captcha did not match. Try again."
+msgstr "Captcha zijn niet gelijk. Probeer opnieuw."
+
+#: poMMo/install/install.php:38
+msgid "poMMo appears to already by installed. If you would like to clear all data and re-install poMMo, delete your database."
+msgstr "poMMo lijkt al geinstalleerd. Wanneer u alle data wil wissen en poMMo opnieuw wil installeren, delete dan uw database."
+
+#: poMMo/install/install.php:63
+msgid "Must be a valid email"
+msgstr "Moet een geldig e-mailadres zijn"
+
+#: poMMo/install/install.php:100
+msgid "Installation Complete! You may now login and setup poMMo."
+msgstr "Installatie Gereed! U kan nu inloggen om poMMo te configureren."
+
+#: poMMo/install/install.php:101
+msgid "Login Username: "
+msgstr "Inlog Gebruikersnaam:"
+
+#: poMMo/install/install.php:102
+msgid "Login Password: "
+msgstr "Inlog Wachtwoord:"
+
+#: poMMo/install/upgrade.php:39
+#, php-format
+msgid "poMMo appears to be up to date. If you want to force an upgrade, %s click here %s"
+msgstr "poMMo lijkt up to date. Indien u een upgrade wil forceren, %s klik dan hier %s"
+
+#: poMMo/install/upgrade.php:50
+#, php-format
+msgid "poMMo does not appear to be installed! Please %s INSTALL %s before attempting an upgrade."
+msgstr "poMMo is niet geinstalleerd! AUB eerst %s INSTALLEREN %s voordat u probeert te upgraden."
+
+#: poMMo/install/upgrade.php:52
+#, php-format
+msgid "To upgrade poMMo, %s click here %s"
+msgstr "Om poMMo te upgraden, %s klik hier %s"
+
+#: poMMo/install/upgrade.php:61
+msgid "Upgrade Complete!"
+msgstr "Upgrade Klaar!"
+
+#: poMMo/install/upgrade.php:72
+msgid "Upgrade Failed!"
+msgstr "Upgrade Mislukt!"
+
+#: poMMo/install/helper.install.php:30
+msgid "Error installing. Could not read sql.schema.php"
+msgstr "Fout bij het installeren, Kan het sql.schema.php niet openen"
+
+#: poMMo/install/helper.install.php:43
+msgid "Database Error: "
+msgstr "Database Fout:"
+
+#: poMMo/install/helper.upgrade.php:54
+msgid "Bumping poMMo version to: "
+msgstr "Bezig om poMMo te updaten naar versie: "
+
+#: poMMo/install/helper.upgrade.php:102
+#, php-format
+msgid "Failed to properly serialize update %s : %s"
+msgstr "Update %s : %s is mislukt"
+
+#: poMMo/install/helper.upgrade.php:105
+msgid "success!"
+msgstr "gelukt!"
+
+#: poMMo/install/helper.upgrade.php:108
+msgid "FAILED!"
+msgstr "MISLUKT!"
+

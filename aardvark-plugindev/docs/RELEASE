@@ -1,0 +1,41 @@
+=== Release Notes for Aardvark PR14.4.1 ===
+ .: Released Janurary 23, 2007
+
+[Improvements]
+  * Licensing Updates
+  * Extended Win32 support for translations
+  
+[Bug Fixes]
+
+  * Resolved fatal error on user update page
+  * Subscribe Success message is now displayed when Email Confirmation is disabled
+  * Fixed default queue size (was incorrectly set to 10 -- unecessary respawns)
+  
+ 
+=== Release Notes for Aardvark PR14.4 ===
+ .: Released Janurary 22, 2007
+ 
+[Additions]
+
+  * Ability to select language "per session" from admin page
+  * Added Gettext Emulation Layer
+      + Will "fallback" to if gettext or locale is not available to system
+
+[Improvements]
+
+  * Enhanced mailing respawn method
+  * Pre-init mailing notices are now logged (improved debugging of mailer)
+  * Added error protection to database layer
+  * Table names in all database queries are now escaped with backticks (`)
+  * Clarified subscriber groups (text, redirect to "rules")
+  * Subscriber Update form will not auto-populate default/"normally" values
+  * Improved accuracy of mailing processor test (support library)
+ 
+[Bug Fixes]
+
+  * Fixed notice ordering
+  * Fixed Russian Translation
+  * Duplicate mailing notices are properly handled
+  * Respawning now supports SSL, custom ports, and custom SSL ports out-of-box.
+  * Expired subscriber activation codes no longer result in blank page with timestamp.
+  * Mailing commands are now force-displayed when a frozen mailing is detected

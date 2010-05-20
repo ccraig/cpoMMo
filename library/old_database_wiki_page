@@ -1,0 +1,884 @@
+In bMail, your subscribers aren't just appended onto a mailing list. They are inserted into an powerful database that is simplistic to manipulate, and ultimately allows unprecedented flexibility regardless of expertise.
+
+This page examines the inner workings of bMail's demographic and group management functions. I am posting these here in hopes for comments and suggestions to improve the system, as I am no SQL/MySQL expert. In particular, I'd like to investigate the optimality of the database schema and query generator.
+
+== Aardvark PR14 ==
+---
+
+=== Database Schema ===
+<pre>
+mysql> show tables;
++--------------------+
+| Tables_in_bmail2   |
++--------------------+
+| config             | 
+| fields             | 
+| group_criteria     | 
+| groups             | 
+| mailing_current    | 
+| mailings           | 
+| queue              | 
+| subscriber_data    | 
+| subscriber_pending | 
+| subscribers        | 
+| updates            | 
++--------------------+
+
+mysql> describe fields;
++----------------+----------------------------------------------------+------+-----+---------+----------------+
+| Field          | Type                                               | Null | Key | Default | Extra          |
++----------------+----------------------------------------------------+------+-----+---------+----------------+
+| field_id       | smallint(5) unsigned                               | NO   | PRI | NULL    | auto_increment | 
+| field_active   | enum('on','off')                                   | NO   | MUL | off     |                | 
+| field_ordering | smallint(5) unsigned                               | NO   |     | 0       |                | 
+| field_name     | varchar(60)                                        | YES  |     | NULL    |                | 
+| field_prompt   | varchar(60)                                        | YES  |     | NULL    |                | 
+| field_normally | varchar(60)                                        | YES  |     | NULL    |                | 
+| field_array    | text                                               | YES  |     | NULL    |                | 
+| field_required | enum('on','off')                                   | NO   |     | off     |                | 
+| field_type     | enum('checkbox','multiple','text','date','number') | YES  |     | NULL    |                | 
++----------------+----------------------------------------------------+------+-----+---------+----------------+
+
+mysql> describe group_criteria;
++-------------+-------------------------------------------------------------------+------+-----+---------+----------------+
+| Field       | Type                                                              | Null | Key | Default | Extra          |
++-------------+-------------------------------------------------------------------+------+-----+---------+----------------+
+| criteria_id | int(10) unsigned                                                  | NO   | PRI | NULL    | auto_increment | 
+| group_id    | int(10) unsigned                                                  | NO   | MUL | 0       |                | 
+| field_id    | tinyint(3) unsigned                                               | NO   |     | 0       |                | 
+| logic       | enum('is','not','greater','less','true','false','is_in','not_in') | NO   |     |         |                | 
+| value       | text                                                              | YES  |     | NULL    |                | 
++-------------+-------------------------------------------------------------------+------+-----+---------+----------------+
+
+mysql> describe groups;
++------------+----------------------+------+-----+---------+----------------+
+| Field      | Type                 | Null | Key | Default | Extra          |
++------------+----------------------+------+-----+---------+----------------+
+| group_id   | smallint(5) unsigned | NO   | PRI | NULL    | auto_increment | 
+| group_name | tinytext             | NO   |     |         |                | 
++------------+----------------------+------+-----+---------+----------------+
+
+mysql> describe mailing_current;
++----------------+-------------------------------+------+-----+---------+-------+
+| Field          | Type                          | Null | Key | Default | Extra |
++----------------+-------------------------------+------+-----+---------+-------+
+| current_id     | int(10) unsigned              | NO   | PRI |         |       | 
+| command        | enum('none','restart','stop') | NO   |     | none    |       | 
+| serial         | varchar(20)                   | YES  |     | NULL    |       | 
+| securityCode   | varchar(35)                   | YES  |     | NULL    |       | 
+| notices        | longtext                      | YES  |     | NULL    |       | 
+| current_status | enum('started','stopped')     | NO   |     | stopped |       | 
++----------------+-------------------------------+------+-----+---------+-------+
+
+mysql> describe mailings;
++-----------------+------------------+------+-----+---------+----------------+
+| Field           | Type             | Null | Key | Default | Extra          |
++-----------------+------------------+------+-----+---------+----------------+
+| mailing_id      | int(10) unsigned | NO   | PRI | NULL    | auto_increment | 
+| fromname        | varchar(60)      | NO   |     |         |                | 
+| fromemail       | varchar(60)      | NO   |     |         |                | 
+| frombounce      | varchar(60)      | NO   |     |         |                | 
+| subject         | varchar(60)      | NO   |     |         |                | 
+| body            | mediumtext       | NO   |     |         |                | 
+| altbody         | mediumtext       | YES  |     | NULL    |                | 
+| ishtml          | enum('on','off') | NO   |     | off     |                | 
+| mailgroup       | varchar(60)      | NO   |     | Unknown |                | 
+| subscriberCount | int(10) unsigned | NO   |     | 0       |                | 
+| started         | datetime         | NO   |     |         |                | 
+| finished        | datetime         | NO   |     |         |                | 
+| sent            | int(10) unsigned | NO   |     | 0       |                | 
+| charset         | varchar(15)      | NO   |     | UTF-8   |                | 
++-----------------+------------------+------+-----+---------+----------------+
+
+mysql> describe subscriber_data;
++---------------+---------------------+------+-----+---------+----------------+
+| Field         | Type                | Null | Key | Default | Extra          |
++---------------+---------------------+------+-----+---------+----------------+
+| data_id       | bigint(20) unsigned | NO   | PRI | NULL    | auto_increment | 
+| field_id      | int(10) unsigned    | NO   | MUL | 0       |                | 
+| subscriber_id | int(10) unsigned    | NO   | MUL | 0       |                | 
+| value         | varchar(60)         | NO   | MUL |         |                | 
++---------------+---------------------+------+-----+---------+----------------+
+
+mysql> describe subscriber_pending;
++---------------+---------------------------------------+------+-----+---------+----------------+
+| Field         | Type                                  | Null | Key | Default | Extra          |
++---------------+---------------------------------------+------+-----+---------+----------------+
+| pending_id    | int(10) unsigned                      | NO   | PRI | NULL    | auto_increment | 
+| subscriber_id | int(10) unsigned                      | NO   | MUL | 0       |                | 
+| pending_code  | varchar(35)                           | NO   | MUL |         |                | 
+| pending_type  | enum('add','del','change','password') | YES  |     | NULL    |                | 
+| pending_array | text                                  | YES  |     | NULL    |                | 
++---------------+---------------------------------------+------+-----+---------+----------------+
+
+mysql> describe subscribers;
++-----------------+-------------------------------------+------+-----+-------------------+----------------+
+| Field           | Type                                | Null | Key | Default           | Extra          |
++-----------------+-------------------------------------+------+-----+-------------------+----------------+
+| subscriber_id   | int(10) unsigned                    | NO   | PRI | NULL              | auto_increment | 
+| email           | varchar(60)                         | NO   | MUL |                   |                | 
+| time_touched    | timestamp                           | NO   |     | CURRENT_TIMESTAMP |                | 
+| time_registered | datetime                            | NO   |     |                   |                | 
+| flag            | enum('update')                      | YES  | MUL | NULL              |                | 
+| ip              | varchar(60)                         | YES  |     | NULL              |                | 
+| status          | enum('active','inactive','pending') | NO   | MUL | pending           |                | 
++-----------------+-------------------------------------+------+-----+-------------------+----------------+
+</pre>
+
+== PHP CODE ==
+The following is a dated function. It was created during PR14's development process and evolved into a more optimized function below. It is here for archival reasons (as are most things @ this page).
+<pre>
+// fetches subscribers from the database based off their attributes
+	// accepts a attribute filtering array. 
+	//   array_key == filter table (subscriber_pending, subscriber_data, subscribers)
+	//   array_value == array column
+	// accepts filter by status (str) either 'active', 'inactive', 'pending' or NULL (any/default)
+	// Returns an array of subscriber IDs
+	/** EXAMPLE
+	array(
+		'subscriber_pending' => array(
+			'pending_code' => array("not: 'abc1234'", "is: 'def123'", "is: '2234'"),
+			'pending_email' => array('not: NULL')),
+		'subscriber_data' => array(
+			12 => array("not: 'Milwaukee'"), // 12 is alias for field_id=12 ...
+			15 => array("greater: 15")),
+		'subscribers' => array(
+			'email' => "not: 'bhb@iceburg.net'")
+		);
+	*/
+	function & getIDByAttr($f = array('subscriber_pending' => array(), 'subscriber_data' => array(), 'subscribers' => array()), $status = null) {
+		global $pommo;
+		$dbo =& $pommo->_dbo;
+		
+		$o = array();
+		
+		// get the column(s) logic + value(s)
+		function getLogic(&$col, &$val, &$filters) {
+			if (is_array($val)) {
+				foreach($val as $v)
+					getLogic($col,$v,$filters);
+			}
+			else {
+				// extract logic ($matches[1]) + value ($matches[2]) 
+				preg_match('/^(?:(not|is|less|greater|true|false):)?(.*)$/i',$val,$matches);
+				if (!empty($matches[1])) { 
+					if (empty($filters[$col]))
+						$filters[$col] = array();
+					if (empty($filters[$col][$matches[1]]))
+						$filters[$col][$matches[1]] = array();
+					array_push($filters[$col][$matches[1]],$matches[2]);
+				}
+			}
+		}
+		
+		
+		function getWhere($col, &$in, &$where) { 
+			global $dbo;
+			
+			if (is_numeric($col)) { // "likely" encountered a field_id in subscriber_data... 
+				$field_id = $col;
+				$col = 'value';
+				$where .= " AND (field_id=$field_id ";
+			}
+			
+			foreach($in as $logic => $vals) {
+				switch ($logic) {
+					case "is" :
+						$where .= $dbo->prepare("[ AND $col IN (%Q) ]",array($vals)); 
+						break;
+					case "not":
+						$where .= $dbo->prepare("[ AND $col NOT IN (%Q) ]",array($vals)); break;
+					case "less":
+						$where .= $dbo->prepare("[ AND $col < %I ]",array($vals)); break;
+					case "greater":
+						$where .= $dbo->prepare("[ AND $col > %I ]",array($vals)); break;
+					case "true":
+						$where .= " AND $col = 'on' "; break;
+					case "false":
+						$where .= " AND $col != 'on' "; break;
+				}
+			}
+			
+			if (isset($field_id))
+				$where .= ")";
+		}
+		
+		function & getIDs($table, &$f) {
+			global $dbo;
+			$filters = array();
+			$where = null;
+			
+			foreach ($f[$table] as $col => $val) 
+				getLogic($col,$val,$filters);
+			
+			foreach($filters as $col => $logic) 
+				getWhere($col, $logic, $where);	
+				
+			if (!empty($where)) {
+				$query = "
+					SELECT DISTINCT subscriber_id
+					FROM ". $dbo->table[$table]."
+					WHERE 1 ".$where;
+				$o = $dbo->getAll($query, 'assoc', 'subscriber_id');
+			}
+			return (empty($o)) ? array() : $o;
+		}
+		
+		if (!empty($f['subscriber_pending'])) 
+			$o = array_merge($o,getIDs('subscriber_pending',$f));
+		
+		if (!empty($f['subscriber_data']))
+			$o = array_merge($o,getIDs('subscriber_data',$f));
+			
+		if (!empty($f['subscribers']))
+			$o = array_merge($o,getIDs('subscribers',$f));
+		
+		$o = array_unique($o);
+		
+		// filter by status if given
+		if ($status) {
+			$query = "
+				SELECT subscriber_id
+				FROM ". $dbo->table['subscribers']."
+				WHERE 
+					subscriber_id IN(%c)
+					AND status='%s'";
+			$query = $dbo->prepare($query,array($o,$status));
+			return $dbo->getAll($query, 'assoc', 'subscriber_id');
+		}
+		
+		return $o;
+	}
+</pre>
+The above function evolved into the following function (more reminiscent of the original poMMo's sqlGen()). Benchmarks show the following to be @ 90% faster.
+
+<pre>
+
+function & getMembersAlt($group = 'all', $status = 'active') {
+		global $pommo;
+		$dbo =& $pommo->_dbo;
+		
+		// TODO - can obviously fine tune this to get rid of pending, etc.
+		//   make a more universal function? try not to have to include subscribers.php?
+		$f = array(
+			'subscriber_data' => array(),
+			'subscriber_pending' => array(),
+			'subscribers' => array()
+		);
+		
+		if (empty($group['criteria']))
+			return array();
+		
+		foreach($group['criteria'] as $c) {
+			$f['subscriber_data'][$c['field_id']][] = "{$c['logic']}: {$c['value']}";
+		}
+		
+		if (!empty($status)) {
+			if (!isset($f['subscribers']))
+				$f['subscribers'] = array();
+			$f['subscribers']['status'] = array("equal: $status");
+		}
+		
+		$where = null;
+		
+		if (!empty($f['subscribers']))
+			$where .= PommoGroup::sqlGetWhere($f['subscribers'],'s');
+		
+		$d = null;
+		if (!empty($f['subscriber_data'])) {
+			$d = 'd';
+			$where .= PommoGroup::sqlGetWhere($f['subscriber_data'],'d');
+		}
+		
+		$p = null;
+		if (!empty($f['subscriber_pending'])) {
+			$p = 'p';
+			$where .= PommoGroup::sqlGetWhere($f['subscriber_pending'],'p');
+		}
+		
+		$query = "
+			SELECT DISTINCT s.subscriber_id
+			FROM ". $dbo->table['subscribers']." s
+			[LEFT JOIN ". $dbo->table['subscriber_data']." %S
+				ON (s.subscriber_id = d.subscriber_id)]
+			[LEFT JOIN ". $dbo->table['subscriber_pending']." %S
+				ON (s.subscriber_id = p.subscriber_id)]
+			WHERE 1 ".$where;
+		$query = $dbo->prepare($query,array($d,$p));
+		return $dbo->getAll($query, 'assoc', 'subscriber_id');
+	}
+
+// returns where clauses as array
+	// accepts a attribute filtering array.
+	//   array_key == column, value is filter table filter table (subscriber_pending, subscriber_data, subscribers)
+	//   e.g. 
+	//   array('pending_code' => array("not: 'abc1234'", "is: 'def123'", "is: '2234'")); 
+	//   array(12 => array("not: 'Milwaukee'")); (12 -- numeric -- is alias for field_id=12)
+	//   array('status' => array('equal: active'))
+	// accepts a table prefix (e.g. WHERE prefix.column = 'value')
+	// returns SQL WHERE clause (str)
+	function & sqlGetWhere(&$in, $p = null) {
+		global $pommo;
+		$dbo =& $pommo->_dbo;
+		
+		// parse column => logic => value from array
+		$filters = array();
+		foreach ($in as $col => $val) 
+			PommoGroup::sqlGetLogic($col,$val,$filters);
+		
+			
+		// get the where
+		$where = null;
+		if(!empty($p))
+			$p = $p.'.';
+			
+		foreach($filters as $col => $l) { 
+			
+			if (is_numeric($col)) { // "likely" encountered a field_id in subscriber_data... 
+				$field_id = $col;
+				$col = 'value';
+				$where .= " AND ({$p}field_id=$field_id ";
+			}
+			
+			foreach($l as $logic => $vals) {
+				switch ($logic) {
+					case "is" :
+						$where .= $dbo->prepare("[ AND $p$col IN (%Q) ]",array($vals)); break;
+					case "not":
+						$where .= $dbo->prepare("[ AND $p$col NOT IN (%Q) ]",array($vals)); break;
+					case "less":
+						$where .= $dbo->prepare("[ AND $p$col < %I ]",array($vals)); break;
+					case "greater":
+						$where .= $dbo->prepare("[ AND $p$col > %I ]",array($vals)); break;
+					case "true":
+						$where .= " AND $p$col = 'on' "; break;
+					case "false":
+						$where .= " AND $p$col != 'on' "; break;
+					case "equal":
+						$where .= $dbo->prepare("[ AND $p$col = '%S' ]", array($vals[0])); break;
+				}
+			}
+			
+			if (isset($field_id))
+				$where .= ")";
+		}
+		return $where;
+	}
+	
+	// get the column(s) logic + value(s)
+	function sqlGetLogic(&$col, &$val, &$filters) {
+		if (is_array($val)) {
+			foreach($val as $v)
+				PommoGroup::sqlGetLogic($col,$v,$filters);
+		}
+		else {
+			// extract logic ($matches[1]) + value ($matches[2]) 
+			preg_match('/^(?:(not|is|less|greater|true|false|equal):)?(.*)$/i',$val,$matches);
+			if (!empty($matches[1])) { 
+				if (empty($filters[$col]))
+					$filters[$col] = array();
+				if (empty($filters[$col][$matches[1]]))
+					$filters[$col][$matches[1]] = array();
+				array_push($filters[$col][$matches[1]],trim($matches[2]));
+			}
+		}
+	}
+ }
+</pre>
+
+== LEGACY POMMO (bMail) ==
+---
+Follows the database schema relating to demographic and group management.
+
+=== Database Schema ===
+<pre>
+Aardvark PR9
++---------------------+
+| Tables_in_bmail     |
++---------------------+
+| config              |
+| demographics        |
+| groups              |
+| groups_criteria     |
+| mailing_current     |
+| mailing_history     |
+| mailing_queue       |
+| pending             |
+| pending_data        |
+| subscribers         |
+| subscribers_data    |
+| subscribers_flagged |
+| updates             |
++---------------------+
+
+mysql> describe demographics;
++----------------------+----------------------------------------------------+------+-----+---------+----------------+
+| Field                | Type                                               | Null | Key | Default | Extra          |
++----------------------+----------------------------------------------------+------+-----+---------+----------------+
+| demographic_id       | smallint(5) unsigned                               |      | PRI | NULL    | auto_increment |
+| demographic_active   | enum('on','off')                                   |      | MUL | off     |                |
+| demographic_ordering | smallint(5) unsigned                               |      |     | 0       |                |
+| demographic_name     | varchar(60)                                        | YES  |     | NULL    |                |
+| demographic_prompt   | varchar(60)                                        | YES  |     | NULL    |                |
+| demographic_type     | enum('checkbox','multiple','text','date','number') | YES  |     | NULL    |                |
+| demographic_normally | varchar(60)                                        | YES  |     | NULL    |                |
+| demographic_options  | text                                               | YES  |     | NULL    |                |
+| demographic_required | enum('on','off')                                   |      |     | off     |                |
++----------------------+----------------------------------------------------+------+-----+---------+----------------+
+
+mysql> describe groups;
++------------------+----------------------+------+-----+---------+----------------+
+| Field            | Type                 | Null | Key | Default | Extra          |
++------------------+----------------------+------+-----+---------+----------------+
+| group_id         | smallint(5) unsigned |      | PRI | NULL    | auto_increment |
+| group_name       | tinytext             |      |     |         |                |
+| group_cacheTally | int(10) unsigned     |      |     | 0       |                |
+| group_cacheTime  | timestamp(12)        | YES  |     | NULL    |                |
++------------------+----------------------+------+-----+---------+----------------+
+
+mysql> describe groups_criteria;
++----------------+----------------------------------------------------------------------------------------+------+-----+---------+----------------+
+| Field          | Type                                                                                   | Null | Key | Default | Extra          |
++----------------+----------------------------------------------------------------------------------------+------+-----+---------+----------------+
+| criteria_id    | int(10) unsigned                                                                       |      | PRI | NULL    | auto_increment |
+| group_id       | int(10) unsigned                                                                       |      | MUL | 0       |                |
+| demographic_id | tinyint(3) unsigned                                                                    |      |     | 0       |                |
+| logic          | enum('is_in','not_in','is_equal','not_equal','is_more','is_less','is_true','not_true') |      |     | is_in   |                |
+| value          | text                                                                                   | YES  |     | NULL    |                |
++----------------+----------------------------------------------------------------------------------------+------+-----+---------+----------------+
+
+mysql> describe subscribers;
++---------------+------------------+------+-----+------------+----------------+
+| Field         | Type             | Null | Key | Default    | Extra          |
++---------------+------------------+------+-----+------------+----------------+
+| subscriber_id | int(10) unsigned |      | PRI | NULL       | auto_increment |
+| email         | varchar(60)      |      | MUL |            |                |
+| date          | date             |      |     | 0000-00-00 |                |
++---------------+------------------+------+-----+------------+----------------+
+
+mysql> describe subscribers_data;
++----------------+---------------------+------+-----+---------+----------------+
+| Field          | Type                | Null | Key | Default | Extra          |
++----------------+---------------------+------+-----+---------+----------------+
+| data_id        | bigint(20) unsigned |      | PRI | NULL    | auto_increment |
+| demographic_id | int(10) unsigned    |      | MUL | 0       |                |
+| subscriber_id  | int(10) unsigned    |      |     | 0       |                |
+| value          | tinytext            |      |     |         |                |
++----------------+---------------------+------+-----+---------+----------------+
+</pre>
+
+=== Query Generation ===
+bMails greatest strength is it's ability to filter through subscribers based off their demographics. To do this, groups are made, each containing filtering rule(s) related to a demographic. For example, a group can have 3 criteria. One that matches subscribers that don't have 'joe' for demographic #13(name), one that matches subscribers who have a value greater than '20' for demographic #77(age), and one that matches subscribers that do not belong in group #3 (which has a whole other set of its own criteria). I developed a query generator (code below) which forms MySQL queries in order to select subscribers.
+
+The query generator had to maintain '''MySQL 3.23''' compatibility -- yes, a few users are still using this -- which is a major disadvantage due to its lack of subquery abilities. In the future, I'd like to include a postgres or DB2 port of bMail for "large" (50,000+) mailing lists. With this in mind, here is my algorithim in english ->
+
+=== Procedure ===
+
+Goal: To build MySQL 3.23 compatible queries in order to extract ids, emails, and/or demographic values of subscribers in a particular group. The result must be able to be ordered by a specific demographic (ie. sort users by 'name') and limited to a number of subscribers (ie. show 15 subscribers starting with the 165th subscriber in a group that is sorted by 'name').
+
+Method: Create two seperate queries, one matches subscribers to include, and one matches subscribers to exclude(optional). If the exclude query exists (ie. a criteria in a group matches subscribers that DO NOT have a value, or matches subscribers NOT BELONGING to another group), save the IDs returned into a temporary table and subtract them from the IDs returned by the include query. Note: the temporary table is necessary with MySQL 3.23.
+
+Algorithim: To generate both the include and exclude query, the following steps take place.
+#Store information on all groups
+#Store information on all demographics
+#Call create tree on group_id
+#Call seperate include + exclude using tree
+
+-- Create Tree Algorithim
+#Create a criteria tree of all filtering criteria pertaining to the group you are forming a query for.
+## Enter a group
+## Return false if we've visited this group before
+## Drop a breadcrumb (loop prevention)
+## Examine each criteria
+### If criteria references another group (ie. BELONG TO <group> or NOT BELONG TO <group), add recursive call to Create Tree() as criteria
+### If not, add criteria to tree
+## Return tree
+
+-- Seperate Include + Exclude criteria
+# Read in criteria tree
+# For each demographic(criteria), examine its logic
+## If logic is an include (IS VALUE(S), IS GREATER, etc.)
+### If demographic already exists in include array, append its value (if unique)
+### If not, add demographic and value to include array
+## Else If logic is an exclude, '''reverse the logic'''
+### If demographic already exists in exclude array, appent its value (if unique)
+### If not, add demographic and value to exclude array
+## Else if criteria is another tree, examine its reference (include or exclude), and recursively call this function
+# Return arrays
+
+# Read in the include array, form a SQL query to match demographics
+# Read in the exclude array, form an SQL query to match demographics
+# Return both arrays
+
+----
+
+=== Example Queries ===
+
+1) Select from all subscribers (no group) ordered by name (demographic_id=1) and limited to 50 subscribers:
+:Query recieved --> "SELECT DISTINCT s.subscribers_id FROM subscribers s LEFT JOIN subscribers_data sort ON (s.subscribers_id=sort.subscribers_id AND sort.demographic_id=1) ORDER BY sort.value,s.subscribers_id ASC LIMIT 50"
+   Query affected 50 rows and returned 50 records.
+
+:Query recieved --> "SELECT s.subscribers_id,s.email,s.date,t1.demographic_id,t1.value FROM subscribers s LEFT JOIN subscribers_data t1 ON (s.subscribers_id=t1.subscribers_id) WHERE s.subscribers_id IN (510,3475,3178,1737,2683,1984,2582,1908,421,329,1627,1940,4259,1308,1985,1448,1924,3384,2900,1378,1595,2050,251,1520,175,2772,1695,1721,146,1369,4302,2255,2881,1964,3404,2718,3155,1671,276,2589,2540,103,2260,1953,1449,2585,2028,2411,2413,2845)"
+   Query affected 152 rows and returned 152 records.
+
+1a) MySQL Explanation:
+<pre>
+mysql> explain SELECT DISTINCT s.subscribers_id FROM subscribers s LEFT JOIN subscribers_data sort ON (s.subscribers_id=sort.subscribers_id AND sort.demographic_id=1) ORDER BY sort.value,s.subscribers_id ASC LIMIT 50;
++-------+-------+------------------------------------------------+----------------+---------+------------------------+------+----------------------------------------------+
+| table | type  | possible_keys                                  | key            | key_len | ref                    | rows | Extra                                        |
++-------+-------+------------------------------------------------+----------------+---------+------------------------+------+----------------------------------------------+
+| s     | index | NULL                                           | PRIMARY        |       4 | NULL                   | 3095 | Using index; Using temporary; Using filesort |
+| sort  | ref   | s_plus_demo_id,subscribers_id,subscribers_id_2 | s_plus_demo_id |       8 | const,s.subscribers_id |    1 | Distinct                                     |
++-------+-------+------------------------------------------------+----------------+---------+------------------------+------+----------------------------------------------+
+
+mysql> explain SELECT s.subscribers_id,s.email,s.date,t1.demographic_id,t1.value FROM subscribers s LEFT JOIN subscribers_data t1 ON (s.subscribers_id=t1.subscribers_id) WHERE s.subscribers_id IN (510,3475,3178,1737,2683,1984,2582,1908,421,329,1627,1940,4259,1308,1985,1448,1924,3384,2900,1378,1595,2050,251,1520,175,2772,1695,1721,146,1369,4302,2255,2881,1964,3404,2718,3155,1671,276,2589,2540,103,2260,1953,1449,2585,2028,2411,2413,2845);
++-------+-------+---------------------------------+----------------+---------+------------------+------+------------+
+| table | type  | possible_keys                   | key            | key_len | ref              | rows | Extra      |
++-------+-------+---------------------------------+----------------+---------+------------------+------+------------+
+| s     | range | PRIMARY                         | PRIMARY        |       4 | NULL             |   50 | where used |
+| t1    | ref   | subscribers_id,subscribers_id_2 | subscribers_id |       4 | s.subscribers_id |    3 |            |
++-------+-------+---------------------------------+----------------+---------+------------------+------+------------+
+</pre>
+
+
+2) A more complicated query that uses a temporary table to subtract IDs from (left join subtract WHERE subtract.id IS NULL)
+
+Query recieved --> "CREATE TEMPORARY TABLE subtract (subscribers_id INT UNSIGNED NOT NULL, INDEX (subscribers_id))"
+   Query affected 0 rows and returned 0 records.
+
+Query recieved --> "INSERT INTO subtract (subscribers_id) SELECT DISTINCT t1.subscribers_id FROM subscribers_data t1 WHERE (t1.demographic_id = '4' AND ( t1.value IN ('Bouvet Island','Cameroon','Central African Republic','Chad','Cocos Islands','Colombia','Costa Rica','Djibuti','Dominican Republic','France','Guam' ) ))"
+   Query affected 0 rows and returned 0 records.
+
+Query recieved --> "SELECT DISTINCT t1.subscribers_id FROM subscribers_data t1 LEFT JOIN subtract ON t1.subscribers_id=subtract.subscribers_id LEFT JOIN subscribers_data sort ON (t1.subscribers_id=sort.subscribers_id AND sort.demographic_id=2) WHERE (t1.demographic_id = '3' AND ( t1.value IN ('Arizona','Illinois','Maryland' ) )) AND subtract.subscribers_id IS NULL ORDER BY sort.value,t1.subscribers_id ASC LIMIT 10"
+   Query affected 10 rows and returned 10 records.
+
+Query recieved --> "SELECT s.subscribers_id,s.email,s.date,t1.demographic_id,t1.value FROM subscribers s LEFT JOIN subscribers_data t1 ON (s.subscribers_id=t1.subscribers_id) WHERE s.subscribers_id IN (1312,1429,2810,1942,3410,4210,2439,357,1805,1867)"
+
+2a) MySQL Explanation
+<pre>
+mysql> explain SELECT DISTINCT t1.subscribers_id FROM subscribers_data t1 LEFT JOIN subtract ON t1.subscribers_id=subtract.subscribers_id LEFT JOIN subscribers_data sort ON (t1.subscribers_id=sort.subscribers_id AND sort.demographic_id=2) WHERE (t1.demographic_id = '3' AND ( t1.value IN ('Arizona','Illinois','Maryland' ) )) AND subtract.subscribers_id IS NULL ORDER BY sort.value,t1.subscribers_id ASC LIMIT 10;
++----------+--------+------------------------------------------------+----------------+---------+-------------------------+------+---------------------+
+| table    | type   | possible_keys                                  | key            | key_len | ref                     | rows | Extra               |
++----------+--------+------------------------------------------------+----------------+---------+-------------------------+------+---------------------+
+| subtract | system | subscribers_id                                 | NULL           |    NULL | NULL                    |    0 | const row not found |
+| t1       | range  | s_plus_demo_id,val_plus_demo                   | val_plus_demo  |      64 | NULL                    |  174 | where used          |
+| sort     | ref    | s_plus_demo_id,subscribers_id,subscribers_id_2 | s_plus_demo_id |       8 | const,t1.subscribers_id |    1 | Distinct            |
++----------+--------+------------------------------------------------+----------------+---------+-------------------------+------+---------------------+
+</pre>
+
+
+=== PHP CODE ===
+The following is an archive of Code. Below are the sqlgen.php functions from PR9(CVS). Much work is still going into these (and things have already changed since PR9). Once this API is stabilized, group & subscriber objects will be created & stored so as to cut down on the # of queries per page (more efficient)
+
+<pre>
+<?php
+/** [BEGIN HEADER] **
+ * COPYRIGHT: (c) 2005 Brice Burgess / All Rights Reserved    
+ * LICENSE: http://www.gnu.org/copyleft.html GNU/GPL 
+ * AUTHOR: Brice Burgess <bhb@iceburg.net>
+ * SOURCE: http://bmail.sourceforge.net/
+ *
+ *  :: RESTRICTIONS ::
+ *  1. This header must accompany all portions of code contained within.
+ *  2. You must notify the above author of modifications to contents within.
+ * 
+ ** [END HEADER]**/
+ 
+/**
+ * dbGetGroupSubscribers -> 
+ * 	Reads in a group_id, dependant on $return type, returns :
+ *   (list) an array of subscriber_id's in group_id
+ *   (count) the # of subscibedrs in a group_id 
+ *   (email) an array of emails in a group (for fast mail queue population)
+ *
+ *  if order_id is given, results will be ordered by the that particular demographic_id.	
+ *    ordering can be changed from ASC to DESC if $order_type is provided (as 'DESC')
+ *
+ *  if limit is given, the array returned array will have a max # of entries. If
+ *   start is given, the resultset will begin at the start entry
+ */
+function & dbGetGroupSubscribers(& $dbo, $table, $group_id, $returnType = 'list', $order_by = NULL, $order_type = 'ASC', $limit = NULL, $start = NULL) {
+	if ($table != 'subscribers' && $table != 'pending')
+	die('<img src="'.bm_baseUrl.'/img/icons/alert.png" align="middle">Unknown table passed to dbGetGroupSubscribers().');
+	
+	// set variables to be appended onto SQL statements
+	$sortTbl = '';
+	$orderSQL = '';
+	$limitStr = '';
+	$whereSQL = ' WHERE 1';
+
+	if ($order_by) { // returned subscribers should be ordered 
+		if ($group_id == 'all') {
+		$sortTbl = ' LEFT JOIN '.$dbo->table[$table].'_data sort ON (s.'.$table.'_id=sort.'.$table.'_id AND sort.demographic_id='.$order_by.')';
+		$orderSQL = ' ORDER BY sort.value,s.'.$table.'_id '.$order_type;
+		}
+		else {
+		$sortTbl = ' LEFT JOIN '.$dbo->table[$table].'_data sort ON (t1.'.$table.'_id=sort.'.$table.'_id AND sort.demographic_id='.$order_by.')';
+		$orderSQL = ' ORDER BY sort.value,t1.'.$table.'_id '.$order_type;
+		}
+	}
+
+	if (is_numeric($group_id)) {
+		// generate include/exclude arrays for the group
+		$criteriaTbl = '';
+		$subtractTbl = '';
+		$sqlArray = genSql($dbo, $group_id) or die('<img src="'.bm_baseUrl.'/img/icons/alert.png" align="middle">genSQL returned false for group_id: '.$group_id);
+
+		if ($sqlArray['include'][1]) {
+			for ($i = 2; $i <= $sqlArray['include'][0]; $i ++)
+				$criteriaTbl .= ' inner join '.$dbo->table[$table.'_data'].' t'.$i.' using ('.$table.'_id)';
+			$whereSQL = ' WHERE '.$sqlArray['include'][1];
+		}
+
+		// WHY NO MINUS/SUBTRACT/SUBQUERY?? B/C MySQL FTL!! ESPECIALLY WHEN KEEPING 3.23 COMPLIANCE :(
+		//   Future improvements -> Seperate Criteria into groups_addCritera, groups_subCriteria. Cache their queries in DB 
+		//   so SQL generator is not required if criteria haven't changed... look into cacheing of actual IDs, etc.
+		//   TODO : with this cache, use serialize to store the include/exclude array.
+
+		// If the group calls for anything to be excluded, insert IDs into subtraction table.
+		if (!empty ($sqlArray['exclude'][0]) && $sqlArray['exclude'][0] > 0) {
+			$dbo->dieOnQuery(FALSE);
+			$sql = 'DROP TABLE IF EXISTS subtract';
+			$dbo->query($sql) or die('<img src="'.bm_baseUrl.'/img/icons/alert.png" align="middle">Please ensure your MySQL user has privileges to DROP TEMPORARY TABLE.');
+			$sql = 'CREATE TEMPORARY TABLE subtract ('.$table.'_id INT UNSIGNED NOT NULL, INDEX ('.$table.'_id))';
+			$dbo->query($sql) or die('<img src="'.bm_baseUrl.'/img/icons/alert.png" align="middle">Please ensure your MySQL user has privileges to CREATE TEMPORARY TABLE.');
+			$sql = 'INSERT INTO subtract ('.$table.'_id) SELECT DISTINCT t1.'.$table.'_id FROM '.$dbo->table[$table.'_data'].' t1';
+			for ($i = 2; $i <= $sqlArray['exclude'][0]; $i ++)
+				$sql .= ' inner join '.$dbo->table[$table.'_data'].' t'.$i.' using ('.$table.'_id)';
+			$sql .= ' WHERE '.$sqlArray['exclude'][1];
+			$dbo->query($sql) or die('<img src="'.bm_baseUrl.'/img/icons/alert.png" align="middle">Error inserting records into temp table. <br><br>Query was: '.$sql);
+
+			$subtractTbl = ' LEFT JOIN subtract ON t1.'.$table.'_id=subtract.'.$table.'_id';
+			$whereSQL .= ' AND subtract.'.$table.'_id IS NULL';
+			$dbo->dieOnQuery(TRUE);
+		}
+	}
+	
+	if ($table == 'pending') // if viewing the pending table, only show subscribers to be added. Not those requesting changes...
+		$whereSQL .= ' AND s.type=\'add\'';
+	
+	switch ($returnType) {
+		case 'count' :
+			if ($group_id == 'all')
+				$sql = 'SELECT COUNT('.$table.'_id) FROM '.$dbo->table[$table].$whereSQL;
+			else
+				$sql = 'SELECT COUNT(DISTINCT t1.'.$table.'_id) FROM '.$dbo->table[$table.'_data'].' t1'.$criteriaTbl.$subtractTbl.$whereSQL;
+			$result = & $dbo->query($sql, 0);
+			break;
+		case 'list' : // only type which will apply a limit
+			if (is_numeric($limit))
+				if ($start)
+					$limitStr = ' LIMIT '.$start.','.$limit;
+				else
+					$limitStr = ' LIMIT '.$limit;
+			if ($group_id == 'all')
+				$sql = 'SELECT DISTINCT s.'.$table.'_id FROM '.$dbo->table[$table].' s'.$sortTbl.$whereSQL.$orderSQL.$limitStr;
+			else
+				$sql = 'SELECT DISTINCT t1.'.$table.'_id FROM '.$dbo->table[$table.'_data'].' t1'.$criteriaTbl.$subtractTbl.$sortTbl.$whereSQL.$orderSQL.$limitStr;
+			$result = & $dbo->getAll($sql, 'row', '0');
+			break;
+		case 'email' : // grabs all emails
+			if ($group_id == 'all')
+				$sql = 'SELECT s.email FROM '.$dbo->table[$table].' s'.$sortTbl.$whereSQL.$orderSQL;
+			else
+				$sql = 'SELECT DISTINCT s.email FROM '.$dbo->table[$table.'_data'].' t1'.$criteriaTbl.$subtractTbl.$sortTbl.' INNER JOIN '.$dbo->table[$table].' s ON (s.'.$table.'_id=t1.'.$table.'_id)'.$whereSQL.$orderSQL;
+			$result = & $dbo->getAll($sql, 'row', '0');
+			break;
+		default :
+			die('<img src="'.bm_baseUrl.'/img/icons/alert.png" align="middle">Unknown type sent to dbGetGroupSubscribers()');
+	}
+	return $result;
+}
+
+// Todo --> integrate this w/ dbCrawl ??	
+// opposite logic must be applied. Rules:
+//   1) Subscribers matching anything in the 'exclude' array will be SUBTRACTED from subscribers matched in the INCLUDE array
+//   2) not_equal + not_true logic will be converted to opposite logic and placed in the opposite array.
+//      ie. if a demographic has 'not_equal' logic & is in the exclude array, it will be transformed to 'is_in' and moved to the INCLUDE array
+function makedemo(& $tree, & $criteriaArray, & $demographics, $include = 'include') {
+	foreach (array_keys($tree) as $key) {
+
+		$criteria = & $criteriaArray[$key];
+
+		if (is_array($tree[$key])) {
+			if ($criteria['logic'] == 'not_in')
+				makedemo($tree[$key], $criteriaArray, $demographics, 'exclude');
+			else
+				makedemo($tree[$key], $criteriaArray, $demographics);
+		} else {
+			if (!isset ($demographics[$criteria['demographic_id']]))
+				$demographics[$criteria['demographic_id']] = array ('include' => array (), 'exclude' => array ());
+
+			$demographic = & $demographics[$criteria['demographic_id']];
+
+			// convert not_equal and not_true to opposite logic
+			if ($criteria['logic'] == 'not_equal')
+				$oppLogic = 'is_equal';
+			elseif ($criteria['logic'] == 'not_true') $oppLogic = 'is_true';
+
+			if (isset ($oppLogic)) {
+				if ($include == 'include')
+					if (!isset ($demographic['exclude']['is_equal']))
+						$demographic['exclude'][$oppLogic] = quotesplit($criteria['value']);
+					else
+						$demographic['exclude'][$oppLogic] = array_unique(array_merge($demographic['exclude'][$oppLogic], quotesplit($criteria['value'])));
+				else
+					if (!isset ($demographic['include'][$oppLogic]))
+						$demographic['include'][$oppLogic] = quotesplit($criteria['value']);
+					else
+						$demographic['include'][$oppLogic] = array_unique(array_merge($demographic['include'][$oppLogic], quotesplit($criteria['value'])));
+				unset ($oppLogic);
+			}
+			elseif (!isset ($demographic[$include][$criteria['logic']])) $demographic[$include][$criteria['logic']] = quotesplit($criteria['value']);
+			else
+				$demographic[$include][$criteria['logic']] = array_unique(array_merge($demographic[$include][$criteria['logic']], quotesplit($criteria['value'])));
+
+		}
+	}
+	return $demographics;
+}
+
+function whereGen(& $demographic, & $logicTbl, & $i) {
+	if (empty ($demographic))
+		return;
+
+	$whereSQL = ' AND (';
+	foreach (array_keys($demographic) as $logic) {
+		$values = & $demographic[$logic];
+		switch ($logic) {
+			case 'is_equal' :
+				$count = count($values);
+				if ($count > 1) {
+					$c = 0;
+					$whereSQL .= ' t'.$i.'.value IN (';
+					foreach ($values as $value) {
+						$c ++;
+						$whereSQL .= '\''.db2db($value).'\'';
+						if ($c < $count)
+							$whereSQL .= ',';
+					}
+					$whereSQL .= ' )';
+				} else
+					$whereSQL .= ' t'.$i.'.value'.$logicTbl[$logic].'\''.current($values).'\'';
+				$whereSQL .= ' )';
+				break;
+			case 'is_less' :
+			case 'is_more' : // cannot have multiple is more / is less.. 1st value is used if multiple..
+				$whereSQL .= ' t'.$i.'.value'.$logicTbl[$logic].'\''.current($values).'\')';
+				break;
+		}
+	}
+	return $whereSQL;
+}
+
+// crawls through a group's filtering criteria, returning an array tree of criteria_id's
+//  the tree is a tree of criteria_id. 
+function & dbCrawl(& $dbo, $group_id, & $criteriaArray, & $groupArray, & $groupsVisited) {
+
+	// leave a breadcrumb...
+	$groupsVisited[$group_id] = TRUE;
+	$tree = array ();
+
+	// Examine each criteria belonging to this group
+	$group = & $groupArray[$group_id];
+	foreach (array_keys($group) as $key) {
+		$criteria_id = & $group[$key];
+		$criteria = & $criteriaArray[$criteria_id];
+
+		// If criteria references another group..
+		if (($criteria['logic'] == 'is_in') || ($criteria['logic'] == 'not_in')) {
+			// check to make sure we haven't already been there [loop prevention!] 
+			if (!isset ($groupsVisited[$criteria['value']]))
+				$tree[$criteria_id] = dbCrawl($dbo, $criteria['value'], $criteriaArray, $groupArray, $groupsVisited);
+		} else // if not add the criteria_id to the tree and continue.
+			$tree[$criteria_id] = $criteria_id;
+	}
+	return $tree;
+}
+
+// returns an array of include & exclude SQL pertaining to a group.
+function & genSql(& $dbo, & $group_id) {
+
+	require_once (bm_baseDir.'/inc/txt_functions.php'); // used to convert value line (csv format)
+
+	// TODO, remove this dependance on dbGroups....
+	// get array of all criteria (saves from many MySQL queries). criteria_id is array key.
+	//require_once (bm_baseDir.'/inc/db_groups.php');
+	$criteriaArray = dbGetGroupFilter($dbo);
+
+	// make $groupArray where group_id is array key, and element is an array of that group's criteria_ids
+	// ie. $groupArray[5 => array (6,12,15)]  means group 5  has filtering criteria w/ id 6,12, and 15 assosiated w/ it.
+	$groupArray = array ();
+	foreach (array_keys($criteriaArray) as $key) {
+		$criteria = & $criteriaArray[$key];
+		if (empty ($groupArray[$criteria['group_id']]))
+			$groupArray[$criteria['group_id']] = array ();
+		array_push($groupArray[$criteria['group_id']], $key);
+	}
+
+	// determine if any criteria is assosiated with this group.. if not, return
+	if (empty ($groupArray[$group_id]))
+		return 0;
+
+	// Recursively generate WHERE logic, returns SQL to match subscribers to be included and excluded
+	$groupsVisited = array ();
+	$tree = & dbCrawl($dbo, $group_id, $criteriaArray, $groupArray, $groupsVisited);
+
+	// create array containing every demographic touched by this group's filtering process.
+	// FORMAT: 
+	// [3]=> array { (3 is demographic_id)
+	//    ["include"]=> array { ["is_equal"/logic] => array { "Milwaukee"/values } }
+	//    ["exclude"]=> (same) as above
+	//  Include should be parsed with 'AND', exlude with 'AND NOT'
+	//  excludes are derived from criteria where a group 'IS NOT BELONG TO'.
+
+	$a = array ();
+	$demographics = makedemo($tree, $criteriaArray, $a);
+
+	// create array to translate bMail logic to valid mySql syntax
+	$logicTbl = array ();
+	$logicTbl['is_equal'] = '=';
+	$logicTbl['is_more'] = '>';
+	$logicTbl['is_less'] = '<';
+	// not_equal, not_true, is_true have been removed b/c they'll never be looked up
+	//   see makedemo comments
+
+	// how many demographics we're filtering from
+	$demographicCount = count($demographics);
+
+	$includeCount = 0;
+	$excludeCount = 0;
+	$includeSQL = '';
+	$excludeSQL = '';
+	foreach (array_keys($demographics) as $demographic_id) {
+		$demographic = & $demographics[$demographic_id];
+
+		if (!empty ($demographic['include'])) {
+			$includeCount ++;
+			if ($includeCount > 1)
+				$includeSQL .= ' AND ';
+			if (isset ($demographic['include']['is_true']))
+				$includeSQL .= '(t'.$includeCount.'.demographic_id = '.$demographic_id.' AND t'.$includeCount.'.value = \'on\')';
+			else
+				$includeSQL .= '(t'.$includeCount.'.demographic_id = \''.$demographic_id.'\''.whereGen($demographic['include'], $logicTbl, $includeCount).')';
+		}
+		if (!empty ($demographic['exclude'])) {
+			$excludeCount ++;
+			if ($excludeCount > 1)
+				$excludeSQL .= ' AND ';
+			if (isset ($demographic['exclude']['is_true']))
+				$excludeSQL .= '(t'.$excludeCount.'.demographic_id = '.$demographic_id.' AND t'.$excludeCount.'.value = \'on\')';
+			else
+				$excludeSQL .= '(t'.$excludeCount.'.demographic_id = \''.$demographic_id.'\''.whereGen($demographic['exclude'], $logicTbl, $excludeCount).')';
+		}
+	}
+
+	// return arrays and a count the count of them
+	$sql = array ();
+	$sql['include'] = array (& $includeCount, & $includeSQL);
+	$sql['exclude'] = array (& $excludeCount, & $excludeSQL);
+
+	return $sql;
+}
+?>
+</pre>

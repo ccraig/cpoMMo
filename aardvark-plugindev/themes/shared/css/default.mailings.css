@@ -1,0 +1,138 @@
+/*************************/
+/* Mailings Specific CSS */
+/*************************/
+
+/* message body textarea */
+#body {
+	width: 368px;
+}
+
+div.msgheaders, div.msgpreview {
+	padding: 5px;
+}
+div.msgheaders {
+	background: #E6ECDA;
+}
+div.msgpreview {
+	background: #F6F8F1;
+}
+
+/************************/
+/* Mailing Body Preview */
+/************************/
+
+#preview img {
+	display: block;
+}
+#preview div a {
+	border: none;
+}
+#preview .edit {
+	float: right;
+	width: 70px;
+	text-align: center;
+}
+#preview .edit img {
+	margin: 0 auto;
+	border: none;
+}
+
+/*******************/
+/* Status Page CSS */
+/*******************/
+
+#barBox {
+    height: 60px;
+	width: 514px;
+	background: url(../images/mailerbar-bg.gif) bottom no-repeat;
+	text-align: center; /* the IE sux bug... */
+}
+
+#barTrack {
+	width: 498px;
+	margin: auto;
+	padding-top: 10px;
+	text-align: left; /* the IE sux bug... */
+}
+
+#bar {
+	height: 15px;
+	background: url(../images/mailerbar-single.gif) repeat-x;
+	text-align: left; /* the IE sux bug... */
+	width: 0;
+}
+#barHead {
+	text-align: right;
+	font-weight: bold;
+	clear: right;
+}
+#barFoot {
+	width: 514px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #999;
+	text-align: center;
+}
+
+hr {
+    clear: right;
+}
+
+img.anim {
+    margin: 2px 10px;
+    vertical-align: middle;
+}
+
+#status { font-weight: bold; }
+
+#commands img{
+    vertical-align: middle;
+    border: none;
+}
+
+#commands a {
+    text-decoration: none;
+}
+
+#commands div.first {
+    float: left;
+}
+
+#commands div.second {
+    float: right;
+}
+
+/**************************/
+/* Dynamic Mail Variables */
+/**************************/
+
+#mailmerge {
+	display: none;
+	width: 90%;
+	padding: 7px;
+}
+#mailmerge,
+#mergeopen.selected {
+	background: #F3FFDC;
+	padding: 3px;
+	border: 1px solid #000;
+}
+#mergeopen {
+	margin: 0;
+	padding: 4px;
+}
+#mergeopen.selected {
+	display: block;
+	width: 20em;
+	border-bottom: none;
+}
+#mergeopen.selected:hover {
+	border-bottom: none;
+}
+#mailmerge #mergeclose {
+	float: right;
+}
+#mailmerge #mergehelp p {
+	display: none;
+}

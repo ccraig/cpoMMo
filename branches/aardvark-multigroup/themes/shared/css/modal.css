@@ -1,0 +1,128 @@
+z/************************/
+/* MODAL WINDOW STYLING */
+/************************/
+
+/* LEGACY STYLING... DEPRICATED -- MOVE TO jQMODAL */
+/* Inpage windows */
+#newFilter {
+	position: relative;
+}
+#filterWindow {
+	z-index: 100;
+	position: absolute;
+	display: none;
+    top: -200px;
+	left: -50px;
+	padding: 1em;
+	border: 5px solid #6CAF00;
+	background: #FDFEFB;
+}
+#filterWindow input[type="text"] {
+	width: 150px;
+}
+.fwTransfer {
+	border: 2px solid #6CAF00;
+	border-left: 2px dashed #6CAF00;
+	border-right: 2px dashed #6CAF00;
+}
+
+/* jQMODAL STYLES */
+
+.jqmOverlay { background-color: #FFF; }
+.jqDrag {cursor: move;}
+
+/* Background iframe styling for IE6. Prevents ActiveX bleed-through (<select> form elements, etc.) */
+* iframe.jqm {position:absolute;top:0;left:0;z-index:-1;
+	width: expression(this.parentNode.offsetWidth+'px');
+	height: expression(this.parentNode.offsetHeight+'px');
+}
+
+/* jqmModal dialog CSS courtesy of;
+	Brice Burgess <bhb@iceburg.net> */
+
+div.jqmDialog {
+	display: none;
+    
+    position: fixed;
+    top: 17%;
+    left: 50%;
+    
+    margin-left: -215px;
+	width: 430px;
+
+	overflow: hidden;
+	font-family:verdana,tahoma,helvetica;
+}
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html div.jqmDialog {
+     position: absolute;
+     top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}
+
+
+/* [[[ Title / Top Classes ]]] */
+div.jqmdTC { 
+	background: #d5ff84 url(../images/dialog/sprite.gif) repeat-x 0px -82px; 
+	color: #528c00;
+	padding: 7px 22px 5px 5px;
+	font-family:"sans serif",verdana,tahoma,helvetica;
+	font-weight: bold;
+	* zoom: 1;
+}
+div.jqmdTL { background:  url(../images/dialog/sprite.gif) no-repeat 0px -41px; padding-left: 3px;}
+div.jqmdTR { background: url(../images/dialog/sprite.gif) no-repeat right 0px; padding-right: 3px; * zoom: 1;}
+
+
+/* [[[ Body / Message Classes ]]] */
+div.jqmdBC {
+	background: #FFF url(../images/dialog/bc.gif) repeat-x center bottom;
+	padding: 7px 7px 7px;
+	height: 215px;
+	overflow: auto;
+}
+div.jqmdBL { background: url(../images/dialog/bl.gif) no-repeat left bottom; padding-left: 7px; }
+div.jqmdBR { background: url(../images/dialog/br.gif) no-repeat right bottom; padding-right: 7px; * zoom: 1 }
+
+div.jqmdMSG { color: #317895; }
+
+
+/* [[[ Button classes ]]] */
+input.jqmdX {
+	position: absolute;
+	right: 7px;
+	top: 4px;
+	padding: 0 0 0 19px;
+	height: 19px;
+	width: 0px;
+	background: url(../images/dialog/close.gif) no-repeat top left;
+	overflow: hidden;
+}
+input.jqmdXFocus {background-position: bottom left; outline: none;}
+
+div.jqmdMSG button, div.jqmdMSG input[type="submit"] {
+	margin: 8px 10px 4px 10px;
+	color: #777;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+div.jqmDialog input:focus, div.jqmDialog input.iefocus { background-color: #eaffc3; }
+
+/* Misc Styling */
+div.jqmdWide { width: 560px; margin-left: -280px; }
+div.jqmdTall { height: 370px; }
+div.jqmdShort { height: 115px; }
+
+div.darkOverlay { background-color: #333; }
+
+
+/* Caching CSS courtesf of;
+	Klaus Hartl <klaus.hartl@stilbuero.de> */
+@media projection, screen {
+     div.imgCache { position: absolute; left: -8000px; top: -8000px; }
+     div.imgCache img { display:block; }
+}
+@media print { div.imgCache { display: none; } }

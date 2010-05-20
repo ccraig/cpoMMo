@@ -1,0 +1,34 @@
+/***********************/
+/* LI -> TABLE STYLING */
+/***********************/
+
+#grid {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #000;
+}
+
+#grid div.header {
+    background: #000;
+    color: #e0e0e0;
+}
+
+#grid div {
+    padding: 6px 0;
+}
+
+#grid div span {
+    padding: 0 8px;
+}
+
+#grid div img {
+    vertical-align: middle;
+}
+
+#grid div.r1 { background: #fff;}
+#grid div.r2 { background: #f8ffe5; }
+#grid div.r3 { background: #edf5f8; }
+
+
+/* FOR Drag n' Drop */
+img.handle, div.handle {cursor: move;}

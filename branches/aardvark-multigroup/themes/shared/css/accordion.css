@@ -1,0 +1,29 @@
+#accordian {width: 100%;}
+		
+div.acMenu { 
+	cursor:pointer; 
+	padding:0.2em 1em;;
+	
+	border:1px solid #0067ff;
+	border-top: 0px;
+	
+	background: #e5f2ff;
+	color: #0067ff;
+	
+	font-weight: bold;
+}
+
+div.acFirst {border-top: 1px solid;}
+
+div.selected {
+	background: #DDF0BD;
+	color: green;
+	border:1px solid green; 
+}
+
+div.acBody {
+	background: #f7fcee;
+	padding: 0.3em;
+	border:1px solid green; 
+	border-top: 0px;
+}

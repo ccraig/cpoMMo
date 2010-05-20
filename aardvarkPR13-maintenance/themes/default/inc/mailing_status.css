@@ -1,0 +1,49 @@
+/* CSS for mailing_status.php */
+.pbTrack {
+	height: 60px;
+	width: 514px;
+	background-image:url(../../shared/images/mailerbar-bg.gif);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	text-align: center; /* the IE sux bug... */
+}
+
+.pbBarContainer {
+	padding-top: 10px;
+	width: 498px;
+	margin: auto;
+	text-align: left; /* the IE sux bug... */
+}
+.pbBar {
+	height: 15px;
+	background-image:url(../../shared/images/mailerbar-single.gif);
+	background-repeat: repeat-x;
+	text-align: left; /* the IE sux bug... */
+}
+.pbBarText {
+	text-align: right;
+	font-weight: bold;
+}
+.pbText {
+	width: 514px;
+	font-family: "Trebuchet MS", Arial, Helvetica;
+	font-size: 24px;
+	font-weight: bold;
+	color: #999999;
+	text-align: center;
+}
+
+.stacked {
+	position: absolute;
+	margin: auto;
+	width: 514px;
+	text-align: center;
+}
+
+.notices {
+	text-align: center; 
+	width: 100%; 
+	margin-top: 10px; 
+	font-size: 130%; 
+	font-weight: bold;
+}

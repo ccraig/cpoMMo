@@ -1,0 +1,136 @@
+/*-------------------------------------------------------------------------*/
+
+/* MODAL WINDOW STYLING */
+
+/*-------------------------------------------------------------------------*/
+
+.jqmOverlay { background-color: #FFF; }
+.jqDrag {cursor: move;}
+
+/* jqmModal dialog CSS courtesy of;
+	Brice Burgess <bhb@iceburg.net> */
+
+
+div.jqmDialog {
+    display: none;
+    
+    position: fixed;
+    top: 17%;
+    left: 50%;
+    
+    margin-left: -200px;
+    width: 400px;
+
+	overflow: hidden;
+	font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+}
+
+
+/* Background iframe styling for IE6. Prevents ActiveX bleed-through (<select> form elements, etc.) */
+* iframe.jqm {position:absolute;top:0;left:0;z-index:-1;
+	width: expression(this.parentNode.offsetWidth+'px');
+	height: expression(this.parentNode.offsetHeight+'px');
+}
+
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html div.jqmDialog {
+     position: absolute;
+     top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}
+
+/*-------------------------------------------------------------------------*/
+
+/* TITLE & TOP FORMATTING */
+
+/*-------------------------------------------------------------------------*/
+
+div.jqmdTC { 
+	font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+	font-size: 130%;
+	color: #528c00;
+	font-weight: bold;
+	background-color: #c5e081;
+	margin: 0;
+	padding: 15px 22px 10px 15px;
+	border-top: solid 8px #E1E1E1;
+	border-right: solid 8px #E1E1E1;
+	border-left: solid 8px #E1E1E1;
+	* zoom: 1;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/* CLOSE BUTTON */
+
+/*-------------------------------------------------------------------------*/
+
+input.jqmdX {
+	position: absolute;
+	right: 16px;
+	top: 17px;
+	padding: 0 0 0 19px;
+	height: 19px;
+	width: 0px;
+	background: url(../images/dialog/close.gif) no-repeat top left;
+	overflow: hidden;
+	border: solid 1px #AAAAAA;
+}
+input.jqmdXFocus {background-position: bottom left; outline: none;}
+
+/*REMOVED THE FOLLOWING ALLOWING THE ADMIN CSS TO STYLE BUTTONS*/
+
+/*div.jqmdMSG button, div.jqmdMSG input[type="submit"], div.jqmdMSG input[type="reset"] {
+	margin: 8px 10px 4px 10px;
+	color: #777;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+div.jqmDialog input:focus, div.jqmDialog input.iefocus { background-color: #EAFFC3; }*/
+
+/*-------------------------------------------------------------------------*/
+
+/* BODY & MESSAGE FORMATTING */
+
+/*-------------------------------------------------------------------------*/
+
+div.jqmdBC {
+	background: #FFFFFF;
+	padding: 7px 7px 7px;
+	/*height: 215px;*/
+	overflow: auto;
+	border-right: solid 8px #E1E1E1;
+	border-bottom: solid 8px #E1E1E1;
+	border-left: solid 8px #E1E1E1;
+}
+/*div.jqmdBL { background: url(../images/dialog/bl.gif) no-repeat left bottom; padding-left: 7px; }
+div.jqmdBR { background: url(../images/dialog/br.gif) no-repeat right bottom; padding-right: 7px; * zoom: 1 }*/
+
+div.jqmdMSG {
+	color: #317895;
+ }
+
+/*-------------------------------------------------------------------------*/
+
+/* POPUP WINDOW SIZE */
+
+/*-------------------------------------------------------------------------*/
+
+div.jqmdWide { width: 750px; margin-left: -375px; margin-top: -150; }
+div.jqmdTall { height: 550px; }
+div.jqmdShort { height: 350px; }
+
+/*-------------------------------------------------------------------------*/
+
+/* CACHING CSS courtesy of Klaus Hartl <klaus.hartl@stilbuero.de> */
+
+/*-------------------------------------------------------------------------*/
+
+@media projection, screen {
+     div.imgCache { position: absolute; left: -8000px; top: -8000px; }
+     div.imgCache img { display:block; }
+}
+@media print { div.imgCache { display: none; } }

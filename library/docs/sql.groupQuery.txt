@@ -1,0 +1,49 @@
+	for "single" group
+			
+			SELECT count(subscriber_id)
+			from subscribers 
+			where 
+			status ='1' 
+			AND (
+			subscriber_id in 
+				(select subscriber_id from subscriber_data  where  field_id =3 and value IN ('on'))
+			AND subscriber_id in 
+				(select subscriber_id from subscriber_data  where  field_id =4 and value NOT IN ('lemur'))
+			OR subscriber_id in
+				(select subscriber_id from subscriber_data  where  field_id =5 and value NOT IN ('on'))
+			);
+			
+			for "multi" group
+			
+			SELECT count(subscriber_id)
+			from subscribers 
+			where 
+			status ='1' 
+			AND (
+			subscriber_id in 
+				(select subscriber_id from subscriber_data  where  field_id =3 and value IN ('on'))
+			AND subscriber_id in 
+				(select subscriber_id from subscriber_data  where  field_id =4 and value NOT IN ('lemur'))
+			OR subscriber_id in
+				(select subscriber_id from subscriber_data  where  field_id =5 and value NOT IN ('on'))
+			)
+			AND subscriber_ID NOT IN(  // exclude group
+				SELECT subscriber_id from subscribers where status ='1' AND (
+					subscriber_id in
+						(select ... zzz)
+					AND subsriber_id in
+						(select ... zzz)
+					OR subscriber_id in
+						(select ... zzz)
+				)
+			)
+			OR subscriber_ID IN(  // include group
+				SELECT subscriber_id from subscribers where status ='1' AND (
+					subscriber_id in
+						(select ... zzz)
+					AND subsriber_id in
+						(select ... zzz)
+					OR subscriber_id in
+						(select ... zzz)
+				)
+			)

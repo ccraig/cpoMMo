@@ -1,0 +1,3691 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-02-24 20:41+0100\n"
+"Last-Translator: luca sozio <soxhd@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#. aardvark-development/themes/default/user/mailings.tpl
+#. aardvark-development/themes/default/admin/setup/setup_configure.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#. aardvark-development/themes/default/admin/admin.tpl
+#: pommo_theme_lang.php:3
+#: pommo_theme_lang.php:105
+#: pommo_theme_lang.php:933
+#: pommo_theme_lang.php:1533
+#: pommo_theme_lang.php:1599
+#: pommo_theme_lang.php:2004
+msgid "Mailings"
+msgstr "Mailings"
+
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#. aardvark-development/themes/default/admin/mailings/admin_mailings.tpl
+#: pommo_theme_lang.php:6
+#: pommo_theme_lang.php:1953
+msgid "Send"
+msgstr "Invia"
+
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#. aardvark-development/themes/default/admin/mailings/admin_mailings.tpl
+#: pommo_theme_lang.php:9
+#: pommo_theme_lang.php:1959
+msgid "History"
+msgstr "Storico"
+
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+#. aardvark-development/themes/default/admin/admin.tpl
+#: pommo_theme_lang.php:12
+#: pommo_theme_lang.php:1305
+#: pommo_theme_lang.php:2010
+#: aardvark-development/admin/subscribers/ajax/subscriber_export2.php:87
+#: aardvark-development/admin/subscribers/ajax/subscriber_export2.php:107
+msgid "Subscribers"
+msgstr "Iscritti"
+
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#. aardvark-development/themes/default/admin/subscribers/admin_subscribers.tpl
+#: pommo_theme_lang.php:15
+#: pommo_theme_lang.php:1263
+msgid "Manage"
+msgstr "Gestisci"
+
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#. aardvark-development/themes/default/admin/subscribers/import_txt.tpl
+#. aardvark-development/themes/default/admin/subscribers/admin_subscribers.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+#. aardvark-development/themes/default/admin/subscribers/import_csv.tpl
+#: pommo_theme_lang.php:18
+#: pommo_theme_lang.php:1239
+#: pommo_theme_lang.php:1269
+#: pommo_theme_lang.php:1293
+#: pommo_theme_lang.php:1329
+#: pommo_theme_lang.php:1485
+#: aardvark-development/admin/subscribers/import_txt.php:64
+#: aardvark-development/admin/subscribers/import_csv2.php:83
+#: aardvark-development/admin/subscribers/import_csv.php:38
+msgid "Import"
+msgstr "Importa"
+
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_groups.tpl
+#. aardvark-development/themes/default/admin/subscribers/admin_subscribers.tpl
+#: pommo_theme_lang.php:21
+#: pommo_theme_lang.php:1119
+#: pommo_theme_lang.php:1275
+msgid "Groups"
+msgstr "Gruppi"
+
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_start.tpl
+#. aardvark-development/themes/default/admin/admin.tpl
+#: pommo_theme_lang.php:24
+#: pommo_theme_lang.php:1971
+#: pommo_theme_lang.php:1974
+#: pommo_theme_lang.php:2016
+msgid "Setup"
+msgstr "Setup"
+
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#. aardvark-development/themes/default/admin/setup/setup_configure.tpl
+#. aardvark-development/themes/default/admin/setup/admin_setup.tpl
+#: pommo_theme_lang.php:27
+#: pommo_theme_lang.php:915
+#: pommo_theme_lang.php:948
+#: aardvark-development/admin/setup/ajax/config_smtp.php:39
+msgid "Configure"
+msgstr "Configura"
+
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:30
+#: pommo_theme_lang.php:807
+msgid "Fields"
+msgstr "Campi"
+
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#: pommo_theme_lang.php:33
+msgid "Setup Form"
+msgstr "Form di setup"
+
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#: pommo_theme_lang.php:36
+msgid "Demonstration mode is ON."
+msgstr "Modo dimostrativo attivo."
+
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#: pommo_theme_lang.php:39
+msgid "Demonstration mode is OFF."
+msgstr "Modo dimostrativo non attivo"
+
+#. aardvark-development/themes/default/inc/dialog.tpl
+#. aardvark-development/themes/default/admin/setup/setup_configure.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_start.tpl
+#. aardvark-development/themes/default/admin/confirm.tpl
+#: pommo_theme_lang.php:42
+#: pommo_theme_lang.php:924
+#: pommo_theme_lang.php:930
+#: pommo_theme_lang.php:936
+#: pommo_theme_lang.php:942
+#: pommo_theme_lang.php:1998
+#: pommo_theme_lang.php:2040
+msgid "Please Wait"
+msgstr "Attendere"
+
+#. aardvark-development/themes/default/inc/admin.footer.tpl
+#. aardvark-development/themes/default/inc/user.footer.tpl
+#: pommo_theme_lang.php:45
+#: pommo_theme_lang.php:57
+msgid "Page fueled by %1 mailing management software"
+msgstr "Pagina creata con software di gestione mailing"
+
+#. aardvark-development/themes/default/inc/admin.header.tpl
+#: pommo_theme_lang.php:48
+msgid "Logout"
+msgstr "Logout"
+
+#. aardvark-development/themes/default/inc/admin.header.tpl
+#: pommo_theme_lang.php:51
+msgid "Support"
+msgstr "Supporto"
+
+#. aardvark-development/themes/default/inc/admin.header.tpl
+#. aardvark-development/themes/default/install.tpl
+#. aardvark-development/themes/default/upgrade.tpl
+#: pommo_theme_lang.php:54
+#: pommo_theme_lang.php:192
+#: pommo_theme_lang.php:2052
+msgid "Admin Page"
+msgstr "Pagina Amministrazione"
+
+#. aardvark-development/themes/default/user/update.tpl
+#: pommo_theme_lang.php:60
+msgid "Subscriber Update"
+msgstr "Aggiorna iscritto"
+
+#. aardvark-development/themes/default/user/update.tpl
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#: pommo_theme_lang.php:63
+#: pommo_theme_lang.php:441
+msgid "Unsubscribe"
+msgstr "Cancella iscrizione"
+
+#. aardvark-development/themes/default/user/update.tpl
+#: pommo_theme_lang.php:66
+msgid "Comments"
+msgstr "Commenti"
+
+#. aardvark-development/themes/default/user/update.tpl
+#: pommo_theme_lang.php:69
+msgid "Click to unsubscribe"
+msgstr "Clicca per cancellare l'iscrizione"
+
+#. aardvark-development/themes/default/user/update.tpl
+#: pommo_theme_lang.php:72
+msgid "Really unsubscribe?"
+msgstr "Vuoi veramente cancellarti?"
+
+#. aardvark-development/themes/default/user/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:75
+#: pommo_theme_lang.php:1500
+msgid "Mailings History"
+msgstr "Storico Mailings"
+
+#. aardvark-development/themes/default/user/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:78
+#: pommo_theme_lang.php:1503
+msgid "Sorting"
+msgstr "Ordina"
+
+#. aardvark-development/themes/default/user/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:81
+#: pommo_theme_lang.php:1506
+msgid "Sort by"
+msgstr "Ordine per"
+
+#. aardvark-development/themes/default/user/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:84
+#: pommo_theme_lang.php:111
+#: pommo_theme_lang.php:1509
+#: pommo_theme_lang.php:1539
+msgid "Subject"
+msgstr "Soggetto"
+
+#. aardvark-development/themes/default/user/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:87
+#: pommo_theme_lang.php:114
+#: pommo_theme_lang.php:1512
+msgid "Group"
+msgstr "Gruppo"
+
+#. aardvark-development/themes/default/user/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:90
+#: pommo_theme_lang.php:1518
+msgid "Time Created"
+msgstr "Ora creazione"
+
+#. aardvark-development/themes/default/user/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:93
+#: pommo_theme_lang.php:1521
+msgid "Order by"
+msgstr "Ordinato per"
+
+#. aardvark-development/themes/default/user/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:96
+#: pommo_theme_lang.php:1524
+msgid "ascending"
+msgstr "ascendente"
+
+#. aardvark-development/themes/default/user/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:99
+#: pommo_theme_lang.php:1527
+msgid "descending"
+msgstr "discendente"
+
+#. aardvark-development/themes/default/user/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:102
+#: pommo_theme_lang.php:1530
+msgid "# per page"
+msgstr "# per pagina"
+
+#. aardvark-development/themes/default/user/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:108
+#: pommo_theme_lang.php:1536
+msgid "%1 mailings"
+msgstr "%1 mailings"
+
+#. aardvark-development/themes/default/user/mailings.tpl
+#: pommo_theme_lang.php:117
+msgid "Created"
+msgstr "Creato"
+
+#. aardvark-development/themes/default/user/mailings.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:120
+#: pommo_theme_lang.php:123
+#: pommo_theme_lang.php:1155
+#: pommo_theme_lang.php:1158
+#: pommo_theme_lang.php:1563
+#: pommo_theme_lang.php:1932
+#: pommo_theme_lang.php:1938
+#: pommo_theme_lang.php:1944
+msgid "View"
+msgstr "Vedi"
+
+#. aardvark-development/themes/default/user/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:126
+#: pommo_theme_lang.php:1602
+msgid "Quick Search"
+msgstr "Ricerca veloce"
+
+#. aardvark-development/themes/default/user/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:129
+#: pommo_theme_lang.php:1605
+msgid "search table"
+msgstr "tabella ricerca"
+
+#. aardvark-development/themes/default/user/process.tpl
+#: pommo_theme_lang.php:132
+msgid "Subscription Review"
+msgstr "Anteprima Iscrizione"
+
+#. aardvark-development/themes/default/user/process.tpl
+#: pommo_theme_lang.php:135
+msgid "Back to Subscription Form"
+msgstr "Indietro alla form d'iscrizione"
+
+#. aardvark-development/themes/default/user/process.tpl
+#. aardvark-development/themes/default/user/pending.tpl
+#. aardvark-development/themes/default/user/confirm.tpl
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#. aardvark-development/themes/default/admin/subscribers/import_csv.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:138
+#: pommo_theme_lang.php:171
+#: pommo_theme_lang.php:183
+#: pommo_theme_lang.php:1332
+#: pommo_theme_lang.php:1458
+#: pommo_theme_lang.php:1497
+msgid "Return to %1"
+msgstr "Ritorna a %1"
+
+#. aardvark-development/themes/default/user/process.tpl
+#: pommo_theme_lang.php:141
+msgid "%1Update your records%2"
+msgstr "%1Aggiorna i tuoi dati%2"
+
+#. aardvark-development/themes/default/user/login.tpl
+#: pommo_theme_lang.php:144
+msgid "Subscriber Login"
+msgstr "Login Iscritto"
+
+#. aardvark-development/themes/default/user/login.tpl
+#: pommo_theme_lang.php:147
+msgid "In order to check your subscription status, update your information, or unsubscribe, you must enter your email address in the field below."
+msgstr "Per verificare lo stato della tua iscrzione, aggiornare i tuoi dati, o cancellarli, devi inserire il tuo indirizzo mail nel campo qui sotto"
+
+#. aardvark-development/themes/default/user/login.tpl
+#: pommo_theme_lang.php:150
+#: pommo_theme_lang.php:156
+msgid "Login"
+msgstr "Login"
+
+#. aardvark-development/themes/default/user/login.tpl
+#. aardvark-development/themes/default/subscribe/form.subscribe.tpl
+#. aardvark-development/themes/default/subscribe/form.update.tpl
+#. aardvark-development/themes/default/subscribe/form.mini.tpl
+#: pommo_theme_lang.php:153
+#: pommo_theme_lang.php:2091
+#: pommo_theme_lang.php:2112
+#: pommo_theme_lang.php:2127
+#: aardvark-development/admin/setup/form_generate.php:62
+msgid "Your Email:"
+msgstr "Tua mail"
+
+#. aardvark-development/themes/default/user/activate.tpl
+#: pommo_theme_lang.php:159
+msgid "Update Activation"
+msgstr "Aggiorna attivazione"
+
+#. aardvark-development/themes/default/user/activate.tpl
+#: pommo_theme_lang.php:162
+msgid "We require that you verify your email address before unsubscribing or updating your records. This extra step is necessary to maintain your privacy, and to protect you against fraudulent activity."
+msgstr "Richiediamo la verifica del tuo indirizzo mail prima di cancellare la iscrizione oaggiornare i tuoi record. Questo passo ulteriore serve a garantire la tua privacy e proteggerti contro attività fraudolente"
+
+#. aardvark-development/themes/default/user/activate.tpl
+#: pommo_theme_lang.php:165
+msgid "An activation email has recently been sent to %1. Please check your inbox."
+msgstr "Una mail di attivazione è stata appena inviata a %1. Controlla la tua casella di posta"
+
+#. aardvark-development/themes/default/user/pending.tpl
+#: pommo_theme_lang.php:168
+msgid "Pending Changes"
+msgstr "Modifiche in corso"
+
+#. aardvark-development/themes/default/user/pending.tpl
+#: pommo_theme_lang.php:174
+msgid "SEND another confirmation email"
+msgstr "INVIA un altra mail di conferma"
+
+#. aardvark-development/themes/default/user/pending.tpl
+#: pommo_theme_lang.php:177
+msgid "CANCEL your pending request"
+msgstr "CANCELLA la tua richiesta "
+
+#. aardvark-development/themes/default/user/confirm.tpl
+#: pommo_theme_lang.php:180
+msgid "Subscriber Confirmation"
+msgstr "Conferma Iscritto"
+
+#. aardvark-development/themes/default/install.tpl
+#: pommo_theme_lang.php:186
+msgid "Installation"
+msgstr "Installazione"
+
+#. aardvark-development/themes/default/install.tpl
+#: pommo_theme_lang.php:189
+msgid "Online install"
+msgstr "Installa online"
+
+#. aardvark-development/themes/default/install.tpl
+#: pommo_theme_lang.php:195
+msgid "Welcome to the online installation process. We have connected to the database and set your language successfully. Fill in the values below, and you'll be on your way!"
+msgstr "Benvenuti al processo d'installazione online di poMMo. La connessione con la base di dati ha avuto successo e la lingua è stata assegnata. Inserisci i tuoi dati nel modulo sottostante per concludere l'installazione."
+
+#. aardvark-development/themes/default/install.tpl
+#: pommo_theme_lang.php:198
+msgid "Configuration Options"
+msgstr "Opzion di configurazione"
+
+#. aardvark-development/themes/default/install.tpl
+#: pommo_theme_lang.php:201
+msgid "Name of Mailing List:"
+msgstr "Nome della Mailing List:"
+
+#. aardvark-development/themes/default/install.tpl
+#: pommo_theme_lang.php:204
+msgid "(ie. Brice's Mailing List)"
+msgstr "(es. Mailing List di Brice)"
+
+#. aardvark-development/themes/default/install.tpl
+#: pommo_theme_lang.php:207
+msgid "Name of Website:"
+msgstr "Nome del sito web"
+
+#. aardvark-development/themes/default/install.tpl
+#: pommo_theme_lang.php:210
+msgid "(ie. The poMMo Website)"
+msgstr "(es. Sito web poMMo)"
+
+#. aardvark-development/themes/default/install.tpl
+#. aardvark-development/themes/default/admin/setup/ajax/config_general.tpl
+#: pommo_theme_lang.php:213
+#: pommo_theme_lang.php:702
+msgid "Website URL:"
+msgstr "URL sito web:"
+
+#. aardvark-development/themes/default/install.tpl
+#: pommo_theme_lang.php:216
+msgid "(ie. http://www.pommo-rocks.com/)"
+msgstr "(es. http://www.pommo-rocks.com/)"
+
+#. aardvark-development/themes/default/install.tpl
+#. aardvark-development/themes/default/admin/setup/ajax/config_users.tpl
+#: pommo_theme_lang.php:219
+#: pommo_theme_lang.php:759
+msgid "Administrator Password:"
+msgstr "Password Amministratore:"
+
+#. aardvark-development/themes/default/install.tpl
+#. aardvark-development/themes/default/admin/setup/ajax/config_users.tpl
+#: pommo_theme_lang.php:222
+#: pommo_theme_lang.php:756
+#: pommo_theme_lang.php:762
+msgid "(you will use this to login)"
+msgstr "(la userai per la login)"
+
+#. aardvark-development/themes/default/install.tpl
+#. aardvark-development/themes/default/admin/setup/ajax/config_users.tpl
+#: pommo_theme_lang.php:225
+#: pommo_theme_lang.php:765
+msgid "Verify Password:"
+msgstr "Verifica Password:"
+
+#. aardvark-development/themes/default/install.tpl
+#. aardvark-development/themes/default/admin/setup/ajax/config_users.tpl
+#: pommo_theme_lang.php:228
+#: pommo_theme_lang.php:768
+msgid "(enter password again)"
+msgstr "(inserisci la password di nuovo)"
+
+#. aardvark-development/themes/default/install.tpl
+#. aardvark-development/themes/default/admin/setup/ajax/config_users.tpl
+#: pommo_theme_lang.php:231
+#: pommo_theme_lang.php:771
+msgid "Administrator Email:"
+msgstr "Email Amministratore:"
+
+#. aardvark-development/themes/default/install.tpl
+#: pommo_theme_lang.php:234
+msgid "(enter your valid email address)"
+msgstr "(inserisci un indirizzo email valido)"
+
+#. aardvark-development/themes/default/install.tpl
+#: pommo_theme_lang.php:237
+msgid "Install"
+msgstr "Installa"
+
+#. aardvark-development/themes/default/install.tpl
+#. aardvark-development/themes/default/upgrade.tpl
+#: pommo_theme_lang.php:240
+#: pommo_theme_lang.php:2058
+msgid "To disable debugging"
+msgstr "Disabilita debugging"
+
+#. aardvark-development/themes/default/install.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+#. aardvark-development/themes/default/upgrade.tpl
+#: pommo_theme_lang.php:243
+#: pommo_theme_lang.php:249
+#: pommo_theme_lang.php:1707
+#: pommo_theme_lang.php:2061
+#: pommo_theme_lang.php:2067
+#: pommo_theme_lang.php:2073
+msgid "Click Here"
+msgstr "Clicca qui"
+
+#. aardvark-development/themes/default/install.tpl
+#. aardvark-development/themes/default/upgrade.tpl
+#: pommo_theme_lang.php:246
+#: pommo_theme_lang.php:2064
+msgid "To enable debugging"
+msgstr "Abilita debugging"
+
+#. aardvark-development/themes/default/install.tpl
+#. aardvark-development/themes/default/upgrade.tpl
+#: pommo_theme_lang.php:252
+#: pommo_theme_lang.php:2076
+msgid "Continue to login page"
+msgstr "Continua alla pagina di login"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_smtp.tpl
+#: pommo_theme_lang.php:255
+msgid "SMTP Throttling"
+msgstr "SMTP Throttling"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_smtp.tpl
+#: pommo_theme_lang.php:258
+msgid "Throttle Sharing"
+msgstr "Throttle Sharing"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_smtp.tpl
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#. aardvark-development/themes/default/admin/setup/ajax/config_general.tpl
+#: pommo_theme_lang.php:261
+#: pommo_theme_lang.php:348
+#: pommo_theme_lang.php:360
+#: pommo_theme_lang.php:372
+#: pommo_theme_lang.php:384
+#: pommo_theme_lang.php:561
+#: pommo_theme_lang.php:573
+#: pommo_theme_lang.php:726
+msgid "off"
+msgstr "off"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_smtp.tpl
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#. aardvark-development/themes/default/admin/setup/ajax/config_general.tpl
+#: pommo_theme_lang.php:264
+#: pommo_theme_lang.php:345
+#: pommo_theme_lang.php:357
+#: pommo_theme_lang.php:369
+#: pommo_theme_lang.php:381
+#: pommo_theme_lang.php:558
+#: pommo_theme_lang.php:570
+#: pommo_theme_lang.php:723
+msgid "on"
+msgstr "on"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_smtp.tpl
+#: pommo_theme_lang.php:267
+msgid "(ON; the throttler will be global. OFF; independent throttler per relay.)"
+msgstr "(ON; the throttler will be global. OFF; independent throttler per relay.)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_smtp.tpl
+#: pommo_theme_lang.php:270
+msgid "SMTP #%1"
+msgstr "SMTP #%1"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_smtp.tpl
+#: pommo_theme_lang.php:273
+msgid "SMTP Status:"
+msgstr "Stato SMTP:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_smtp.tpl
+#: pommo_theme_lang.php:276
+msgid "Connected to SMTP server"
+msgstr "Connesso al server SMTP"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_smtp.tpl
+#: pommo_theme_lang.php:279
+msgid "Unable to connect to SMTP server"
+msgstr "Impossibile connettersi al server SMTP"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_smtp.tpl
+#: pommo_theme_lang.php:282
+msgid "SMTP Host:"
+msgstr "Host SMTP:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_smtp.tpl
+#: pommo_theme_lang.php:285
+msgid "(IP Address or Name of SMTP server)"
+msgstr "(Indirizzo IP o nome del server SMTP)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_smtp.tpl
+#: pommo_theme_lang.php:288
+msgid "Port Number:"
+msgstr "Numero Porta"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_smtp.tpl
+#: pommo_theme_lang.php:291
+msgid "(Port # of SMTP server [usually 25])"
+msgstr "(# Porta del server SMTP [solitamente 25])"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_smtp.tpl
+#: pommo_theme_lang.php:294
+msgid "SMTP Authentication:"
+msgstr "Autenticazione SMTP:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_smtp.tpl
+#: pommo_theme_lang.php:297
+msgid "(Toggle SMTP Authentication [usually off])"
+msgstr "(Toggle Autenticazione SMTP  [solitamente off])"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_smtp.tpl
+#: pommo_theme_lang.php:300
+msgid "SMTP Username:"
+msgstr "SMTP Username:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_smtp.tpl
+#: pommo_theme_lang.php:303
+#: pommo_theme_lang.php:309
+msgid "(optional)"
+msgstr "(opzionale)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_smtp.tpl
+#: pommo_theme_lang.php:306
+msgid "SMTP Password:"
+msgstr "SMTP Password:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_smtp.tpl
+#: pommo_theme_lang.php:312
+msgid "Update Relay #%1"
+msgstr "Aggiorna Relay #%1"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_smtp.tpl
+#: pommo_theme_lang.php:315
+msgid "This is your default relay"
+msgstr "Questo è il relay di default"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_smtp.tpl
+#: pommo_theme_lang.php:318
+msgid "Remove Relay #%1"
+msgstr "Rimuovi Relay #%1 "
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_smtp.tpl
+#: pommo_theme_lang.php:321
+msgid "Add Another Relay"
+msgstr "Aggiungi un altro Relay"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#: pommo_theme_lang.php:324
+msgid "notifications"
+msgstr "notifiche"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#: pommo_theme_lang.php:327
+msgid "Administrators can be sent a notification of subscription list changes."
+msgstr "Può essere inviata una notifica all'amministratore quandi c'è una modifica sulla lista iscritti"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#: pommo_theme_lang.php:330
+msgid "Notification email(s):"
+msgstr "Email di notifica"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#: pommo_theme_lang.php:333
+msgid "(Notifications will be sent to the above address(es). Multiple addresses can be entered -- seperate with a comma.)"
+msgstr "(Le notifiche saranno inviate all'indirizzo sopra. Possono essere inseriti più indirizzi -- separati da una virgola.)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#: pommo_theme_lang.php:336
+msgid "Subject Prefix:"
+msgstr "Prefisso oggetto:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#: pommo_theme_lang.php:339
+msgid "(The subject of Notification Mails will begin with this)"
+msgstr "(L'oggetto delle mail inizieranno con questo prefisso)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#: pommo_theme_lang.php:342
+#: pommo_theme_lang.php:354
+#: pommo_theme_lang.php:366
+#: pommo_theme_lang.php:378
+msgid "Notify on %1"
+msgstr "Notifica su %1"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#: pommo_theme_lang.php:351
+msgid "(sent upon successful subscription)"
+msgstr "Iscrizione inviata con successo"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#: pommo_theme_lang.php:363
+msgid "(sent upon successful unsubscription)"
+msgstr "Cancellazione inviata con successo"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#: pommo_theme_lang.php:375
+msgid "(sent upon subscriber update)"
+msgstr "Aggiornamento iscrizione"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#: pommo_theme_lang.php:387
+msgid "(sent upon subscription attempt)"
+msgstr "Iscrizione in corso"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#. aardvark-development/themes/default/admin/setup/ajax/config_throttle.tpl
+#. aardvark-development/themes/default/admin/setup/ajax/config_general.tpl
+#. aardvark-development/themes/default/admin/setup/ajax/config_users.tpl
+#. aardvark-development/themes/default/admin/subscribers/ajax/group_field.tpl
+#: pommo_theme_lang.php:390
+#: pommo_theme_lang.php:414
+#: pommo_theme_lang.php:435
+#: pommo_theme_lang.php:450
+#: pommo_theme_lang.php:516
+#: pommo_theme_lang.php:627
+#: pommo_theme_lang.php:651
+#: pommo_theme_lang.php:681
+#: pommo_theme_lang.php:750
+#: pommo_theme_lang.php:777
+#: pommo_theme_lang.php:984
+#: aardvark-development/admin/setup/ajax/config_messages.php:171
+msgid "Update"
+msgstr "Aggiorna"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#: pommo_theme_lang.php:393
+msgid "subscribe"
+msgstr "Invia"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#: pommo_theme_lang.php:396
+#: pommo_theme_lang.php:423
+#: pommo_theme_lang.php:1674
+#: pommo_theme_lang.php:1716
+msgid "Subject:"
+msgstr "Oggetto:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#: pommo_theme_lang.php:399
+#: pommo_theme_lang.php:426
+msgid "(Subject of Sent Email)"
+msgstr "Oggetto della mail inviata"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#: pommo_theme_lang.php:402
+#: pommo_theme_lang.php:429
+msgid "Message:"
+msgstr "Messaggio:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#: pommo_theme_lang.php:405
+#: pommo_theme_lang.php:432
+msgid "(Use %1[[url]]%2 for the confirm link at least once)"
+msgstr "Usa %1[[url]]%2 per il link di conferma almeno una volta"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#: pommo_theme_lang.php:408
+#: pommo_theme_lang.php:444
+msgid "Success:"
+msgstr "Successo:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#: pommo_theme_lang.php:411
+#: pommo_theme_lang.php:447
+msgid "(Message displayed upon success)"
+msgstr "(Messaggio mostrato con successo)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#: pommo_theme_lang.php:417
+#: pommo_theme_lang.php:438
+#: pommo_theme_lang.php:453
+msgid "Restore to Defaults"
+msgstr "Ripristina valori di default"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_messages.tpl
+#: pommo_theme_lang.php:420
+msgid "activate Records"
+msgstr "Attiva records"
+
+#. aardvark-development/themes/default/admin/setup/ajax/test_exchanger.tpl
+#: pommo_theme_lang.php:456
+msgid "A test message will be sent to the supplied recipient. If you receive it, poMMo can use the %1 exchanger. Remember to check your SPAM folder too."
+msgstr "Un messaggio di test sar&agrave; inviato all indirizzo fornito. Se la ricevi,Pommo pu&ograve; utilizzare %1 exchanger. Ricorda di verificare anche nella cartella SPAM."
+
+#. aardvark-development/themes/default/admin/setup/ajax/test_exchanger.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.mailingtest.tpl
+#: pommo_theme_lang.php:459
+#: pommo_theme_lang.php:1824
+msgid "Recipient"
+msgstr "Destinatario"
+
+#. aardvark-development/themes/default/admin/setup/ajax/test_exchanger.tpl
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_edit.tpl
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_add.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.mailingtest.tpl
+#: pommo_theme_lang.php:462
+#: pommo_theme_lang.php:1068
+#: pommo_theme_lang.php:1086
+#: pommo_theme_lang.php:1827
+msgid "Email:"
+msgstr "Email:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/test_exchanger.tpl
+#: pommo_theme_lang.php:465
+msgid "(address to send test message to)"
+msgstr "indirizzo destinatario messaggio di test"
+
+#. aardvark-development/themes/default/admin/setup/ajax/test_exchanger.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.mailingtest.tpl
+#: pommo_theme_lang.php:468
+#: pommo_theme_lang.php:1695
+#: pommo_theme_lang.php:1830
+msgid "Send Mailing"
+msgstr "Invia Mailing"
+
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+#: pommo_theme_lang.php:471
+msgid "Short Name:"
+msgstr "Nickname:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+#: pommo_theme_lang.php:474
+msgid "Identifying name. NOT displayed on Subscription Form or seen by users."
+msgstr "Nome identificativo. Non mostrato nella Form di iscrizione o agli altri utenti"
+
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+#: pommo_theme_lang.php:477
+msgid "Form Name:"
+msgstr "Nome Form:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+#: pommo_theme_lang.php:480
+msgid "Prompt for field on the Subscription Form. e.g. %1Type your city%2"
+msgstr "Descrizione della casella nel modulo di iscrizione. Per esempio: %1Compila la tua citta:%2"
+
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+#: pommo_theme_lang.php:483
+msgid "Required:"
+msgstr "Richiesto:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+#: pommo_theme_lang.php:486
+msgid "Toggle to require field on Subscription Form (user cannot leave blank if %1yes%2)"
+msgstr "Clicca per rendere obbligatorio questo campo nel modulo di iscrizione (gli utenti dovranno necessariamente inserire un valore, se %1si%2)."
+
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+#: pommo_theme_lang.php:489
+msgid "Active:"
+msgstr "Attivo:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+#: pommo_theme_lang.php:492
+msgid "Toggle display of field for Subscription Form"
+msgstr "licca per nascondere questo valore nel modulo di iscrizione."
+
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+#: pommo_theme_lang.php:495
+#: pommo_theme_lang.php:501
+#: pommo_theme_lang.php:507
+msgid "Default:"
+msgstr "Valore predefinito:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+#: pommo_theme_lang.php:498
+#: pommo_theme_lang.php:504
+#: pommo_theme_lang.php:513
+msgid "If provided, this value will appear pre-filled on the subscription form"
+msgstr "Se fornito, questo valore apparir&agrave; pre-compilato nel modulo di iscrizione"
+
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+#: pommo_theme_lang.php:510
+msgid "Select default choice"
+msgstr "Seleziona la scelta di default"
+
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+#: pommo_theme_lang.php:519
+msgid "Multiple options"
+msgstr "Opzioni multiple"
+
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+#: pommo_theme_lang.php:522
+msgid "NOTE: You can add multiple options at once by separating each with a comma."
+msgstr "NOTA: Puoi aggiungere opzioni multiple separandole con una virgola."
+
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+#: pommo_theme_lang.php:525
+msgid "Options:"
+msgstr "Opzioni:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+#: pommo_theme_lang.php:528
+msgid "type option(s)"
+msgstr "tipo opzione(i)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+#: pommo_theme_lang.php:531
+msgid "Add Option(s)"
+msgstr "Aggiungi opzione(i)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+#: pommo_theme_lang.php:534
+msgid "Remove Selected Option"
+msgstr "Cancella opzione selezionato"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#: pommo_theme_lang.php:537
+#: pommo_theme_lang.php:1731
+msgid "From Name:"
+msgstr "Nome mittente:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#: pommo_theme_lang.php:540
+msgid "(Default name mails will be sent from)"
+msgstr "Questo nome sarà inserito come mittente dell'email"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#: pommo_theme_lang.php:543
+#: pommo_theme_lang.php:1737
+msgid "From Email:"
+msgstr "Email mittente:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#: pommo_theme_lang.php:546
+msgid "(Default email mails will be sent from)"
+msgstr "Questo indirizzo indica l'indirizzo email del mittente"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#: pommo_theme_lang.php:549
+msgid "Bounce Address:"
+msgstr "Indirizzo di rimbalzo"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#: pommo_theme_lang.php:552
+msgid "(Returned emails will be sent to this address)"
+msgstr "Indirizzo al quale verranno ritornate le email"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#: pommo_theme_lang.php:555
+msgid "Demonstration Mode:"
+msgstr "Modo dimostrazione:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#: pommo_theme_lang.php:564
+msgid "(Toggle Demonstration Mode)"
+msgstr "Attiva/disattiva il modo dimostrazione"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#: pommo_theme_lang.php:567
+msgid "Public Mailings"
+msgstr "Mailing pubblico"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#: pommo_theme_lang.php:576
+msgid "(When on, the public can view past mailings at this %1URL%2)"
+msgstr "Quando è on, gli utenti possono vedere mailings passati a questo %1URL%2"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#: pommo_theme_lang.php:579
+msgid "Set mailing throttle values"
+msgstr "Imposta i valori del ritmo di invio"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#: pommo_theme_lang.php:582
+msgid "(controls mails per second, bytes per second, and domain limits)"
+msgstr "controlla email per secondo, bytes per secondo, limiti dominio"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#: pommo_theme_lang.php:585
+#: pommo_theme_lang.php:1689
+#: pommo_theme_lang.php:1749
+msgid "Character Set:"
+msgstr "Insieme Caratteri:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#: pommo_theme_lang.php:588
+#: pommo_theme_lang.php:1752
+msgid "UTF-8 (recommended)"
+msgstr "UTF-8 (raccommandato)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#: pommo_theme_lang.php:591
+#: pommo_theme_lang.php:1755
+msgid "Western (ISO-8859-1)"
+msgstr "Western (ISO-8859-1)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#: pommo_theme_lang.php:594
+#: pommo_theme_lang.php:1758
+msgid "Western (ISO-8859-15)"
+msgstr "Western (ISO-8859-15)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#: pommo_theme_lang.php:597
+#: pommo_theme_lang.php:1761
+msgid "Central/Eastern European (ISO-8859-2)"
+msgstr "Central/Eastern European (ISO-8859-2)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#: pommo_theme_lang.php:600
+#: pommo_theme_lang.php:1764
+msgid "Greek (ISO-8859-7)"
+msgstr "Greco (ISO-8859-7)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#: pommo_theme_lang.php:603
+#: pommo_theme_lang.php:1767
+msgid "Japanese (ISO-2022-JP)"
+msgstr "Giapponese (ISO-2022-JP)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#: pommo_theme_lang.php:606
+#: pommo_theme_lang.php:1770
+msgid "Japanese (EUC-JP)"
+msgstr "Giapponese (EUC-JP)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#: pommo_theme_lang.php:609
+#: pommo_theme_lang.php:1773
+msgid "cyrillic (Windows-1251)"
+msgstr "Cirillico (Windows-1251)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#: pommo_theme_lang.php:612
+#: pommo_theme_lang.php:1776
+msgid "cyrillic (KOI8-R)"
+msgstr "cirillico (KOI8-R)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#: pommo_theme_lang.php:615
+#: pommo_theme_lang.php:1779
+msgid "Simplified Chinese (GB2312)"
+msgstr "Cinese semplificato (GB2312)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#: pommo_theme_lang.php:618
+msgid "(Select Default Character Set of Mailings)"
+msgstr "Seleziona il formato del mailing"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#: pommo_theme_lang.php:621
+msgid "Runtime:"
+msgstr "Runtime:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_mailings.tpl
+#: pommo_theme_lang.php:624
+msgid "(Seconds a processing script runs for. Default: 80, Minimum: 15)"
+msgstr "Secondi di esecuzione per lo script. Default: 80, Minimo: 15"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_throttle.tpl
+#: pommo_theme_lang.php:630
+msgid "Global Rates"
+msgstr "Global Rates"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_throttle.tpl
+#: pommo_theme_lang.php:633
+#: pommo_theme_lang.php:669
+msgid "Mail Rate"
+msgstr "Mail Rate"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_throttle.tpl
+#: pommo_theme_lang.php:636
+#: pommo_theme_lang.php:645
+msgid "%1 per Second"
+msgstr "%1 per Secondo"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_throttle.tpl
+#: pommo_theme_lang.php:639
+#: pommo_theme_lang.php:648
+msgid "%1 per Hour"
+msgstr "%1 per Ora"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_throttle.tpl
+#: pommo_theme_lang.php:642
+#: pommo_theme_lang.php:675
+msgid "Bandwidth Limit"
+msgstr "Limite di banda"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_throttle.tpl
+#: pommo_theme_lang.php:654
+#: pommo_theme_lang.php:684
+msgid "Restore Defaults"
+msgstr "Ritorna ai valori predefiniti"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_throttle.tpl
+#: pommo_theme_lang.php:657
+msgid "Rates per Domain"
+msgstr "Rates per Dominio"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_throttle.tpl
+#: pommo_theme_lang.php:660
+msgid "In addition to global throttling, you can limit the number of bytes/mails a single domain receives per period. This is useful to prevent \"slamming\" of a host -- which can get you banned or marked as spam. As example, you can choose to send no more than 1 mail every 20 seconds to a domain by setting the mails to 1 and the period interval to 20. Warning; this setting will significantly delay a mailing if many of your subscribers use the same domain (e.g. @gmail.com)."
+msgstr "Oltre al ritmo di invio, puoi limitare il numero di bytes/mails che unsingolo dominio riceve in un periodo. Questa caratteristica &egrave; utile a \"slamming\" of prevenire lo \"slamming\" di un host -- che pu&ograve; bannarti o marcarti come spam.Ad esempio puoi scegliere di inviare non pi&ugrave; di una mail ogni 20 secondi ad un dominio settanto il valore mails a 1 e l'intervallo del periodo a 20. Warning; Questo settaggio ritarder&agrave; in modo significativo l'attività di mailing se pi&ugrave; di un iscritto usano lo stesso dominio (es. @gmail.com)."
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_throttle.tpl
+#: pommo_theme_lang.php:663
+msgid "Period Interval"
+msgstr "Intervallo periodo"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_throttle.tpl
+#: pommo_theme_lang.php:666
+msgid "%1 seconds"
+msgstr "%1 secondi"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_throttle.tpl
+#: pommo_theme_lang.php:672
+#: pommo_theme_lang.php:678
+msgid "%1 per Period"
+msgstr "%1 per Periodo"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_throttle.tpl
+#: pommo_theme_lang.php:687
+msgid "No Limit"
+msgstr "Nessun limite"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_general.tpl
+#: pommo_theme_lang.php:690
+msgid "List Name:"
+msgstr "Nome lista:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_general.tpl
+#: pommo_theme_lang.php:693
+msgid "(The name of your Mailing List)"
+msgstr "(Nome della Mailing List)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_general.tpl
+#: pommo_theme_lang.php:696
+msgid "Website Name:"
+msgstr "Nome sito web:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_general.tpl
+#: pommo_theme_lang.php:699
+msgid "(The name of your Website)"
+msgstr "(Il nome del tuo sito)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_general.tpl
+#: pommo_theme_lang.php:705
+msgid "(Web address of your Website)"
+msgstr "Indirizzo web del tuo sito [URL]"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_general.tpl
+#: pommo_theme_lang.php:708
+msgid "Success URL:"
+msgstr "URL:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_general.tpl
+#: pommo_theme_lang.php:711
+msgid "(Webpage users will see upon successfull subscription. Leave blank to display default welcome page.)"
+msgstr "(Il sito che gli utenti vedranno dopo una iscrizione effettuata con successo. Lasciare vuoto per visualizzare il sito predefinito.)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_general.tpl
+#: pommo_theme_lang.php:714
+msgid "Confirm URL:"
+msgstr "URL Conferma:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_general.tpl
+#: pommo_theme_lang.php:717
+msgid "(Webpage users will see upon subscription attempt. Leave blank to display default confirmation page.)"
+msgstr "Il sito che gli utenti vedranno col tentativo di iscrizione. Lasciare vuoto per visualizzare il sito predefinito.)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_general.tpl
+#: pommo_theme_lang.php:720
+msgid "Email Confirmation:"
+msgstr "Email di conferma:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_general.tpl
+#: pommo_theme_lang.php:729
+msgid "(Set to validate email upon subscription attempt.)"
+msgstr "Imposta per validare l'email manualmente dopo il tentativo di iscrizione."
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_general.tpl
+#: pommo_theme_lang.php:732
+msgid "Mail Exchanger:"
+msgstr "Mail Exchanger:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_general.tpl
+#: pommo_theme_lang.php:735
+msgid "PHP Mail Function"
+msgstr "Funzione PHP Mail:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_general.tpl
+#: pommo_theme_lang.php:738
+#: aardvark-development/admin/setup/setup_configure.php:37
+msgid "Test Exchanger"
+msgstr "Test Exchanger:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_general.tpl
+#: pommo_theme_lang.php:741
+msgid "(Select Mail Exchanger)"
+msgstr "(Seleziona Mail Exchanger)"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_general.tpl
+#: pommo_theme_lang.php:744
+msgid "Setup your SMTP Servers"
+msgstr "Configura i server SMTP"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_general.tpl
+#: pommo_theme_lang.php:747
+msgid "(configure SMTP relays)"
+msgstr "Configura relays SMTP"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_users.tpl
+#: pommo_theme_lang.php:753
+msgid "Administrator Username:"
+msgstr "Username amministratore:"
+
+#. aardvark-development/themes/default/admin/setup/ajax/config_users.tpl
+#: pommo_theme_lang.php:774
+msgid "(email address of administrator)"
+msgstr "(indirizzo email dell amministratore)"
+
+#. aardvark-development/themes/default/admin/setup/setup_form.tpl
+#: pommo_theme_lang.php:780
+msgid "Subscription Forms"
+msgstr "Modulo di iscrizione"
+
+#. aardvark-development/themes/default/admin/setup/setup_form.tpl
+#: pommo_theme_lang.php:783
+msgid "Default Subscription Form"
+msgstr "Modulo di iscrizione predefinito"
+
+#. aardvark-development/themes/default/admin/setup/setup_form.tpl
+#: pommo_theme_lang.php:786
+msgid "Preview the default subscription form. Its look and feel can be adjusted through the theme template ([theme]/user/subscribe.tpl)."
+msgstr "Preview del modulo di iscrizione predefinito. Il suo look and feel pu&ograve; essere modificato tramite i templates ([theme]/user/subscribe.tpl)."
+
+#. aardvark-development/themes/default/admin/setup/setup_form.tpl
+#: pommo_theme_lang.php:789
+msgid "Embedded Subscription From"
+msgstr "Modulo di iscrizione embedded"
+
+#. aardvark-development/themes/default/admin/setup/setup_form.tpl
+#: pommo_theme_lang.php:792
+msgid "Preview subscription forms that you can embed into an area of an existing webpage."
+msgstr "Preview della form di iscrizione che pu&ograve; essere inserito in un area di un sito web esistente."
+
+#. aardvark-development/themes/default/admin/setup/setup_form.tpl
+#: pommo_theme_lang.php:795
+msgid "HTML Subscription Form"
+msgstr "Modulo di iscrizione in HTML"
+
+#. aardvark-development/themes/default/admin/setup/setup_form.tpl
+#: pommo_theme_lang.php:798
+msgid "Generate a plain HTML subscription form that you can customize to fit your site."
+msgstr "Genera un modulo di iscrizione generico in HTML da customizzare e inserire sul tuo sito web."
+
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:801
+msgid "Fields Page"
+msgstr "Impostazione campi"
+
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:804
+msgid "Subscriber fields allow you to collect information on list members. They are typically displayed on the subscription form, although \"hidden\" ones can be used for administrative purposes. %1Groups%2 are based on subscriber field values."
+msgstr "I campi ti permettono di registrare informazione sui membri della mailng list. Sono solitamente mostrati nella form di iscrizione, benchè alcuni \"nascosti\" possono essere usati per scopi amministrativi. I %1Gruppi%2 sono basati sui valori dei campi."
+
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:810
+msgid "New field name:"
+msgstr "Nome del nuovo campo"
+
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:813
+msgid "type new field name"
+msgstr "digita il nome del nuovo campo"
+
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:816
+msgid "Field type:"
+msgstr "Tipo campo:"
+
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:819
+#: aardvark-development/admin/setup/ajax/field_edit.php:134
+msgid "Text"
+msgstr "Testo"
+
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:822
+#: aardvark-development/admin/setup/ajax/field_edit.php:136
+msgid "Number"
+msgstr "Numero"
+
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:825
+#: aardvark-development/admin/setup/ajax/field_edit.php:135
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:828
+#: aardvark-development/admin/setup/ajax/field_edit.php:138
+msgid "Multiple Choice"
+msgstr "Scelta multipla"
+
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:831
+#: aardvark-development/admin/setup/ajax/field_edit.php:137
+msgid "Date"
+msgstr "Data"
+
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:834
+#: aardvark-development/admin/setup/ajax/field_edit.php:139
+msgid "Comment"
+msgstr "Commento"
+
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#. aardvark-development/themes/default/admin/subscribers/ajax/group_field.tpl
+#. aardvark-development/themes/default/admin/subscribers/ajax/group_edit.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_groups.tpl
+#: pommo_theme_lang.php:837
+#: pommo_theme_lang.php:987
+#: pommo_theme_lang.php:1002
+#: pommo_theme_lang.php:1116
+msgid "Add"
+msgstr "Aggiungi"
+
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:840
+msgid "Field Ordering"
+msgstr "Ordinamento campi"
+
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:843
+msgid "Change the ordering of fields on the subscription form by dragging and dropping the order icon"
+msgstr "Cambia l'ordine dei campi nel modulo di iscrizione col drag and drop"
+
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:846
+msgid "ID"
+msgstr "ID"
+
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_groups.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/templates.tpl
+#: pommo_theme_lang.php:849
+#: pommo_theme_lang.php:1122
+#: pommo_theme_lang.php:1206
+#: pommo_theme_lang.php:1371
+#: pommo_theme_lang.php:1395
+#: pommo_theme_lang.php:1419
+#: pommo_theme_lang.php:1440
+#: pommo_theme_lang.php:1449
+#: pommo_theme_lang.php:1557
+#: pommo_theme_lang.php:1632
+msgid "Delete"
+msgstr "Cancella"
+
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_groups.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:852
+#: pommo_theme_lang.php:1125
+#: pommo_theme_lang.php:1212
+#: pommo_theme_lang.php:1374
+#: pommo_theme_lang.php:1398
+#: pommo_theme_lang.php:1422
+msgid "Edit"
+msgstr "Modifica"
+
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:855
+msgid "Order"
+msgstr "Ordine"
+
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:858
+msgid "Field Name"
+msgstr "Nome campo"
+
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_edit.tpl
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_add.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.addtemplate.tpl
+#. aardvark-development/themes/default/subscribe/form.subscribe.tpl
+#. aardvark-development/themes/default/subscribe/form.update.tpl
+#: pommo_theme_lang.php:861
+#: pommo_theme_lang.php:1077
+#: pommo_theme_lang.php:1098
+#: pommo_theme_lang.php:1713
+#: pommo_theme_lang.php:1797
+#: pommo_theme_lang.php:2088
+#: pommo_theme_lang.php:2109
+msgid "Fields marked like %1 this %2 are required."
+msgstr "I campi marcati %1 così %2 sono obbligatori"
+
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#: pommo_theme_lang.php:864
+msgid "%1Green%2 fields are active."
+msgstr "I campi in %1verde%2 sono attivi."
+
+#. aardvark-development/themes/default/admin/setup/form_embed.tpl
+#: pommo_theme_lang.php:867
+msgid "Embedded Subscription Forms"
+msgstr "Moduli di iscrizione embedded"
+
+#. aardvark-development/themes/default/admin/setup/form_embed.tpl
+#: pommo_theme_lang.php:870
+msgid "Return to Subscription Forms"
+msgstr "Ritorna alle form di iscrizione"
+
+#. aardvark-development/themes/default/admin/setup/form_embed.tpl
+#: pommo_theme_lang.php:873
+msgid "Subscription forms can easily be added to your website using a line of code. You can use the PHP include listed below, or embed the actual HTML. Remember, you can also direct subscribers to the "
+msgstr "Moduli di iscrizione possono essere aggiunti al tuo sito web aggiungendo una linea di codice. Puoi usare gli include PHP che trovi sotto o inserire nel codice HTML attuale. Ricordati, puoi anche dirigere gli iscritti al"
+
+#. aardvark-development/themes/default/admin/setup/form_embed.tpl
+#: pommo_theme_lang.php:876
+msgid "Default Subscribe Form"
+msgstr "Modulo di iscrizione predefinito"
+
+#. aardvark-development/themes/default/admin/setup/form_embed.tpl
+#: pommo_theme_lang.php:879
+#: pommo_theme_lang.php:891
+msgid "Mini Subscription Form"
+msgstr "Modulo di iscrizione mini"
+
+#. aardvark-development/themes/default/admin/setup/form_embed.tpl
+#: pommo_theme_lang.php:882
+msgid "This prints a form which prompts for a user's email address. If the inputted email exists as a registered subscriber, it redirects to the subscriber update page. If not, it redirects to the the default subscription form."
+msgstr "Questa opzione attiverà un modulo che richiederà un indirizzo email all'utente.Se l'indirizzo email digitato corrisponde con uno già esistente, l'utente sarà rediretto sulla pagina d'aggiornamento dei dati. Altrimenti l'utente sarà rediretto al modulo di iscrizione predefinito"
+
+#. aardvark-development/themes/default/admin/setup/form_embed.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_start.tpl
+#: pommo_theme_lang.php:885
+#: pommo_theme_lang.php:894
+#: pommo_theme_lang.php:903
+#: pommo_theme_lang.php:912
+#: pommo_theme_lang.php:1989
+#: pommo_theme_lang.php:1992
+msgid "Preview"
+msgstr "Preview"
+
+#. aardvark-development/themes/default/admin/setup/form_embed.tpl
+#: pommo_theme_lang.php:888
+#: pommo_theme_lang.php:906
+msgid "URL"
+msgstr "URL"
+
+#. aardvark-development/themes/default/admin/setup/form_embed.tpl
+#: pommo_theme_lang.php:897
+msgid "Full Subscription Form"
+msgstr "Modulo di iscrizione completo"
+
+#. aardvark-development/themes/default/admin/setup/form_embed.tpl
+#: pommo_theme_lang.php:900
+msgid "This prints the entire subscription form."
+msgstr "Questo visualizzerà l'intero modulo di registrazione."
+
+#. aardvark-development/themes/default/admin/setup/form_embed.tpl
+#. aardvark-development/themes/default/admin/setup/admin_setup.tpl
+#: pommo_theme_lang.php:909
+#: pommo_theme_lang.php:960
+msgid "Subscription Form"
+msgstr "Modulo di iscrizione"
+
+#. aardvark-development/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:918
+msgid "You can change the login information, set website and mailing list parameters, end enable demonstration mode. If you enable demonstration mode, no emails will be sent from the system."
+msgstr "Puoi cambiare le informazioni per il login, specificare parametri del sito web e della mailing list, e abilitare il modo dimostrazione (Questo modo non permette di inviare emails dal sistema)."
+
+#. aardvark-development/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:921
+msgid "Users"
+msgstr "Utenti"
+
+#. aardvark-development/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:927
+msgid "General"
+msgstr "Generale"
+
+#. aardvark-development/themes/default/admin/setup/setup_configure.tpl
+#: pommo_theme_lang.php:939
+msgid "Messages"
+msgstr "Messaggi"
+
+#. aardvark-development/themes/default/admin/setup/admin_setup.tpl
+#: pommo_theme_lang.php:945
+msgid "Setup Page"
+msgstr "Pagina Setup"
+
+#. aardvark-development/themes/default/admin/setup/admin_setup.tpl
+#: pommo_theme_lang.php:951
+msgid "Set your mailing list name, its default behavior, and the administrator's information."
+msgstr "Definisci il nome della lista, il suo modo d'agire e le informazioni dell'amministratore."
+
+#. aardvark-development/themes/default/admin/setup/admin_setup.tpl
+#: pommo_theme_lang.php:954
+msgid "Subscriber Fields"
+msgstr "Caselle iscritti"
+
+#. aardvark-development/themes/default/admin/setup/admin_setup.tpl
+#: pommo_theme_lang.php:957
+msgid "Choose the information you'd like to collect from your subscribers."
+msgstr "Seleziona le informazioni degli iscritti che desideri collezionare."
+
+#. aardvark-development/themes/default/admin/setup/admin_setup.tpl
+#: pommo_theme_lang.php:963
+msgid "Preview and Generate the subscription form for your website."
+msgstr "Preview e generazione del modulo di iscrizione per il tuo sito web."
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/group_field.tpl
+#: pommo_theme_lang.php:966
+msgid "value must be a date"
+msgstr "Il valore deve essere una data"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/group_field.tpl
+#: pommo_theme_lang.php:969
+msgid "value must be a number"
+msgstr "Il valore deve essere un numero"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/group_field.tpl
+#: pommo_theme_lang.php:972
+msgid "value must not be blank"
+msgstr "Il valore non deve essere vuoto"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/group_field.tpl
+#: pommo_theme_lang.php:975
+msgid "Match subscribers where"
+msgstr "Trova iscritti che"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/group_field.tpl
+#: pommo_theme_lang.php:978
+#: pommo_theme_lang.php:981
+msgid "Value(s)"
+msgstr "Valore(i)"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/group_field.tpl
+#. aardvark-development/themes/default/admin/subscribers/ajax/group_edit.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.addtemplate.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+#: pommo_theme_lang.php:990
+#: pommo_theme_lang.php:1005
+#: pommo_theme_lang.php:1815
+#: pommo_theme_lang.php:1881
+msgid "Cancel"
+msgstr "Cancella"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/group_edit.tpl
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_export.tpl
+#: pommo_theme_lang.php:993
+#: pommo_theme_lang.php:1032
+#: pommo_theme_lang.php:1038
+msgid "Include"
+msgstr "Includi"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/group_edit.tpl
+#: pommo_theme_lang.php:996
+msgid "Exclude"
+msgstr "Escludi"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/group_edit.tpl
+#: pommo_theme_lang.php:999
+msgid "members in group %1."
+msgstr "Membri appartenenti al gruppo %1."
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_export.tpl
+#: pommo_theme_lang.php:1008
+msgid "Welcome to subscriber export!"
+msgstr "Benvenuto nell'esportazione iscritti!"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_export.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:1011
+#: pommo_theme_lang.php:1044
+#: pommo_theme_lang.php:1143
+#: pommo_theme_lang.php:1146
+msgid "Export Subscribers"
+msgstr "Esporta iscritti"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_export.tpl
+#: pommo_theme_lang.php:1014
+msgid "Export Type"
+msgstr "Tipo esportazione"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_export.tpl
+#: pommo_theme_lang.php:1017
+msgid ".TXT - Only Email Addresses"
+msgstr ".TXT - Solo indirizzi Email"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_export.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+#: pommo_theme_lang.php:1020
+#: pommo_theme_lang.php:1302
+msgid ".CSV - All subscriber Data"
+msgstr ".CVS - Tutti i dati degli iscritti"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_export.tpl
+#: pommo_theme_lang.php:1023
+msgid "Export"
+msgstr "Esporta"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_export.tpl
+#: pommo_theme_lang.php:1026
+msgid "All Pages"
+msgstr "Tutte le pagine"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_export.tpl
+#: pommo_theme_lang.php:1029
+msgid "Current Page"
+msgstr "Pagina corrente"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_export.tpl
+#. aardvark-development/themes/default/admin/subscribers/import_csv.tpl
+#: pommo_theme_lang.php:1035
+#: pommo_theme_lang.php:1479
+#: aardvark-development/admin/subscribers/ajax/subscriber_export2.php:52
+msgid "Date Registered"
+msgstr "Data registrata"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_export.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#. aardvark-development/themes/default/admin/subscribers/import_csv.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+#: pommo_theme_lang.php:1041
+#: pommo_theme_lang.php:1191
+#: pommo_theme_lang.php:1233
+#: pommo_theme_lang.php:1482
+#: pommo_theme_lang.php:1857
+#: aardvark-development/admin/subscribers/ajax/subscriber_export2.php:54
+msgid "IP Address"
+msgstr "Indirizzo IP"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_del.tpl
+#: pommo_theme_lang.php:1047
+msgid "Enter email addresses of subscribers in the box below. Seperate emails with commas, spaces, or line breaks."
+msgstr "Inserisci gli indirizzi mail degli iscritti nella casella in bassoSepara gli indirizzi, con virgole o spazi."
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_del.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:1050
+#: pommo_theme_lang.php:1059
+#: pommo_theme_lang.php:1137
+#: pommo_theme_lang.php:1140
+msgid "Remove Subscribers"
+msgstr "Rimuovi iscritti"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_del.tpl
+#: pommo_theme_lang.php:1053
+msgid "Email Addresses:"
+msgstr "Indirizzi email"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_del.tpl
+#: pommo_theme_lang.php:1056
+msgid "Enter Emails..."
+msgstr "Inserisci indirizzi email.."
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_del.tpl
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_add.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:1062
+#: pommo_theme_lang.php:1095
+#: pommo_theme_lang.php:1200
+#: pommo_theme_lang.php:1593
+msgid "Reset"
+msgstr "Reset"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_edit.tpl
+#: pommo_theme_lang.php:1065
+msgid "Edit Subscriber"
+msgstr "Modifica iscritti"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_edit.tpl
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_add.tpl
+#: pommo_theme_lang.php:1071
+#: pommo_theme_lang.php:1089
+msgid "Force (bypasses validation)"
+msgstr "Forza (bypassa validazione)"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_edit.tpl
+#: pommo_theme_lang.php:1074
+msgid "Update Subscriber"
+msgstr "Aggiorna iscritti"
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_add.tpl
+#: pommo_theme_lang.php:1080
+msgid "Welcome to adding subscribers! You can add subscribers one-by-one here. If you would like to add subscribers in bulk, visit the %1Subscriber Import%2 page."
+msgstr "Benvenuto! Puoi aggiungere qui iscritti uno a uno. Sevuoi aggiungere pi&ygrave; iscritti contemporaneamente, visita la pagina %1Importa iscritti%2."
+
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_add.tpl
+#: pommo_theme_lang.php:1083
+#: pommo_theme_lang.php:1092
+msgid "Add Subscriber"
+msgstr "Aggiungi Iscritto"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_groups.tpl
+#: pommo_theme_lang.php:1101
+#: aardvark-development/admin/subscribers/groups_edit.php:40
+msgid "Groups Page"
+msgstr "Pagina gruppi"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_groups.tpl
+#: pommo_theme_lang.php:1104
+msgid "Subscriber Groups allow you to mail subsets of subscribers instead of the entire list. Groups are defined by customizable matching rules, and members are automatically assigned based on their %1subscriber field%2 values."
+msgstr "Gruppi permettono di inviare mail a sottoinsiemi di utenti invece piuttosto che all'intera lista. I gruppi sono definiti attraverso delle regole customizzaile, e i membri sono assegnati automaticamente in base ai valori dei loro %1campi%2"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_groups.tpl
+#: pommo_theme_lang.php:1107
+msgid "New group"
+msgstr "Nuovo gruppo"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_groups.tpl
+#: pommo_theme_lang.php:1110
+msgid "Group name"
+msgstr "Nome gruppo"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_groups.tpl
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1113
+#: pommo_theme_lang.php:1347
+msgid "type new group name"
+msgstr "inseirsci nuovo nome gruppo"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_groups.tpl
+#: pommo_theme_lang.php:1128
+msgid "Group Name"
+msgstr "Nome gruppo"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:1131
+#: pommo_theme_lang.php:1134
+msgid "Add Subscribers"
+msgstr "Aggiungi iscritto"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_start.tpl
+#: pommo_theme_lang.php:1149
+#: pommo_theme_lang.php:1152
+#: pommo_theme_lang.php:1965
+msgid "Return to Subscribers Page"
+msgstr "Ritorna alla pagina iscritti"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:1161
+msgid "Active Subscribers"
+msgstr "Iscritti attivi"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:1164
+msgid "Unsubscribed"
+msgstr "utenti cancellati"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:1167
+#: aardvark-development/admin/setup/ajax/config_messages.php:170
+msgid "Pending"
+msgstr "In attesa"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:1170
+msgid "Belonging to Group"
+msgstr "Appartenenti ad un gruppo"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:1173
+#: aardvark-development/inc/helpers/groups.php:55
+msgid "All Subscribers"
+msgstr "Tutti gli iscritti"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:1176
+#: pommo_theme_lang.php:1197
+msgid "Search"
+msgstr "Cerca"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:1179
+msgid "Find Subscribers where"
+msgstr "Trova iscritti che"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:1182
+msgid "email"
+msgstr "email"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:1185
+msgid "time registered"
+msgstr "ora registrazione"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:1188
+msgid "time last updated"
+msgstr "orario ultimo aggiornamento"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:1194
+msgid "is like"
+msgstr "è come"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:1203
+msgid "No subscribers found."
+msgstr "Nessun iscritto trovato"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:1209
+msgid "Delete Checked Subscribers"
+msgstr "Cancella iscritti selezionati"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:1215
+msgid "Edit Checked"
+msgstr "Modifica selezionati"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#. aardvark-development/themes/default/admin/subscribers/import_txt.tpl
+#. aardvark-development/themes/default/admin/subscribers/import_csv.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:1218
+#: pommo_theme_lang.php:1257
+#: pommo_theme_lang.php:1488
+#: pommo_theme_lang.php:1578
+#: aardvark-development/admin/mailings/ajax/status_poll.php:63
+msgid "Processing"
+msgstr "Esecuzione"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:1221
+msgid "Subscriber(s)"
+msgstr "Iscritto(i)"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:1224
+msgid "Match(es)"
+msgstr "Match(es)"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+#: pommo_theme_lang.php:1227
+#: pommo_theme_lang.php:1860
+msgid "Registered"
+msgstr "Registrati"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#: pommo_theme_lang.php:1230
+msgid "Updated"
+msgstr "Modificati"
+
+#. aardvark-development/themes/default/admin/subscribers/import_txt.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+#. aardvark-development/themes/default/admin/subscribers/import_csv.tpl
+#: pommo_theme_lang.php:1236
+#: pommo_theme_lang.php:1281
+#: pommo_theme_lang.php:1461
+msgid "Import Subscribers"
+msgstr "Importa iscritti"
+
+#. aardvark-development/themes/default/admin/subscribers/import_txt.tpl
+#: pommo_theme_lang.php:1242
+msgid "%1 non-duplicate subscribers will be imported. %2 were ignored as duplicates."
+msgstr "%1 iscritti non esistenti saranno importati. %2 Sono stati ignorati quelli duplicati."
+
+#. aardvark-development/themes/default/admin/subscribers/import_txt.tpl
+#: pommo_theme_lang.php:1245
+msgid "Notice: Imported subscribers will be flagged to update their records"
+msgstr "Nota: iscritti importati avranno un flag per aggiornare i loro records"
+
+#. aardvark-development/themes/default/admin/subscribers/import_txt.tpl
+#: pommo_theme_lang.php:1248
+msgid "Are you sure?"
+msgstr "Sei sicuro?"
+
+#. aardvark-development/themes/default/admin/subscribers/import_txt.tpl
+#. aardvark-development/themes/default/admin/confirm.tpl
+#: pommo_theme_lang.php:1251
+#: pommo_theme_lang.php:2034
+msgid "Yes"
+msgstr "Si"
+
+#. aardvark-development/themes/default/admin/subscribers/import_txt.tpl
+#. aardvark-development/themes/default/admin/confirm.tpl
+#: pommo_theme_lang.php:1254
+#: pommo_theme_lang.php:2028
+msgid "No"
+msgstr "No"
+
+#. aardvark-development/themes/default/admin/subscribers/admin_subscribers.tpl
+#: pommo_theme_lang.php:1260
+#: aardvark-development/admin/subscribers/subscribers_manage.php:37
+msgid "Subscribers Page"
+msgstr "Pagina iscritti"
+
+#. aardvark-development/themes/default/admin/subscribers/admin_subscribers.tpl
+#: pommo_theme_lang.php:1266
+msgid "subscribers. See an overview of your current and pending subscribers. You can add, delete, and edit subscribers from here."
+msgstr "Iscritti. Visualizza una lista degli iscritti correnti e quelli in attesa.Potrai aggiungere, cancellare e modificare gli iscritti da qui."
+
+#. aardvark-development/themes/default/admin/subscribers/admin_subscribers.tpl
+#: pommo_theme_lang.php:1272
+msgid "Subscribers. You can import large amounts of subscribers using files stored on your computer."
+msgstr "Iscritti. Puoi importare un grande numero di dati tramite files salvati sul tuo computer."
+
+#. aardvark-development/themes/default/admin/subscribers/admin_subscribers.tpl
+#: pommo_theme_lang.php:1278
+msgid "Manage \"mailing groups\" from this area. Mailing groups allow you to mail subsets of your subscribers, rather than just the entire list."
+msgstr "Controlla i \"gruppi mailing\" su questa pagina. I gruppi di mailing ti consentiranno di inviare email agli iscritti appartenenti ad un gruppo, piuttosto che la lista intera."
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+#: pommo_theme_lang.php:1284
+msgid "Welcome to Subscriber Import! You can import subscribers from a list of email addresses or from a full fledged CSV file containing subscriber field values as well as their email. CSV files should have one subscriber(email) per line with field information seperated by commas(%1,%2)."
+msgstr "Benvenuto nell'importazione iscritti! Puoi importare liste di iscritti o da file CSV che contengono i dait relativi agli iscritti. I file CSV dovrebbero avere un iscritto per linea con le altre informazioni separate da virgole (%1,%2)."
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+#: pommo_theme_lang.php:1287
+msgid "Popular programs such as Microsoft Excel and %1 Open Office %2 support saving files in CSV (Comma-Seperated-Value) format."
+msgstr "Programmi come Microsoft Excel e %1 Open Office %2 ti permettono di salvare files nel formato CSV (Comma-Separated-Value)."
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+#: pommo_theme_lang.php:1290
+msgid "Duplicate subscribers or invalid email addresses will be ignored."
+msgstr "Utenti duplicati o indirizzi email non validi saranno ignorati"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1296
+#: pommo_theme_lang.php:1386
+msgid "Type"
+msgstr "Tipo"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+#: pommo_theme_lang.php:1299
+msgid "List of Email Addresses"
+msgstr "Lista di indirizzi email"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+#: pommo_theme_lang.php:1308
+msgid "Type subscribers into a box"
+msgstr "Digita gli iscritti nella casella testo"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+#: pommo_theme_lang.php:1311
+msgid "From a box"
+msgstr "Nome mittente:"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+#: pommo_theme_lang.php:1314
+msgid "CSV file:"
+msgstr "File CSV:"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+#: pommo_theme_lang.php:1317
+msgid "Upload subscribers from a file"
+msgstr "Upload degli iscritti da un file"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+#: pommo_theme_lang.php:1320
+msgid "From a file"
+msgstr "file:"
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+#: pommo_theme_lang.php:1323
+msgid "Type/Paste Contents..."
+msgstr "Inserisci/Incolla Contenuti..."
+
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+#: pommo_theme_lang.php:1326
+msgid "Allow unsubscribed emails to be re-subscribed."
+msgstr "Permetti a email cancellate di potersi reiscrivere"
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1335
+msgid "Edit Group"
+msgstr "Modifica gruppi"
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1338
+msgid "To add subscribers to a group you must create matching rules. Subscribers are automatically added to a group if their %1subscriber field%2 values \"match\" a Group's rules. For example, if you collect \"AGE\" and \"COUNTRY\" as %1subscriber fields%2, you can match those who are 21+ and living in Japan by creating two rules; one which matches \"AGE\" to greater than 20, and another which matches \"Japan\" to \"COUNTRY\". Including or excluding members of other groups is possible."
+msgstr "I Gruppi sono costituiti da \"filtri\" che mettono in relazione valori caselle e altri gruppi. Per esempio, se raccogli informazioni su \"età\" e \"paese\", è possibile estrarre iscritti maggiori a 21 anni dal Giappone creando due filtri, uno che paragona la casella \"età\" con il valore MAGGIORE DI 20, e un altro che paragona \"paese\" UGUALE A \"Giappone\"."
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1341
+msgid "Change Name"
+msgstr "Modifica nome"
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1344
+msgid "Group name:"
+msgstr "Nome Gruppo:"
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1350
+msgid "Rename"
+msgstr "Rinomina:"
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1353
+#: aardvark-development/admin/subscribers/groups_edit.php:101
+msgid "Add Rule"
+msgstr "Aggiungi regola"
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1356
+msgid "Select a %1 field %2 to filter"
+msgstr "Seleziona una %1 campo %2 per il filtro"
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1359
+msgid "Choose Subscriber Field"
+msgstr "Seleziona casella iscritti"
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1362
+msgid "or, Select a %1 group %2 to include or exclude"
+msgstr "o, seleziona un %1 gruppo %2 da includere o escludere"
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1365
+msgid "Choose Group"
+msgstr "Scegli gruppo"
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1368
+msgid "Group Rules"
+msgstr "Regole gruppi"
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1377
+msgid "Field"
+msgstr "Campo"
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1380
+msgid "Logic"
+msgstr "Logica"
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1383
+msgid "Value"
+msgstr "Valore"
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1389
+msgid "\"AND\" RULES"
+msgstr "REGOLA \"AND\""
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1392
+msgid "MATCH %1ALL%2 OF THE FOLLOWING"
+msgstr "CORRISPONDE A %1TUTTE%2 DEI SEGUENTI"
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1401
+#: pommo_theme_lang.php:1425
+msgid "or"
+msgstr "o"
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1404
+#: pommo_theme_lang.php:1428
+msgid "AND"
+msgstr "E"
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1407
+#: pommo_theme_lang.php:1431
+msgid "OR"
+msgstr "O"
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1410
+#: pommo_theme_lang.php:1434
+#: pommo_theme_lang.php:1446
+msgid "No rules have been added"
+msgstr "Non sono state aggiunte regole."
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1413
+msgid "\"OR\" RULES"
+msgstr "REGOLE \"OR\""
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1416
+msgid "<strong>OR</strong>, MATCH %1ANY%2 OF THE FOLLOWING"
+msgstr "<strong>OR</strong>, CORRISPONDE A %1QUALCUNA%2 DELLE SEGUENTI"
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1437
+msgid "<strong>AND</strong>, ADD OR SUBTRACT MEMBERS IN OTHER GROUPS"
+msgstr "<strong>AND</strong>, TOGLIE O AGGIUNGE MEMBRI IN ALTRI GRUPPI"
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1443
+msgid "%1Add%2 members matching %3"
+msgstr "%1Aggiunge%2 corrispondeza membri %3"
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1452
+msgid "%1Subtract%2 members matching %3"
+msgstr "%1Toglie%2 corrispondeza membri %3"
+
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#: pommo_theme_lang.php:1455
+msgid "%1 rules match a total of %2 active subscribers"
+msgstr "%1 filtri corrisponde ad un totale di %2 iscritti"
+
+#. aardvark-development/themes/default/admin/subscribers/import_csv.tpl
+#: pommo_theme_lang.php:1464
+#: pommo_theme_lang.php:1470
+msgid "Assign Fields"
+msgstr "Assegna campi"
+
+#. aardvark-development/themes/default/admin/subscribers/import_csv.tpl
+#: pommo_theme_lang.php:1467
+msgid "Below is a preview of your CSV data. You can assign subscriber fields to columns. At the very least, you must assign an email address."
+msgstr "Sotto una preview dei dati CSV. Puoi assegnare i campi degli utenti a colonne. Al minimo, devi almeno assegnare un indirizzo email."
+
+#. aardvark-development/themes/default/admin/subscribers/import_csv.tpl
+#: pommo_theme_lang.php:1473
+msgid "Ignore Column"
+msgstr "Ignora colonna"
+
+#. aardvark-development/themes/default/admin/subscribers/import_csv.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+#: pommo_theme_lang.php:1476
+#: pommo_theme_lang.php:1854
+#: aardvark-development/admin/subscribers/ajax/subscriber_export2.php:50
+msgid "Email"
+msgstr "Email"
+
+#. aardvark-development/themes/default/admin/subscribers/import_csv.tpl
+#: pommo_theme_lang.php:1491
+msgid "You must assign an email column!"
+msgstr "Devi assegnare una colonna email"
+
+#. aardvark-development/themes/default/admin/mailings/ajax/history_notices.tpl
+#: pommo_theme_lang.php:1494
+msgid "Unavailable"
+msgstr "Non disponibile"
+
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:1515
+msgid "Subscriber Count"
+msgstr "Numero iscritti"
+
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:1542
+msgid "Group (count)"
+msgstr "Gruppi (numero)"
+
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:1545
+msgid "Sent"
+msgstr "Inviato"
+
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:1548
+msgid "Started"
+msgstr "Avviato"
+
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:1551
+#: aardvark-development/admin/mailings/ajax/status_poll.php:66
+msgid "Finished"
+msgstr "Concluso"
+
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:1554
+msgid "Status"
+msgstr "Stato"
+
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:1560
+msgid "Message Preview"
+msgstr "Preview messaggio"
+
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:1566
+msgid "Reload Mailing"
+msgstr "Ricarica mailing"
+
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:1569
+msgid "Reload"
+msgstr "Ricarica"
+
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:1572
+msgid "Mails/Hour"
+msgstr "Mails/Ore"
+
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:1575
+msgid "Complete"
+msgstr "Completa!"
+
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:1581
+msgid "Cancelled"
+msgstr "Cancellata"
+
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:1584
+#: pommo_theme_lang.php:1587
+msgid "View Last Notices"
+msgstr "Visualizza ultime avvisi"
+
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:1590
+msgid "Check All"
+msgstr "Seleziona tutti"
+
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+#: pommo_theme_lang.php:1596
+msgid "Delete Checked"
+msgstr "Cancella selezionato"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/templates.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.addtemplate.tpl
+#: pommo_theme_lang.php:1608
+#: pommo_theme_lang.php:1794
+msgid "Templates allow you to re-use your crafted message bodies. The HTML and text version is remembered."
+msgstr "I templates ti permettono di riutilizzare messaggi salvati.L'HTML e il testo vengono ricordati"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/templates.tpl
+#: pommo_theme_lang.php:1611
+msgid "You may %1load%2 or %1delete%2 templates from here."
+msgstr "Dovresti %1caricare%2 o %1cancellare%2 i templates da qui"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/templates.tpl
+#: pommo_theme_lang.php:1614
+msgid "Template"
+msgstr "Template"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/templates.tpl
+#: pommo_theme_lang.php:1617
+msgid "choose template"
+msgstr "Seleziona template"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/templates.tpl
+#: pommo_theme_lang.php:1620
+msgid "Description"
+msgstr "Descrizione"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/templates.tpl
+#: pommo_theme_lang.php:1623
+#: pommo_theme_lang.php:1635
+msgid "No template selected"
+msgstr "Nessun template selezionato"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/templates.tpl
+#: pommo_theme_lang.php:1626
+msgid "Skip"
+msgstr "Salta"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/templates.tpl
+#: pommo_theme_lang.php:1629
+msgid "Load"
+msgstr "Load"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+#: pommo_theme_lang.php:1638
+#: pommo_theme_lang.php:1701
+msgid "HTML Message"
+msgstr "Messaggio HTML"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+#: pommo_theme_lang.php:1641
+msgid "Leave blank to send text only"
+msgstr "Lasciare bianco per inviare solo testo"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+#: pommo_theme_lang.php:1644
+msgid "Toggle %1"
+msgstr "Toggle %1"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+#: pommo_theme_lang.php:1647
+msgid "Add Personalization"
+msgstr "Aggiungi personalizzazione"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+#: pommo_theme_lang.php:1650
+msgid "Save as Template"
+msgstr "Salva come template"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+#: pommo_theme_lang.php:1653
+#: pommo_theme_lang.php:1710
+msgid "Text Version"
+msgstr "Versione testo"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+#: pommo_theme_lang.php:1656
+msgid "Leave blank to send HTML only"
+msgstr "Lasciare bianco per inviare solo HTML"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+#: pommo_theme_lang.php:1659
+msgid "Copy text from HTML Message"
+msgstr "Copia testo dal messaggio HTML"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#: pommo_theme_lang.php:1662
+#: pommo_theme_lang.php:1785
+msgid "Continue"
+msgstr "Continua"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+#: pommo_theme_lang.php:1665
+msgid "View this Mailing on the Web"
+msgstr "Vedi mailing sul web"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+#: pommo_theme_lang.php:1668
+#: pommo_theme_lang.php:1866
+msgid "Unsubscribe or Update Records"
+msgstr "Cancella iscrizione o aggiorna i dati"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+#: pommo_theme_lang.php:1671
+msgid "Preview Mailing"
+msgstr "Preview Mail"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+#: pommo_theme_lang.php:1677
+msgid "To:"
+msgstr "A:"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+#: pommo_theme_lang.php:1680
+msgid "recipients"
+msgstr "Destinatari"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+#: pommo_theme_lang.php:1683
+msgid "From:"
+msgstr "Mittente:"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+#: pommo_theme_lang.php:1686
+msgid "Bounces:"
+msgstr "Bounces:"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+#: pommo_theme_lang.php:1692
+msgid "Send Test"
+msgstr "Invia per test"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+#: pommo_theme_lang.php:1698
+msgid "Message"
+msgstr "Messaggio"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+#: pommo_theme_lang.php:1704
+msgid "Preview Message"
+msgstr "Preview messaggio"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.addtemplate.tpl
+#: pommo_theme_lang.php:1719
+#: pommo_theme_lang.php:1734
+#: pommo_theme_lang.php:1740
+#: pommo_theme_lang.php:1746
+#: pommo_theme_lang.php:1803
+msgid "(maximum of 60 characters)"
+msgstr "(al massimo 60 caratteri)"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#: pommo_theme_lang.php:1722
+msgid "Send Mail To:"
+msgstr "Invia mail a:"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#: pommo_theme_lang.php:1725
+msgid "All subscribers"
+msgstr "Tutti gli iscritti"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#: pommo_theme_lang.php:1728
+msgid "(Select who should receive the mailing)"
+msgstr "(Seleziona i riceventi del mailing)"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#: pommo_theme_lang.php:1743
+msgid "Return:"
+msgstr "Ritorna a:"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#: pommo_theme_lang.php:1782
+msgid "(Select Character Set of Mailings)"
+msgstr "(Seleziona il Set-carattere del mailing)"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_start.tpl
+#: pommo_theme_lang.php:1788
+#: pommo_theme_lang.php:1791
+#: pommo_theme_lang.php:1995
+msgid "loading..."
+msgstr "loading..."
+
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.addtemplate.tpl
+#: pommo_theme_lang.php:1800
+msgid "Name:"
+msgstr "Nome:"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.addtemplate.tpl
+#: pommo_theme_lang.php:1806
+msgid "Description:"
+msgstr "Descrizione:"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.addtemplate.tpl
+#: pommo_theme_lang.php:1809
+msgid "(Brief Summary - 255 characters)"
+msgstr "Breve riepilogo - 255 caratteri"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.addtemplate.tpl
+#: pommo_theme_lang.php:1812
+msgid "Save"
+msgstr "Salva"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.mailingtest.tpl
+#: pommo_theme_lang.php:1818
+msgid "Mailing sent to %1"
+msgstr "Mailing inviata a %1"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.mailingtest.tpl
+#: pommo_theme_lang.php:1821
+msgid "Verify the appeareance of a mailing by sending a message to yourself."
+msgstr "Verifica la mail inviandoti il messaggio."
+
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.mailingtest.tpl
+#: pommo_theme_lang.php:1833
+msgid "If your mailing includes personalizations, you can %1optionally%2 supply test values"
+msgstr "Se la tua mail contiene personalizzazione, puoi fornire %1opzionalmente%2valori di test"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.mailingtest.tpl
+#: pommo_theme_lang.php:1836
+msgid "Personalizations"
+msgstr "Personalizzazioni"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+#: pommo_theme_lang.php:1839
+msgid "Mailings may be personalized per subscriber. You can inject %1subscriber field%2 values, clickable links, and tracking information."
+msgstr "Le mail possono essere personalizzare per utente. Puoi aggiungere valori per %1campo iscritto%2, links cliccabili, e tracciare le informazioni."
+
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+#: pommo_theme_lang.php:1842
+msgid "Personalizations allow you to write a message like \"Dear [[firstName|Loyal Subscriber]], Happy New Year! .... follow this link to unsubscribe or update your records; [[!unsubscribe]]\"."
+msgstr "Le personalizzazioni ti permettono di scrivere messaggi del tipo"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+#: pommo_theme_lang.php:1845
+#: aardvark-development/admin/mailings/mailings_start.php:53
+msgid "Personalization"
+msgstr "Personalizzazione"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+#: pommo_theme_lang.php:1848
+msgid "Link (URL)"
+msgstr "Link (URL)"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+#: pommo_theme_lang.php:1851
+msgid "Tracking (ID)"
+msgstr "Monitoraggio (ID)"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+#: pommo_theme_lang.php:1863
+msgid "Default (optional; used if no value exists)"
+msgstr "Default (opzionale; usato se non ci sono valori)"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+#: pommo_theme_lang.php:1869
+msgid "View on Web (public mailings must be enabled)"
+msgstr "Vedi sul Web (mailins pubbliche devono essere abilitate)"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+#: pommo_theme_lang.php:1872
+msgid "Subscriber ID"
+msgstr "ID iscritto"
+
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+#: pommo_theme_lang.php:1875
+msgid "Mailing ID"
+msgstr "ID Mailing "
+
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+#: pommo_theme_lang.php:1878
+msgid "Insert"
+msgstr "Inserisci"
+
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1884
+msgid "Mailings take place in the background so feel free to close this page, visit other sites, or even turn off your computer. You can always return to this status page by visiting the Mailings section.  %1Throttle settings%2 can also be adjusted -- although you must pause and revive the mailing before changes take effect."
+msgstr "Il processo di invio sarà effettuato nel background. Puoi chiudere il browser, visitare altri siti o spegnere il PC. Le impostazioni per il throttling possono essere aggiornate, ma è necessario fermare e riattivare il mailing cosicchè le nuove impostazioni abbiano effetto."
+
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1887
+msgid "Sending message to %1 subscribers."
+msgstr "Invia messaggio a %1 iscritti."
+
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1890
+msgid "Mailing Status"
+msgstr "Stato Mailing"
+
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1893
+msgid "Initializing..."
+msgstr "Inizializzazione..."
+
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1896
+msgid "Pause Mailing"
+msgstr "Ferma mailing (pause)"
+
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1899
+#: pommo_theme_lang.php:1902
+#: pommo_theme_lang.php:1908
+msgid "Resume Mailing"
+msgstr "Riattiva mailing"
+
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1905
+#: pommo_theme_lang.php:1911
+msgid "Cancel Mailing"
+msgstr "Cancella mailing"
+
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1914
+msgid "Mailing Finished"
+msgstr "Mailing concluso"
+
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1917
+#: aardvark-development/admin/subscribers/import_txt.php:64
+#: aardvark-development/admin/subscribers/import_csv2.php:83
+msgid "Return to"
+msgstr "Ritorna a"
+
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+#. aardvark-development/themes/default/admin/mailings/admin_mailings.tpl
+#: pommo_theme_lang.php:1920
+#: pommo_theme_lang.php:1950
+#: aardvark-development/user/mailings.php:43
+#: aardvark-development/admin/mailings/mailings_history.php:36
+msgid "Mailings Page"
+msgstr "Pagina mailing"
+
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1923
+msgid "Command Recieved. Please wait..."
+msgstr "Comando ricevuto. Prego attendere..."
+
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1926
+msgid "%1 mails sent"
+msgstr "%1 mail inviate"
+
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1929
+msgid "Last 50 notices"
+msgstr "Ultimi 50 avvisi"
+
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1935
+msgid "Sent Emails"
+msgstr "Email inviate"
+
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1941
+msgid "Unsent Emails"
+msgstr "Email non inviate"
+
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+#: pommo_theme_lang.php:1947
+msgid "Failed Emails"
+msgstr "Email fallite"
+
+#. aardvark-development/themes/default/admin/mailings/admin_mailings.tpl
+#: pommo_theme_lang.php:1956
+msgid "Create and send a mailing."
+msgstr "Crea ed invia un mailing."
+
+#. aardvark-development/themes/default/admin/mailings/admin_mailings.tpl
+#: pommo_theme_lang.php:1962
+msgid "View mailings that have already been sent."
+msgstr "Vedi mailings che sono già stati inviati."
+
+#. aardvark-development/themes/default/admin/mailings/mailings_start.tpl
+#: pommo_theme_lang.php:1968
+msgid "Return to Mailings Page"
+msgstr "Ritorna alla pagina Mailings"
+
+#. aardvark-development/themes/default/admin/mailings/mailings_start.tpl
+#: pommo_theme_lang.php:1977
+#: pommo_theme_lang.php:1980
+msgid "Templates"
+msgstr "Templates"
+
+#. aardvark-development/themes/default/admin/mailings/mailings_start.tpl
+#: pommo_theme_lang.php:1983
+#: pommo_theme_lang.php:1986
+msgid "Compose"
+msgstr "Componi"
+
+#. aardvark-development/themes/default/admin/admin.tpl
+#: pommo_theme_lang.php:2001
+msgid "Admin Menu"
+msgstr "Menu Amministrazione"
+
+#. aardvark-development/themes/default/admin/admin.tpl
+#: pommo_theme_lang.php:2007
+msgid "Send mailings to the entire list or to a subset of subscribers. Mailing status and history can also be viewed from here."
+msgstr "Invia mailing alla lista intera o a un gruppo di riceventi. Lo stato dei mailings e lo storico dei mailings passati si possono visualizzare qui."
+
+#. aardvark-development/themes/default/admin/admin.tpl
+#: pommo_theme_lang.php:2013
+msgid "Here you can list, add, delete, import, export, and update your subscribers. You can also create groups (subsets) of your subsribers from here."
+msgstr "Qui puoi inserire, cancellare, importare, esportare e modificare gli iscritti e creare gruppi (sottoinsiemi)."
+
+#. aardvark-development/themes/default/admin/admin.tpl
+#: pommo_theme_lang.php:2019
+msgid "This area allows you to configure poMMo. Set mailing list parameters, choose the information you'd like to collect from subscribers, and generate subscription forms from here."
+msgstr "Questa area ti permette di configurare poMM. Configurare i paramentri per la mailing list, scegliere le informazioni da raccogliere dagli iscritti, e generare form di iscrizione."
+
+#. aardvark-development/themes/default/admin/admin.tpl
+#: pommo_theme_lang.php:2022
+msgid "If you like poMMo, please consider a dontation to support its development"
+msgstr "Se ti piace poMMo, pensa ad una donazione per supportare il suo sviluppo"
+
+#. aardvark-development/themes/default/admin/confirm.tpl
+#. aardvark-development/themes/default/support/support.lib.tpl
+#: pommo_theme_lang.php:2025
+#: pommo_theme_lang.php:2082
+msgid "Confirm your action."
+msgstr "Conferma."
+
+#. aardvark-development/themes/default/admin/confirm.tpl
+#: pommo_theme_lang.php:2031
+msgid "please return"
+msgstr "return."
+
+#. aardvark-development/themes/default/admin/confirm.tpl
+#: pommo_theme_lang.php:2037
+msgid "I confirm"
+msgstr "Confermo"
+
+#. aardvark-development/themes/default/admin/confirm.tpl
+#: pommo_theme_lang.php:2043
+msgid "Confirm"
+msgstr "Confermo"
+
+#. aardvark-development/themes/default/upgrade.tpl
+#: pommo_theme_lang.php:2046
+msgid "Upgrader"
+msgstr "Upgrader"
+
+#. aardvark-development/themes/default/upgrade.tpl
+#: pommo_theme_lang.php:2049
+msgid "Online Upgrade Script"
+msgstr "Script per upgrade online"
+
+#. aardvark-development/themes/default/upgrade.tpl
+#: pommo_theme_lang.php:2055
+msgid "Welcome to the poMMo online upgrade process. This script will automatically upgrade your old version of poMMo."
+msgstr "Benvenuti al processo di upgrade online di poMMo. Questo script aggiorner&agrave; automaticamente la versione precedente di poMMo."
+
+#. aardvark-development/themes/default/upgrade.tpl
+#: pommo_theme_lang.php:2070
+msgid "To force the upgrade"
+msgstr "Forza l'aggiornamento"
+
+#. aardvark-development/themes/default/support/support.tpl
+#: pommo_theme_lang.php:2079
+msgid "Support Page"
+msgstr "Pagina Supporto"
+
+#. aardvark-development/themes/default/subscribe/form.subscribe.tpl
+#: pommo_theme_lang.php:2085
+msgid "Join newsletter"
+msgstr "Iscriviti alla newsletter"
+
+#. aardvark-development/themes/default/subscribe/form.subscribe.tpl
+#. aardvark-development/themes/default/subscribe/form.update.tpl
+#: pommo_theme_lang.php:2094
+#: pommo_theme_lang.php:2121
+msgid "Choose Selection"
+msgstr "Scegli"
+
+#. aardvark-development/themes/default/subscribe/form.subscribe.tpl
+#. aardvark-development/themes/default/subscribe/form.mini.tpl
+#: pommo_theme_lang.php:2097
+#: pommo_theme_lang.php:2130
+#: aardvark-development/admin/setup/form_generate.php:126
+msgid "Subscribe"
+msgstr "Iscriviti"
+
+#. aardvark-development/themes/default/subscribe/subscribe.tpl
+#: pommo_theme_lang.php:2100
+#: pommo_theme_lang.php:2103
+#: aardvark-development/admin/setup/ajax/config_messages.php:168
+msgid "Subscription"
+msgstr "Iscrizione\""
+
+#. aardvark-development/themes/default/subscribe/form.update.tpl
+#: pommo_theme_lang.php:2106
+msgid "Your Information"
+msgstr "Le tue informazioni"
+
+#. aardvark-development/themes/default/subscribe/form.update.tpl
+#: pommo_theme_lang.php:2115
+msgid "New Email:"
+msgstr "Nuova email:"
+
+#. aardvark-development/themes/default/subscribe/form.update.tpl
+#: pommo_theme_lang.php:2118
+msgid "Verify New Email:"
+msgstr "Verifica email:"
+
+#. aardvark-development/themes/default/subscribe/form.update.tpl
+#: pommo_theme_lang.php:2124
+msgid "Update Records"
+msgstr "Modifica i dati"
+
+#. aardvark-development/themes/default/index.tpl
+#: pommo_theme_lang.php:2133
+#: pommo_theme_lang.php:2148
+msgid "Administrative Login"
+msgstr "Login Amministrativo"
+
+#. aardvark-development/themes/default/index.tpl
+#: pommo_theme_lang.php:2136
+msgid "You have requested to reset your password. If you are sure you want to do this, please fill in the captcha below. Enter the text you see between the brackets (%1[]%2)."
+msgstr "Hai richiesto di resettare la tua password. Se sei sicuro di volerlo fare, digita il testo visualizzato fra le parentesi (%1[]%2)."
+
+#. aardvark-development/themes/default/index.tpl
+#: pommo_theme_lang.php:2139
+msgid "Captcha"
+msgstr "Captcha"
+
+#. aardvark-development/themes/default/index.tpl
+#: pommo_theme_lang.php:2142
+msgid "Captcha Text:"
+msgstr "Testo Captcha:"
+
+#. aardvark-development/themes/default/index.tpl
+#: pommo_theme_lang.php:2145
+msgid "Reset Password"
+msgstr "Modifica password"
+
+#. aardvark-development/themes/default/index.tpl
+#: pommo_theme_lang.php:2151
+msgid "Username"
+msgstr "Username"
+
+#. aardvark-development/themes/default/index.tpl
+#: pommo_theme_lang.php:2154
+msgid "Password"
+msgstr "Password"
+
+#. aardvark-development/themes/default/index.tpl
+#: pommo_theme_lang.php:2157
+msgid "Log In"
+msgstr "Log In"
+
+#. aardvark-development/themes/default/index.tpl
+#: pommo_theme_lang.php:2160
+msgid "Forgot your password?"
+msgstr "Hai dimenticato la tua password?"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2163
+msgid "January"
+msgstr "Gennaio"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2166
+msgid "Febuary"
+msgstr "Febbraio"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2169
+msgid "March"
+msgstr "Marzo"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2172
+msgid "April"
+msgstr "Aprile"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2175
+msgid "May"
+msgstr "Maggio"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2178
+msgid "June"
+msgstr "Giugno"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2181
+msgid "July"
+msgstr "Luglio"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2184
+msgid "August"
+msgstr "Agosto"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2187
+msgid "September"
+msgstr "Settembre"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2190
+msgid "October"
+msgstr "Ottobre"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2193
+msgid "November"
+msgstr "Novembre"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2196
+msgid "December"
+msgstr "Dicembre"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2199
+msgid "Sunday"
+msgstr "Domenica"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2202
+msgid "Monday"
+msgstr "Lunedi"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2205
+msgid "Tuesday"
+msgstr "Martedi"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2208
+msgid "Wednesday"
+msgstr "Mercoledi"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2211
+msgid "Thursday"
+msgstr "Giovedi"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2214
+msgid "Friday"
+msgstr "Venerdi"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2217
+msgid "Saturday"
+msgstr "Sabato"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2220
+msgid "Prev"
+msgstr "Precedente"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2223
+msgid "Next"
+msgstr "Successivo"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2226
+msgid "Close"
+msgstr "Chiudi"
+
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+#: pommo_theme_lang.php:2229
+#: pommo_theme_lang.php:2232
+msgid "Choose Date"
+msgstr "Scegli data"
+
+#: aardvark-development/inc/helpers/templates.php:70
+msgid "Both HTML and Text cannot be empty"
+msgstr "Sia l'HTML che il Testo non possono essere vuoti"
+
+#: aardvark-development/inc/helpers/rules.php:106
+msgid "is"
+msgstr "è"
+
+#: aardvark-development/inc/helpers/rules.php:107
+msgid "is not"
+msgstr "non è"
+
+#: aardvark-development/inc/helpers/rules.php:108
+msgid "is checked"
+msgstr "è attivo"
+
+#: aardvark-development/inc/helpers/rules.php:109
+msgid "is not checked"
+msgstr "non è attivo"
+
+#: aardvark-development/inc/helpers/rules.php:110
+msgid "is greater than"
+msgstr "è maggiore di"
+
+#: aardvark-development/inc/helpers/rules.php:111
+msgid "is less than"
+msgstr "è minore di"
+
+#: aardvark-development/inc/helpers/rules.php:112
+msgid "or in group"
+msgstr "o nel gruppo"
+
+#: aardvark-development/inc/helpers/rules.php:113
+msgid "and not in group"
+msgstr "e non nel gruppo"
+
+#: aardvark-development/inc/helpers/pending.php:328
+#, php-format
+msgid "You may now %1$s login %2$s with username: %3$s and password: %4$s "
+msgstr "Sei ora in grado di effettuare la %1$s login %2$s con la username: %3$s e la password: %4$s"
+
+#: aardvark-development/inc/helpers/maintenance.php:35
+msgid "Can write to ERROR_LOG. Check work directory permissions!"
+msgstr "Non possono scrivere su ERROR_LOG. Verifica i permessi della direttovi di lavoro!"
+
+#: aardvark-development/inc/helpers/messages.php:63
+msgid "Error sending mail"
+msgstr "Errore durante l'invio del mailing"
+
+#: aardvark-development/inc/helpers/messages.php:65
+#, php-format
+msgid "A confirmation mail has been sent to %s. Please follow its instructions to complete your request."
+msgstr "Una mail di conferma &egrave; stata spedita a %s. Segui le istruzioni per completare la richiesta di registrazione."
+
+#: aardvark-development/inc/helpers/messages.php:84
+#, php-format
+msgid "You have requested to subscribe to %s. We would like to validate your email address before adding you as a subscriber. Please click the link below to be added ->"
+msgstr "Hai richiesto di iscriverti a %s. Desidereremo che validassi il tuo indirizzo email prima di inserirti alla mailing list come iscritto. Per favore clicca sul link sottostante per confermare l'iscrizione ->"
+
+#: aardvark-development/inc/helpers/messages.php:84
+#: aardvark-development/inc/helpers/messages.php:91
+#: aardvark-development/inc/helpers/messages.php:98
+#: aardvark-development/inc/helpers/messages.php:110
+msgid "If you have received this message in error, please ignore it."
+msgstr "Se hai ricevuto questa email in errore, per favore ignoralo"
+
+#: aardvark-development/inc/helpers/messages.php:85
+msgid "Subscription request"
+msgstr "Richiesta di iscrizione"
+
+#: aardvark-development/inc/helpers/messages.php:86
+msgid "Welcome to our mailing list. Enjoy your stay."
+msgstr "Benvenuti alla nostra mailing list."
+
+#: aardvark-development/inc/helpers/messages.php:91
+#, php-format
+msgid "Someone has requested to access your records for %s."
+msgstr "Qualcuno ha richiesto di accedere ai tuoi dati per %s."
+
+#: aardvark-development/inc/helpers/messages.php:91
+msgid "You may edit your information or unsubscribe by visiting the link below ->"
+msgstr "Per modificare i tuoi dati o cancellare l'iscrizione clicca sul link sottostante ->"
+
+#: aardvark-development/inc/helpers/messages.php:92
+#, php-format
+msgid "%s: Account Access."
+msgstr "%s: Accesso account"
+
+#: aardvark-development/inc/helpers/messages.php:98
+#, php-format
+msgid "You have requested to change your password for %s."
+msgstr "Hai richiesto di modificare la tua password per %s."
+
+#: aardvark-development/inc/helpers/messages.php:98
+#: aardvark-development/inc/helpers/messages.php:110
+msgid "Please validate this request by clicking the link below ->"
+msgstr "Prima di processare la tua richiesta, ti chiediamo di verificare il tuo indirizzo email con un clic sul link sottostante ->"
+
+#: aardvark-development/inc/helpers/messages.php:99
+msgid "Change Password request"
+msgstr "Richiesta modifica password"
+
+#: aardvark-development/inc/helpers/messages.php:100
+msgid "Your password has been reset. Enjoy!"
+msgstr "La vostra password &egrave; stata resettata."
+
+#: aardvark-development/inc/helpers/messages.php:105
+msgid "You have successfully unsubscribed. Enjoy your travels."
+msgstr "L'iscrizione &egrave; stata cancellata."
+
+#: aardvark-development/inc/helpers/messages.php:110
+#, php-format
+msgid "You have requested to update your records for %s."
+msgstr "Hai richiesto di modificare i tuoi dati per %s."
+
+#: aardvark-development/inc/helpers/messages.php:111
+msgid "Update Records request"
+msgstr "Richiesta aggiornamento dati"
+
+#: aardvark-development/inc/helpers/messages.php:112
+msgid "Your records have been updated. Enjoy!"
+msgstr "I tuoi dati sono stati modificati."
+
+#: aardvark-development/inc/helpers/messages.php:127
+msgid "poMMo test message"
+msgstr "Messaggio test di poMMo"
+
+#: aardvark-development/inc/helpers/messages.php:128
+#, php-format
+msgid "This message indicates that poMMo is able to use the %s exchanger."
+msgstr "Questo messaggio indica che poMMo pu&ograve; utilizzare %s exchanger."
+
+#: aardvark-development/inc/helpers/messages.php:140
+#: aardvark-development/admin/setup/ajax/test_exchanger.php:61
+msgid "Error Sending Mail"
+msgstr "Errore durante l'invio della mail"
+
+#: aardvark-development/inc/helpers/messages.php:157
+#, php-format
+msgid "poMMo %s Notice"
+msgstr "Avviso %s poMMo"
+
+#: aardvark-development/inc/helpers/messages.php:174
+msgid "new subscriber!"
+msgstr "nuovo iscritto!"
+
+#: aardvark-development/inc/helpers/messages.php:177
+msgid "user unsubscribed."
+msgstr "utente cancellato"
+
+#: aardvark-development/inc/helpers/messages.php:180
+msgid "new pending!"
+msgstr "registrazione in corso"
+
+#: aardvark-development/inc/helpers/messages.php:183
+msgid "subscriber updated."
+msgstr "iscritto modificato"
+
+#: aardvark-development/inc/helpers/validate.php:71
+#, php-format
+msgid "%s is a required field."
+msgstr "%s è una campo obbligatorio."
+
+#: aardvark-development/inc/helpers/validate.php:92
+#: aardvark-development/inc/helpers/validate.php:105
+#: aardvark-development/inc/helpers/validate.php:115
+#, php-format
+msgid "Illegal input for field %s."
+msgstr "Imput non corretto per il campo %s."
+
+#: aardvark-development/inc/helpers/validate.php:132
+#, php-format
+msgid "Field (%s) must be a date ("
+msgstr "Il campo (%s) deve essere una data"
+
+#: aardvark-development/inc/helpers/validate.php:143
+#, php-format
+msgid "Field (%s) must be a number."
+msgstr "Il campo (%s) deve essere un numero."
+
+#: aardvark-development/inc/classes/install.php:49
+msgid "Database Error: "
+msgstr "Errore Database: "
+
+#: aardvark-development/inc/classes/auth.php:47
+#, php-format
+msgid "Denied access. You must %slogin%s to access this page..."
+msgstr "Accesso negato. Prova a fare %slogin%s per accedere alla pagina..."
+
+#: aardvark-development/inc/classes/db.php:77
+msgid "Could not establish database connection."
+msgstr "Non riesco a stabilire una connessione col database."
+
+#: aardvark-development/inc/classes/db.php:77
+#: aardvark-development/inc/classes/db.php:80
+msgid "Verify your settings in config.php"
+msgstr "Verifica i settaggi sul file config.php"
+
+#: aardvark-development/inc/classes/db.php:80
+#, php-format
+msgid "Connected to database server but could not select database (%s). Does it exist?"
+msgstr "Connesso al database, ma non riesco a selezionare il database (%s). Esiste?"
+
+#: aardvark-development/inc/classes/mta.php:121
+#: aardvark-development/inc/classes/mta.php:409
+msgid "Mailing Complete."
+msgstr "Mailing completo."
+
+#: aardvark-development/inc/classes/mta.php:156
+#, php-format
+msgid "Restarting Mailing #%s"
+msgstr "Riavvia mailing #%s"
+
+#: aardvark-development/inc/classes/mta.php:170
+#, php-format
+msgid "Started Mailing #%s"
+msgstr "Mailing avviata #%s"
+
+#: aardvark-development/inc/classes/mta.php:187
+#, php-format
+msgid "Stopped Mailing #%s"
+msgstr "Mailing interrotto #%s"
+
+#: aardvark-development/inc/classes/mta.php:192
+msgid "Mailing Cancelled."
+msgstr "mailing cancellato."
+
+#: aardvark-development/inc/classes/mta.php:199
+msgid "You must restart the mailing."
+msgstr "Devi riavviare il mailing."
+
+#: aardvark-development/inc/classes/mta.php:419
+#, php-format
+msgid "Runtime (%s seconds) reached, respawning."
+msgstr "(%s secondi) di Runtime raggiunti, respawning."
+
+#: aardvark-development/inc/classes/pommo.php:126
+#, php-format
+msgid "Work Directory (%s) not found! Make sure it exists and the webserver can write to it. You can change its location from the config.php file."
+msgstr "La cartella di lavoro (%s) non è stata trovata! Assicurati che esiste e il server web ha i permessi necessari di scrittura. Puoi modificare il path nel file 'config.php'."
+
+#: aardvark-development/inc/classes/pommo.php:128
+#, php-format
+msgid "Cannot write to Work Directory (%s). Make sure it has the proper permissions."
+msgstr "Non si può scrivere sulla Directory di lavoro (%s). Controlla i permessi delle cartelle."
+
+#: aardvark-development/inc/classes/pommo.php:130
+#, php-format
+msgid "Working Directory (%s) cannot be created under PHP SAFE MODE. See Documentation, or disable SAFE MODE."
+msgstr "La cartella di lavoro (%s) non può essere creata in PHP SAFE MODE. Vedi la documentazione o disabilita SAFE MODE."
+
+#: aardvark-development/inc/classes/pommo.php:133
+#: aardvark-development/inc/classes/pommo.php:135
+msgid "Could not create directory"
+msgstr "Non è stato possibile creare la cartella"
+
+#: aardvark-development/inc/classes/pommo.php:201
+#, php-format
+msgid "Error loading configuration. Has poMMo been installed? %sClick Here%s to install."
+msgstr "Errore durante il caricamento della configurazione. Hai %s installato %s"
+
+#: aardvark-development/inc/classes/pommo.php:202
+#, php-format
+msgid "Version Mismatch. %sClick Here%s to upgrade."
+msgstr "Disallineamento versione. Hai %s aggiornato %s "
+
+#: aardvark-development/inc/classes/pommo.php:334
+msgid "Redirecting, please wait..."
+msgstr "Redirect, attendere..."
+
+#: aardvark-development/inc/classes/template.php:57
+msgid "poMMo Website"
+msgstr "Sito web poMMo"
+
+#: aardvark-development/inc/classes/template.php:92
+#, php-format
+msgid "Template file (%s) not found in default or current theme"
+msgstr "Template file (%s) non &egrave; stato trovato nel tema predefinito."
+
+#: aardvark-development/inc/classes/template.php:114
+msgid "prev"
+msgstr "precedente"
+
+#: aardvark-development/inc/classes/template.php:115
+msgid "next"
+msgstr "successivo"
+
+#: aardvark-development/inc/classes/mailer.php:279
+msgid "Sending failed: "
+msgstr "Errore durante l'invio del mailing"
+
+#: aardvark-development/inc/classes/mailer.php:289
+#, php-format
+msgid "Mail to: %s not sent. Demonstration mode is active."
+msgstr "Mail %s non inviata. Il modo di dimostrazione è ATTIVATO."
+
+#: aardvark-development/user/process_shell.php:74
+#: aardvark-development/user/update.php:75
+#: aardvark-development/user/process.php:63
+msgid "Invalid Email Address"
+msgstr "Indirizzo email invalido"
+
+#: aardvark-development/user/process_shell.php:78
+#: aardvark-development/user/update.php:77
+#: aardvark-development/user/process.php:67
+#: aardvark-development/admin/subscribers/ajax/subscriber_add2.php:60
+#: aardvark-development/admin/subscribers/ajax/subscriber_edit2.php:64
+msgid "Email address already exists. Duplicates are not allowed."
+msgstr "Indirizzo mail già esistente. Non sono permessi duplicati"
+
+#: aardvark-development/user/process_shell.php:121
+#: aardvark-development/user/process.php:108
+msgid "Subscription request received."
+msgstr "Richiesta di iscrizione ricevuta."
+
+#: aardvark-development/user/process_shell.php:121
+msgid "A confirmation email has been sent. You should receive this letter within the next few minutes. Please follow its instructions."
+msgstr "Una email di conferma è stata inviata. Dovresti riceverla fra pochi minuti. Segui le istruzioni in essa indicate."
+
+#: aardvark-development/user/process_shell.php:124
+msgid "Problem sending mail! Please contact the administrator."
+msgstr "Problema durante l'invio delle email! Per favore contatta l'amministratore."
+
+#: aardvark-development/user/update.php:47
+msgid "Invalid activation code."
+msgstr "Codice di attivazione invalido"
+
+#: aardvark-development/user/update.php:73
+msgid "Emails must match."
+msgstr "Gli indirizzi email devono corrispondere."
+
+#: aardvark-development/user/update.php:95
+msgid "Your records have been updated."
+msgstr "I tuoi dati sono stati aggiornati."
+
+#: aardvark-development/user/mailings.php:42
+msgid "Mailing History"
+msgstr "Storico Mailing"
+
+#: aardvark-development/user/login.php:38
+msgid "subscriber logon"
+msgstr "Login iscritti"
+
+#: aardvark-development/user/login.php:48
+#: aardvark-development/admin/setup/ajax/test_exchanger.php:46
+#: aardvark-development/admin/setup/ajax/config_mailings.php:74
+#: aardvark-development/admin/setup/ajax/config_users.php:50
+#: aardvark-development/admin/mailings/mailing/setup.php:114
+#: aardvark-development/admin/mailings/mailing/ajax.mailingtest.php:49
+msgid "Invalid email address"
+msgstr "Indirizzo email invalido"
+
+#: aardvark-development/user/login.php:76
+msgid "Email address not found! Please try again."
+msgstr "Questo indirizzo email non è stato trovato nella banca dati. Riprova per favore."
+
+#: aardvark-development/user/login.php:77
+#, php-format
+msgid "To subscribe, %sclick here%s"
+msgstr "Per iscriverti, %sclicca qui%s"
+
+#: aardvark-development/user/pending.php:49
+msgid "subscription request"
+msgstr "Richiesta di iscrizione"
+
+#: aardvark-development/user/pending.php:53
+msgid "record update request"
+msgstr "Richiesta aggiornamento dati"
+
+#: aardvark-development/user/pending.php:57
+msgid "password change request"
+msgstr "Richiesta modifica password"
+
+#: aardvark-development/user/pending.php:70
+#, php-format
+msgid "Your %s has been cancelled."
+msgstr "La tua %s è stata cancellata."
+
+#: aardvark-development/user/pending.php:74
+#, php-format
+msgid "Your %s is still pending. To complete this request, please review the confirmation email sent to %s."
+msgstr "La tua %s è in esecuzione. Per completare questa richiesta, verifica la mail di conferma inviata a %s."
+
+#: aardvark-development/user/confirm.php:41
+msgid "No code given."
+msgstr "Nessun codice definito"
+
+#: aardvark-development/user/confirm.php:50
+msgid "Invalid code! Make sure you copied it correctly from the email."
+msgstr "Codice invalido! Accertati di averlo copiato correttamente dalla email."
+
+#: aardvark-development/admin/setup/form_generate.php:46
+msgid "VIEW THE SOURCE TO COPY, PASTE, EDIT, AND SAVE THE FORM TO AN APPROPRIATE LOCATION ON YOUR WEBSITE"
+msgstr "VEDI IL CODICE PER COPIARE, MODIFICARE E SALVARE LA FORMA IN UN POSTOAPPROPRIATO DEL TUO SITO WEB"
+
+#: aardvark-development/admin/setup/ajax/config_smtp.php:74
+#: aardvark-development/admin/setup/ajax/config_mailings.php:96
+#: aardvark-development/admin/setup/ajax/config_throttle.php:62
+#: aardvark-development/admin/setup/ajax/config_general.php:80
+#: aardvark-development/admin/setup/ajax/config_users.php:75
+msgid "Configuration Updated."
+msgstr "Configurazione aggionata."
+
+#: aardvark-development/admin/setup/ajax/config_smtp.php:74
+#: aardvark-development/admin/setup/ajax/config_messages.php:164
+#: aardvark-development/admin/setup/ajax/test_exchanger.php:64
+#: aardvark-development/admin/setup/ajax/field_edit.php:130
+#: aardvark-development/admin/setup/ajax/config_mailings.php:99
+#: aardvark-development/admin/setup/ajax/config_throttle.php:65
+#: aardvark-development/admin/setup/ajax/config_general.php:83
+#: aardvark-development/admin/setup/ajax/config_users.php:78
+#: aardvark-development/admin/mailings/mailing/setup.php:134
+#: aardvark-development/admin/mailings/mailing/ajax.addtemplate.php:76
+#: aardvark-development/admin/mailings/mailing/ajax.mailingtest.php:112
+#: aardvark-development/install/install.php:141
+msgid "Please review and correct errors with your submission."
+msgstr "Per favore rivedi e correggi gli errori."
+
+#: aardvark-development/admin/setup/ajax/config_messages.php:87
+#: aardvark-development/admin/setup/ajax/field_edit.php:93
+#: aardvark-development/admin/setup/ajax/config_mailings.php:73
+#: aardvark-development/admin/setup/ajax/config_general.php:57
+#: aardvark-development/admin/setup/ajax/config_users.php:49
+#: aardvark-development/admin/mailings/mailing/setup.php:112
+#: aardvark-development/admin/mailings/mailing/ajax.addtemplate.php:48
+#: aardvark-development/install/install.php:64
+msgid "Cannot be empty."
+msgstr "Non puo essere lasciato vuoto."
+
+#: aardvark-development/admin/setup/ajax/config_messages.php:90
+msgid "You must include \"[[URL]]\" for the confirm link"
+msgstr "Per favore includi \"[[URL]]\" nel link di conferma."
+
+#: aardvark-development/admin/setup/ajax/config_messages.php:108
+msgid "[poMMo Notice]"
+msgstr "[Avviso poMMo]"
+
+#: aardvark-development/admin/setup/ajax/config_messages.php:160
+#: aardvark-development/admin/setup/ajax/field_edit.php:124
+msgid "Settings updated."
+msgstr "Impostazioni modificate."
+
+#: aardvark-development/admin/setup/ajax/config_messages.php:169
+msgid "Unsubscription"
+msgstr "Cancellazione iscrizione"
+
+#: aardvark-development/admin/setup/ajax/test_exchanger.php:59
+msgid "Mail Sent."
+msgstr "Mail inviata."
+
+#: aardvark-development/admin/setup/ajax/field_edit.php:49
+#: aardvark-development/admin/setup/setup_fields.php:52
+#: aardvark-development/admin/subscribers/subscribers_groups.php:48
+#: aardvark-development/admin/mailings/mailing/ajax.addtemplate.php:71
+msgid "Error with addition."
+msgstr "Errore."
+
+#: aardvark-development/admin/setup/ajax/field_edit.php:59
+#: aardvark-development/admin/setup/setup_fields.php:68
+#: aardvark-development/admin/subscribers/subscribers_groups.php:63
+msgid "Confirm Action"
+msgstr "Conferma."
+
+#: aardvark-development/admin/setup/ajax/field_edit.php:62
+#, php-format
+msgid "Deleting option %1$s will affect %2$s subscribers who have selected this choice. They will be flagged as needing to update their records."
+msgstr "L'opzione di Cancellazione %1$s interesserà %2$s iscritti che hanno selezionato questa impostazione. A questi utenti saranno aggiornati i dati."
+
+#: aardvark-development/admin/setup/ajax/field_edit.php:71
+#: aardvark-development/admin/setup/ajax/field_edit.php:123
+#: aardvark-development/admin/setup/setup_fields.php:62
+#: aardvark-development/admin/setup/setup_fields.php:78
+#: aardvark-development/admin/mailings/mailing/templates.php:67
+msgid "Error with deletion."
+msgstr "Errore nella cancellazione"
+
+#: aardvark-development/admin/setup/ajax/field_edit.php:134
+#, php-format
+msgid "%s - Any value will be accepted for text fields. They are useful for collecting names, addresses, etc."
+msgstr "%s - Questo campo &egrave; del tipo <b>TESTO</b>. Si pu&ograve; digitare qualsiasi valore in questo campo. I campi testo sono utili per aquisire nomi, citta, ..."
+
+#: aardvark-development/admin/setup/ajax/field_edit.php:135
+#, php-format
+msgid "%s - Checkboxes can be toggled ON or OFF. They are useful for opt-ins and agreements."
+msgstr "%s - Checkboxes can be toggled ON or OFF. They are useful for opt-ins and agreements."
+
+#: aardvark-development/admin/setup/ajax/field_edit.php:136
+#, php-format
+msgid "%s - Only Numeric values will be accepted for number fields."
+msgstr "%s - Solo valori numerici sono accettati per i campi numero."
+
+#: aardvark-development/admin/setup/ajax/field_edit.php:137
+#, php-format
+msgid "%s - Only calendar values will be accepted for this field. A date selector (calendar popup) will appear next to the field to aid the subscriber in selecting a date."
+msgstr "%s - Solo valori del calendario sono accettati per questo campo. Un selettore di date (popup calendario) appare per aiutare l'utente nella selezione della data."
+
+#: aardvark-development/admin/setup/ajax/field_edit.php:138
+#, php-format
+msgid "%s - Subscribers will be able to select a value from the options you provide below. Multiple choice fields have reliable values for organizing, and are useful for collecting Country, Interests, etc."
+msgstr "%s Questa casellaè del tipo <b>SCELTA MULTIPLA</b>. Gli iscritti saranno in grado di selezionare un valore dalle opzioni sotto indicate. I campi di scelta multipla contengono valori utili per aquisire informazioni come paese, interessi,..."
+
+#: aardvark-development/admin/setup/ajax/field_edit.php:139
+#, php-format
+msgid "%s -. If a subscriber enters a value for a comment field, it will be mailed to the admin notification email."
+msgstr "%s -. Se un iscritto inserisce un valore in un campo commento, esso sarà inviatoalla mail dell'amministratore."
+
+#: aardvark-development/admin/setup/ajax/fields_order.php:59
+msgid "Order Updated."
+msgstr "Ordine aggiornato."
+
+#: aardvark-development/admin/setup/ajax/config_mailings.php:72
+msgid "Enter a number."
+msgstr "Insisci un numero."
+
+#: aardvark-development/admin/setup/ajax/config_general.php:56
+#: aardvark-development/install/install.php:66
+msgid "Must be a valid URL"
+msgstr "Dev'essere un URL valido"
+
+#: aardvark-development/admin/setup/ajax/config_users.php:51
+#: aardvark-development/install/install.php:65
+msgid "Passwords must match."
+msgstr "Le password devono coincidere."
+
+#: aardvark-development/admin/setup/setup_fields.php:71
+#, php-format
+msgid "Currently, %1$s subscribers have a non empty value for %2$s. All Subscriber data relating to this field will be lost."
+msgstr "Al momento, per %1$s iscritti &egrave; stato assegnato un valore per %2$s Tutti i dati correspondenti a questa casella saranno cancellati."
+
+#: aardvark-development/admin/setup/setup_configure.php:35
+msgid "Throttle Settings"
+msgstr "Configurazione Throttle "
+
+#: aardvark-development/admin/setup/setup_configure.php:36
+msgid "SMTP Settings"
+msgstr "Configurazioni SMTP"
+
+#: aardvark-development/admin/subscribers/ajax/subscriber_add2.php:50
+#: aardvark-development/admin/subscribers/ajax/subscriber_add2.php:56
+#: aardvark-development/admin/subscribers/ajax/subscriber_add2.php:60
+#: aardvark-development/admin/subscribers/ajax/subscriber_add2.php:72
+#: aardvark-development/admin/subscribers/ajax/subscriber_add2.php:80
+msgid "Error adding subscriber."
+msgstr "Errore iscrizione utente."
+
+#: aardvark-development/admin/subscribers/ajax/subscriber_add2.php:50
+msgid "Invalid email."
+msgstr "email invalida."
+
+#: aardvark-development/admin/subscribers/ajax/subscriber_add2.php:56
+#, php-format
+msgid "%s has already unsubscribed. To add the subscriber anyway, check the box to force the addition."
+msgstr "%s è stato già rimosso. Per aggiungere  comunque l'utente, spunta la casella foza iscrizione."
+
+#: aardvark-development/admin/subscribers/ajax/subscriber_add2.php:72
+msgid "Invalid or missing information."
+msgstr "Informazione mancante o invalida."
+
+#: aardvark-development/admin/subscribers/ajax/subscriber_add2.php:84
+#: aardvark-development/admin/subscribers/ajax/subscriber_add2.php:85
+#, php-format
+msgid "Subscriber %s added!"
+msgstr "Utente %s aggiunto!"
+
+#: aardvark-development/admin/subscribers/ajax/subscriber_add2.php:84
+msgid "Subscriber has been flagged for update due to invalid or missing information."
+msgstr "Gli iscritti saranno marcati per l'aggiornamento, a causa di informazioni mancanti o non valide"
+
+#: aardvark-development/admin/subscribers/ajax/subscriber_del2.php:65
+msgid "No subscribers were removed."
+msgstr "Nessun iscritto rimosso."
+
+#: aardvark-development/admin/subscribers/ajax/subscriber_del2.php:67
+#, php-format
+msgid "You have removed %s subscribers!"
+msgstr "Hai rimosso %s iscritti!"
+
+#: aardvark-development/admin/subscribers/ajax/subscriber_edit2.php:69
+#: aardvark-development/admin/subscribers/ajax/subscriber_edit2.php:72
+msgid "Error updating subscriber."
+msgstr "Errore nell'aggiornamento dell'iscritto"
+
+#: aardvark-development/admin/subscribers/ajax/subscriber_edit2.php:69
+msgid "Fields failed validation"
+msgstr "Validazione campo fallita"
+
+#: aardvark-development/admin/subscribers/ajax/subscriber_edit2.php:75
+msgid "Subscriber Updated"
+msgstr "Iscritto aggiornato"
+
+#: aardvark-development/admin/subscribers/subscribers_groups.php:42
+#, php-format
+msgid "Group name (%s) already exists"
+msgstr "Nome gruppo (%s) già esistente"
+
+#: aardvark-development/admin/subscribers/subscribers_groups.php:66
+#, php-format
+msgid "%1$s filters belong this group . Are you sure you want to remove %2$s?"
+msgstr "%1$s filtri appartengono al gruppo . Sei sicuro di rumuoverli %2$s?"
+
+#: aardvark-development/admin/subscribers/subscribers_groups.php:72
+msgid "Group cannot be deleted."
+msgstr "Il gruppo non può essere cancellato."
+
+#: aardvark-development/admin/subscribers/subscribers_groups.php:74
+#, php-format
+msgid "%s deleted."
+msgstr "%s cancellato."
+
+#: aardvark-development/admin/subscribers/import_txt.php:64
+#: aardvark-development/admin/subscribers/import_csv2.php:83
+msgid "Complete!"
+msgstr "Completo!"
+
+#: aardvark-development/admin/subscribers/import_csv2.php:82
+#, php-format
+msgid "%s subscribers imported! Of these, %s were flagged to update their records."
+msgstr "%s iscritti importati! Di questi, %s necessitano un aggiornamento manuale dei dati."
+
+#: aardvark-development/admin/subscribers/import_csv2.php:82
+#, php-format
+msgid "%s duplicates encountered."
+msgstr "%s duplicati trovati."
+
+#: aardvark-development/admin/subscribers/groups_edit.php:60
+msgid "Group Renamed"
+msgstr "Gruppo rinominato"
+
+#: aardvark-development/admin/subscribers/groups_edit.php:69
+msgid "At least 1 \"and\" rule must exist before an \"or\" rule takes effect."
+msgstr "Al minimo 1 regola \"and\" deve esistere prima che una regola \"or\" abbia effetto."
+
+#: aardvark-development/admin/subscribers/groups_edit.php:113
+msgid "INCLUDE"
+msgstr "INCLUDI"
+
+#: aardvark-development/admin/mailings/ajax/status_poll.php:64
+msgid "Stopped"
+msgstr "Stoppato"
+
+#: aardvark-development/admin/mailings/ajax/status_poll.php:65
+msgid "Frozen"
+msgstr "Frozen"
+
+#: aardvark-development/admin/mailings/mailings_history.php:56
+#, php-format
+msgid "%s mailings deleted"
+msgstr "%s mailings cancellato"
+
+#: aardvark-development/admin/mailings/mailing/templates.php:66
+msgid "Template Deleted"
+msgstr "Template cancellato"
+
+#: aardvark-development/admin/mailings/mailing/compose.php:39
+#: aardvark-development/admin/mailings/mailing/preview.php:41
+#: aardvark-development/admin/mailings/mailing/setup.php:40
+#: aardvark-development/admin/mailings/admin_mailings.php:38
+#: aardvark-development/admin/mailings/mailings_start.php:38
+#, php-format
+msgid "A Mailing is currently processing. Visit the %sStatus%s page to check its progress."
+msgstr "Mailing in esecuzione. Visita la pagina %sStato%s per verificarne l'avanzamento."
+
+#: aardvark-development/admin/mailings/mailing/preview.php:73
+msgid "Subject or Message cannot be empty!"
+msgstr "Oggetto o messaggio non possono essere vuoti!"
+
+#: aardvark-development/admin/mailings/mailing/preview.php:114
+msgid "Cannot send a mailing to 0 subscribers!"
+msgstr "Non posso inviare mail a 0 iscritti."
+
+#: aardvark-development/admin/mailings/mailing/setup.php:113
+msgid "Invalid Character Set"
+msgstr "Set caratteri invalido"
+
+#: aardvark-development/admin/mailings/mailing/setup.php:115
+msgid "Invalid Input"
+msgstr "Input invalido"
+
+#: aardvark-development/admin/mailings/mailing/ajax.addtemplate.php:67
+#, php-format
+msgid "Template %s saved."
+msgstr "Template %s salvato."
+
+#: aardvark-development/admin/mailings/mailing/ajax.mailingtest.php:79
+#: aardvark-development/admin/mailings/mailings_start.php:54
+msgid "Test Mailing"
+msgstr "Mailing di test"
+
+#: aardvark-development/admin/mailings/mailing/ajax.mailingtest.php:107
+msgid "A mailing is currently taking place. Please try again later."
+msgstr "Un mailing è attualmente in corso. Prova più tardi."
+
+#: aardvark-development/admin/mailings/mailing/ajax.mailingtest.php:118
+#: aardvark-development/admin/mailings/mailings_start.php:41
+#, php-format
+msgid "%sDemonstration Mode%s is on -- no Emails will actually be sent. This is good for testing settings."
+msgstr "%sModo dimostrativo %s attivo -- nessuna mail sarà inviata. "
+
+#: aardvark-development/admin/mailings/mailings_send4.php:81
+#, php-format
+msgid "Started Mailing MTA. Spawn #%s."
+msgstr "Mailing MTA avviata. Spawn #%s."
+
+#: aardvark-development/admin/mailings/mailings_start.php:55
+msgid "Save Template"
+msgstr "Salva Template"
+
+#: aardvark-development/admin/admin.php:43
+#, php-format
+msgid "Powerful mailing list software for %s"
+msgstr "mailing list software per %s "
+
+#: aardvark-development/admin/admin.php:47
+msgid "You have changed the language for this session. To make this the default language, you must update your config.php file."
+msgstr "Hai modificato la lingua per questa sessione. Per renderla la lingua di default, devi aggiornare il file config.php"
+
+#: aardvark-development/index.php:68
+msgid "Failed login attempt. Try again."
+msgstr "Tentativo di login fallito. Prova di nuovo"
+
+#: aardvark-development/index.php:102
+msgid "Captcha did not match. Try again."
+msgstr "Captcha non corrisponde. Prova di nuovo."
+
+#: aardvark-development/install/install.php:42
+msgid "poMMo is already installed."
+msgstr "poMMo è già installato"
+
+#: aardvark-development/install/install.php:67
+msgid "Must be a valid email"
+msgstr "Deve essere un indirizzo valido"
+
+#: aardvark-development/install/install.php:119
+msgid "Installation Complete! You may now login and setup poMMo."
+msgstr "Installazione Completa! Puoi effettuare ora la login e configurare poMMo."
+
+#: aardvark-development/install/install.php:120
+msgid "Login Username: "
+msgstr "Login Username: "
+
+#: aardvark-development/install/install.php:121
+msgid "Login Password: "
+msgstr "Login Password: "
+
+#: aardvark-development/install/upgrade.php:42
+#, php-format
+msgid "poMMo does not appear to be installed! Please %s INSTALL %s before attempting an upgrade."
+msgstr "poMMo non sembra essere installato! %s INSTALLA %s prima di tentare l'upgrade."
+
+#: aardvark-development/install/upgrade.php:56
+#, php-format
+msgid "poMMo appears to be up to date. If you want to force an upgrade, %s click here %s"
+msgstr "poMMo sembra aggiornato. Se vuoi forzare comunque l'upgrade %s clicca qui %s"
+
+#: aardvark-development/install/upgrade.php:69
+#, php-format
+msgid "To upgrade poMMo, %s click here %s"
+msgstr "Per fare l'upgrade di poMMo, %s clicca qui %s"
+
+#: aardvark-development/install/upgrade.php:80
+msgid "Upgrade Complete!"
+msgstr "Upgrade Completo!"
+
+#: aardvark-development/install/upgrade.php:91
+msgid "Upgrade Failed!"
+msgstr "Upgrade fallito!"
+

@@ -1,0 +1,172 @@
+/* Form design Modified from Jordan Moore (http://devotedfreak.com)
+  * Forms
+  ****************************************************************/
+
+  form
+  {
+    margin:0;
+  }
+
+  #content form
+  {
+    background-color:#f0f4f6;
+    border-bottom:1px solid #c0d0d8;
+    margin:10px 0;
+    padding:10px;
+  }
+
+  fieldset
+  {
+    border-width:0;
+    border-bottom:1px dashed #d0d4d6;
+    margin:0 0 20px 0;
+    padding:0;
+  }
+
+  legend
+  {
+    color:#204050;
+    font:normal bold 115% "lucida sans", serif;
+    margin:10px 0 0 0;
+    padding:0;
+  }
+
+  * html legend
+  {
+    margin-left:-8px;
+    margin-bottom:10px;
+  }
+
+  fieldset .field
+  {
+    border-top:1px dashed #d0d4d6;
+    /* clear:both; (removed for Opera support) */
+    padding:6px 0;
+  }
+
+  fieldset br
+  {
+    display:none;
+  }
+
+  fieldset .field label
+  {
+    color:#204050;
+    display:block;
+    float:left;
+    margin-right:5px;
+    width:165px;
+  }
+
+  .required
+  {
+    color:#007700;
+	font-size: 120%;
+    font-weight: bolder;
+  }
+
+  fieldset .field input
+  {
+    max-width:240px;
+  }
+
+  fieldset .field textarea
+  {
+    margin-top:5px;
+    width:368px;
+  }
+
+  fieldset .field textarea + .notes
+  {
+    margin-left:0 !important;
+  }
+
+  fieldset .field .notes
+  {
+    color:#809098;
+    font-size:75%;
+    margin:2px 0 0 120px;
+  }
+
+  input,
+  textarea,
+  select
+  {
+    font:normal normal x-small verdana, sans-serif;
+    content:"\"}\"";
+    content:inherit;
+    font-size:small;
+  }
+
+  html>body input,
+  html>body textarea,
+  html>body select
+  {
+    font-size:small;
+  }
+
+  input.text,
+  textarea
+  {
+    background:#f8f8f8;
+    border:1px solid black;
+    border-color:#c0c4c6 #e0e4e6 #e0e4e6 #c0c4c6;
+    color:#808486;
+    padding:2px 0 2px 4px;
+  }
+
+  input.text.highlight,
+  textarea.highlight,
+  input.text:focus,
+  textarea:focus
+  {
+    background-color:#ffffff;
+    border-color:#a0b0b8;
+    color:#204050;
+  }
+
+  div.textarea_toolbar
+  {
+    font-size:85%;
+    text-align:right;
+  }
+
+  div.textarea_toolbar input
+  {
+    font-size:85%;
+  }
+
+  div.textarea_toolbar input
+  {
+    margin-left:3px;
+    padding:0 2px;
+  }
+
+  form img.confirmation
+  {
+    border:1px solid #C0D0D8;
+    margin-top:5px;
+  }
+
+	form .error {
+	background-color:#1A4D3A; 
+	color:#EBF5F2; 
+	font-weight:bold;
+	padding-left: 10px;
+	margin: 3px 7px 3px 30%;
+}
+
+.eveninputs {
+	width: 80%;
+	text-align: center;
+	padding: 6px;
+}
+
+.eveninputs input {
+	margin-right: 25px;
+}
+
+form .altcolor {
+ 	background-color: #EAEFE1;
+	margin: 0px 0px 0px 0px;
+}

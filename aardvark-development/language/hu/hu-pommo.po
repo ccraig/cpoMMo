@@ -1,0 +1,4255 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: poMMo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-23 17:24-0400\n"
+"PO-Revision-Date: 2008-06-15 21:22+0100\n"
+"Last-Translator: Csermely Gergely <info@csermely.hu>\n"
+"Language-Team: FaXuniL Kft www.faxunil.hu <info@faxunil.hu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#
+# File: pommo_theme_lang.php, line: 3
+# File: pommo_theme_lang.php, line: 990
+# File: pommo_theme_lang.php, line: 1956
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#. aardvark-development/themes/default/admin/setup/setup_configure.tpl
+#. aardvark-development/themes/default/admin/admin.tpl
+msgid "Mailings"
+msgstr "Hírlevelek"
+
+#
+# File: pommo_theme_lang.php, line: 6
+# File: pommo_theme_lang.php, line: 1923
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#. aardvark-development/themes/default/admin/mailings/admin_mailings.tpl
+msgid "Send"
+msgstr "Küldés"
+
+#
+# File: pommo_theme_lang.php, line: 9
+# File: pommo_theme_lang.php, line: 1929
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#. aardvark-development/themes/default/admin/mailings/admin_mailings.tpl
+msgid "History"
+msgstr "Előzmények"
+
+#
+# File: pommo_theme_lang.php, line: 12
+# File: pommo_theme_lang.php, line: 1344
+# File: pommo_theme_lang.php, line: 1962
+# File: aardvark-development/admin/subscribers/ajax/subscriber_export2.php, line: 87
+# File: aardvark-development/admin/subscribers/ajax/subscriber_export2.php, line: 107
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+#. aardvark-development/themes/default/admin/admin.tpl
+msgid "Subscribers"
+msgstr "Tagok"
+
+#
+# File: pommo_theme_lang.php, line: 15
+# File: pommo_theme_lang.php, line: 1302
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#. aardvark-development/themes/default/admin/subscribers/admin_subscribers.tpl
+msgid "Manage"
+msgstr "Karbantartás"
+
+#
+# File: pommo_theme_lang.php, line: 18
+# File: pommo_theme_lang.php, line: 1278
+# File: pommo_theme_lang.php, line: 1308
+# File: pommo_theme_lang.php, line: 1332
+# File: pommo_theme_lang.php, line: 1368
+# File: pommo_theme_lang.php, line: 1524
+# File: aardvark-development/admin/subscribers/import_txt.php, line: 64
+# File: aardvark-development/admin/subscribers/import_csv2.php, line: 83
+# File: aardvark-development/admin/subscribers/import_csv.php, line: 38
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#. aardvark-development/themes/default/admin/subscribers/import_txt.tpl
+#. aardvark-development/themes/default/admin/subscribers/admin_subscribers.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+#. aardvark-development/themes/default/admin/subscribers/import_csv.tpl
+msgid "Import"
+msgstr "Importálás"
+
+#
+# File: pommo_theme_lang.php, line: 21
+# File: pommo_theme_lang.php, line: 1167
+# File: pommo_theme_lang.php, line: 1314
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_groups.tpl
+#. aardvark-development/themes/default/admin/subscribers/admin_subscribers.tpl
+msgid "Groups"
+msgstr "Csoportok"
+
+#
+# File: pommo_theme_lang.php, line: 24
+# File: pommo_theme_lang.php, line: 1941
+# File: pommo_theme_lang.php, line: 1968
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_start.tpl
+#. aardvark-development/themes/default/admin/admin.tpl
+msgid "Setup"
+msgstr "Beállítások"
+
+#
+# File: pommo_theme_lang.php, line: 27
+# File: pommo_theme_lang.php, line: 978
+# File: pommo_theme_lang.php, line: 999
+# File: aardvark-development/admin/setup/config/ajax.smtp.php, line: 39
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#. aardvark-development/themes/default/admin/setup/setup_configure.tpl
+#. aardvark-development/themes/default/admin/setup/admin_setup.tpl
+msgid "Configure"
+msgstr "Beállítások"
+
+#
+# File: pommo_theme_lang.php, line: 30
+# File: pommo_theme_lang.php, line: 864
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+msgid "Fields"
+msgstr "Mezők"
+
+#
+# File: pommo_theme_lang.php, line: 33
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+msgid "Setup Form"
+msgstr "Beállítási űrlap"
+
+#
+# File: pommo_theme_lang.php, line: 36
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+msgid "Demonstration mode is ON."
+msgstr "Teszt mód BEKAPCSOLVA"
+
+#
+# File: pommo_theme_lang.php, line: 39
+#. aardvark-development/themes/default/inc/admin.sidebar.tpl
+msgid "Demonstration mode is OFF."
+msgstr "Teszt mód KIkapcsolva"
+
+#
+# File: pommo_theme_lang.php, line: 42
+# File: pommo_theme_lang.php, line: 1992
+# File: aardvark-development/admin/mailings/ajax/history.rpc.php, line: 97
+#. aardvark-development/themes/default/inc/dialog.tpl
+#. aardvark-development/themes/default/admin/confirm.tpl
+msgid "Please Wait"
+msgstr "Kérem várjon!"
+
+#
+# File: pommo_theme_lang.php, line: 45
+# File: pommo_theme_lang.php, line: 57
+# File: pommo_theme_lang.php, line: 1296
+# File: pommo_theme_lang.php, line: 1527
+# File: aardvark-development/admin/mailings/ajax/status_poll.php, line: 63
+# File: aardvark-development/admin/mailings/ajax/history.list.php, line: 122
+#. aardvark-development/themes/default/inc/ui.grid.tpl
+#. aardvark-development/themes/default/inc/ui.tabs.tpl
+#. aardvark-development/themes/default/admin/subscribers/import_txt.tpl
+#. aardvark-development/themes/default/admin/subscribers/import_csv.tpl
+msgid "Processing"
+msgstr "Feldolgozás"
+
+#
+# File: pommo_theme_lang.php, line: 48
+#. aardvark-development/themes/default/inc/ui.grid.tpl
+msgid "Record(s)"
+msgstr "mező(k)"
+
+#
+# File: pommo_theme_lang.php, line: 51
+#. aardvark-development/themes/default/inc/ui.grid.tpl
+msgid "Match(es)"
+msgstr "találat(ok)"
+
+#
+# File: pommo_theme_lang.php, line: 54
+# File: pommo_theme_lang.php, line: 72
+#. aardvark-development/themes/default/inc/admin.footer.tpl
+#. aardvark-development/themes/default/inc/user.footer.tpl
+msgid "Page fueled by %1 mailing management software"
+msgstr "Ez a hírlevél a %1 programmal készült."
+
+#
+# File: pommo_theme_lang.php, line: 60
+# File: pommo_theme_lang.php, line: 1287
+# File: aardvark-development/admin/setup/ajax/fields.rpc.php, line: 89
+#. aardvark-development/themes/default/inc/admin.header.tpl
+#. aardvark-development/themes/default/admin/subscribers/import_txt.tpl
+msgid "Are you sure?"
+msgstr "Biztosan?"
+
+#
+# File: pommo_theme_lang.php, line: 63
+#. aardvark-development/themes/default/inc/admin.header.tpl
+msgid "Logout"
+msgstr "Kijelentkezés"
+
+#
+# File: pommo_theme_lang.php, line: 66
+#. aardvark-development/themes/default/inc/admin.header.tpl
+msgid "Support"
+msgstr "Támogatás"
+
+#
+# File: pommo_theme_lang.php, line: 69
+# File: pommo_theme_lang.php, line: 165
+# File: pommo_theme_lang.php, line: 2004
+#. aardvark-development/themes/default/inc/admin.header.tpl
+#. aardvark-development/themes/default/install.tpl
+#. aardvark-development/themes/default/upgrade.tpl
+msgid "Admin Page"
+msgstr "Karbantartás"
+
+#
+# File: pommo_theme_lang.php, line: 75
+#. aardvark-development/themes/default/user/update.tpl
+msgid "Subscriber Update"
+msgstr "Tag-adatok aktualizálása"
+
+#
+# File: pommo_theme_lang.php, line: 78
+#. aardvark-development/themes/default/user/update.tpl
+msgid "Unsubscribe"
+msgstr "Leiratkozás"
+
+#
+# File: pommo_theme_lang.php, line: 81
+#. aardvark-development/themes/default/user/update.tpl
+msgid "Comments"
+msgstr "Megjegyzések"
+
+#
+# File: pommo_theme_lang.php, line: 84
+#. aardvark-development/themes/default/user/update.tpl
+msgid "Click to unsubscribe"
+msgstr "Leiratkozáshoz kattintson ide!"
+
+#
+# File: pommo_theme_lang.php, line: 87
+#. aardvark-development/themes/default/user/update.tpl
+msgid "Really unsubscribe?"
+msgstr "Biztosan le akar iratkozni?"
+
+#
+# File: pommo_theme_lang.php, line: 90
+# File: pommo_theme_lang.php, line: 1536
+#. aardvark-development/themes/default/user/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+msgid "Mailings History"
+msgstr "Hírlevél előzmények"
+
+#
+# File: pommo_theme_lang.php, line: 93
+# File: pommo_theme_lang.php, line: 1539
+#. aardvark-development/themes/default/user/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+msgid "View Mailing"
+msgstr "Hírlevél megtekintése"
+
+#
+# File: pommo_theme_lang.php, line: 96
+# File: pommo_theme_lang.php, line: 1551
+#. aardvark-development/themes/default/user/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+msgid "Subject"
+msgstr "Tárgy:"
+
+#
+# File: pommo_theme_lang.php, line: 99
+# File: pommo_theme_lang.php, line: 1557
+#. aardvark-development/themes/default/user/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+msgid "Sent"
+msgstr "Küldés"
+
+#
+# File: pommo_theme_lang.php, line: 102
+# File: pommo_theme_lang.php, line: 1272
+# File: pommo_theme_lang.php, line: 1569
+#. aardvark-development/themes/default/user/mailings.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+msgid "No records returned."
+msgstr "Nincs találat."
+
+#
+# File: pommo_theme_lang.php, line: 105
+#. aardvark-development/themes/default/user/process.tpl
+msgid "Subscription Review"
+msgstr "Feliratkozások áttekintése"
+
+#
+# File: pommo_theme_lang.php, line: 108
+#. aardvark-development/themes/default/user/process.tpl
+msgid "Back to Subscription Form"
+msgstr "Vissza a feliratkozási űrlaphoz"
+
+#
+# File: pommo_theme_lang.php, line: 111
+# File: pommo_theme_lang.php, line: 144
+# File: pommo_theme_lang.php, line: 156
+# File: pommo_theme_lang.php, line: 1371
+# File: pommo_theme_lang.php, line: 1497
+# File: pommo_theme_lang.php, line: 1533
+#. aardvark-development/themes/default/user/process.tpl
+#. aardvark-development/themes/default/user/pending.tpl
+#. aardvark-development/themes/default/user/confirm.tpl
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#. aardvark-development/themes/default/admin/subscribers/import_csv.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+msgid "Return to %1"
+msgstr "Vissza a %1"
+
+#
+# File: pommo_theme_lang.php, line: 114
+#. aardvark-development/themes/default/user/process.tpl
+msgid "%1Update your records%2"
+msgstr "%1 módosítja a beállítását %2"
+
+#
+# File: pommo_theme_lang.php, line: 117
+#. aardvark-development/themes/default/user/login.tpl
+msgid "Subscriber Login"
+msgstr "Belépés tagoknak"
+
+#
+# File: pommo_theme_lang.php, line: 120
+#. aardvark-development/themes/default/user/login.tpl
+msgid "In order to check your subscription status, update your information, or unsubscribe, you must enter your email address in the field below."
+msgstr "Amennyiben ellenőrizni kívánja a feliratkozásának állapotát, módosítani akarja az adatait  vagy le akarja mondani a hírlevelet, meg kell adnia az e-mail címét az alábbi mezőben."
+
+#
+# File: pommo_theme_lang.php, line: 123
+# File: pommo_theme_lang.php, line: 129
+#. aardvark-development/themes/default/user/login.tpl
+msgid "Login"
+msgstr "Belépés"
+
+#
+# File: pommo_theme_lang.php, line: 126
+# File: pommo_theme_lang.php, line: 2043
+# File: pommo_theme_lang.php, line: 2064
+# File: pommo_theme_lang.php, line: 2079
+# File: aardvark-development/admin/setup/form_generate.php, line: 62
+#. aardvark-development/themes/default/user/login.tpl
+#. aardvark-development/themes/default/subscribe/form.subscribe.tpl
+#. aardvark-development/themes/default/subscribe/form.update.tpl
+#. aardvark-development/themes/default/subscribe/form.mini.tpl
+msgid "Your Email:"
+msgstr "Az Ön e-mail címe"
+
+#
+# File: pommo_theme_lang.php, line: 132
+#. aardvark-development/themes/default/user/activate.tpl
+msgid "Update Activation"
+msgstr "Frissítés aktiválása"
+
+#
+# File: pommo_theme_lang.php, line: 135
+#. aardvark-development/themes/default/user/activate.tpl
+msgid "We require that you verify your email address before unsubscribing or updating your records. This extra step is necessary to maintain your privacy, and to protect you against fraudulent activity."
+msgstr "Mielőtt leiratkozik, vagy módosítja a beállításait, szükséges az e-mail cím ellenőrzése. Ez az extra lépés szükséges a személyes adatinak védelme érdekében és a rosszindulatú aktivitások kiszűrésére."
+
+#
+# File: pommo_theme_lang.php, line: 138
+#. aardvark-development/themes/default/user/activate.tpl
+msgid "An activation email has recently been sent to %1. Please check your inbox."
+msgstr "Az aktiváló e-mail elküldésre került a %1 címre. Kérem ellenőrizze a postafiókját!"
+
+#
+# File: pommo_theme_lang.php, line: 141
+#. aardvark-development/themes/default/user/pending.tpl
+msgid "Pending Changes"
+msgstr "függő módosítások"
+
+#
+# File: pommo_theme_lang.php, line: 147
+#. aardvark-development/themes/default/user/pending.tpl
+msgid "SEND another confirmation email"
+msgstr "Kattintson a küldésre, hogy újabb megerősítő e-mail kapjon!"
+
+#
+# File: pommo_theme_lang.php, line: 150
+#. aardvark-development/themes/default/user/pending.tpl
+msgid "CANCEL your pending request"
+msgstr "Kattintson a mégsem-re, hogy a módosítások elvetéséhez."
+
+#
+# File: pommo_theme_lang.php, line: 153
+#. aardvark-development/themes/default/user/confirm.tpl
+msgid "Subscriber Confirmation"
+msgstr "Tagok megerősítése"
+
+#
+# File: pommo_theme_lang.php, line: 159
+#. aardvark-development/themes/default/install.tpl
+msgid "Installation"
+msgstr "poMMo telepítés"
+
+#
+# File: pommo_theme_lang.php, line: 162
+#. aardvark-development/themes/default/install.tpl
+msgid "Online install"
+msgstr "Online-telepítés"
+
+#
+# File: pommo_theme_lang.php, line: 168
+#. aardvark-development/themes/default/install.tpl
+msgid "Welcome to the online installation process. We have connected to the database and set your language successfully. Fill in the values below, and you'll be on your way!"
+msgstr "Köszöntjük az on-line telepítési eljárásban. A kapcsolódás az adatbázishoz sikerült és sikeresen elvégeztük a nyelvi beállítást. Kérjük töltse ki az alábbi mezőket! Most már jó úton halad!"
+
+#
+# File: pommo_theme_lang.php, line: 171
+#. aardvark-development/themes/default/install.tpl
+msgid "Configuration Options"
+msgstr "Beállítási lehetőségek"
+
+#
+# File: pommo_theme_lang.php, line: 174
+#. aardvark-development/themes/default/install.tpl
+msgid "Name of Mailing List:"
+msgstr "Hírlevél elnevezése:"
+
+#
+# File: pommo_theme_lang.php, line: 177
+#. aardvark-development/themes/default/install.tpl
+msgid "(ie. Brice's Mailing List)"
+msgstr "(pl. Első hírlevelem)"
+
+#
+# File: pommo_theme_lang.php, line: 180
+#. aardvark-development/themes/default/install.tpl
+msgid "Name of Website:"
+msgstr "A weboldal neve:"
+
+#
+# File: pommo_theme_lang.php, line: 183
+#. aardvark-development/themes/default/install.tpl
+msgid "(ie. The poMMo Website)"
+msgstr "(pl.  ... Iroda Honlapja)"
+
+#
+# File: pommo_theme_lang.php, line: 186
+# File: pommo_theme_lang.php, line: 582
+#. aardvark-development/themes/default/install.tpl
+#. aardvark-development/themes/default/admin/setup/config/general.tpl
+msgid "Website URL:"
+msgstr "Weboldal internetcíme:"
+
+#
+# File: pommo_theme_lang.php, line: 189
+#. aardvark-development/themes/default/install.tpl
+msgid "(ie. http://www.pommo-rocks.com/)"
+msgstr "(pl. http://www.faxunil.hu)"
+
+#
+# File: pommo_theme_lang.php, line: 192
+# File: pommo_theme_lang.php, line: 837
+#. aardvark-development/themes/default/install.tpl
+#. aardvark-development/themes/default/admin/setup/config/users.tpl
+msgid "Administrator Password:"
+msgstr "Rendszergazda jelszava:"
+
+#
+# File: pommo_theme_lang.php, line: 195
+# File: pommo_theme_lang.php, line: 834
+# File: pommo_theme_lang.php, line: 840
+#. aardvark-development/themes/default/install.tpl
+#. aardvark-development/themes/default/admin/setup/config/users.tpl
+msgid "(you will use this to login)"
+msgstr "(erre szüksége lesz a belépéshez)"
+
+#
+# File: pommo_theme_lang.php, line: 198
+# File: pommo_theme_lang.php, line: 843
+#. aardvark-development/themes/default/install.tpl
+#. aardvark-development/themes/default/admin/setup/config/users.tpl
+msgid "Verify Password:"
+msgstr "jelszó megerősítése:"
+
+#
+# File: pommo_theme_lang.php, line: 201
+# File: pommo_theme_lang.php, line: 846
+#. aardvark-development/themes/default/install.tpl
+#. aardvark-development/themes/default/admin/setup/config/users.tpl
+msgid "(enter password again)"
+msgstr "(Újból írja be a jelszót!)"
+
+#
+# File: pommo_theme_lang.php, line: 204
+# File: pommo_theme_lang.php, line: 849
+#. aardvark-development/themes/default/install.tpl
+#. aardvark-development/themes/default/admin/setup/config/users.tpl
+msgid "Administrator Email:"
+msgstr "Rendszergazda E-Mail:"
+
+#
+# File: pommo_theme_lang.php, line: 207
+#. aardvark-development/themes/default/install.tpl
+msgid "(enter your valid email address)"
+msgstr "(Kérem érvényes e-mail címet adjon meg!)"
+
+#
+# File: pommo_theme_lang.php, line: 210
+#. aardvark-development/themes/default/install.tpl
+msgid "Install"
+msgstr "Telepítés"
+
+#
+# File: pommo_theme_lang.php, line: 213
+# File: pommo_theme_lang.php, line: 2010
+#. aardvark-development/themes/default/install.tpl
+#. aardvark-development/themes/default/upgrade.tpl
+msgid "To disable debugging"
+msgstr "Hibakeresés letiltása"
+
+#
+# File: pommo_theme_lang.php, line: 216
+# File: pommo_theme_lang.php, line: 222
+# File: pommo_theme_lang.php, line: 1677
+# File: pommo_theme_lang.php, line: 2013
+# File: pommo_theme_lang.php, line: 2019
+# File: pommo_theme_lang.php, line: 2025
+#. aardvark-development/themes/default/install.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+#. aardvark-development/themes/default/upgrade.tpl
+msgid "Click Here"
+msgstr "Kattintson ide!"
+
+#
+# File: pommo_theme_lang.php, line: 219
+# File: pommo_theme_lang.php, line: 2016
+#. aardvark-development/themes/default/install.tpl
+#. aardvark-development/themes/default/upgrade.tpl
+msgid "To enable debugging"
+msgstr "Hibakeresés engedélyezése"
+
+#
+# File: pommo_theme_lang.php, line: 225
+# File: pommo_theme_lang.php, line: 2028
+#. aardvark-development/themes/default/install.tpl
+#. aardvark-development/themes/default/upgrade.tpl
+msgid "Continue to login page"
+msgstr "Tovább a beléptető oldalra"
+
+#
+# File: pommo_theme_lang.php, line: 228
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+msgid "Short Name:"
+msgstr "Rövid név:"
+
+#
+# File: pommo_theme_lang.php, line: 231
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+msgid "Identifying name. NOT displayed on Subscription Form or seen by users."
+msgstr "Azonosító név. NEM jelenik meg a feliratkozási űrlapon és a felhasznáók sem láthatják."
+
+#
+# File: pommo_theme_lang.php, line: 234
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+msgid "Form Name:"
+msgstr "Ürlap neve:"
+
+#
+# File: pommo_theme_lang.php, line: 237
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+msgid "Prompt for field on the Subscription Form. e.g. %1Type your city%2"
+msgstr "Mező megjelenített neve a feliratkozási űrlapon pl.: %1 adja meg a város nevét %2"
+
+#
+# File: pommo_theme_lang.php, line: 240
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+msgid "Required:"
+msgstr "Kötelező:"
+
+#
+# File: pommo_theme_lang.php, line: 243
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+msgid "Toggle to require field on Subscription Form (user cannot leave blank if %1yes%2)"
+msgstr "Amennyiben a feliratkozási űrlapon közelezővé tette a mezőt, a felhasználónak ki kell töltenie (nem hagyhatja üresen, ha %1 igen %2"
+
+#
+# File: pommo_theme_lang.php, line: 246
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+msgid "Active:"
+msgstr "Aktív:"
+
+#
+# File: pommo_theme_lang.php, line: 249
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+msgid "Toggle display of field for Subscription Form"
+msgstr "Válassza ki a mező megjelnítését a feliratkozási űrlaphoz!"
+
+#
+# File: pommo_theme_lang.php, line: 252
+# File: pommo_theme_lang.php, line: 258
+# File: pommo_theme_lang.php, line: 264
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+msgid "Default:"
+msgstr "Alapérték:"
+
+#
+# File: pommo_theme_lang.php, line: 255
+# File: pommo_theme_lang.php, line: 261
+# File: pommo_theme_lang.php, line: 270
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+msgid "If provided, this value will appear pre-filled on the subscription form"
+msgstr "Amenniben ki van tölte, ez fog alapértelmezésben megjelenni a feliratkozási űrlapon."
+
+#
+# File: pommo_theme_lang.php, line: 267
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+msgid "Select default choice"
+msgstr "Válassza ki az alapértelmezett értéket!"
+
+#
+# File: pommo_theme_lang.php, line: 273
+# File: pommo_theme_lang.php, line: 357
+# File: pommo_theme_lang.php, line: 387
+# File: pommo_theme_lang.php, line: 483
+# File: pommo_theme_lang.php, line: 630
+# File: pommo_theme_lang.php, line: 699
+# File: pommo_theme_lang.php, line: 732
+# File: pommo_theme_lang.php, line: 762
+# File: pommo_theme_lang.php, line: 783
+# File: pommo_theme_lang.php, line: 804
+# File: pommo_theme_lang.php, line: 825
+# File: pommo_theme_lang.php, line: 855
+# File: pommo_theme_lang.php, line: 1119
+# File: aardvark-development/admin/setup/config/messages.php, line: 227
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+#. aardvark-development/themes/default/admin/setup/config/ajax.throttle.tpl
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+#. aardvark-development/themes/default/admin/setup/config/general.tpl
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+#. aardvark-development/themes/default/admin/setup/config/users.tpl
+#. aardvark-development/themes/default/admin/subscribers/ajax/rule.field.tpl
+msgid "Update"
+msgstr "Módosítás"
+
+#
+# File: pommo_theme_lang.php, line: 276
+# File: pommo_theme_lang.php, line: 279
+# File: pommo_theme_lang.php, line: 294
+# File: pommo_theme_lang.php, line: 297
+# File: pommo_theme_lang.php, line: 309
+# File: pommo_theme_lang.php, line: 312
+# File: pommo_theme_lang.php, line: 1758
+# File: pommo_theme_lang.php, line: 1761
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+msgid "loading..."
+msgstr "töltés..."
+
+#
+# File: pommo_theme_lang.php, line: 282
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+msgid "Multiple Choices"
+msgstr "Több választási lehetőség"
+
+#
+# File: pommo_theme_lang.php, line: 285
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+msgid "Add Option(s)"
+msgstr "Érték(ek) hozzáadása"
+
+#
+# File: pommo_theme_lang.php, line: 288
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+msgid "type option(s)"
+msgstr "Érték(ek) megadása"
+
+#
+# File: pommo_theme_lang.php, line: 291
+# File: pommo_theme_lang.php, line: 894
+# File: pommo_theme_lang.php, line: 1083
+# File: pommo_theme_lang.php, line: 1122
+# File: pommo_theme_lang.php, line: 1164
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#. aardvark-development/themes/default/admin/subscribers/ajax/rule.group.tpl
+#. aardvark-development/themes/default/admin/subscribers/ajax/rule.field.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_groups.tpl
+msgid "Add"
+msgstr "Új"
+
+#
+# File: pommo_theme_lang.php, line: 300
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+msgid "Enter a multiple choice option. You can add more than one choice at a time by separating each with a comma."
+msgstr "Egyszerre több értéket is megadhat. Az egyes értékeket vesszővel kell egymástól elválasztani."
+
+#
+# File: pommo_theme_lang.php, line: 303
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+msgid "Delete Option(s)"
+msgstr "Érték(ek) törlése"
+
+#
+# File: pommo_theme_lang.php, line: 306
+# File: pommo_theme_lang.php, line: 906
+# File: pommo_theme_lang.php, line: 1170
+# File: pommo_theme_lang.php, line: 1251
+# File: pommo_theme_lang.php, line: 1410
+# File: pommo_theme_lang.php, line: 1434
+# File: pommo_theme_lang.php, line: 1458
+# File: pommo_theme_lang.php, line: 1479
+# File: pommo_theme_lang.php, line: 1488
+# File: pommo_theme_lang.php, line: 1596
+#. aardvark-development/themes/default/admin/setup/ajax/field_edit.tpl
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_groups.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/templates.tpl
+msgid "Delete"
+msgstr "Törlés"
+
+#
+# File: pommo_theme_lang.php, line: 315
+#. aardvark-development/themes/default/admin/setup/setup_form.tpl
+msgid "Subscription Forms"
+msgstr "Feliratkozási űrlapok"
+
+#
+# File: pommo_theme_lang.php, line: 318
+#. aardvark-development/themes/default/admin/setup/setup_form.tpl
+msgid "Default Subscription Form"
+msgstr "Alapértelmezett feliratkozási űrlap"
+
+#
+# File: pommo_theme_lang.php, line: 321
+#. aardvark-development/themes/default/admin/setup/setup_form.tpl
+msgid "Preview the default subscription form. Its look and feel can be adjusted through the theme template ([theme]/user/subscribe.tpl)."
+msgstr "Alapértelmezett feliratkozás űrlap előnézete. Az ürlap kinézete a ([theme]/user/subscribe.tpl) fájl alapján módosítható."
+
+#
+# File: pommo_theme_lang.php, line: 324
+#. aardvark-development/themes/default/admin/setup/setup_form.tpl
+msgid "Embedded Subscription From"
+msgstr "Beépített feliratkozási űrlap"
+
+#
+# File: pommo_theme_lang.php, line: 327
+#. aardvark-development/themes/default/admin/setup/setup_form.tpl
+msgid "Preview subscription forms that you can embed into an area of an existing webpage."
+msgstr "Feliratkozási űrlap előnézete, amely meglévő weblapba is integrálható."
+
+#
+# File: pommo_theme_lang.php, line: 330
+#. aardvark-development/themes/default/admin/setup/setup_form.tpl
+msgid "HTML Subscription Form"
+msgstr "HTML feliratkozási űrlap"
+
+#
+# File: pommo_theme_lang.php, line: 333
+#. aardvark-development/themes/default/admin/setup/setup_form.tpl
+msgid "Generate a plain HTML subscription form that you can customize to fit your site."
+msgstr "Generált egyszerű HTML feliratkozási űrlap, amelyet személyre szabva integrálhat honlapjának szerkezetébe."
+
+#
+# File: pommo_theme_lang.php, line: 336
+#. aardvark-development/themes/default/admin/setup/config/ajax.throttle.tpl
+msgid "Global Rates"
+msgstr "Globális sebesség"
+
+#
+# File: pommo_theme_lang.php, line: 339
+# File: pommo_theme_lang.php, line: 375
+#. aardvark-development/themes/default/admin/setup/config/ajax.throttle.tpl
+msgid "Mail Rate"
+msgstr "E-mail sebesség"
+
+#
+# File: pommo_theme_lang.php, line: 342
+# File: pommo_theme_lang.php, line: 351
+#. aardvark-development/themes/default/admin/setup/config/ajax.throttle.tpl
+msgid "%1 per Second"
+msgstr "%1 másodpercenként"
+
+#
+# File: pommo_theme_lang.php, line: 345
+# File: pommo_theme_lang.php, line: 354
+#. aardvark-development/themes/default/admin/setup/config/ajax.throttle.tpl
+msgid "%1 per Hour"
+msgstr "%1 óránként"
+
+#
+# File: pommo_theme_lang.php, line: 348
+# File: pommo_theme_lang.php, line: 381
+#. aardvark-development/themes/default/admin/setup/config/ajax.throttle.tpl
+msgid "Bandwidth Limit"
+msgstr "Sávszélesség korlátozás"
+
+#
+# File: pommo_theme_lang.php, line: 360
+#. aardvark-development/themes/default/admin/setup/config/ajax.throttle.tpl
+msgid "Restore Defaults"
+msgstr "Alapértékek visszaállítása"
+
+#
+# File: pommo_theme_lang.php, line: 363
+#. aardvark-development/themes/default/admin/setup/config/ajax.throttle.tpl
+msgid "Rates per Domain"
+msgstr "Sebesség domainenként"
+
+#
+# File: pommo_theme_lang.php, line: 366
+#. aardvark-development/themes/default/admin/setup/config/ajax.throttle.tpl
+msgid "You may also limit the amount of mail a single domain receives in a period. This is useful for larger mailings, and prevents the \"slamming\" of the domain (which can get your mails rejected). As example, you can choose to send no more than 1 mail every 20 seconds to a domain by setting the mails to 1 and the period interval to 20. Warning; this setting will significantly delay a mailing if many of your subscribers use the same domain (e.g. @yahoo.com)."
+msgstr "Korlátozhatja, hogy egy domain egy periódus alatt hány e-mail kaphasson. Ez hasznos, ha nagyok a hírlevelek és hogy elkerüljük a spam-listára való kerülést (ilyenkon a domain levelezőszervere elutasítja a további levelek fogadását). Pl. beállítható, hogy 1-nél több levelet azonos domainre 20mp-en belül ne küldjön a rendszer a periódusonként értékének 1-re és a Periódus intervallumának értékének 20-ra történő állíásával."
+
+#
+# File: pommo_theme_lang.php, line: 369
+#. aardvark-development/themes/default/admin/setup/config/ajax.throttle.tpl
+msgid "Period Interval"
+msgstr "Periódus intervalluma"
+
+#
+# File: pommo_theme_lang.php, line: 372
+#. aardvark-development/themes/default/admin/setup/config/ajax.throttle.tpl
+msgid "%1 seconds"
+msgstr "%1 másodperc"
+
+#
+# File: pommo_theme_lang.php, line: 378
+# File: pommo_theme_lang.php, line: 384
+#. aardvark-development/themes/default/admin/setup/config/ajax.throttle.tpl
+msgid "%1 per Period"
+msgstr "%1 periódusonként"
+
+#
+# File: pommo_theme_lang.php, line: 390
+#. aardvark-development/themes/default/admin/setup/config/ajax.throttle.tpl
+msgid "No Limit"
+msgstr "Nincs korlátozva"
+
+#
+# File: pommo_theme_lang.php, line: 393
+# File: pommo_theme_lang.php, line: 1701
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+msgid "From Name:"
+msgstr "Küldő neve (From name):"
+
+#
+# File: pommo_theme_lang.php, line: 396
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+msgid "(Default name mails will be sent from)"
+msgstr "(Alapértelmezett név, aki a levelet kiküldi)"
+
+#
+# File: pommo_theme_lang.php, line: 399
+# File: pommo_theme_lang.php, line: 1707
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+msgid "From Email:"
+msgstr "Küldő e-mail címe (from e-mail)"
+
+#
+# File: pommo_theme_lang.php, line: 402
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+msgid "(Default email mails will be sent from)"
+msgstr "(Alapértelmezett e-mail, amelyről a levelet kiküldi)"
+
+#
+# File: pommo_theme_lang.php, line: 405
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+msgid "Bounce Address:"
+msgstr "Visszapattanó e-mail címe:"
+
+#
+# File: pommo_theme_lang.php, line: 408
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+msgid "(Returned emails will be sent to this address)"
+msgstr "(A visszapattanó e-mailek erre a címre lesznek továbbítva)"
+
+#
+# File: pommo_theme_lang.php, line: 411
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+msgid "Demonstration Mode:"
+msgstr "Tesztüzemmód BEkapcsolva"
+
+#
+# File: pommo_theme_lang.php, line: 414
+# File: pommo_theme_lang.php, line: 426
+# File: pommo_theme_lang.php, line: 510
+# File: pommo_theme_lang.php, line: 603
+# File: pommo_theme_lang.php, line: 654
+# File: pommo_theme_lang.php, line: 666
+# File: pommo_theme_lang.php, line: 678
+# File: pommo_theme_lang.php, line: 690
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+#. aardvark-development/themes/default/admin/setup/config/ajax.smtp.tpl
+#. aardvark-development/themes/default/admin/setup/config/general.tpl
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "on"
+msgstr "be"
+
+#
+# File: pommo_theme_lang.php, line: 417
+# File: pommo_theme_lang.php, line: 429
+# File: pommo_theme_lang.php, line: 507
+# File: pommo_theme_lang.php, line: 606
+# File: pommo_theme_lang.php, line: 657
+# File: pommo_theme_lang.php, line: 669
+# File: pommo_theme_lang.php, line: 681
+# File: pommo_theme_lang.php, line: 693
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+#. aardvark-development/themes/default/admin/setup/config/ajax.smtp.tpl
+#. aardvark-development/themes/default/admin/setup/config/general.tpl
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "off"
+msgstr "ki"
+
+#
+# File: pommo_theme_lang.php, line: 420
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+msgid "(Toggle Demonstration Mode)"
+msgstr "(Tesztüzemmód választása)"
+
+#
+# File: pommo_theme_lang.php, line: 423
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+msgid "Public Mailings"
+msgstr "Nyílvános hírlevelek"
+
+#
+# File: pommo_theme_lang.php, line: 432
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+msgid "(When on, the public can view past mailings at this %1URL%2)"
+msgstr "(Ha be van kapcsolva, a hírlevél archívum a %1URL%2 címen nyilvános)"
+
+#
+# File: pommo_theme_lang.php, line: 435
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+msgid "Set mailing throttle values"
+msgstr "Hírlevél korlátozások beállítása"
+
+#
+# File: pommo_theme_lang.php, line: 438
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+msgid "(controls mails per second, bytes per second, and domain limits)"
+msgstr "(e-mail/mp, byte/mp, és domain korlátozások)"
+
+#
+# File: pommo_theme_lang.php, line: 441
+# File: pommo_theme_lang.php, line: 1659
+# File: pommo_theme_lang.php, line: 1719
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+msgid "Character Set:"
+msgstr "Karakterkódolás"
+
+#
+# File: pommo_theme_lang.php, line: 444
+# File: pommo_theme_lang.php, line: 1722
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+msgid "UTF-8 (recommended)"
+msgstr "UTF-8 (alapértelmezett)"
+
+#
+# File: pommo_theme_lang.php, line: 447
+# File: pommo_theme_lang.php, line: 1725
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+msgid "Western (ISO-8859-1)"
+msgstr "Nyugati (ISO-8859-1)"
+
+#
+# File: pommo_theme_lang.php, line: 450
+# File: pommo_theme_lang.php, line: 1728
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+msgid "Western (ISO-8859-15)"
+msgstr "Nyugati (ISO-8859-15)"
+
+#
+# File: pommo_theme_lang.php, line: 453
+# File: pommo_theme_lang.php, line: 1731
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+msgid "Central/Eastern European (ISO-8859-2)"
+msgstr "Közép-Kelet Európai: Central/Eastern European (ISO-8859-2)"
+
+#
+# File: pommo_theme_lang.php, line: 456
+# File: pommo_theme_lang.php, line: 1734
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+msgid "Greek (ISO-8859-7)"
+msgstr "Görög (ISO-8859-7)"
+
+#
+# File: pommo_theme_lang.php, line: 459
+# File: pommo_theme_lang.php, line: 1737
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+msgid "Japanese (ISO-2022-JP)"
+msgstr "Japán (ISO-2022-JP)"
+
+#
+# File: pommo_theme_lang.php, line: 462
+# File: pommo_theme_lang.php, line: 1740
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+msgid "Japanese (EUC-JP)"
+msgstr "Japán (EUC-JP)"
+
+#
+# File: pommo_theme_lang.php, line: 465
+# File: pommo_theme_lang.php, line: 1743
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+msgid "cyrillic (Windows-1251)"
+msgstr "cyrillic (Windows-1251)"
+
+#
+# File: pommo_theme_lang.php, line: 468
+# File: pommo_theme_lang.php, line: 1746
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+msgid "cyrillic (KOI8-R)"
+msgstr "cyrillic (KOI8-R)"
+
+#
+# File: pommo_theme_lang.php, line: 471
+# File: pommo_theme_lang.php, line: 1749
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+msgid "Simplified Chinese (GB2312)"
+msgstr "Egyszerűsítet Kínai (GB2312)"
+
+#
+# File: pommo_theme_lang.php, line: 474
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+msgid "(Select Default Character Set of Mailings)"
+msgstr "(Válassza ki a hírlevél alapértelmezett karakterkódolását!)"
+
+#
+# File: pommo_theme_lang.php, line: 477
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+msgid "Runtime:"
+msgstr "Futási idő:"
+
+#
+# File: pommo_theme_lang.php, line: 480
+#. aardvark-development/themes/default/admin/setup/config/mailings.tpl
+msgid "(Seconds a processing script runs for. Default: 80, Minimum: 15)"
+msgstr "(Az érték mp, amíg a feldolgozó csript fut. Alapértelmezett 80, de minimum 15)"
+
+#
+# File: pommo_theme_lang.php, line: 486
+#. aardvark-development/themes/default/admin/setup/config/ajax.testexchanger.tpl
+msgid "A test message will be sent to the supplied recipient. If you receive it, poMMo can use the %1 exchanger. Remember to check your SPAM folder too."
+msgstr "A rendszer megpróbál egy tesz e-mailt kiküldeni a megadott címre. Amennyiben megkapja, a poMMo tudja használni a %1 levélkiszolgálót. Ellenőrizze a postafiókját, de ne felejtse el megnézni a SPAM mappát sem!!!"
+
+#
+# File: pommo_theme_lang.php, line: 489
+# File: pommo_theme_lang.php, line: 1794
+#. aardvark-development/themes/default/admin/setup/config/ajax.testexchanger.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.mailingtest.tpl
+msgid "Recipient"
+msgstr "Címzett"
+
+#
+# File: pommo_theme_lang.php, line: 492
+# File: pommo_theme_lang.php, line: 1092
+# File: pommo_theme_lang.php, line: 1134
+# File: pommo_theme_lang.php, line: 1797
+#. aardvark-development/themes/default/admin/setup/config/ajax.testexchanger.tpl
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_edit.tpl
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_add.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.mailingtest.tpl
+msgid "Email:"
+msgstr "E-mail"
+
+#
+# File: pommo_theme_lang.php, line: 495
+#. aardvark-development/themes/default/admin/setup/config/ajax.testexchanger.tpl
+msgid "(address to send test message to)"
+msgstr "(cím, ahová a teszt e-mailt kéri)"
+
+#
+# File: pommo_theme_lang.php, line: 498
+# File: pommo_theme_lang.php, line: 1665
+# File: pommo_theme_lang.php, line: 1800
+#. aardvark-development/themes/default/admin/setup/config/ajax.testexchanger.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.mailingtest.tpl
+msgid "Send Mailing"
+msgstr "Hírlevél küldése"
+
+#
+# File: pommo_theme_lang.php, line: 501
+#. aardvark-development/themes/default/admin/setup/config/ajax.smtp.tpl
+msgid "SMTP Throttling"
+msgstr "SMTP Korlátozás"
+
+#
+# File: pommo_theme_lang.php, line: 504
+#. aardvark-development/themes/default/admin/setup/config/ajax.smtp.tpl
+msgid "Throttle Sharing"
+msgstr "Terhelés elosztás"
+
+#
+# File: pommo_theme_lang.php, line: 513
+#. aardvark-development/themes/default/admin/setup/config/ajax.smtp.tpl
+msgid "(ON; the throttler will be global. OFF; independent throttler per relay.)"
+msgstr "(bekapcsolt állapotban a korlátozás mindenre vonatkozik, kikapcsolt állapotban a korlátozás relay-enként szabályozható)"
+
+#
+# File: pommo_theme_lang.php, line: 516
+#. aardvark-development/themes/default/admin/setup/config/ajax.smtp.tpl
+msgid "SMTP #%1"
+msgstr "SMTP #%1"
+
+#
+# File: pommo_theme_lang.php, line: 519
+#. aardvark-development/themes/default/admin/setup/config/ajax.smtp.tpl
+msgid "SMTP Status:"
+msgstr "SMTP éllapot"
+
+#
+# File: pommo_theme_lang.php, line: 522
+#. aardvark-development/themes/default/admin/setup/config/ajax.smtp.tpl
+msgid "Connected to SMTP server"
+msgstr "Kapcsolódás az SMTP szerverhez."
+
+#
+# File: pommo_theme_lang.php, line: 525
+#. aardvark-development/themes/default/admin/setup/config/ajax.smtp.tpl
+msgid "Unable to connect to SMTP server"
+msgstr "Nem lehet kapcsolódni az SMTP szerverhez."
+
+#
+# File: pommo_theme_lang.php, line: 528
+#. aardvark-development/themes/default/admin/setup/config/ajax.smtp.tpl
+msgid "SMTP Host:"
+msgstr "SMTP Host:"
+
+#
+# File: pommo_theme_lang.php, line: 531
+#. aardvark-development/themes/default/admin/setup/config/ajax.smtp.tpl
+msgid "(IP Address or Name of SMTP server)"
+msgstr "(az SMTP szerver IP címe vagy hoszt neve)"
+
+#
+# File: pommo_theme_lang.php, line: 534
+#. aardvark-development/themes/default/admin/setup/config/ajax.smtp.tpl
+msgid "Port Number:"
+msgstr "Port száma:"
+
+#
+# File: pommo_theme_lang.php, line: 537
+#. aardvark-development/themes/default/admin/setup/config/ajax.smtp.tpl
+msgid "(Port # of SMTP server [usually 25])"
+msgstr "(# SMTP server portszáma [általában 25])"
+
+#
+# File: pommo_theme_lang.php, line: 540
+#. aardvark-development/themes/default/admin/setup/config/ajax.smtp.tpl
+msgid "SMTP Authentication:"
+msgstr "SMTP azonosítás:"
+
+#
+# File: pommo_theme_lang.php, line: 543
+#. aardvark-development/themes/default/admin/setup/config/ajax.smtp.tpl
+msgid "(Toggle SMTP Authentication [usually off])"
+msgstr "(SMTP azonosítás beállítása)"
+
+#
+# File: pommo_theme_lang.php, line: 546
+#. aardvark-development/themes/default/admin/setup/config/ajax.smtp.tpl
+msgid "SMTP Username:"
+msgstr "SMTP felhasználónév:"
+
+#
+# File: pommo_theme_lang.php, line: 549
+# File: pommo_theme_lang.php, line: 555
+#. aardvark-development/themes/default/admin/setup/config/ajax.smtp.tpl
+msgid "(optional)"
+msgstr "(választható)"
+
+#
+# File: pommo_theme_lang.php, line: 552
+#. aardvark-development/themes/default/admin/setup/config/ajax.smtp.tpl
+msgid "SMTP Password:"
+msgstr "SMTP jelszó:"
+
+#
+# File: pommo_theme_lang.php, line: 558
+#. aardvark-development/themes/default/admin/setup/config/ajax.smtp.tpl
+msgid "Update Relay #%1"
+msgstr "Relay #%1 módosítása"
+
+#
+# File: pommo_theme_lang.php, line: 561
+#. aardvark-development/themes/default/admin/setup/config/ajax.smtp.tpl
+msgid "This is your default relay"
+msgstr "Ez az Ön alapértelmezett relay szervere"
+
+#
+# File: pommo_theme_lang.php, line: 564
+#. aardvark-development/themes/default/admin/setup/config/ajax.smtp.tpl
+msgid "Remove Relay #%1"
+msgstr "Relay törlése #%1"
+
+#
+# File: pommo_theme_lang.php, line: 567
+#. aardvark-development/themes/default/admin/setup/config/ajax.smtp.tpl
+msgid "Add Another Relay"
+msgstr "Másik relay hozzáadása"
+
+#
+# File: pommo_theme_lang.php, line: 570
+#. aardvark-development/themes/default/admin/setup/config/general.tpl
+msgid "List Name:"
+msgstr "Lista neve:"
+
+#
+# File: pommo_theme_lang.php, line: 573
+#. aardvark-development/themes/default/admin/setup/config/general.tpl
+msgid "(The name of your Mailing List)"
+msgstr "(a hírlevél elnevezése)"
+
+#
+# File: pommo_theme_lang.php, line: 576
+#. aardvark-development/themes/default/admin/setup/config/general.tpl
+msgid "Website Name:"
+msgstr "Weboldal neve:"
+
+#
+# File: pommo_theme_lang.php, line: 579
+#. aardvark-development/themes/default/admin/setup/config/general.tpl
+msgid "(The name of your Website)"
+msgstr "(a weboldal neve):"
+
+#
+# File: pommo_theme_lang.php, line: 585
+#. aardvark-development/themes/default/admin/setup/config/general.tpl
+msgid "(Web address of your Website)"
+msgstr "(a weboldal internetcíme)"
+
+#
+# File: pommo_theme_lang.php, line: 588
+#. aardvark-development/themes/default/admin/setup/config/general.tpl
+msgid "Success URL:"
+msgstr "Sikeres URL cím:"
+
+#
+# File: pommo_theme_lang.php, line: 591
+#. aardvark-development/themes/default/admin/setup/config/general.tpl
+msgid "(Webpage users will see upon successfull subscription. Leave blank to display default welcome page.)"
+msgstr "(Ezt a lapot fogják látni a sikeresen feliratkozó új tagok. Hagyja üresen, ha az alapértelmezett nyitólapot akarja használni!)"
+
+#
+# File: pommo_theme_lang.php, line: 594
+#. aardvark-development/themes/default/admin/setup/config/general.tpl
+msgid "Confirm URL:"
+msgstr "Visszaigazoló URL cím"
+
+#
+# File: pommo_theme_lang.php, line: 597
+#. aardvark-development/themes/default/admin/setup/config/general.tpl
+msgid "(Webpage users will see upon subscription attempt. Leave blank to display default confirmation page.)"
+msgstr "(Ezt a lapot fogják látni a sikertelenül feliratkozó tagok. Hagyja üresen, ha az alapértelmezett nyitólapot akarja használni!)"
+
+#
+# File: pommo_theme_lang.php, line: 600
+#. aardvark-development/themes/default/admin/setup/config/general.tpl
+msgid "Email Confirmation:"
+msgstr "E-mail visszaigazolás a feliratkozott tagoknak"
+
+#
+# File: pommo_theme_lang.php, line: 609
+#. aardvark-development/themes/default/admin/setup/config/general.tpl
+msgid "(Set to validate email upon subscription attempt.)"
+msgstr "(E-mail cím ellenőrzése a fenti feliratkozási kísérletkor)"
+
+#
+# File: pommo_theme_lang.php, line: 612
+#. aardvark-development/themes/default/admin/setup/config/general.tpl
+msgid "Mail Exchanger:"
+msgstr "Levelező kiszolgáló:"
+
+#
+# File: pommo_theme_lang.php, line: 615
+#. aardvark-development/themes/default/admin/setup/config/general.tpl
+msgid "PHP Mail Function"
+msgstr "PHP mail függvény"
+
+#
+# File: pommo_theme_lang.php, line: 618
+# File: aardvark-development/admin/setup/setup_configure.php, line: 37
+#. aardvark-development/themes/default/admin/setup/config/general.tpl
+msgid "Test Exchanger"
+msgstr "Teszt levelező"
+
+#
+# File: pommo_theme_lang.php, line: 621
+#. aardvark-development/themes/default/admin/setup/config/general.tpl
+msgid "(Select Mail Exchanger)"
+msgstr "(válassza ki a megfelelő levelezőkiszolgálót a hírlevelek kiküldéséhez)"
+
+#
+# File: pommo_theme_lang.php, line: 624
+#. aardvark-development/themes/default/admin/setup/config/general.tpl
+msgid "Setup your SMTP Servers"
+msgstr "SMTP szerver beállítása"
+
+#
+# File: pommo_theme_lang.php, line: 627
+#. aardvark-development/themes/default/admin/setup/config/general.tpl
+msgid "(configure SMTP relays)"
+msgstr "(SMTP relay szerverek beállítása)"
+
+#
+# File: pommo_theme_lang.php, line: 633
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "notifications"
+msgstr "értesítések"
+
+#
+# File: pommo_theme_lang.php, line: 636
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "Administrators can be sent a notification of subscription list changes."
+msgstr "A rendszergazda kaphat értesítés a feliratkozási lista módosulásokról."
+
+#
+# File: pommo_theme_lang.php, line: 639
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "Notification email(s):"
+msgstr "Visszaigazoló e-mail(ek)"
+
+#
+# File: pommo_theme_lang.php, line: 642
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "(Notifications will be sent to the above address(es). Multiple addresses can be entered -- seperate with a comma.)"
+msgstr "(Az értesítés a fent megadott címre fog kimenni. Vesszővel elválasztva több e-mail cím is megadható.)"
+
+#
+# File: pommo_theme_lang.php, line: 645
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "Subject Prefix:"
+msgstr "Tárgy prefix:"
+
+#
+# File: pommo_theme_lang.php, line: 648
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "(The subject of Notification Mails will begin with this)"
+msgstr "(Az értesítő levelek tárgysora ezzel fog kezdődni)"
+
+#
+# File: pommo_theme_lang.php, line: 651
+# File: pommo_theme_lang.php, line: 663
+# File: pommo_theme_lang.php, line: 675
+# File: pommo_theme_lang.php, line: 687
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "Notify on %1"
+msgstr "Értesítés a %1"
+
+#
+# File: pommo_theme_lang.php, line: 660
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "(sent upon successful subscription)"
+msgstr "(küldés sikeres feliratkozás esetén)"
+
+#
+# File: pommo_theme_lang.php, line: 672
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "(sent upon successful unsubscription)"
+msgstr "(küldés sikeres leiratkozás esetén)"
+
+#
+# File: pommo_theme_lang.php, line: 684
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "(sent upon subscriber update)"
+msgstr "(küldés tagi adatmódosításkor)"
+
+#
+# File: pommo_theme_lang.php, line: 696
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "(sent upon subscription attempt)"
+msgstr "(elküldve a fenti feliratkozási kísérletre)"
+
+#
+# File: pommo_theme_lang.php, line: 702
+# File: pommo_theme_lang.php, line: 993
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+#. aardvark-development/themes/default/admin/setup/setup_configure.tpl
+msgid "Messages"
+msgstr "Üzenetek"
+
+#
+# File: pommo_theme_lang.php, line: 705
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "Customize the messages sent to your users when they subscribe, unsubscribe, attempt to subscribe, or request to update their records."
+msgstr "Különböző üzenetek küldhetőek a tagoknak, fel- és leiratkozáskor, sikertelen feliratkozási próbálkozás esetén vagy az adatainak módosításakor."
+
+#
+# File: pommo_theme_lang.php, line: 708
+# File: pommo_theme_lang.php, line: 2052
+# File: pommo_theme_lang.php, line: 2055
+# File: aardvark-development/admin/setup/config/messages.php, line: 224
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+#. aardvark-development/themes/default/subscribe/subscribe.tpl
+msgid "Subscription"
+msgstr "Feliratkozott tagok"
+
+#
+# File: pommo_theme_lang.php, line: 711
+# File: pommo_theme_lang.php, line: 741
+# File: pommo_theme_lang.php, line: 771
+# File: pommo_theme_lang.php, line: 792
+# File: pommo_theme_lang.php, line: 813
+# File: pommo_theme_lang.php, line: 1515
+# File: pommo_theme_lang.php, line: 1824
+# File: aardvark-development/admin/subscribers/ajax/subscriber_export2.php, line: 50
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+#. aardvark-development/themes/default/admin/subscribers/import_csv.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+msgid "Email"
+msgstr "E-mail cím"
+
+#
+# File: pommo_theme_lang.php, line: 714
+# File: pommo_theme_lang.php, line: 744
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "(Check to Enable)"
+msgstr "(Jelölje meg, ha engedélyezni szeretné!)"
+
+#
+# File: pommo_theme_lang.php, line: 717
+# File: pommo_theme_lang.php, line: 747
+# File: pommo_theme_lang.php, line: 774
+# File: pommo_theme_lang.php, line: 795
+# File: pommo_theme_lang.php, line: 816
+# File: pommo_theme_lang.php, line: 1644
+# File: pommo_theme_lang.php, line: 1686
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+msgid "Subject:"
+msgstr "Tárgy:"
+
+#
+# File: pommo_theme_lang.php, line: 720
+# File: pommo_theme_lang.php, line: 726
+# File: pommo_theme_lang.php, line: 750
+# File: pommo_theme_lang.php, line: 756
+# File: pommo_theme_lang.php, line: 777
+# File: pommo_theme_lang.php, line: 798
+# File: pommo_theme_lang.php, line: 819
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "Message:"
+msgstr "Üzenet:"
+
+#
+# File: pommo_theme_lang.php, line: 723
+# File: pommo_theme_lang.php, line: 753
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "Website"
+msgstr "Weboldal:"
+
+#
+# File: pommo_theme_lang.php, line: 729
+# File: pommo_theme_lang.php, line: 759
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "(displayed on webpage)"
+msgstr "(megjelenik a weboldalon)"
+
+#
+# File: pommo_theme_lang.php, line: 735
+# File: pommo_theme_lang.php, line: 765
+# File: pommo_theme_lang.php, line: 786
+# File: pommo_theme_lang.php, line: 807
+# File: pommo_theme_lang.php, line: 828
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "Restore to Defaults"
+msgstr "Alapértékek visszaállítása"
+
+#
+# File: pommo_theme_lang.php, line: 738
+# File: aardvark-development/admin/setup/config/messages.php, line: 225
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "Unsubscription"
+msgstr "Leiratkozás"
+
+#
+# File: pommo_theme_lang.php, line: 768
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "Subscription Confirmation"
+msgstr "Leiratkozás megerősítése "
+
+#
+# File: pommo_theme_lang.php, line: 780
+# File: pommo_theme_lang.php, line: 801
+# File: pommo_theme_lang.php, line: 822
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "(Use %1[[url]]%2 for the confirm link at least once)"
+msgstr "(Kattintson a %1[[url]]%2 hivatkozásra legalább egyszer!)"
+
+#
+# File: pommo_theme_lang.php, line: 789
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "Account Access"
+msgstr "Személyes adatok"
+
+#
+# File: pommo_theme_lang.php, line: 810
+#. aardvark-development/themes/default/admin/setup/config/messages.tpl
+msgid "Update Validation"
+msgstr "Módosítás érvényesítése"
+
+#
+# File: pommo_theme_lang.php, line: 831
+#. aardvark-development/themes/default/admin/setup/config/users.tpl
+msgid "Administrator Username:"
+msgstr "Rendszergazda felhasználóneve:"
+
+#
+# File: pommo_theme_lang.php, line: 852
+#. aardvark-development/themes/default/admin/setup/config/users.tpl
+msgid "(email address of administrator)"
+msgstr "(Rendszergazda e-mail címe)"
+
+#
+# File: pommo_theme_lang.php, line: 858
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+msgid "Fields Page"
+msgstr "Mezők oldala"
+
+#
+# File: pommo_theme_lang.php, line: 861
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+msgid "Subscriber fields allow you to collect information on list members. They are typically displayed on the subscription form, although \"hidden\" ones can be used for administrative purposes. %1Groups%2 are based on subscriber field values."
+msgstr "A feliratkozási űrlap mezői lehetőséget biztosítanak adatok gyűjtésére a feliratkozókról. Általában megjelnített mezők, bár lehetnek rejtettek is adminisztratív célből, pl. %csoportok%2 feliratkozási mező alapon tárolódnak el."
+
+#
+# File: pommo_theme_lang.php, line: 867
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+msgid "New field name:"
+msgstr "Új mező neve:"
+
+#
+# File: pommo_theme_lang.php, line: 870
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+msgid "type new field name"
+msgstr "Adja meg az új mező nevét!"
+
+#
+# File: pommo_theme_lang.php, line: 873
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+msgid "Field type:"
+msgstr "Mező típusa:"
+
+#
+# File: pommo_theme_lang.php, line: 876
+# File: aardvark-development/admin/setup/ajax/field_edit.php, line: 99
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+msgid "Text"
+msgstr "Text"
+
+#
+# File: pommo_theme_lang.php, line: 879
+# File: aardvark-development/admin/setup/ajax/field_edit.php, line: 101
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+msgid "Number"
+msgstr "Number"
+
+#
+# File: pommo_theme_lang.php, line: 882
+# File: aardvark-development/admin/setup/ajax/field_edit.php, line: 100
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+msgid "Checkbox"
+msgstr "Check Box"
+
+#
+# File: pommo_theme_lang.php, line: 885
+# File: aardvark-development/admin/setup/ajax/field_edit.php, line: 103
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+msgid "Multiple Choice"
+msgstr "Több lehetőségből választó"
+
+#
+# File: pommo_theme_lang.php, line: 888
+# File: aardvark-development/admin/setup/ajax/field_edit.php, line: 102
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+msgid "Date"
+msgstr "Dátum"
+
+#
+# File: pommo_theme_lang.php, line: 891
+# File: aardvark-development/admin/setup/ajax/field_edit.php, line: 104
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+msgid "Comment"
+msgstr "Megjegyzés"
+
+#
+# File: pommo_theme_lang.php, line: 897
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+msgid "Field Ordering"
+msgstr "Mezősorrend"
+
+#
+# File: pommo_theme_lang.php, line: 900
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+msgid "Change the ordering of fields on the subscription form by dragging and dropping the order icon"
+msgstr "A feliratkozási űrlapon szereplő mezők sorrendjét a rendezés ikonon az egér kattintás-húzás műveletével tudja megváltoztatni."
+
+#
+# File: pommo_theme_lang.php, line: 903
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+msgid "ID"
+msgstr "ID"
+
+#
+# File: pommo_theme_lang.php, line: 909
+# File: pommo_theme_lang.php, line: 1173
+# File: pommo_theme_lang.php, line: 1257
+# File: pommo_theme_lang.php, line: 1413
+# File: pommo_theme_lang.php, line: 1437
+# File: pommo_theme_lang.php, line: 1461
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_groups.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#
+# File: pommo_theme_lang.php, line: 912
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+msgid "Order"
+msgstr "Sorrend"
+
+#
+# File: pommo_theme_lang.php, line: 915
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+msgid "Field Name"
+msgstr "Mező neve"
+
+#
+# File: pommo_theme_lang.php, line: 918
+# File: pommo_theme_lang.php, line: 1101
+# File: pommo_theme_lang.php, line: 1146
+# File: pommo_theme_lang.php, line: 1683
+# File: pommo_theme_lang.php, line: 1767
+# File: pommo_theme_lang.php, line: 2040
+# File: pommo_theme_lang.php, line: 2061
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_edit.tpl
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_add.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.addtemplate.tpl
+#. aardvark-development/themes/default/subscribe/form.subscribe.tpl
+#. aardvark-development/themes/default/subscribe/form.update.tpl
+msgid "Fields marked like %1 this %2 are required."
+msgstr "A %1vastagon%2 jelölt mezők kitöltése kötelező!"
+
+#
+# File: pommo_theme_lang.php, line: 921
+#. aardvark-development/themes/default/admin/setup/setup_fields.tpl
+msgid "%1Green%2 fields are active."
+msgstr "A %1zöld%2 színnel jelölt mezők aktívak."
+
+#
+# File: pommo_theme_lang.php, line: 924
+#. aardvark-development/themes/default/admin/setup/form_embed.tpl
+msgid "Embedded Subscription Forms"
+msgstr "Beépített feliratkozási űrlap"
+
+#
+# File: pommo_theme_lang.php, line: 927
+#. aardvark-development/themes/default/admin/setup/form_embed.tpl
+msgid "Return to Subscription Forms"
+msgstr "Vissza a feliratkozási űrlaphoz"
+
+#
+# File: pommo_theme_lang.php, line: 930
+#. aardvark-development/themes/default/admin/setup/form_embed.tpl
+msgid "Subscription forms can easily be added to your website using a line of code. You can use the PHP include listed below, or embed the actual HTML. Remember, you can also direct subscribers to the "
+msgstr "Feliratkozási mező könnyen integrálható a meglévő weblapjának a kódjába is. Közvetlenül kezelheti a hírlevél feliratkozásokat weblapjáról!"
+
+#
+# File: pommo_theme_lang.php, line: 933
+#. aardvark-development/themes/default/admin/setup/form_embed.tpl
+msgid "Default Subscribe Form"
+msgstr "Alapértelmezett feliratkozási űrlap"
+
+#
+# File: pommo_theme_lang.php, line: 936
+# File: pommo_theme_lang.php, line: 960
+#. aardvark-development/themes/default/admin/setup/form_embed.tpl
+msgid "Mini Subscription Form"
+msgstr "Mini feliratkozási űrlap"
+
+#
+# File: pommo_theme_lang.php, line: 939
+#. aardvark-development/themes/default/admin/setup/form_embed.tpl
+msgid "This prints a form which prompts for a user's email address. If the inputted email exists as a registered subscriber, it redirects to the subscriber update page. If not, it redirects to the the default subscription form."
+msgstr "Ez egy ürlapot készít az e-mail beviteli mezővel. Ha a megadott e-mail létezik, a tag az adatmódosítsra lesz átirányítva, ha nem, akkor a rendes feliratkozási űrlapmezőhöz jut."
+
+#
+# File: pommo_theme_lang.php, line: 942
+# File: pommo_theme_lang.php, line: 954
+# File: pommo_theme_lang.php, line: 963
+# File: pommo_theme_lang.php, line: 969
+# File: pommo_theme_lang.php, line: 1950
+#. aardvark-development/themes/default/admin/setup/form_embed.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_start.tpl
+msgid "Preview"
+msgstr "Előnézet"
+
+#
+# File: pommo_theme_lang.php, line: 945
+# File: pommo_theme_lang.php, line: 957
+#. aardvark-development/themes/default/admin/setup/form_embed.tpl
+msgid "URL"
+msgstr "URL"
+
+#
+# File: pommo_theme_lang.php, line: 948
+#. aardvark-development/themes/default/admin/setup/form_embed.tpl
+msgid "Full Subscription Form"
+msgstr "Teljes feliratkozási űrlap"
+
+#
+# File: pommo_theme_lang.php, line: 951
+#. aardvark-development/themes/default/admin/setup/form_embed.tpl
+msgid "This prints the entire subscription form."
+msgstr "Ez a kód a teljes feliratkozási űrlapot jeleníti meg."
+
+#
+# File: pommo_theme_lang.php, line: 966
+# File: pommo_theme_lang.php, line: 1011
+#. aardvark-development/themes/default/admin/setup/form_embed.tpl
+#. aardvark-development/themes/default/admin/setup/admin_setup.tpl
+msgid "Subscription Form"
+msgstr "Feliratkozási űrlap"
+
+#
+# File: pommo_theme_lang.php, line: 972
+# File: pommo_theme_lang.php, line: 975
+#. aardvark-development/themes/default/admin/setup/setup_configure.tpl
+msgid "Return to Setup Page"
+msgstr "Vissza a beállítások lapjára"
+
+#
+# File: pommo_theme_lang.php, line: 981
+#. aardvark-development/themes/default/admin/setup/setup_configure.tpl
+msgid "You can change the login information, set website and mailing list parameters, end enable demonstration mode. If you enable demonstration mode, no emails will be sent from the system."
+msgstr "Megváltoztathatj a bejelentkezési információkat, weboldal és hírlevél beállításokat. Engedélyezheti a TESZT üzemmódot. Teszt üzemmód alatt nem történik hírlevél kézbesítés."
+
+#
+# File: pommo_theme_lang.php, line: 984
+#. aardvark-development/themes/default/admin/setup/setup_configure.tpl
+msgid "Users"
+msgstr "Felhasználók"
+
+#
+# File: pommo_theme_lang.php, line: 987
+#. aardvark-development/themes/default/admin/setup/setup_configure.tpl
+msgid "General"
+msgstr "Általános"
+
+#
+# File: pommo_theme_lang.php, line: 996
+#. aardvark-development/themes/default/admin/setup/admin_setup.tpl
+msgid "Setup Page"
+msgstr "Beállítások oldala"
+
+#
+# File: pommo_theme_lang.php, line: 1002
+#. aardvark-development/themes/default/admin/setup/admin_setup.tpl
+msgid "Set your mailing list name, its default behavior, and the administrator's information."
+msgstr "Állítsa be a hírlevél nevét, alapértelmezett tulajdonságait és a rendszergazda adatait."
+
+#
+# File: pommo_theme_lang.php, line: 1005
+#. aardvark-development/themes/default/admin/setup/admin_setup.tpl
+msgid "Subscriber Fields"
+msgstr "Mezők a feliratkozáshoz"
+
+#
+# File: pommo_theme_lang.php, line: 1008
+#. aardvark-development/themes/default/admin/setup/admin_setup.tpl
+msgid "Choose the information you'd like to collect from your subscribers."
+msgstr "Válassza ki, hogy milyen adatokat kíván bekérnei a feliratkozó tagoktól!"
+
+#
+# File: pommo_theme_lang.php, line: 1014
+#. aardvark-development/themes/default/admin/setup/admin_setup.tpl
+msgid "Preview and Generate the subscription form for your website."
+msgstr "Előnézet és a feliratkozási űrlap kódjának generálása."
+
+#
+# File: pommo_theme_lang.php, line: 1017
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_export.tpl
+msgid "Welcome to subscriber export!"
+msgstr "Üdvözlöm a tagok exportja menüpontban!"
+
+#
+# File: pommo_theme_lang.php, line: 1020
+# File: pommo_theme_lang.php, line: 1053
+# File: pommo_theme_lang.php, line: 1191
+# File: pommo_theme_lang.php, line: 1194
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_export.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+msgid "Export Subscribers"
+msgstr "Tagok exportálása"
+
+#
+# File: pommo_theme_lang.php, line: 1023
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_export.tpl
+msgid "Export Type"
+msgstr "Export típus"
+
+#
+# File: pommo_theme_lang.php, line: 1026
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_export.tpl
+msgid ".TXT - Only Email Addresses"
+msgstr ".TXT - csak e-mail címek"
+
+#
+# File: pommo_theme_lang.php, line: 1029
+# File: pommo_theme_lang.php, line: 1341
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_export.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+msgid ".CSV - All subscriber Data"
+msgstr ".CSV tagok minden adata"
+
+#
+# File: pommo_theme_lang.php, line: 1032
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_export.tpl
+msgid "Export"
+msgstr "Export"
+
+#
+# File: pommo_theme_lang.php, line: 1035
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_export.tpl
+msgid "All Pages"
+msgstr "Minden oldal"
+
+#
+# File: pommo_theme_lang.php, line: 1038
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_export.tpl
+msgid "Current Page"
+msgstr "Aktuális oldal"
+
+#
+# File: pommo_theme_lang.php, line: 1041
+# File: pommo_theme_lang.php, line: 1047
+# File: pommo_theme_lang.php, line: 1074
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_export.tpl
+#. aardvark-development/themes/default/admin/subscribers/ajax/rule.group.tpl
+msgid "Include"
+msgstr "Tartalmaz"
+
+#
+# File: pommo_theme_lang.php, line: 1044
+# File: pommo_theme_lang.php, line: 1518
+# File: aardvark-development/admin/subscribers/ajax/subscriber_export2.php, line: 52
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_export.tpl
+#. aardvark-development/themes/default/admin/subscribers/import_csv.tpl
+msgid "Date Registered"
+msgstr "Regisztráció dátuma"
+
+#
+# File: pommo_theme_lang.php, line: 1050
+# File: pommo_theme_lang.php, line: 1239
+# File: pommo_theme_lang.php, line: 1269
+# File: pommo_theme_lang.php, line: 1521
+# File: pommo_theme_lang.php, line: 1827
+# File: aardvark-development/admin/subscribers/ajax/subscriber_export2.php, line: 54
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_export.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#. aardvark-development/themes/default/admin/subscribers/import_csv.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+msgid "IP Address"
+msgstr "IP cím"
+
+#
+# File: pommo_theme_lang.php, line: 1056
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_del.tpl
+msgid "Enter email addresses of subscribers in the box below. Seperate emails with commas, spaces, or line breaks."
+msgstr "írja be az alábbi mezőbe a feliratni kívánt e-mail címeket. Az e-mail címeket vesszővel, szóközzel vagy sortöréssel válassza el!"
+
+#
+# File: pommo_theme_lang.php, line: 1059
+# File: pommo_theme_lang.php, line: 1068
+# File: pommo_theme_lang.php, line: 1185
+# File: pommo_theme_lang.php, line: 1188
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_del.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+msgid "Remove Subscribers"
+msgstr "Tagok eltávolítása"
+
+#
+# File: pommo_theme_lang.php, line: 1062
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_del.tpl
+msgid "Email Addresses:"
+msgstr "Helytelen e-mail cím!"
+
+#
+# File: pommo_theme_lang.php, line: 1065
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_del.tpl
+msgid "Enter Emails..."
+msgstr "írja be az e-mail címeket..."
+
+#
+# File: pommo_theme_lang.php, line: 1071
+# File: pommo_theme_lang.php, line: 1143
+# File: pommo_theme_lang.php, line: 1248
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_del.tpl
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_add.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+msgid "Reset"
+msgstr "Alapbeállítás"
+
+#
+# File: pommo_theme_lang.php, line: 1077
+#. aardvark-development/themes/default/admin/subscribers/ajax/rule.group.tpl
+msgid "Exclude"
+msgstr "Kivéve"
+
+#
+# File: pommo_theme_lang.php, line: 1080
+#. aardvark-development/themes/default/admin/subscribers/ajax/rule.group.tpl
+msgid "members in group %1."
+msgstr "Tagok a %1 csoportban"
+
+#
+# File: pommo_theme_lang.php, line: 1086
+# File: pommo_theme_lang.php, line: 1125
+# File: pommo_theme_lang.php, line: 1785
+# File: pommo_theme_lang.php, line: 1851
+#. aardvark-development/themes/default/admin/subscribers/ajax/rule.group.tpl
+#. aardvark-development/themes/default/admin/subscribers/ajax/rule.field.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.addtemplate.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+msgid "Cancel"
+msgstr "Mégsem"
+
+#
+# File: pommo_theme_lang.php, line: 1089
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_edit.tpl
+msgid "Edit Subscriber"
+msgstr "Tag szerkesztése"
+
+#
+# File: pommo_theme_lang.php, line: 1095
+# File: pommo_theme_lang.php, line: 1137
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_edit.tpl
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_add.tpl
+msgid "Force (bypasses validation)"
+msgstr "Csakazértis (ellenőrzés kikerülése)"
+
+#
+# File: pommo_theme_lang.php, line: 1098
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_edit.tpl
+msgid "Update Subscriber"
+msgstr "Tag modosítása"
+
+#
+# File: pommo_theme_lang.php, line: 1104
+#. aardvark-development/themes/default/admin/subscribers/ajax/rule.field.tpl
+msgid "value must be a date"
+msgstr "Az érték csak dátum lehet!"
+
+#
+# File: pommo_theme_lang.php, line: 1107
+#. aardvark-development/themes/default/admin/subscribers/ajax/rule.field.tpl
+msgid "value must be a number"
+msgstr "Az érték csak szám lehet!"
+
+#
+# File: pommo_theme_lang.php, line: 1110
+#. aardvark-development/themes/default/admin/subscribers/ajax/rule.field.tpl
+msgid "value must not be blank"
+msgstr "A mező nem lehet üres!"
+
+#
+# File: pommo_theme_lang.php, line: 1113
+#. aardvark-development/themes/default/admin/subscribers/ajax/rule.field.tpl
+msgid "Match subscribers where"
+msgstr "Egyezés tagokkal ha"
+
+#
+# File: pommo_theme_lang.php, line: 1116
+#. aardvark-development/themes/default/admin/subscribers/ajax/rule.field.tpl
+msgid "Value(s)"
+msgstr "Érték(ek)"
+
+#
+# File: pommo_theme_lang.php, line: 1128
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_add.tpl
+msgid "Welcome to adding subscribers! You can add subscribers one-by-one here. If you would like to add subscribers in bulk, visit the %1Subscriber Import%2 page."
+msgstr "Üdvözlöm a tagok hozzáadása menüben! Egyesével is feliratkoztathat tagokat, de tömeges feliratkozáshoz célszerű a %1tagok importja%2 módszert választani!"
+
+#
+# File: pommo_theme_lang.php, line: 1131
+# File: pommo_theme_lang.php, line: 1140
+#. aardvark-development/themes/default/admin/subscribers/ajax/subscriber_add.tpl
+msgid "Add Subscriber"
+msgstr "Tag hozzáadása"
+
+#
+# File: pommo_theme_lang.php, line: 1149
+# File: aardvark-development/admin/subscribers/groups_edit.php, line: 40
+#. aardvark-development/themes/default/admin/subscribers/subscribers_groups.tpl
+msgid "Groups Page"
+msgstr "Csoportok oldala"
+
+#
+# File: pommo_theme_lang.php, line: 1152
+#. aardvark-development/themes/default/admin/subscribers/subscribers_groups.tpl
+msgid "Subscriber Groups allow you to mail subsets of subscribers instead of the entire list. Groups are defined by customizable matching rules, and members are automatically assigned based on their %1subscriber field%2 values."
+msgstr "A csoportok lehetőséget biztosítanak Önnek, hogy tagok egy csoportjának küldjön hírlevelet, anélkül, hogy egy listát kellene felvinnie. A csoport tagok szabályok alapján definiálhatóak, de a tagok automnatikusan is csoporthoz rendelhetőek a feliratkozási űrlap mezőinek használatával."
+
+#
+# File: pommo_theme_lang.php, line: 1155
+#. aardvark-development/themes/default/admin/subscribers/subscribers_groups.tpl
+msgid "New group"
+msgstr "ÚJ csoport létrehozása"
+
+#
+# File: pommo_theme_lang.php, line: 1158
+#. aardvark-development/themes/default/admin/subscribers/subscribers_groups.tpl
+msgid "Group name"
+msgstr "Csoport neve"
+
+#
+# File: pommo_theme_lang.php, line: 1161
+# File: pommo_theme_lang.php, line: 1386
+#. aardvark-development/themes/default/admin/subscribers/subscribers_groups.tpl
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "type new group name"
+msgstr "Adja meg az új csoport nevét!"
+
+#
+# File: pommo_theme_lang.php, line: 1176
+#. aardvark-development/themes/default/admin/subscribers/subscribers_groups.tpl
+msgid "Group Name"
+msgstr "Csoport neve"
+
+#
+# File: pommo_theme_lang.php, line: 1179
+# File: pommo_theme_lang.php, line: 1182
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+msgid "Add Subscribers"
+msgstr "Tag hozzáadása"
+
+#
+# File: pommo_theme_lang.php, line: 1197
+# File: pommo_theme_lang.php, line: 1200
+# File: pommo_theme_lang.php, line: 1935
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#. aardvark-development/themes/default/admin/mailings/mailings_start.tpl
+msgid "Return to Subscribers Page"
+msgstr "Vissza a tagok oldalára"
+
+#
+# File: pommo_theme_lang.php, line: 1203
+# File: pommo_theme_lang.php, line: 1206
+# File: pommo_theme_lang.php, line: 1902
+# File: pommo_theme_lang.php, line: 1908
+# File: pommo_theme_lang.php, line: 1914
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+msgid "View"
+msgstr "Megtekintés"
+
+#
+# File: pommo_theme_lang.php, line: 1209
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+msgid "Active Subscribers"
+msgstr "Aktív tagok"
+
+#
+# File: pommo_theme_lang.php, line: 1212
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+msgid "Unsubscribed"
+msgstr "Leiratkozott"
+
+#
+# File: pommo_theme_lang.php, line: 1215
+# File: aardvark-development/admin/setup/config/messages.php, line: 226
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+msgid "Pending"
+msgstr "Függő"
+
+#
+# File: pommo_theme_lang.php, line: 1218
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+msgid "Belonging to Group"
+msgstr "Csoporttagság"
+
+#
+# File: pommo_theme_lang.php, line: 1221
+# File: aardvark-development/inc/helpers/groups.php, line: 55
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+msgid "All Subscribers"
+msgstr "Minden tag"
+
+#
+# File: pommo_theme_lang.php, line: 1224
+# File: pommo_theme_lang.php, line: 1245
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+msgid "Search"
+msgstr "Keresés"
+
+#
+# File: pommo_theme_lang.php, line: 1227
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+msgid "Find Subscribers where"
+msgstr "Tag keresés"
+
+#
+# File: pommo_theme_lang.php, line: 1230
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+msgid "email"
+msgstr "e-mail"
+
+#
+# File: pommo_theme_lang.php, line: 1233
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+msgid "time registered"
+msgstr "regisztráció időpontja"
+
+#
+# File: pommo_theme_lang.php, line: 1236
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+msgid "time last updated"
+msgstr "Utolsó módosítás ideje"
+
+#
+# File: pommo_theme_lang.php, line: 1242
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+msgid "is like"
+msgstr "hasonló"
+
+#
+# File: pommo_theme_lang.php, line: 1254
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+msgid "Delete Checked Subscribers"
+msgstr "A megjelült tagok törlése"
+
+#
+# File: pommo_theme_lang.php, line: 1260
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+msgid "Edit Checked"
+msgstr "Megjelölt szerkesztése"
+
+#
+# File: pommo_theme_lang.php, line: 1263
+# File: pommo_theme_lang.php, line: 1830
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+msgid "Registered"
+msgstr "Regisztrált:"
+
+#
+# File: pommo_theme_lang.php, line: 1266
+#. aardvark-development/themes/default/admin/subscribers/subscribers_manage.tpl
+msgid "Updated"
+msgstr "Frissítve"
+
+#
+# File: pommo_theme_lang.php, line: 1275
+# File: pommo_theme_lang.php, line: 1320
+# File: pommo_theme_lang.php, line: 1500
+#. aardvark-development/themes/default/admin/subscribers/import_txt.tpl
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+#. aardvark-development/themes/default/admin/subscribers/import_csv.tpl
+msgid "Import Subscribers"
+msgstr "Tagok importálása"
+
+#
+# File: pommo_theme_lang.php, line: 1281
+#. aardvark-development/themes/default/admin/subscribers/import_txt.tpl
+msgid "%1 non-duplicate subscribers will be imported. %2 were ignored as duplicates."
+msgstr "%1 tag feliratkoztatása sikeres. %2 tag feliratkozása elutasításra kerül dupla előfordulás miatt."
+
+#
+# File: pommo_theme_lang.php, line: 1284
+#. aardvark-development/themes/default/admin/subscribers/import_txt.tpl
+msgid "Notice: Imported subscribers will be flagged to update their records"
+msgstr "Figyelmeztetés: Az új feliratkozott tagok meg lesznek jelölve, hogy aktualizálják személyes adataikat."
+
+#
+# File: pommo_theme_lang.php, line: 1290
+# File: pommo_theme_lang.php, line: 1986
+#. aardvark-development/themes/default/admin/subscribers/import_txt.tpl
+#. aardvark-development/themes/default/admin/confirm.tpl
+msgid "Yes"
+msgstr "Igen"
+
+#
+# File: pommo_theme_lang.php, line: 1293
+# File: pommo_theme_lang.php, line: 1980
+#. aardvark-development/themes/default/admin/subscribers/import_txt.tpl
+#. aardvark-development/themes/default/admin/confirm.tpl
+msgid "No"
+msgstr "Nem"
+
+#
+# File: pommo_theme_lang.php, line: 1299
+# File: aardvark-development/admin/subscribers/subscribers_manage.php, line: 37
+#. aardvark-development/themes/default/admin/subscribers/admin_subscribers.tpl
+msgid "Subscribers Page"
+msgstr "Tagok oldala"
+
+#
+# File: pommo_theme_lang.php, line: 1305
+#. aardvark-development/themes/default/admin/subscribers/admin_subscribers.tpl
+msgid "subscribers. See an overview of your current and pending subscribers. You can add, delete, and edit subscribers from here."
+msgstr "Tagok. Itt van áttekintési lehetősége a feliratkozott és függő tagságokról. Tagok hozzáadása, módosítása, törlése."
+
+#
+# File: pommo_theme_lang.php, line: 1311
+#. aardvark-development/themes/default/admin/subscribers/admin_subscribers.tpl
+msgid "Subscribers. You can import large amounts of subscribers using files stored on your computer."
+msgstr "Tagok importálása hosszú listák alapján fájlból."
+
+#
+# File: pommo_theme_lang.php, line: 1317
+#. aardvark-development/themes/default/admin/subscribers/admin_subscribers.tpl
+msgid "Manage \"mailing groups\" from this area. Mailing groups allow you to mail subsets of your subscribers, rather than just the entire list."
+msgstr "Csoportok kezelése. Kialakíthat szűkebb tagi csoportokat."
+
+#
+# File: pommo_theme_lang.php, line: 1323
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+msgid "Welcome to Subscriber Import! You can import subscribers from a list of email addresses or from a full fledged CSV file containing subscriber field values as well as their email. CSV files should have one subscriber(email) per line with field information seperated by commas(%1,%2)."
+msgstr "Üdvözlöm a tagok importálása menüben. Importálhat tagokat e-mail lista alapján, vagy a feliratkozási ürlap mezőinek adataival részletesen kitöltött CSV fájlt. A CSV fájlnak tartalmaznia kell soronként egy feliratkozó e-mail címet és vesszővel elválasztva a többi mező adatát (%1,%2)"
+
+#
+# File: pommo_theme_lang.php, line: 1326
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+msgid "Popular programs such as Microsoft Excel and %1 Open Office %2 support saving files in CSV (Comma-Seperated-Value) format."
+msgstr "Népszerű programok mint Microsoft Excel és az %1 Open Office %2 támogatja a (veszővel elválasztott értékek) CSV fájl formátumban való mentést. Szerezze be ön is az ingyenes OpenOffice Irodai programcsomagot a http://www.openoffice.org/ címen!"
+
+#
+# File: pommo_theme_lang.php, line: 1329
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+msgid "Duplicate subscribers or invalid email addresses will be ignored."
+msgstr "A helytelen e-mail címek vagy a dupla előfordulások ki lesznek szűrve!"
+
+#
+# File: pommo_theme_lang.php, line: 1335
+# File: pommo_theme_lang.php, line: 1425
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "Type"
+msgstr "Típus"
+
+#
+# File: pommo_theme_lang.php, line: 1338
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+msgid "List of Email Addresses"
+msgstr "E-mail címek listája"
+
+#
+# File: pommo_theme_lang.php, line: 1347
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+msgid "Type subscribers into a box"
+msgstr "Írja be a tagokat mezőbe!"
+
+#
+# File: pommo_theme_lang.php, line: 1350
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+msgid "From a box"
+msgstr "Mezőből"
+
+#
+# File: pommo_theme_lang.php, line: 1353
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+msgid "CSV file:"
+msgstr "CSV fájl:"
+
+#
+# File: pommo_theme_lang.php, line: 1356
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+msgid "Upload subscribers from a file"
+msgstr "Tagok feltöltése fájlból"
+
+#
+# File: pommo_theme_lang.php, line: 1359
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+msgid "From a file"
+msgstr "Fájlból"
+
+#
+# File: pommo_theme_lang.php, line: 1362
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+msgid "Type/Paste Contents..."
+msgstr "Írja be / vagy másolja ide a tartalmat..."
+
+#
+# File: pommo_theme_lang.php, line: 1365
+#. aardvark-development/themes/default/admin/subscribers/subscribers_import.tpl
+msgid "Allow unsubscribed emails to be re-subscribed."
+msgstr "Leiratkozott tagok e-mail címének újboli feliratkozásának engedélyezése"
+
+#
+# File: pommo_theme_lang.php, line: 1374
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "Edit Group"
+msgstr "Csoport szerkesztése"
+
+#
+# File: pommo_theme_lang.php, line: 1377
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "To add subscribers to a group you must create matching rules. Subscribers are automatically added to a group if their %1subscriber field%2 values \"match\" a Group's rules. For example, if you collect \"AGE\" and \"COUNTRY\" as %1subscriber fields%2, you can match those who are 21+ and living in Japan by creating two rules; one which matches \"AGE\" to greater than 20, and another which matches \"Japan\" to \"COUNTRY\". Including or excluding members of other groups is possible."
+msgstr "Tagok csoporthoz rendelésére szabályt kell létrehozni.A tagpk automatikusan a csoporthoz lesznek rendelve, ha a %1tag%2 mező egyezik a csoport szabállyal. Pl. ha Ön kor és ország adatokat kér be a feliratkozási űrlapon, akkor könnyen lehet szabályt létrehozni. Pl. 21 évnél idősebb magyarok, akik nem szerepelnek az egyetemisták csoportban..."
+
+#
+# File: pommo_theme_lang.php, line: 1380
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "Change Name"
+msgstr "Jelszó módosítás"
+
+#
+# File: pommo_theme_lang.php, line: 1383
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "Group name:"
+msgstr "Csoport neve:"
+
+#
+# File: pommo_theme_lang.php, line: 1389
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "Rename"
+msgstr "Átnevezés"
+
+#
+# File: pommo_theme_lang.php, line: 1392
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "Add Rule"
+msgstr "Szabály létrehozása"
+
+#
+# File: pommo_theme_lang.php, line: 1395
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "Select a %1 field %2 to filter"
+msgstr "Válasszon ki %1 mezőt %2 a szűréshez"
+
+#
+# File: pommo_theme_lang.php, line: 1398
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "Choose Subscriber Field"
+msgstr "Válassza ki a tag mezőt"
+
+#
+# File: pommo_theme_lang.php, line: 1401
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "or, Select a %1 group %2 to include or exclude"
+msgstr "vagy válasszon ki egy %1 csoportot %2 amit tartalmaz / nem tartalmaz"
+
+#
+# File: pommo_theme_lang.php, line: 1404
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "Choose Group"
+msgstr "Válassza ki a csoportot!"
+
+#
+# File: pommo_theme_lang.php, line: 1407
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "Group Rules"
+msgstr "Csoport szabály"
+
+#
+# File: pommo_theme_lang.php, line: 1416
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "Field"
+msgstr "Mező"
+
+#
+# File: pommo_theme_lang.php, line: 1419
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "Logic"
+msgstr "Logikai"
+
+#
+# File: pommo_theme_lang.php, line: 1422
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "Value"
+msgstr "Érték"
+
+#
+# File: pommo_theme_lang.php, line: 1428
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "\"AND\" RULES"
+msgstr "\"ÉS\" szabály"
+
+#
+# File: pommo_theme_lang.php, line: 1431
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "MATCH %1ALL%2 OF THE FOLLOWING"
+msgstr "A következők %1mindegyikére %2 egyezik"
+
+#
+# File: pommo_theme_lang.php, line: 1440
+# File: pommo_theme_lang.php, line: 1464
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "or"
+msgstr "vagy"
+
+#
+# File: pommo_theme_lang.php, line: 1443
+# File: pommo_theme_lang.php, line: 1467
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "AND"
+msgstr "ÉS"
+
+#
+# File: pommo_theme_lang.php, line: 1446
+# File: pommo_theme_lang.php, line: 1470
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "OR"
+msgstr "VAGY"
+
+#
+# File: pommo_theme_lang.php, line: 1449
+# File: pommo_theme_lang.php, line: 1473
+# File: pommo_theme_lang.php, line: 1485
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "No rules have been added"
+msgstr "Es wurden keine Felder zugewiesen"
+
+#
+# File: pommo_theme_lang.php, line: 1452
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "\"OR\" RULES"
+msgstr "\"VAGY\" szabály"
+
+#
+# File: pommo_theme_lang.php, line: 1455
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "<strong>OR</strong>, MATCH %1ANY%2 OF THE FOLLOWING"
+msgstr "<strong>VAGY</strong>, EGYEZIK %1BÁRMIVEL%2 A KÖVETKEZŐK KÖZÜL"
+
+#
+# File: pommo_theme_lang.php, line: 1476
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "<strong>AND</strong>, ADD OR SUBTRACT MEMBERS IN OTHER GROUPS"
+msgstr "<strong>ÉS</strong>, HOZZÁADJA VAGY KIVONJA A MÁSIK CSOPORTBÓL"
+
+#
+# File: pommo_theme_lang.php, line: 1482
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "%1Add%2 members matching %3"
+msgstr "%1hozzáadott%2 tag egyezés %3"
+
+#
+# File: pommo_theme_lang.php, line: 1491
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "%1Subtract%2 members matching %3"
+msgstr "%1eltávolított%2 tag egyezés %3"
+
+#
+# File: pommo_theme_lang.php, line: 1494
+#. aardvark-development/themes/default/admin/subscribers/groups_edit.tpl
+msgid "%1 rules match a total of %2 active subscribers"
+msgstr "%1 tagra érvényes a szabály a %2 aktíłv tagból."
+
+#
+# File: pommo_theme_lang.php, line: 1503
+# File: pommo_theme_lang.php, line: 1509
+#. aardvark-development/themes/default/admin/subscribers/import_csv.tpl
+msgid "Assign Fields"
+msgstr "Mezők összerendelése"
+
+#
+# File: pommo_theme_lang.php, line: 1506
+#. aardvark-development/themes/default/admin/subscribers/import_csv.tpl
+msgid "Below is a preview of your CSV data. You can assign subscriber fields to columns. At the very least, you must assign an email address."
+msgstr "Lent látható az ÖN CSV adatainak előnézete. Hozzárendelhet feliratkozási űrlap mezőket az oszlopokhoz. Végül össze kell rendelni az e-mail címet is!"
+
+#
+# File: pommo_theme_lang.php, line: 1512
+#. aardvark-development/themes/default/admin/subscribers/import_csv.tpl
+msgid "Ignore Column"
+msgstr "Oszlop kihagyása"
+
+#
+# File: pommo_theme_lang.php, line: 1530
+#. aardvark-development/themes/default/admin/subscribers/import_csv.tpl
+msgid "You must assign an email column!"
+msgstr "Hozzá kell rendelnie az e-mail címet egy oszlophoz!"
+
+#
+# File: pommo_theme_lang.php, line: 1542
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+msgid "View Last Notices"
+msgstr "Utolsó üzenet megjelenítése"
+
+#
+# File: pommo_theme_lang.php, line: 1545
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+msgid "Reload Checked Mailing"
+msgstr "A megjelölt hírlevelek újraolvasása"
+
+#
+# File: pommo_theme_lang.php, line: 1548
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+msgid "Delete Checked Mailings"
+msgstr "A kijelölt hírlevelek törlése"
+
+#
+# File: pommo_theme_lang.php, line: 1554
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+msgid "Group (count)"
+msgstr "Csoport (szám)"
+
+#
+# File: pommo_theme_lang.php, line: 1560
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+msgid "Started"
+msgstr "Elindult"
+
+#
+# File: pommo_theme_lang.php, line: 1563
+# File: aardvark-development/admin/mailings/ajax/status_poll.php, line: 66
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+msgid "Finished"
+msgstr "Kész"
+
+#
+# File: pommo_theme_lang.php, line: 1566
+#. aardvark-development/themes/default/admin/mailings/mailings_history.tpl
+msgid "Status"
+msgstr "Status"
+
+#
+# File: pommo_theme_lang.php, line: 1572
+# File: pommo_theme_lang.php, line: 1764
+#. aardvark-development/themes/default/admin/mailings/mailing/templates.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.addtemplate.tpl
+msgid "Templates allow you to re-use your crafted message bodies. The HTML and text version is remembered."
+msgstr "A vázlatok (Template-ek) lehetőséget biztosítanak Önnek, hogy újra használja a már összeállított e-mail törzset. A HTML és szöveges változat is megőrzésre kerül."
+
+#
+# File: pommo_theme_lang.php, line: 1575
+#. aardvark-development/themes/default/admin/mailings/mailing/templates.tpl
+msgid "You may %1load%2 or %1delete%2 templates from here."
+msgstr "Itt be tud %1tölteni%2 vagy %1törölni%2 tud vázlatokat."
+
+#
+# File: pommo_theme_lang.php, line: 1578
+#. aardvark-development/themes/default/admin/mailings/mailing/templates.tpl
+msgid "Template"
+msgstr "Aktualisierung erfolgreich abgeschlossen!"
+
+#
+# File: pommo_theme_lang.php, line: 1581
+#. aardvark-development/themes/default/admin/mailings/mailing/templates.tpl
+msgid "choose template"
+msgstr "Válasszon vázlatot!"
+
+#
+# File: pommo_theme_lang.php, line: 1584
+#. aardvark-development/themes/default/admin/mailings/mailing/templates.tpl
+msgid "Description"
+msgstr "Leírás"
+
+#
+# File: pommo_theme_lang.php, line: 1587
+# File: pommo_theme_lang.php, line: 1599
+#. aardvark-development/themes/default/admin/mailings/mailing/templates.tpl
+msgid "No template selected"
+msgstr "Nincs kiválasztott vázlat!"
+
+#
+# File: pommo_theme_lang.php, line: 1590
+#. aardvark-development/themes/default/admin/mailings/mailing/templates.tpl
+msgid "Skip"
+msgstr "Kihagy"
+
+#
+# File: pommo_theme_lang.php, line: 1593
+#. aardvark-development/themes/default/admin/mailings/mailing/templates.tpl
+msgid "Load"
+msgstr "Betölt"
+
+#
+# File: pommo_theme_lang.php, line: 1602
+# File: pommo_theme_lang.php, line: 1671
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+msgid "HTML Message"
+msgstr "HTML üzenet"
+
+#
+# File: pommo_theme_lang.php, line: 1605
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+msgid "Leave blank to send text only"
+msgstr "Üresen marad, csak a szöveges rész küldése."
+
+#
+# File: pommo_theme_lang.php, line: 1608
+# File: pommo_theme_lang.php, line: 1632
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+msgid "Enable WYSIWYG"
+msgstr "WYSIWYG szövegszerkesztő engedélyezése"
+
+#
+# File: pommo_theme_lang.php, line: 1611
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+msgid "Add Personalization"
+msgstr "Megszemélyesítés hozzáadása"
+
+#
+# File: pommo_theme_lang.php, line: 1614
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+msgid "Save as Template"
+msgstr "Mentés vázlatként"
+
+#
+# File: pommo_theme_lang.php, line: 1617
+# File: pommo_theme_lang.php, line: 1680
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+msgid "Text Version"
+msgstr "Szöveges változat"
+
+#
+# File: pommo_theme_lang.php, line: 1620
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+msgid "Leave blank to send HTML only"
+msgstr "Üresen marad, csak a HTML rész küldése."
+
+#
+# File: pommo_theme_lang.php, line: 1623
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+msgid "Copy text from HTML Message"
+msgstr "Szöveg átmásolása a HTML üzenetből."
+
+#
+# File: pommo_theme_lang.php, line: 1626
+# File: pommo_theme_lang.php, line: 1755
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+msgid "Continue"
+msgstr "Tovább"
+
+#
+# File: pommo_theme_lang.php, line: 1629
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+msgid "Disable WYSIWYG"
+msgstr "WYSIWYG szövegszerkesztő kikapcsolása"
+
+#
+# File: pommo_theme_lang.php, line: 1635
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+msgid "View this Mailing on the Web"
+msgstr "Hírlevél megtekintése WEB-en"
+
+#
+# File: pommo_theme_lang.php, line: 1638
+# File: pommo_theme_lang.php, line: 1836
+#. aardvark-development/themes/default/admin/mailings/mailing/compose.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+msgid "Unsubscribe or Update Records"
+msgstr "Leiratkozás vagy adatmódosítás"
+
+#
+# File: pommo_theme_lang.php, line: 1641
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+msgid "Preview Mailing"
+msgstr "Hírlevél előnézete"
+
+#
+# File: pommo_theme_lang.php, line: 1647
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+msgid "To:"
+msgstr "Címzett (To): "
+
+#
+# File: pommo_theme_lang.php, line: 1650
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+msgid "recipients"
+msgstr "Címzettek"
+
+#
+# File: pommo_theme_lang.php, line: 1653
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+msgid "From:"
+msgstr "Tól:"
+
+#
+# File: pommo_theme_lang.php, line: 1656
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+msgid "Bounces:"
+msgstr "Visszapattanó:"
+
+#
+# File: pommo_theme_lang.php, line: 1662
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+msgid "Send Test"
+msgstr "Teszt küldése"
+
+#
+# File: pommo_theme_lang.php, line: 1668
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+msgid "Message"
+msgstr "Üzenet:"
+
+#
+# File: pommo_theme_lang.php, line: 1674
+#. aardvark-development/themes/default/admin/mailings/mailing/preview.tpl
+msgid "Preview Message"
+msgstr "Üzenet előnézete"
+
+#
+# File: pommo_theme_lang.php, line: 1689
+# File: pommo_theme_lang.php, line: 1704
+# File: pommo_theme_lang.php, line: 1710
+# File: pommo_theme_lang.php, line: 1716
+# File: pommo_theme_lang.php, line: 1773
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.addtemplate.tpl
+msgid "(maximum of 60 characters)"
+msgstr "(maximum 60 karakter)"
+
+#
+# File: pommo_theme_lang.php, line: 1692
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+msgid "Send Mail To:"
+msgstr "E-mail küldése ide:"
+
+#
+# File: pommo_theme_lang.php, line: 1695
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+msgid "All subscribers"
+msgstr "Minden tag"
+
+#
+# File: pommo_theme_lang.php, line: 1698
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+msgid "(Select who should receive the mailing)"
+msgstr "(Válassza ki, hogy ki kapja meg a hírlevelet!)"
+
+#
+# File: pommo_theme_lang.php, line: 1713
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+msgid "Return:"
+msgstr "Válaszcím:"
+
+#
+# File: pommo_theme_lang.php, line: 1752
+#. aardvark-development/themes/default/admin/mailings/mailing/setup.tpl
+msgid "(Select Character Set of Mailings)"
+msgstr "(Válassza ki a hírlevél karakterkódolását!)"
+
+#
+# File: pommo_theme_lang.php, line: 1770
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.addtemplate.tpl
+msgid "Name:"
+msgstr "Név:"
+
+#
+# File: pommo_theme_lang.php, line: 1776
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.addtemplate.tpl
+msgid "Description:"
+msgstr "Leírás:"
+
+#
+# File: pommo_theme_lang.php, line: 1779
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.addtemplate.tpl
+msgid "(Brief Summary - 255 characters)"
+msgstr "(Összefoglaló - 255 karakter)"
+
+#
+# File: pommo_theme_lang.php, line: 1782
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.addtemplate.tpl
+msgid "Save"
+msgstr "Mentés"
+
+#
+# File: pommo_theme_lang.php, line: 1788
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.mailingtest.tpl
+msgid "Mailing sent to %1"
+msgstr "Hírlevél elküldve %1"
+
+#
+# File: pommo_theme_lang.php, line: 1791
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.mailingtest.tpl
+msgid "Verify the appeareance of a mailing by sending a message to yourself."
+msgstr "A hírlevél megjelenésének ellenőrzése, saját magának történő elküldéssel."
+
+#
+# File: pommo_theme_lang.php, line: 1803
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.mailingtest.tpl
+msgid "If your mailing includes personalizations, you can %1optionally%2 supply test values"
+msgstr "Amennyiben az hírlevél megszemélyesítéseket tartalmaz, választhat %1opciósan%2 értékeket teszteléshez."
+
+#
+# File: pommo_theme_lang.php, line: 1806
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.mailingtest.tpl
+msgid "Personalizations"
+msgstr "Megszemélyesítés"
+
+#
+# File: pommo_theme_lang.php, line: 1809
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+msgid "Mailings may be personalized per subscriber. You can inject %1subscriber field%2 values, clickable links, and tracking information."
+msgstr "A hírlevelet tagonként személyre lehet szabni. Beszúrhat %1tagi űrlap mezőket%2, kattintható linkeket és nyomkövetési információkat."
+
+#
+# File: pommo_theme_lang.php, line: 1812
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+msgid "Personalizations allow you to write a message like \"Dear [[firstName|Loyal Subscriber]], Happy New Year! .... follow this link to unsubscribe or update your records; [[!unsubscribe]]\"."
+msgstr "A megszemélyesítés lehetővé teszi Önnek, hogy hírlevelet küldjön pl: \"Kedves [[firstName|Loyal Subscriber]], Boldog Újévet! .... a következő linken leiratkozhat, vagy módosíthatja a beállításait; [[!unsubscribe]]\"."
+
+#
+# File: pommo_theme_lang.php, line: 1815
+# File: aardvark-development/admin/mailings/mailings_start.php, line: 53
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+msgid "Personalization"
+msgstr "Megszemélyesítés"
+
+#
+# File: pommo_theme_lang.php, line: 1818
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+msgid "Link (URL)"
+msgstr "Link (URL)"
+
+#
+# File: pommo_theme_lang.php, line: 1821
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+msgid "Tracking (ID)"
+msgstr "Nyomkövetés (ID)"
+
+#
+# File: pommo_theme_lang.php, line: 1833
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+msgid "Default (optional; used if no value exists)"
+msgstr "Alapértelmezett (opciós, ha nincs érték)"
+
+#
+# File: pommo_theme_lang.php, line: 1839
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+msgid "View on Web (public mailings must be enabled)"
+msgstr "Megtekintés weben (nyilvános hírlevélnek kell lennie)"
+
+#
+# File: pommo_theme_lang.php, line: 1842
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+msgid "Subscriber ID"
+msgstr "Tag ID"
+
+#
+# File: pommo_theme_lang.php, line: 1845
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+msgid "Mailing ID"
+msgstr "Hírlevél ID"
+
+#
+# File: pommo_theme_lang.php, line: 1848
+#. aardvark-development/themes/default/admin/mailings/mailing/ajax.personalize.tpl
+msgid "Insert"
+msgstr "Beszúrás"
+
+#
+# File: pommo_theme_lang.php, line: 1854
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+msgid "Mailings take place in the background so feel free to close this page, visit other sites, or even turn off your computer. You can always return to this status page by visiting the Mailings section.  %1Throttle settings%2 can also be adjusted -- although you must pause and revive the mailing before changes take effect."
+msgstr "A hírlevél küldés időigényes, a héttérben fut. Nyugodtan tekintsen meg más odalakat vagy kapcsolja ki a számítógépét, bármikor visszatéreht erre a lapra.  %1Korlátozó beállításokat%2  is végezhet-- bár ehhez szüneteltetni és újra kell indítania hírlevél küldést mielőtt a módosítások életbe lépnének."
+
+#
+# File: pommo_theme_lang.php, line: 1857
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+msgid "Sending message to %1 subscribers."
+msgstr "Üzenet küldése %1 tagnak."
+
+#
+# File: pommo_theme_lang.php, line: 1860
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+msgid "Mailing Status"
+msgstr "Mailings"
+
+#
+# File: pommo_theme_lang.php, line: 1863
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+msgid "Initializing..."
+msgstr "Előkészítés..."
+
+#
+# File: pommo_theme_lang.php, line: 1866
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+msgid "Pause Mailing"
+msgstr "Hírlevélküldés felfüggesztése"
+
+#
+# File: pommo_theme_lang.php, line: 1869
+# File: pommo_theme_lang.php, line: 1872
+# File: pommo_theme_lang.php, line: 1878
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+msgid "Resume Mailing"
+msgstr "Hírlevélküldés folytatása"
+
+#
+# File: pommo_theme_lang.php, line: 1875
+# File: pommo_theme_lang.php, line: 1881
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+msgid "Cancel Mailing"
+msgstr "Hírlevélküldés törlése"
+
+#
+# File: pommo_theme_lang.php, line: 1884
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+msgid "Mailing Finished"
+msgstr "Hírlevélküldés befejeződött."
+
+#
+# File: pommo_theme_lang.php, line: 1887
+# File: aardvark-development/admin/subscribers/import_txt.php, line: 64
+# File: aardvark-development/admin/subscribers/import_csv2.php, line: 83
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+msgid "Return to"
+msgstr "Válaszcím:"
+
+#
+# File: pommo_theme_lang.php, line: 1890
+# File: pommo_theme_lang.php, line: 1920
+# File: aardvark-development/admin/mailings/mailings_history.php, line: 36
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+#. aardvark-development/themes/default/admin/mailings/admin_mailings.tpl
+msgid "Mailings Page"
+msgstr "Hírlevelek oldala"
+
+#
+# File: pommo_theme_lang.php, line: 1893
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+msgid "Command Recieved. Please wait..."
+msgstr "Parancsot bekaptam. Kérem várjon!"
+
+#
+# File: pommo_theme_lang.php, line: 1896
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+msgid "%1 mails sent"
+msgstr "%1 e-mail elküldve"
+
+#
+# File: pommo_theme_lang.php, line: 1899
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+msgid "Last 50 notices"
+msgstr "Utolsó 50 értesítés"
+
+#
+# File: pommo_theme_lang.php, line: 1905
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+msgid "Sent Emails"
+msgstr "Elküldött e-mailek"
+
+#
+# File: pommo_theme_lang.php, line: 1911
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+msgid "Unsent Emails"
+msgstr "El nem küldött e-mailek"
+
+#
+# File: pommo_theme_lang.php, line: 1917
+#. aardvark-development/themes/default/admin/mailings/mailing_status.tpl
+msgid "Failed Emails"
+msgstr "Sikertelen e-mailek"
+
+#
+# File: pommo_theme_lang.php, line: 1926
+#. aardvark-development/themes/default/admin/mailings/admin_mailings.tpl
+msgid "Create and send a mailing."
+msgstr "Hírlevél készítése és küldése"
+
+#
+# File: pommo_theme_lang.php, line: 1932
+#. aardvark-development/themes/default/admin/mailings/admin_mailings.tpl
+msgid "View mailings that have already been sent."
+msgstr "A korábban kiküldött hírlevél megtekintése."
+
+#
+# File: pommo_theme_lang.php, line: 1938
+#. aardvark-development/themes/default/admin/mailings/mailings_start.tpl
+msgid "Return to Mailings Page"
+msgstr "Vissza a hírlevelek oldalához"
+
+#
+# File: pommo_theme_lang.php, line: 1944
+#. aardvark-development/themes/default/admin/mailings/mailings_start.tpl
+msgid "Templates"
+msgstr "Vázlatok"
+
+#
+# File: pommo_theme_lang.php, line: 1947
+#. aardvark-development/themes/default/admin/mailings/mailings_start.tpl
+msgid "Compose"
+msgstr "Írás"
+
+#
+# File: pommo_theme_lang.php, line: 1953
+#. aardvark-development/themes/default/admin/admin.tpl
+msgid "Admin Menu"
+msgstr "Rendszergazda oldala"
+
+#
+# File: pommo_theme_lang.php, line: 1959
+#. aardvark-development/themes/default/admin/admin.tpl
+msgid "Send mailings to the entire list or to a subset of subscribers. Mailing status and history can also be viewed from here."
+msgstr "Hírlevél küldése a listára vagy a kiválasztottaknak A hírlevél küldés folyamata és korábbi hírlevelek előzményei itt tekinthetőek meg."
+
+#
+# File: pommo_theme_lang.php, line: 1965
+#. aardvark-development/themes/default/admin/admin.tpl
+msgid "Here you can list, add, delete, import, export, and update your subscribers. You can also create groups (subsets) of your subsribers from here."
+msgstr "Itt lehet megtekinteni, hozzáadni, törölni, módosítani impotálni, exportálni  a tagokat. Itt hozhat létre csoportokat is."
+
+#
+# File: pommo_theme_lang.php, line: 1971
+#. aardvark-development/themes/default/admin/admin.tpl
+msgid "This area allows you to configure poMMo. Set mailing list parameters, choose the information you'd like to collect from subscribers, and generate subscription forms from here."
+msgstr "Itt modosíthatja a poMMo beállításait. Itt állíthatja be a lista paramétereit, itt határozhatja meg, hogy milyen adatokat kér be a feliratkozó tagoktól, itt generálja feliratkozási űrlapokat is."
+
+#
+# File: pommo_theme_lang.php, line: 1974
+#. aardvark-development/themes/default/admin/admin.tpl
+msgid "If you like poMMo, please consider a dontation to support its development"
+msgstr "Ha tetszik a poMMO program, támogassa a projectet!"
+
+#
+# File: pommo_theme_lang.php, line: 1977
+# File: pommo_theme_lang.php, line: 2034
+#. aardvark-development/themes/default/admin/confirm.tpl
+#. aardvark-development/themes/default/support/support.lib.tpl
+msgid "Confirm your action."
+msgstr "Valóban ezt akarja? Megerősítést kérek!"
+
+#
+# File: pommo_theme_lang.php, line: 1983
+#. aardvark-development/themes/default/admin/confirm.tpl
+msgid "please return"
+msgstr "kérem lépjen vssza"
+
+#
+# File: pommo_theme_lang.php, line: 1989
+#. aardvark-development/themes/default/admin/confirm.tpl
+msgid "I confirm"
+msgstr "Megerősítem"
+
+#
+# File: pommo_theme_lang.php, line: 1995
+#. aardvark-development/themes/default/admin/confirm.tpl
+msgid "Confirm"
+msgstr "Megerősítés"
+
+#
+# File: pommo_theme_lang.php, line: 1998
+#. aardvark-development/themes/default/upgrade.tpl
+msgid "Upgrader"
+msgstr "poMMo frissítő"
+
+#
+# File: pommo_theme_lang.php, line: 2001
+#. aardvark-development/themes/default/upgrade.tpl
+msgid "Online Upgrade Script"
+msgstr "Online frissítő script"
+
+#
+# File: pommo_theme_lang.php, line: 2007
+#. aardvark-development/themes/default/upgrade.tpl
+msgid "Welcome to the poMMo online upgrade process. This script will automatically upgrade your old version of poMMo."
+msgstr "Üdvözlöm a poMMO online frissítés menüben. A script automatikusan frissíteni fogja az elavult verziót."
+
+#
+# File: pommo_theme_lang.php, line: 2022
+#. aardvark-development/themes/default/upgrade.tpl
+msgid "To force the upgrade"
+msgstr "Frissítés kikényszerítése"
+
+#
+# File: pommo_theme_lang.php, line: 2031
+#. aardvark-development/themes/default/support/support.tpl
+msgid "Support Page"
+msgstr "Terméktámogatás oldala"
+
+#
+# File: pommo_theme_lang.php, line: 2037
+#. aardvark-development/themes/default/subscribe/form.subscribe.tpl
+msgid "Join newsletter"
+msgstr "Csatlakozás hírlevélhez"
+
+#
+# File: pommo_theme_lang.php, line: 2046
+# File: pommo_theme_lang.php, line: 2073
+#. aardvark-development/themes/default/subscribe/form.subscribe.tpl
+#. aardvark-development/themes/default/subscribe/form.update.tpl
+msgid "Choose Selection"
+msgstr "Válasszon"
+
+#
+# File: pommo_theme_lang.php, line: 2049
+# File: pommo_theme_lang.php, line: 2082
+# File: aardvark-development/admin/setup/form_generate.php, line: 126
+#. aardvark-development/themes/default/subscribe/form.subscribe.tpl
+#. aardvark-development/themes/default/subscribe/form.mini.tpl
+msgid "Subscribe"
+msgstr "Feliratkozás"
+
+#
+# File: pommo_theme_lang.php, line: 2058
+#. aardvark-development/themes/default/subscribe/form.update.tpl
+msgid "Your Information"
+msgstr "Ön adatai"
+
+#
+# File: pommo_theme_lang.php, line: 2067
+#. aardvark-development/themes/default/subscribe/form.update.tpl
+msgid "New Email:"
+msgstr "Új e-mail cím:"
+
+#
+# File: pommo_theme_lang.php, line: 2070
+#. aardvark-development/themes/default/subscribe/form.update.tpl
+msgid "Verify New Email:"
+msgstr "E-mail cím ellenőrzése:"
+
+#
+# File: pommo_theme_lang.php, line: 2076
+#. aardvark-development/themes/default/subscribe/form.update.tpl
+msgid "Update Records"
+msgstr "Adatok aktualizálása"
+
+#
+# File: pommo_theme_lang.php, line: 2085
+# File: pommo_theme_lang.php, line: 2100
+#. aardvark-development/themes/default/index.tpl
+msgid "Administrative Login"
+msgstr "Rendszergazda belépés"
+
+#
+# File: pommo_theme_lang.php, line: 2088
+#. aardvark-development/themes/default/index.tpl
+msgid "You have requested to reset your password. If you are sure you want to do this, please fill in the captcha below. Enter the text you see between the brackets (%1[]%2)."
+msgstr "Ön kérte a jelszó törlését. Amenniben biztos ebben, kérem írja be a (%1[]%2) zárójelek között látható szöveget!"
+
+#
+# File: pommo_theme_lang.php, line: 2091
+#. aardvark-development/themes/default/index.tpl
+msgid "Captcha"
+msgstr "Captcha"
+
+#
+# File: pommo_theme_lang.php, line: 2094
+#. aardvark-development/themes/default/index.tpl
+msgid "Captcha Text:"
+msgstr "Captcha szöveg:"
+
+#
+# File: pommo_theme_lang.php, line: 2097
+#. aardvark-development/themes/default/index.tpl
+msgid "Reset Password"
+msgstr "Jelszó törlése"
+
+#
+# File: pommo_theme_lang.php, line: 2103
+#. aardvark-development/themes/default/index.tpl
+msgid "Username"
+msgstr "Felhasználónév"
+
+#
+# File: pommo_theme_lang.php, line: 2106
+#. aardvark-development/themes/default/index.tpl
+msgid "Password"
+msgstr "Jelszó módosítás"
+
+#
+# File: pommo_theme_lang.php, line: 2109
+#. aardvark-development/themes/default/index.tpl
+msgid "Log In"
+msgstr "Belépés"
+
+#
+# File: pommo_theme_lang.php, line: 2112
+#. aardvark-development/themes/default/index.tpl
+msgid "Forgot your password?"
+msgstr "..... hát elfelejtette a jelszavát? ......."
+
+#
+# File: pommo_theme_lang.php, line: 2115
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "January"
+msgstr "Január"
+
+#
+# File: pommo_theme_lang.php, line: 2118
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "Febuary"
+msgstr "Február"
+
+#
+# File: pommo_theme_lang.php, line: 2121
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "March"
+msgstr "Március"
+
+#
+# File: pommo_theme_lang.php, line: 2124
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "April"
+msgstr "Április"
+
+#
+# File: pommo_theme_lang.php, line: 2127
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "May"
+msgstr "Május"
+
+#
+# File: pommo_theme_lang.php, line: 2130
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "June"
+msgstr "Június"
+
+#
+# File: pommo_theme_lang.php, line: 2133
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "July"
+msgstr "Július"
+
+#
+# File: pommo_theme_lang.php, line: 2136
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "August"
+msgstr "Augusztus"
+
+#
+# File: pommo_theme_lang.php, line: 2139
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "September"
+msgstr "Szeptember"
+
+#
+# File: pommo_theme_lang.php, line: 2142
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "October"
+msgstr "Október"
+
+#
+# File: pommo_theme_lang.php, line: 2145
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "November"
+msgstr "November"
+
+#
+# File: pommo_theme_lang.php, line: 2148
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "December"
+msgstr "December"
+
+#
+# File: pommo_theme_lang.php, line: 2151
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "Sunday"
+msgstr "Sende"
+
+#
+# File: pommo_theme_lang.php, line: 2154
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "Monday"
+msgstr "Hétfő"
+
+#
+# File: pommo_theme_lang.php, line: 2157
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "Tuesday"
+msgstr "Kedd"
+
+#
+# File: pommo_theme_lang.php, line: 2160
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "Wednesday"
+msgstr "Szerda"
+
+#
+# File: pommo_theme_lang.php, line: 2163
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "Thursday"
+msgstr "Csütörtök"
+
+#
+# File: pommo_theme_lang.php, line: 2166
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "Friday"
+msgstr "Péntek"
+
+#
+# File: pommo_theme_lang.php, line: 2169
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "Saturday"
+msgstr "Szombat"
+
+#
+# File: pommo_theme_lang.php, line: 2172
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "Prev"
+msgstr "Előző"
+
+#
+# File: pommo_theme_lang.php, line: 2175
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "Next"
+msgstr "Következő"
+
+#
+# File: pommo_theme_lang.php, line: 2178
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "Close"
+msgstr "Bezár"
+
+#
+# File: pommo_theme_lang.php, line: 2181
+# File: pommo_theme_lang.php, line: 2184
+#. aardvark-development/themes/shared/datepicker/datepicker.tpl
+msgid "Choose Date"
+msgstr "Válasszon dátumot!"
+
+#
+# File: aardvark-development/inc/helpers/templates.php, line: 70
+msgid "Both HTML and Text cannot be empty"
+msgstr "Sem a HTML sem pedig a szöveges rész nem maradhat üresen!"
+
+#
+# File: aardvark-development/inc/helpers/rules.php, line: 106
+msgid "is"
+msgstr "egyenlő"
+
+#
+# File: aardvark-development/inc/helpers/rules.php, line: 107
+msgid "is not"
+msgstr "nem egyenlő"
+
+#
+# File: aardvark-development/inc/helpers/rules.php, line: 108
+msgid "is checked"
+msgstr "meg van jelölve"
+
+#
+# File: aardvark-development/inc/helpers/rules.php, line: 109
+msgid "is not checked"
+msgstr "nincs megjelölve"
+
+#
+# File: aardvark-development/inc/helpers/rules.php, line: 110
+msgid "is greater than"
+msgstr "nagyobb mint"
+
+#
+# File: aardvark-development/inc/helpers/rules.php, line: 111
+msgid "is less than"
+msgstr "kisebb mint"
+
+#
+# File: aardvark-development/inc/helpers/rules.php, line: 112
+msgid "or in group"
+msgstr "vagy szerepel a csoportban"
+
+#
+# File: aardvark-development/inc/helpers/rules.php, line: 113
+msgid "and not in group"
+msgstr "és nem szerepel a csoportban"
+
+#
+# File: aardvark-development/inc/helpers/pending.php, line: 328
+#, php-format
+msgid "You may now %1$s login %2$s with username: %3$s and password: %4$s "
+msgstr "A felhasználónévvel és jelszóval tud belépni."
+
+#
+# File: aardvark-development/inc/helpers/maintenance.php, line: 35
+msgid "Can write to ERROR_LOG. Check work directory permissions!"
+msgstr "Nem tudok írni az ERROR_LOG-ba ellenőrizze a könyvtár jogait!"
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 51
+#, php-format
+msgid "An actvation mail has been sent to %s. Please follow its instructions to access your records."
+msgstr "Egy aktiváló levelet küldtünk ki: %s. Kérjük kövesse az utasításokat, hogy elérhesse az adatait!"
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 57
+#, php-format
+msgid "A confirmation mail has been sent to %s. Please follow its instructions to complete your request."
+msgstr "Egy visszaigazoló levelet küldtünk ki: %s. Kérjük kövesse az utasításokat, hogy feliratkozása véglegesítére kerülhessen!"
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 86
+msgid "Error sending mail"
+msgstr "Nem sikerült az e-mail küldése."
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 116
+#, php-format
+msgid "Welcome to our mailing list. You can always login to update your records or unsubscribe by visiting: %s"
+msgstr "Üdvözöljük a levelezőlistánkon! Ön a %s lapon bármikor bejelentkezhet és módosíthatja beállításait vagy leiratkozhat a hírlevélről."
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 117
+#, php-format
+msgid "Welcome to %s"
+msgstr "Üdvözöljük a %s"
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 118
+msgid "Welcome to our mailing list. Enjoy your stay."
+msgstr "Üdvözöljük a Levelezési listánkon! Reméljük elégedett lesz a tartalommal."
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 124
+#, php-format
+msgid "Farewell from %s"
+msgstr "Leiratkozva a %s listától..."
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 125
+msgid "You have been unsubscribed and will not receive any more mailings from us. Feel free to come back anytime!"
+msgstr "Ön leiartkozotta hírlevélről, ezért nem fog tűlünk több levelet kapni, de természetesen bármikor újból visszajelentkezhet!"
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 126
+msgid "You have successfully unsubscribed. Enjoy your travels."
+msgstr "Sikeresen leiratkozott a listáról. Köszönjük eddigit figyelmét."
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 132
+#, php-format
+msgid "You have requested to subscribe to %s. We would like to validate your email address before adding you as a subscriber. Please click the link below to be added ->"
+msgstr "Ön feliratkozott a levelezőlistára: %s.  Szeretnék ellenőrizni az e-maill címét, mielőtt véglegesítjük feliratkozását. Kérem ehhez kattintson az alábbi linkre ->"
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 132
+# File: aardvark-development/inc/helpers/messages.php, line: 138
+# File: aardvark-development/inc/helpers/messages.php, line: 145
+# File: aardvark-development/inc/helpers/messages.php, line: 151
+msgid "If you have received this message in error, please ignore it."
+msgstr "Ha tévedésből kapta meg a levelet, kérem törölje!"
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 133
+msgid "Subscription request"
+msgstr "Feliratkozási kérés"
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 138
+#, php-format
+msgid "Someone has requested to access to your records for %s."
+msgstr "Valaki mepróbált az adataihoz %s hozzáférni."
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 138
+msgid "You may edit your information or unsubscribe by visiting the link below ->"
+msgstr "Módosíthatja beállításait vagy leiratkozhat a hírlevélről az alábbi linken ->"
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 139
+#, php-format
+msgid "%s: Account Access."
+msgstr "%s: személyes adati"
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 145
+#, php-format
+msgid "You have requested to change your password for %s."
+msgstr "Ön kérte a jelszavának %s módosítását!"
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 145
+# File: aardvark-development/inc/helpers/messages.php, line: 151
+msgid "Please validate this request by clicking the link below ->"
+msgstr "Hogy végrehajthassul ezt a kérést kérem kattintson az alábbi linkre -> "
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 146
+msgid "Change Password request"
+msgstr "Jelszó módosítási kérés"
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 151
+#, php-format
+msgid "You have requested to update your records for %s."
+msgstr "Ön kérte az adatainak %s módosítását"
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 152
+msgid "Update Records request"
+msgstr "Adatmódosítási kérés"
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 167
+msgid "poMMo test message"
+msgstr "poMMo teszt üzenet"
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 168
+#, php-format
+msgid "This message indicates that poMMo is able to use the %s exchanger."
+msgstr "Ez a levél azt bizonyítja, hogy a poMMo képes volt a %s levélkiszolgálón keresztül levelet küldeni."
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 180
+# File: aardvark-development/admin/setup/config/ajax.testexchanger.php, line: 67
+msgid "Error Sending Mail"
+msgstr "A levélküldés sikertelen."
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 197
+#, php-format
+msgid "poMMo %s Notice"
+msgstr "poMMo %s üzenet"
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 214
+msgid "new subscriber!"
+msgstr "új tag"
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 217
+msgid "user unsubscribed."
+msgstr "tag leiratkozott"
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 220
+msgid "new pending!"
+msgstr "új függő"
+
+#
+# File: aardvark-development/inc/helpers/messages.php, line: 223
+msgid "subscriber updated."
+msgstr "tag adatai módosítva"
+
+#
+# File: aardvark-development/inc/helpers/validate.php, line: 71
+#, php-format
+msgid "%s is a required field."
+msgstr "%s kötelezően kitöltendő mező!"
+
+#
+# File: aardvark-development/inc/helpers/validate.php, line: 92
+# File: aardvark-development/inc/helpers/validate.php, line: 105
+# File: aardvark-development/inc/helpers/validate.php, line: 115
+#, php-format
+msgid "Illegal input for field %s."
+msgstr "Hibás adat a %s mezőben!"
+
+#
+# File: aardvark-development/inc/helpers/validate.php, line: 132
+#, php-format
+msgid "Field (%s) must be a date ("
+msgstr "A %s mezőbe csak dátumot lehet bevinni!"
+
+#
+# File: aardvark-development/inc/helpers/validate.php, line: 143
+#, php-format
+msgid "Field (%s) must be a number."
+msgstr "A %s mezőbe csak számot lehet bevinni!"
+
+#
+# File: aardvark-development/inc/classes/install.php, line: 49
+msgid "Database Error: "
+msgstr "Adatbázis hiba:"
+
+#
+# File: aardvark-development/inc/classes/auth.php, line: 47
+#, php-format
+msgid "Denied access. You must %slogin%s to access this page..."
+msgstr "Hozzáférés megtagadva. Az oldal megtkintéséhez be kell jelentkezni!"
+
+#
+# File: aardvark-development/inc/classes/db.php, line: 77
+msgid "Could not establish database connection."
+msgstr "Nem sikerült csatlakozni az adatbázishoz."
+
+#
+# File: aardvark-development/inc/classes/db.php, line: 77
+# File: aardvark-development/inc/classes/db.php, line: 80
+msgid "Verify your settings in config.php"
+msgstr "Ellenőrizze a beállításokat a config.php fájlban!"
+
+#
+# File: aardvark-development/inc/classes/db.php, line: 80
+#, php-format
+msgid "Connected to database server but could not select database (%s). Does it exist?"
+msgstr "Sikerült csatlakozni az adatbázisszerverhez, de a %s adatbázishoz nem. Létezik az adatbázis egyáltalán?"
+
+#
+# File: aardvark-development/inc/classes/mta.php, line: 121
+# File: aardvark-development/inc/classes/mta.php, line: 409
+msgid "Mailing Complete."
+msgstr "Hírlevél küldés kész."
+
+#
+# File: aardvark-development/inc/classes/mta.php, line: 156
+#, php-format
+msgid "Restarting Mailing #%s"
+msgstr "Hírlevél küldés újraindul #%s"
+
+#
+# File: aardvark-development/inc/classes/mta.php, line: 170
+#, php-format
+msgid "Started Mailing #%s"
+msgstr "Hírlevél küldés elindult #%s"
+
+#
+# File: aardvark-development/inc/classes/mta.php, line: 187
+#, php-format
+msgid "Stopped Mailing #%s"
+msgstr "Hírlevél küldés leállítva #%s"
+
+#
+# File: aardvark-development/inc/classes/mta.php, line: 192
+msgid "Mailing Cancelled."
+msgstr "Hírlevél küldés megszakítva."
+
+#
+# File: aardvark-development/inc/classes/mta.php, line: 199
+msgid "You must restart the mailing."
+msgstr "Újra kell indítania a hírlevél küldést!"
+
+#
+# File: aardvark-development/inc/classes/mta.php, line: 419
+#, php-format
+msgid "Runtime (%s seconds) reached, respawning."
+msgstr "Afutási idő eléret a  %s másodpercet. Újrakezdés."
+
+#
+# File: aardvark-development/inc/classes/pommo.php, line: 126
+#, php-format
+msgid "Work Directory (%s) not found! Make sure it exists and the webserver can write to it. You can change its location from the config.php file."
+msgstr "A munkakönyvtár (%s) nem található. Bizonyosodjon meg, hogy léteztik és a webszerver tudis bele írni! A config.php fájban módosítható ez a beállítás."
+
+#
+# File: aardvark-development/inc/classes/pommo.php, line: 128
+#, php-format
+msgid "Cannot write to Work Directory (%s). Make sure it has the proper permissions."
+msgstr "A munkakönyvtár (%s) nem írható. Bizonyosodjon meg, hogy léteztik és a webszerver tudis bele írni!"
+
+#
+# File: aardvark-development/inc/classes/pommo.php, line: 130
+#, php-format
+msgid "Working Directory (%s) cannot be created under PHP SAFE MODE. See Documentation, or disable SAFE MODE."
+msgstr "A munkakönyvtár (%s) nem hozható létre a PHP SAFE MODE esetén. Olvassa el a dokumentációt és tiltsa le a SAFE MODE-t."
+
+#
+# File: aardvark-development/inc/classes/pommo.php, line: 133
+# File: aardvark-development/inc/classes/pommo.php, line: 135
+msgid "Could not create directory"
+msgstr "A könyvtárat nem sikerült létrehozni."
+
+#
+# File: aardvark-development/inc/classes/pommo.php, line: 201
+#, php-format
+msgid "Error loading configuration. Has poMMo been installed? %sClick Here%s to install."
+msgstr "A beállításokat nem sikerült betölteni.. A poMMo fel van telepítve? Kattintson %side%s a telepítéshez!"
+
+#
+# File: aardvark-development/inc/classes/pommo.php, line: 202
+#, php-format
+msgid "Version Mismatch. %sClick Here%s to upgrade."
+msgstr "Verzió hiba! Kattintson %side%s a frissítéshez!"
+
+#
+# File: aardvark-development/inc/classes/pommo.php, line: 334
+msgid "Redirecting, please wait..."
+msgstr "Átirányítás, kérem várjon...."
+
+#
+# File: aardvark-development/inc/classes/template.php, line: 57
+msgid "poMMo Website"
+msgstr "poMMo Weboldala"
+
+#
+# File: aardvark-development/inc/classes/template.php, line: 88
+#, php-format
+msgid "Template file (%s) not found in default or current theme"
+msgstr "Vázlat fájl (%s) nincs meg."
+
+#
+# File: aardvark-development/inc/classes/mailer.php, line: 279
+msgid "Sending failed: "
+msgstr "Küldés sikertelen:"
+
+#
+# File: aardvark-development/inc/classes/mailer.php, line: 289
+#, php-format
+msgid "Mail to: %s not sent. Demonstration mode is active."
+msgstr "Az e-mail a %s nem ment, mert TESZT módban van a rendszer."
+
+#
+# File: aardvark-development/user/update.php, line: 47
+msgid "Invalid activation code."
+msgstr "Érvénytelen aktiváló kód."
+
+#
+# File: aardvark-development/user/update.php, line: 73
+msgid "Emails must match."
+msgstr "E-mail címeknek meg kell egyezniük."
+
+#
+# File: aardvark-development/user/update.php, line: 75
+# File: aardvark-development/user/process.php, line: 63
+msgid "Invalid Email Address"
+msgstr "Érvénytelen e-mail cím!"
+
+#
+# File: aardvark-development/user/update.php, line: 77
+# File: aardvark-development/user/process.php, line: 67
+# File: aardvark-development/admin/subscribers/ajax/manage.rpc.php, line: 59
+# File: aardvark-development/admin/subscribers/ajax/manage.rpc.php, line: 155
+msgid "Email address already exists. Duplicates are not allowed."
+msgstr "Az e-mail cím már létezik. Dupla előfordulás nem megengedett!"
+
+#
+# File: aardvark-development/user/update.php, line: 94
+# File: aardvark-development/user/confirm.php, line: 90
+msgid "Your records have been updated."
+msgstr "Az adati módosítottuk."
+
+#
+# File: aardvark-development/user/mailings.php, line: 42
+msgid "Mailing History"
+msgstr "Hírlevél előzmények"
+
+#
+# File: aardvark-development/user/process.php, line: 108
+msgid "Subscription request received."
+msgstr "Feliratkozási kérelem megérkezett."
+
+#
+# File: aardvark-development/user/login.php, line: 38
+msgid "subscriber logon"
+msgstr "Tag belépés"
+
+#
+# File: aardvark-development/user/login.php, line: 48
+# File: aardvark-development/admin/setup/config/mailings.php, line: 74
+# File: aardvark-development/admin/setup/config/ajax.testexchanger.php, line: 46
+# File: aardvark-development/admin/setup/config/users.php, line: 50
+# File: aardvark-development/admin/mailings/mailing/setup.php, line: 100
+# File: aardvark-development/admin/mailings/mailing/ajax.mailingtest.php, line: 49
+msgid "Invalid email address"
+msgstr "Érvénytelen e-mail cím!"
+
+#
+# File: aardvark-development/user/login.php, line: 76
+msgid "Email address not found! Please try again."
+msgstr "A megadott e-mail cím nem szerepel a listában. Próbáljon egy másik címet megadni!"
+
+#
+# File: aardvark-development/user/login.php, line: 77
+#, php-format
+msgid "To subscribe, %sclick here%s"
+msgstr "Feliratkozáshoz kattintson %side%s!"
+
+#
+# File: aardvark-development/user/pending.php, line: 49
+msgid "subscription request"
+msgstr "Leiratkozási kérelem"
+
+#
+# File: aardvark-development/user/pending.php, line: 53
+msgid "record update request"
+msgstr "személyes adatok módosítása"
+
+#
+# File: aardvark-development/user/pending.php, line: 57
+msgid "password change request"
+msgstr "Jelszó modosítás"
+
+#
+# File: aardvark-development/user/pending.php, line: 70
+#, php-format
+msgid "Your %s has been cancelled."
+msgstr "%s töröltük"
+
+#
+# File: aardvark-development/user/pending.php, line: 74
+#, php-format
+msgid "Your %s is still pending. To complete this request, please review the confirmation email sent to %s."
+msgstr "Az Ön %s várakozik. A feliratkozás megerősítésére kérem tanulmányozza a korábbi %s címre küldött e-mailt."
+
+#
+# File: aardvark-development/user/confirm.php, line: 41
+msgid "No code given."
+msgstr "Nem adta meg a kódot!"
+
+#
+# File: aardvark-development/user/confirm.php, line: 50
+msgid "Invalid code! Make sure you copied it correctly from the email."
+msgstr "Ez a kód érvénytelen. Bizonyosodjon meg róla, hogy ezt másolta ki az e-mailből!"
+
+#
+# File: aardvark-development/admin/setup/form_generate.php, line: 46
+msgid "VIEW THE SOURCE TO COPY, PASTE, EDIT, AND SAVE THE FORM TO AN APPROPRIATE LOCATION ON YOUR WEBSITE"
+msgstr "NÉZZE MEG A LAP FORRÁSÁT, MÁSOLJA KI, SZERKESSZE ÁT ÉS MENTSE LE A FORMOT A WEBLAPJA MEGFELELŐ RÉSZÉBE! "
+
+#
+# File: aardvark-development/admin/setup/ajax/fields.rpc.php, line: 57
+msgid "Order Updated."
+msgstr "Sikeres módosítás."
+
+#
+# File: aardvark-development/admin/setup/ajax/fields.rpc.php, line: 72
+# File: aardvark-development/admin/setup/setup_fields.php, line: 52
+# File: aardvark-development/admin/subscribers/subscribers_groups.php, line: 48
+# File: aardvark-development/admin/mailings/mailing/ajax.addtemplate.php, line: 71
+msgid "Error with addition."
+msgstr "A hozzáadás nem sikerült."
+
+#
+# File: aardvark-development/admin/setup/ajax/fields.rpc.php, line: 88
+#, php-format
+msgid "Deleting option %1$s will affect %2$s subscribers who have selected this choice. They will be flagged as needing to update their records."
+msgstr "Az %1$s opció törlésének az lesz a hatása, hogy %2$s tagok, akik ezt választották, kénytelenek lesznek az adataikat módosítani."
+
+#
+# File: aardvark-development/admin/setup/ajax/fields.rpc.php, line: 100
+# File: aardvark-development/admin/setup/setup_fields.php, line: 62
+# File: aardvark-development/admin/setup/setup_fields.php, line: 78
+# File: aardvark-development/admin/mailings/mailing/templates.php, line: 58
+msgid "Error with deletion."
+msgstr "A törlés nem sikerült."
+
+#
+# File: aardvark-development/admin/setup/ajax/field_edit.php, line: 55
+# File: aardvark-development/admin/setup/config/mailings.php, line: 73
+# File: aardvark-development/admin/setup/config/general.php, line: 57
+# File: aardvark-development/admin/setup/config/messages.php, line: 113
+# File: aardvark-development/admin/setup/config/users.php, line: 49
+# File: aardvark-development/admin/mailings/mailing/setup.php, line: 98
+# File: aardvark-development/admin/mailings/mailing/ajax.addtemplate.php, line: 48
+# File: aardvark-development/install/install.php, line: 64
+msgid "Cannot be empty."
+msgstr "A mező nem maradhat üresen!"
+
+#
+# File: aardvark-development/admin/setup/ajax/field_edit.php, line: 89
+msgid "Settings updated."
+msgstr "Beállítások sikeresen aktualizálva."
+
+#
+# File: aardvark-development/admin/setup/ajax/field_edit.php, line: 95
+# File: aardvark-development/admin/setup/config/ajax.throttle.php, line: 66
+# File: aardvark-development/admin/setup/config/mailings.php, line: 109
+# File: aardvark-development/admin/setup/config/ajax.testexchanger.php, line: 75
+# File: aardvark-development/admin/setup/config/ajax.smtp.php, line: 74
+# File: aardvark-development/admin/setup/config/general.php, line: 93
+# File: aardvark-development/admin/setup/config/messages.php, line: 220
+# File: aardvark-development/admin/setup/config/users.php, line: 88
+# File: aardvark-development/admin/mailings/mailing/setup.php, line: 125
+# File: aardvark-development/admin/mailings/mailing/ajax.addtemplate.php, line: 76
+# File: aardvark-development/admin/mailings/mailing/ajax.mailingtest.php, line: 112
+# File: aardvark-development/install/install.php, line: 141
+msgid "Please review and correct errors with your submission."
+msgstr "Kérjük ellenőrizze és aktualizálja a személyes adatait!"
+
+#
+# File: aardvark-development/admin/setup/ajax/field_edit.php, line: 99
+#, php-format
+msgid "%s - Any value will be accepted for text fields. They are useful for collecting names, addresses, etc."
+msgstr "%s - Bármilyen beviteli érzék elfogadható a text mezőkben. Hasznos nevek, címek gyűjtésére."
+
+#
+# File: aardvark-development/admin/setup/ajax/field_edit.php, line: 100
+#, php-format
+msgid "%s - Checkboxes can be toggled ON or OFF. They are useful for opt-ins and agreements."
+msgstr "%s - Checkboxes ki ls bekapcsolható. Alkalmassak feltételek elfogadtatására."
+
+#
+# File: aardvark-development/admin/setup/ajax/field_edit.php, line: 101
+#, php-format
+msgid "%s - Only Numeric values will be accepted for number fields."
+msgstr "%s - A számmezők csak számértéket fogadnak el."
+
+#
+# File: aardvark-development/admin/setup/ajax/field_edit.php, line: 102
+#, php-format
+msgid "%s - Only calendar values will be accepted for this field. A date selector (calendar popup) will appear next to the field to aid the subscriber in selecting a date."
+msgstr "%s - Csak dátumértéket fogad el. A dátumválasztó (calendar popup) jelnik meg a mezőnél a feliratkozó abból választhat értéket."
+
+#
+# File: aardvark-development/admin/setup/ajax/field_edit.php, line: 103
+#, php-format
+msgid "%s - Subscribers will be able to select a value from the options you provide below. Multiple choice fields have reliable values for organizing, and are useful for collecting Country, Interests, etc."
+msgstr "%s - A feliratkozók választani tudnak majd az alábbi adatokból. Adatszervezéshez hasznosak pl. orszák és érdeklődési kör kiválasztása stb."
+
+#
+# File: aardvark-development/admin/setup/ajax/field_edit.php, line: 104
+#, php-format
+msgid "%s -. If a subscriber enters a value for a comment field, it will be mailed to the admin notification email."
+msgstr "%s -. Ha a feliratkozó a megjegyzés mezőbe valamit beír, azt a rendszergazda e-mailben megkapja."
+
+#
+# File: aardvark-development/admin/setup/config/ajax.throttle.php, line: 40
+# File: aardvark-development/admin/setup/config/ajax.throttle.php, line: 63
+# File: aardvark-development/admin/setup/config/mailings.php, line: 103
+# File: aardvark-development/admin/setup/config/ajax.smtp.php, line: 74
+# File: aardvark-development/admin/setup/config/general.php, line: 87
+# File: aardvark-development/admin/setup/config/messages.php, line: 214
+# File: aardvark-development/admin/setup/config/users.php, line: 82
+msgid "Configuration Updated."
+msgstr "A beállításokat módosítottuk."
+
+#
+# File: aardvark-development/admin/setup/config/mailings.php, line: 72
+msgid "Enter a number."
+msgstr "Írjon be egy számot!"
+
+#
+# File: aardvark-development/admin/setup/config/ajax.testexchanger.php, line: 66
+msgid "Mail Sent."
+msgstr "E-mail elküldve."
+
+#
+# File: aardvark-development/admin/setup/config/general.php, line: 56
+# File: aardvark-development/install/install.php, line: 66
+msgid "Must be a valid URL"
+msgstr "Az URL címnek érvényesnek kell lennie!"
+
+#
+# File: aardvark-development/admin/setup/config/messages.php, line: 117
+msgid "You must include \"[[URL]]\" for the confirm link"
+msgstr "Integrálnia kell a megerősítő linket: \"[[URL]]\" "
+
+#
+# File: aardvark-development/admin/setup/config/messages.php, line: 135
+msgid "[poMMo Notice]"
+msgstr "[poMMo üzenet]"
+
+#
+# File: aardvark-development/admin/setup/config/users.php, line: 51
+# File: aardvark-development/install/install.php, line: 65
+msgid "Passwords must match."
+msgstr "A jelszavaknak meg kell egyezniük!"
+
+#
+# File: aardvark-development/admin/setup/setup_fields.php, line: 68
+# File: aardvark-development/admin/subscribers/subscribers_groups.php, line: 63
+msgid "Confirm Action"
+msgstr "Biztosan ezt akarja? Kérem erősítse meg!"
+
+#
+# File: aardvark-development/admin/setup/setup_fields.php, line: 71
+#, php-format
+msgid "Currently, %1$s subscribers have a non empty value for %2$s. All Subscriber data relating to this field will be lost."
+msgstr "Jelenleg %1$s tag használja ezt a mezőt.  %2$s. Minden tag ide vonatkozó adata el fog veszni, ha törli a mezőt!"
+
+#
+# File: aardvark-development/admin/setup/setup_configure.php, line: 35
+msgid "Throttle Settings"
+msgstr "Korlátozó beállítások"
+
+#
+# File: aardvark-development/admin/setup/setup_configure.php, line: 36
+msgid "SMTP Settings"
+msgstr "SMTP Beállítások"
+
+#
+# File: aardvark-development/admin/subscribers/ajax/group.rpc.php, line: 136
+msgid "At least 1 \"and\" rule must exist before an \"or\" rule takes effect."
+msgstr "Legalább 1 \"és\" szabálynak szerepelnie kell, mielőtt egy  \"vagy\" szabály működésbe lépne."
+
+#
+# File: aardvark-development/admin/subscribers/ajax/group.rpc.php, line: 153
+msgid "Group Renamed"
+msgstr "A csoport átnevezve."
+
+#
+# File: aardvark-development/admin/subscribers/ajax/manage.rpc.php, line: 44
+msgid "Error adding subscriber."
+msgstr "A tag hozzáadása sikeretelen."
+
+#
+# File: aardvark-development/admin/subscribers/ajax/manage.rpc.php, line: 48
+# File: aardvark-development/admin/subscribers/ajax/manage.rpc.php, line: 150
+msgid "Invalid email."
+msgstr "Érvénytelen e-mail cím"
+
+#
+# File: aardvark-development/admin/subscribers/ajax/manage.rpc.php, line: 54
+#, php-format
+msgid "%s has already unsubscribed. To add the subscriber anyway, check the box to force the addition."
+msgstr "%s már leiratkozott. Ha mindenképpen szeretné a tagot hozzáadni, jelölje be a checkbox-ot, hogy csakazértis hozzáadjuk."
+
+#
+# File: aardvark-development/admin/subscribers/ajax/manage.rpc.php, line: 71
+msgid "Invalid or missing information."
+msgstr "Érvénytelen vagy hiányos információ."
+
+#
+# File: aardvark-development/admin/subscribers/ajax/manage.rpc.php, line: 84
+#, php-format
+msgid "Subscriber %s added!"
+msgstr "%s tag hozzáadva"
+
+#
+# File: aardvark-development/admin/subscribers/ajax/manage.rpc.php, line: 87
+msgid "Subscriber has been flagged for update due to invalid or missing information."
+msgstr "A tag ki lett jelölve az adatok aktualizálására de érvénytelen vagy hibás adatot adott."
+
+#
+# File: aardvark-development/admin/subscribers/ajax/manage.rpc.php, line: 119
+#, php-format
+msgid "You have removed %s subscribers!"
+msgstr "Ön %s tagot törölt!"
+
+#
+# File: aardvark-development/admin/subscribers/ajax/manage.rpc.php, line: 126
+msgid "No subscribers were removed."
+msgstr "Nem lett egy tag sem törölve."
+
+#
+# File: aardvark-development/admin/subscribers/ajax/manage.rpc.php, line: 159
+msgid "Fields failed validation"
+msgstr "Mező ellenőrzés sikertelen!"
+
+#
+# File: aardvark-development/admin/subscribers/ajax/manage.rpc.php, line: 161
+# File: aardvark-development/admin/subscribers/ajax/manage.rpc.php, line: 166
+msgid "Error updating subscriber."
+msgstr "Tag módosítása sikertelen."
+
+#
+# File: aardvark-development/admin/subscribers/ajax/manage.rpc.php, line: 184
+msgid "Subscriber Updated"
+msgstr "Tag adatai sikeresen módosítva."
+
+#
+# File: aardvark-development/admin/subscribers/subscribers_groups.php, line: 42
+#, php-format
+msgid "Group name (%s) already exists"
+msgstr "A csoport név (%s) már létezik."
+
+#
+# File: aardvark-development/admin/subscribers/subscribers_groups.php, line: 66
+#, php-format
+msgid "%1$s filters belong this group . Are you sure you want to remove %2$s?"
+msgstr "%1$s szűrő tartozik a csoporthoz. Biztosan el szeretné távolítani %2$s?"
+
+#
+# File: aardvark-development/admin/subscribers/subscribers_groups.php, line: 72
+msgid "Group cannot be deleted."
+msgstr "A csoport nem törölhető!"
+
+#
+# File: aardvark-development/admin/subscribers/subscribers_groups.php, line: 74
+#, php-format
+msgid "%s deleted."
+msgstr "%s törölve."
+
+#
+# File: aardvark-development/admin/subscribers/import_txt.php, line: 64
+# File: aardvark-development/admin/subscribers/import_csv2.php, line: 83
+msgid "Complete!"
+msgstr "Kész!"
+
+#
+# File: aardvark-development/admin/subscribers/import_csv2.php, line: 82
+#, php-format
+msgid "%s subscribers imported! Of these, %s were flagged to update their records."
+msgstr "%s tag importálva lett, amelyből %s meg lett jelölve az adatainak aktualizálására"
+
+#
+# File: aardvark-development/admin/subscribers/import_csv2.php, line: 82
+#, php-format
+msgid "%s duplicates encountered."
+msgstr "%s dupla tétel találtam."
+
+#
+# File: aardvark-development/admin/subscribers/groups_edit.php, line: 86
+msgid "INCLUDE"
+msgstr "TARTALMAZZA"
+
+#
+# File: aardvark-development/admin/mailings/ajax/history.rpc.php, line: 53
+#, php-format
+msgid "Displaying notices for mailing %s"
+msgstr "Információk megjelenítése a %s hírlevélhez."
+
+#
+# File: aardvark-development/admin/mailings/ajax/status_poll.php, line: 64
+msgid "Stopped"
+msgstr "Leállítva."
+
+#
+# File: aardvark-development/admin/mailings/ajax/status_poll.php, line: 65
+msgid "Frozen"
+msgstr "Lefagyott"
+
+#
+# File: aardvark-development/admin/mailings/ajax/history.list.php, line: 120
+msgid "Complete"
+msgstr "Kész!"
+
+#
+# File: aardvark-development/admin/mailings/ajax/history.list.php, line: 124
+msgid "Cancelled"
+msgstr "Megszakítva"
+
+#
+# File: aardvark-development/admin/mailings/ajax/history.list.php, line: 135
+msgid "Mails/Hour"
+msgstr "e-mail / óra"
+
+#
+# File: aardvark-development/admin/mailings/mailing/templates.php, line: 57
+msgid "Template Deleted"
+msgstr "Vázlat törölve."
+
+#
+# File: aardvark-development/admin/mailings/mailing/compose.php, line: 39
+# File: aardvark-development/admin/mailings/mailing/preview.php, line: 41
+# File: aardvark-development/admin/mailings/mailing/setup.php, line: 40
+# File: aardvark-development/admin/mailings/admin_mailings.php, line: 38
+# File: aardvark-development/admin/mailings/mailings_start.php, line: 38
+#, php-format
+msgid "A Mailing is currently processing. Visit the %sStatus%s page to check its progress."
+msgstr "Hírlevél küldése folyamatban. Látogassa meg a  %sStatus%s lapot a folyamat nyomonkövetésére."
+
+#
+# File: aardvark-development/admin/mailings/mailing/preview.php, line: 73
+msgid "Subject or Message cannot be empty!"
+msgstr "Sem a tárgy sem pedig az üzenet mező nem lehet üres!"
+
+#
+# File: aardvark-development/admin/mailings/mailing/preview.php, line: 125
+msgid "Cannot send a mailing to 0 subscribers!"
+msgstr "Nem küldhető hírlevél 0 címzettnek!"
+
+#
+# File: aardvark-development/admin/mailings/mailing/setup.php, line: 99
+msgid "Invalid Character Set"
+msgstr "Érvénytelen karakterkódolás!"
+
+#
+# File: aardvark-development/admin/mailings/mailing/setup.php, line: 101
+msgid "Invalid Input"
+msgstr "Érvénytelen adatbevitel!"
+
+#
+# File: aardvark-development/admin/mailings/mailing/ajax.addtemplate.php, line: 67
+#, php-format
+msgid "Template %s saved."
+msgstr " %s vázlat lementve."
+
+#
+# File: aardvark-development/admin/mailings/mailing/ajax.mailingtest.php, line: 79
+# File: aardvark-development/admin/mailings/mailings_start.php, line: 54
+msgid "Test Mailing"
+msgstr "Teszt Hírlevél"
+
+#
+# File: aardvark-development/admin/mailings/mailing/ajax.mailingtest.php, line: 107
+msgid "A mailing is currently taking place. Please try again later."
+msgstr "A hírlevél küldése megkezdődött. Próbálja meg később!"
+
+#
+# File: aardvark-development/admin/mailings/mailing/ajax.mailingtest.php, line: 118
+# File: aardvark-development/admin/mailings/mailings_start.php, line: 41
+#, php-format
+msgid "%sDemonstration Mode%s is on -- no Emails will actually be sent. This is good for testing settings."
+msgstr "%sTESZT mód %s BEkapcsolva -- e-mail küldés nem lehetséges. Teszteléshez idfális."
+
+#
+# File: aardvark-development/admin/mailings/mailings_send4.php, line: 81
+#, php-format
+msgid "Started Mailing MTA. Spawn #%s."
+msgstr "Hírlevél küldése megkezdődött.  #%s."
+
+#
+# File: aardvark-development/admin/mailings/mailings_start.php, line: 55
+msgid "Save Template"
+msgstr "Vázlat mentése"
+
+#
+# File: aardvark-development/admin/admin.php, line: 43
+#, php-format
+msgid "Powerful mailing list software for %s"
+msgstr "Profi hírlevélküldő alkalmazás %s"
+
+#
+# File: aardvark-development/admin/admin.php, line: 47
+msgid "You have changed the language for this session. To make this the default language, you must update your config.php file."
+msgstr "Ön megváltoztatta az erre a kapcsolatra érvényes nyelvi beállítást. Alapértelmezés módosításhoz szerkesztenie kell a config.php fájlt."
+
+#
+# File: aardvark-development/index.php, line: 68
+msgid "Failed login attempt. Try again."
+msgstr "Hibás belépés. Kérem próbálja meg újra!"
+
+#
+# File: aardvark-development/index.php, line: 102
+msgid "Captcha did not match. Try again."
+msgstr "Captcha hibásan lett beírva. Kérem ismételje meg!"
+
+#
+# File: aardvark-development/install/install.php, line: 42
+msgid "poMMo is already installed."
+msgstr "A poMMo már telepítve van."
+
+#
+# File: aardvark-development/install/install.php, line: 67
+msgid "Must be a valid email"
+msgstr "A e-mail címnek érvényesnek kell lennie!"
+
+#
+# File: aardvark-development/install/install.php, line: 119
+msgid "Installation Complete! You may now login and setup poMMo."
+msgstr "Kész a telepítés. Be kell lépni és beállítani a poMMo programot!"
+
+#
+# File: aardvark-development/install/install.php, line: 120
+msgid "Login Username: "
+msgstr "Belépési név:"
+
+#
+# File: aardvark-development/install/install.php, line: 121
+msgid "Login Password: "
+msgstr "Jelszó:"
+
+#
+# File: aardvark-development/install/upgrade.php, line: 42
+#, php-format
+msgid "poMMo does not appear to be installed! Please %s INSTALL %s before attempting an upgrade."
+msgstr "A poMMo nincs telepítve! Kérem először %s TELEPÍTSE %s mielőtt frissíti!"
+
+#
+# File: aardvark-development/install/upgrade.php, line: 56
+#, php-format
+msgid "poMMo appears to be up to date. If you want to force an upgrade, %s click here %s"
+msgstr "poMMo a leegfrissebb verziójú. Ha mégis erőlteti a frissítést, akkor kattintson %s ide %s"
+
+#
+# File: aardvark-development/install/upgrade.php, line: 69
+#, php-format
+msgid "To upgrade poMMo, %s click here %s"
+msgstr "A poMMo frissítéséhez, kattintson %s ide %s!"
+
+#
+# File: aardvark-development/install/upgrade.php, line: 80
+msgid "Upgrade Complete!"
+msgstr "Frissítés kész."
+
+#
+# File: aardvark-development/install/upgrade.php, line: 91
+msgid "Upgrade Failed!"
+msgstr "Sikertelen a frissítés."
+

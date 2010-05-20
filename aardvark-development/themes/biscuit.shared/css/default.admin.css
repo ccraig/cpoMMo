@@ -1,0 +1,628 @@
+/*-------------------------------------------------------------------------*/
+/*	
+	Design Updated 2008  
+	template: Modern poMMo 
+	author: Jason Butler (www.biscuitstudios.com)
+*/
+/*-------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------*/
+
+/* GENERAL PAGE FORMATTING */
+
+/*-------------------------------------------------------------------------*/
+
+html {
+	padding: 0;
+	margin: 0;
+}
+body {
+	margin: 0 auto;
+	padding: 0;
+	background-color: #C5E081;
+	font-family: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	line-height: 140%;
+	color: #6E6E6E;
+}
+a:link { 
+	color: #339CC7;
+}
+a:visited { 
+	color: #339CC7;
+}
+a:active { 
+	color: #339CC7;
+}
+a:hover {
+	color: #444444;
+	text-decoration: underline;
+}
+#wrapper {
+	background: #FFFFFF;
+	border-top: solid 10px #E6E6E6;
+	border-right: solid 10px #E6E6E6;
+	border-bottom: solid 10px #E6E6E6;
+	border-left: solid 10px #E6E6E6;	
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 20px 0 20px;
+	width: 960px;
+}
+#content {
+	margin: 10px 0 15px 0;
+	padding: 0;
+}
+#content li {
+	padding-top: .5em;
+}
+#header {
+	font-family: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 180%;
+	color: #FFFFFF;
+	text-align: right;
+	margin: 0;
+	padding: 25px 19px 0 0;
+	background-color: #555555;
+	height: 40px;
+}
+#header a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#header a:hover {
+	color: #C5E081;
+	text-decoration: none;
+}
+img.navimage {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 15px;
+	padding: 5px;
+	border: 1px solid #EEEEEE;
+}
+img.navimage.right {
+    float: right;
+    margin: 0 0 0 10px;
+}
+a:hover img.navimage {
+	border: solid 1px #529214;
+}
+a img {
+	border: none;
+	vertical-align: middle;
+}
+#logo {
+	padding: 0 0 0 10px;
+	background-color: #FFFFFF;
+	background-image: url(../images/bg_header.gif) bottom repeat-x;
+	border-right: solid 1px #CCCCCC;
+	border-left: solid 1px #CCCCCC;
+}
+#logo img {
+	border: none;
+}
+h1 {
+	margin: 0;
+	padding: 10px 0 8px 0;
+	font-family: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 160%;
+	font-weight: normal;
+	color: #626262;
+	text-decoration: none;
+}
+h2 {
+	margin: 0;
+	padding: 5px 0 10px 3px;
+	font-family: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 160%;
+	font-weight: normal;
+	color: #626262;
+	text-decoration: none;
+}
+h2 a { 
+	color: #339CC7;
+}
+h2 a:hover {
+	color: #444444;
+	text-decoration: underline;
+}
+h3 {
+	margin: 0;
+	padding: 0 0 8px 0;
+	font-family: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 125%;
+	font-weight: normal;
+	color: #529214;
+	text-decoration: none;
+}
+h3 a {
+	color: #339CC7;
+}
+h4 {
+	margin: 0;
+	padding: 10px 0 8px 0;
+	font-family: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 115%;
+	font-weight: normal;
+	color: #626262;
+	text-decoration: none;
+}
+pre {
+	font-family: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 95%;
+	color: #6E6E6E;
+	border: 1px dashed #CCCCCC;
+	line-height: 140%
+	margin: 0;
+	padding: 10px;
+}
+.captcha {
+	color: #990000;
+	border: solid 1px #CCCCCC;
+	background-color: #F9F9F9;
+	margin: 0;
+	padding: 4px 20px 4px 20px;
+}
+#footer {
+	clear: both;
+	border-top: 1px solid #E6E6E6;
+	background: #FFFFFF;
+	color: #999999;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+#footer a {
+	text-decoration: underline;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/* MAIN NAVIGATION FORMATTING */
+
+/*-------------------------------------------------------------------------*/
+
+#menu {
+	background-color: #FFFFFF;
+	border: solid 3px #E6E6E6;
+	background-image: url(../images/bg_menu.jpg);
+	background-repeat: repeat-x;	
+	margin: 0;
+	padding: 0;
+	height: 33px;
+}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#menu a {
+	font-family: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	color: #626262;
+	font-size: 100%;
+	font-weight: normal;
+	font-style: normal;
+	display: block;
+	text-decoration: none;
+	vertical-align: middle;
+	clear: both;
+	background-image: url(../images/bg_menu.jpg);
+	background-repeat: repeat-x;
+	border-left: 1px solid #DDDDDD;
+	margin: 0;
+	padding: 9px 20px 9px 20px;
+	text-align: left;
+}
+#menu a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+	background: #339CC7;
+}
+#menu li {
+	position: relative;
+	float: right;
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/* MAIN NAVIGATION DROP-DOWN MENU */
+
+/*-------------------------------------------------------------------------*/
+
+#menu li li {
+	position: relative;
+	float: left;
+	text-align: left;
+	border-left: 0px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	background-position: left top;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	width: 153px;
+}
+#menu li li a {
+	font-weight: normal;
+	font-size: 92%;
+	background-position: left center;
+	margin: 0;
+}
+#menu li li a:visited {
+	font-weight: normal;
+}
+#menu li li a:hover {
+	color: #FFFFFF;
+	background: #339CC7;
+}
+#menu ul ul {
+	position: absolute;
+ 	z-index: 500;
+  	width: 1px; /* if this isn't here, the drops get laid out horiz instead of vert in Moz browsers*/
+}
+#menu ul ul ul {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	visibility: hidden; /*can hide third tier navigation by making this hidden*/
+}
+#menu ul ul {
+	display: none;
+}
+#menu ul ul, #menu ul li:hover ul ul, #menu ul ul li:hover ul ul {
+	display: none;
+}
+#menu ul li:hover ul, #menu ul ul li:hover ul, #menu ul ul ul li:hover ul {
+	display: block;
+	background: #BFBFBF;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/* SECTION NAVIGATION  */
+
+/*-------------------------------------------------------------------------*/
+
+#sec_nav {
+	float: left;
+	border: solid 1px #E6E6E6;
+	background-color: #FFFFFF;
+	/*background-image: url(../images/bg_menu.jpg);
+	background-repeat: repeat-x;	*/
+	margin: 0;
+	padding: 0;
+	width: auto;	
+}
+#sec_nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#sec_nav li {
+	float: left;
+	list-style: none;
+	text-align: left;
+	margin: 0;
+	padding: 20px 27px 8px 27px;
+	width: 265px;
+}
+#sec_nav li a {
+	font-family: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	color: #626262;
+	font-size: 100%;
+	font-weight: normal;
+	font-style: normal;
+	display: block;
+	text-decoration: none;
+	/*background-image: url(../images/bg_menu.jpg);
+	background-repeat: repeat-x;*/
+	/*border-left: 1px solid #DDDDDD;*/
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+#sec_nav li a:hover {
+	color: #339CC7;
+}
+#sec_nav li img {
+	margin: 0 10px 70px 0;
+	float: left;
+}
+#boxMenu { 
+	float: left;
+	background-color: #FFFFFF;
+}
+#boxMenu div { 
+    clear: both;
+    padding: 15px 0;
+}
+ul.inpage_menu {
+	margin: 5px 0 5px 0;
+	text-align: left;
+}
+ul.inpage_menu li {
+	display: inline;
+	padding: .5em 0 .5em 0;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/* BUTTONS FORMATTING -  thanks to Kevin Hale at Particletree  */
+
+/*-------------------------------------------------------------------------*/
+
+/* BUTTONS */
+
+.buttons a, .buttons button {
+    display: block;
+    float: left;
+    margin:0 7px 0 0;
+    background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+
+    font-family: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 130%;
+    text-decoration: none;
+    font-weight: normal;
+    color: #565656;
+    cursor: pointer;
+    padding: 5px 10px 6px 7px; /* Links */
+}
+.buttons button {
+    width:auto;
+    overflow:visible;
+    padding:4px 10px 3px 7px; /* IE6 */
+}
+.buttons button[type] {
+    padding:5px 10px 5px 7px; /* Firefox */
+    line-height:17px; /* Safari */
+}
+*:first-child+html button[type]{
+    padding:4px 10px 3px 7px; /* IE7 */
+}
+.buttons button img, .buttons a img{
+    margin:0 3px 0px 0 !important;
+    padding:0;
+    border:none;
+    width:16px;
+    height:16px;
+}
+.buttons button[type] img {  /* this [type] helps with icon height differences*/
+    margin:0 3px -3px 0 !important;
+    padding:0;
+    border:none;
+    width:16px;
+    height:16px;
+}
+
+/* STANDARD */
+
+button:hover, .buttons a:hover{
+    background-color: #DFF4FF;
+    border: solid 1px #C2E1EF;
+    color: #336699;
+}
+.buttons a:active{
+    background-color: #DFF4FF;
+    border: solid 1px #C2E1EF;
+    color: #336699;
+}
+
+/* POSITIVE */
+
+button.positive, .buttons a.positive{
+    color: #529214;
+}
+.buttons a.positive:hover, button.positive:hover {
+	background-color: #EAFFC3;
+    /*background-color:#E6EFC2;*/
+    border: solid 1px #C6D880;
+    color: #529214;
+}
+.buttons a.positive:active{
+    background-color: #EAFFC3;
+    /*background-color:#E6EFC2;*/
+    border: solid 1px #C6D880;
+    color: #529214;
+}
+
+/* GREEN BUTTON */
+
+button.green, .buttons a.green{
+    color: #529214;
+	background-color: #EAFFC3;
+}
+.buttons a.green:hover, button.green:hover {
+	background-color:#529214;
+    /*background-color:#E6EFC2;*/
+    border: solid 1px #C6D880;
+    color: #FFFFFF;
+}
+.buttons a.green:active{
+    background-color:#529214;
+    /*background-color:#E6EFC2;*/
+    border: solid 1px #C6D880;
+    color: #FFFFFF;
+}
+
+/* NEGATIVE */
+
+.buttons a.negative, button.negative{
+    color:#d12f19;
+}
+.buttons a.negative:hover, button.negative:hover{
+    background:#fbe3e4;
+    border:1px solid #fbc2c4;
+    color:#d12f19;
+}
+.buttons a.negative:active{
+    background-color:#d12f19;
+    border:1px solid #d12f19;
+    color:#fff;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/* FORM FORMATTING */
+
+/*-------------------------------------------------------------------------*/
+
+.formSpacing {
+	padding: 7px 0 0 0;
+	border-top: solid 1px #EAEAEA;
+}
+label {
+	color: #7E7E7E;
+}
+form div {
+	margin: .5em 0;
+}
+fieldset {
+	margin: 0;
+	padding: 10px;
+	border: none;
+	background-color: #F7F7F7;
+}
+legend {
+	margin: 0;
+	padding: 0 0 8px 0;
+	font-family: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 125%;
+	font-weight: normal;
+	color: #529214;
+	text-decoration: none;
+}
+input, input[type="text"], input[type="password"], input[type="file"], select, textarea {
+	/*have to define text styles for the textarea, width set inside form tags*/
+	font-family: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	color: #7E7E7E;
+	font-size: 100%;
+    text-decoration: none;
+    font-weight: normal;
+	border: 1px solid #CCCCCC;
+	background: #FFFFFF;
+	margin: 0;
+	padding: 3px;
+}
+input[type="text"]:hover, input[type="password"]:hover, input[type="file"]:hover, {
+	border: 1px solid #CCCCCC;
+}
+input:focus {
+	border: 1px solid #CCCCCC;
+	background-color: #EAFFC3;
+}
+.required {
+	font-weight: bold;
+	color: #444444;
+}
+/* inline help || field footer */
+.notes {
+	display: block;
+	font-size: 90%;
+	color: #888888;
+	font-style: italic;
+}
+/* tied to validation JS */
+input.pvInvalid, select.pvInvalid {
+	border: 1px solid red;
+}
+#notices {
+	padding-left: 35px;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/* MESSAGE FORMATTING */
+
+/*-------------------------------------------------------------------------*/
+
+#alertmsg {
+	margin: .5em 0;
+}
+#alertmsg img {
+	float: left;
+	margin-right: 25px;
+}
+.alert,
+.warn,
+.error {
+	clear: right;
+	padding: 5px;
+	color: #555555;
+}
+.alert {
+	background-color: #FFFFCC;
+	border: 1px solid #CCCCCC;
+	margin: 0;
+	padding: 10px;
+	color: #666666;
+}
+#alertmsg.warn {
+	border: 1px solid #FF8000;
+}
+.warn {
+	background: #FFF6E5;
+	color: #FF8000;
+}
+#alertmsg.error {
+	border: 1px solid #F3D5D5;
+}
+.error {
+	background: #FFF1F1;
+	color: red;
+}
+.error input,
+.error textarea {
+	background: #FFF;
+}
+.output {
+	/*color: green;
+	background-color: #EAFFC3;
+	padding 6px;*/
+}
+
+/*-------------------------------------------------------------------------*/
+
+/* MISC FORMATTING */
+
+/*-------------------------------------------------------------------------*/
+
+.hidden { display: none; }
+.clear { clear: both; }
+.left { float: left; }
+.right { float: right; }
+div.pager {text-align:center;}
+div.helpToggle img {cursor: pointer;}
+.green { color: #529214; }
+fieldset.click {border-bottom: none;}
+fieldset.click ul {display: none;}
+h3.click {cursor: pointer;}
+#languageselection {
+	text-align: right;
+}
+hr.hr {
+	border: none 0; 
+	border-top: 1px solid #CCCCCC;
+	width: 100%;
+	height: 1px;
+	margin: 8px 0 8px 0;
+	text-align: left;
+	clear: both;
+}
+#tooltip {
+	position: absolute;
+	border: 1px solid #777777;
+	background: #f7f5d1;
+	padding: 2px 5px;
+	color: #555555;
+	width: 250px;
+	display: none;
+}	

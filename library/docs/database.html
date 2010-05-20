@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>[poMMo DevLib] - Database Explanation</title>
+<LINK rel="stylesheet" type="text/css" href="inc/style/site.css" />
+<script type="text/javascript" src="inc/js/jquery.js"></script>
+
+</head>
+<body>
+
+<h2>General Description</h2>
+<hr />
+
+<p>
+A <a href="http://www.mysql.com/">MySQL</a> database is used for nearly all of poMMo's storage.
+The datbase holds all information pertaining to subscribers, fields, groups, and configuration options.
+</p>
+
+<p>
+Themes, Mailing Templates, temporary files (e.g. CSV import), and compiled templates (<a href="http://smarty.php.net">SMARTY</a>)
+are stored as "flat files" and not part of the database.
+</p>
+
+<p>
+poMMo accesses the database through its own API contained within the "PommoDB" object. PommoDB is defined in
+ inc/classes/db.php. The calls provide common interactivity with the database, such
+as handling queries, returning the generated ID of the last query, returning the # of affected rows,
+and creating arrays from query rows.
+</p>
+
+<p>
+All non-static queries (those which take in variables) should be prepared with the <a href="http://www.phpinsider.com/php/code/SafeSQL/">SafeSQL</a> class by Monte Ohrt.
+SafeSQL is provided in inc/lib/safesql/SafeSQL.class.php. See the README file in the safesql directory for more information.
+Examples of use can be seen throughout most of the internal API calls (inc/classes/*.php, inc/helpers/*.php).
+</p>
+
+<p>
+See inc/classes/db.php for database API usage. Better documentation needs to be written. It may,
+however, be wiser to switch to a well known & supported DB abstraction layer such as <a href="http://www.jvmultimedia.com/portal/node/6">ezSQL</a>.
+This change would alo allow us to use other database engines such as PostgresSQL, Firebird, SQL Lite, MS SQL, and Oracle.
+</p>
+
+
+<p>
+A reference to PommoDB is available in the $pommo global as $pommo->_dbo. 
+The $pommo global is created when bootstrap.php is invoked. NOTE; it is common for
+internal pages to provide a reference to $pommo->_dbo as plain $dbo via "$dbo =& $pommo->_dbo;"
+</p>
+
+
+<br />
+
+<h2>Database Schema</h2>
+<hr />
+
+<p>
+Explanation of poMMo's database usage and schema can be found  in <a href="database.schema.html">database.schema.html</a>
+</p>
+
+
+</body>
+</html>

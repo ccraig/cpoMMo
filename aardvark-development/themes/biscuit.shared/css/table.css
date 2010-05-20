@@ -1,0 +1,115 @@
+/**********************/
+/* BASE TABLE STYLING */
+/**********************/
+
+table {
+	border: 1px solid #BBBBBB;
+	border-spacing: 0;
+	text-align: left;
+	margin-top: 5px;
+}
+
+table tr td {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+table thead tr th {
+	background: #c5e081;
+	border-left: solid 1px #BBBBBB;
+	padding: 0 0 0 3px;
+	height: 30px;
+	color: #626262;
+	white-space: nowrap;
+}
+
+
+table tr td input[type="text"] {
+	width: 12em;
+}
+
+/************************/
+/* SORTABLE TABLE STYLE */
+/************************/
+
+table thead tr th.sort {
+	background-image: url(../images/table/bg.png);
+	background-repeat: no-repeat;
+	padding: 0 8px 0 35px;
+	cursor: pointer;
+}
+
+table thead tr th.sortUp {
+	background-image: url(../images/table/bg_asc.png);
+}
+
+table thead tr th.sortDown {
+	background-image: url(../images/table/bg_desc.png);
+}
+
+
+/**********************/
+/* ROW STRIPING STYLE */
+/**********************/
+
+table tr.r1 { background: #fff;}
+table tr.r2 { background: #f8ffe5; }
+table tr.r3 { background: #edf5f8; }
+
+
+/****************/
+/* MISC STYLING */
+/****************/
+
+/* Assigned when tableEditor makes new row */
+table tr.newRow { background: #FFF6E5; }
+
+/* Assigned to quickSearch form label */
+.quickSearch {
+	font-weight: bold;
+}
+
+/* shows the number of records */
+p.count {
+	float: right;
+	font-size: 80%;
+	color: #666;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/* FIELD ORDER - GRID FORMATTING */
+
+/*-------------------------------------------------------------------------*/
+
+#grid {
+    padding: 0;
+    margin: 0;
+    border: solid 1px #BBBBBB;
+}
+
+#grid div.header {
+    background: #C5E081;
+    color: #626262;
+}
+
+#grid div {
+    padding: 6px 0;
+}
+
+#grid div span {
+    padding: 0 10px;
+}
+
+#grid div img {
+	padding-left: 4px;
+    vertical-align: middle;
+}
+
+#grid div.r1 { background: #FEFEFE;}
+#grid div.r2 { background: #F8FFE5; }
+#grid div.r3 { background: #EDF5F8; }
+
+
+/* FOR Drag n' Drop */
+img.handle, div.handle {cursor: move;}
