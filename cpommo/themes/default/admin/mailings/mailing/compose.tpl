@@ -4,6 +4,15 @@
 
 <div class="compose">
 <h4>{t}HTML Message{/t}</h4>
+
+<form id="compose" class="json mandatory" action="{$smarty.server.PHP_SELF}" method="post">
+<input type="hidden" name="compose" value="true" />
+<ul class="inpage_menu">
+<li><a href="#" id="e_altbody"><img src="{$url.theme.shared}images/icons/reload.png" alt="icon" border="0" align="absmiddle" /> {t}Copy text from HTML Message{/t}</a></li>
+<li><input type="submit" id="submit" name="submit" value="{t}Continue{/t}" /></li>
+</ul>
+</form>
+
 <textarea name="body">{$body}</textarea>
 <span class="notes">({t}Leave blank to send text only{/t})</span>
 </div>
