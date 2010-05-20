@@ -31,6 +31,7 @@ $logger = & $pommo->_logger;
 $dbo = & $pommo->_dbo;
 
 $dupes = $tally = $flagged = 0;
+$dupe_emails = array();
 $fp = fopen($pommo->_workDir.'/import.csv','r') 
 	or die('Unable to open CSV file');
 	
@@ -59,6 +60,7 @@ while (($row = fgetcsv($fp,2048,',','"')) !== FALSE) {
 		// TODO -- DO THIS IN BATCH ??
 		if (PommoHelper::isDupe($subscriber['email'],$includeUnsubscribed)) {
 			$dupes++;
+			$dupe_emails []= $subscriber['email'];
 			continue;
 		}
 
@@ -80,5 +82,10 @@ while (($row = fgetcsv($fp,2048,',','"')) !== FALSE) {
 }
 unlink($pommo->_workDir.'/import.csv');
 echo ('<div class="warn"><p>'.sprintf(Pommo::_T('%s subscribers imported! Of these, %s were flagged to update their records.'),$tally, $flagged).'<p>'.sprintf(Pommo::_T('%s duplicates encountered.'),$dupes).'</p></div>');
+echo "<table>";
+foreach($dupe_emails as $de) {
+	  echo "<tr><td>$de</td></tr>";
+}
+echo "</table>";
 die(Pommo::_T('Complete!').' <a href="subscribers_import.php">'.Pommo::_T('Return to').' '.Pommo::_T('Import').'</a>');
 ?>
