@@ -21,13 +21,14 @@
 
 <div>
 <label for="mailgroup"><span class="required">{t}Send Mail To:{/t}</span>{fv message="mailgroup"}</label>
-<select name="mailgroup">
+<br />
+<select name="mailgroup[]" multiple=multiple>
 <option value="all"{if $mailgroup == 'all'} selected="selected"{/if}>{t}All subscribers{/t}</option>
 {foreach from=$groups item=group key=key}
-<option value="{$key}"{if $mailgroup == $key} selected="selected"{/if}>{$group.name}</option>
+<option value="{$key}"{if $key|in_array:$mailgroups} selected="selected"{/if}>{$group.name} {$is_selected}</option>
 {/foreach}
 </select>
-<span class="notes">{t}(Select who should receive the mailing){/t}</span>
+<span class="notes">{t}(Select who should receive the mailing. Control click ( or command click on the Mac ) to select multiple groups. Note: If a subscriber is in more than one group they will only receive one email and NOT one for each group that they're in.){/t}</span>
 </div>
 
 <div>

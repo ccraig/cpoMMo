@@ -126,6 +126,8 @@ if (!SmartyValidate :: is_registered_form() || empty ($_POST)) {
 	}
 }
 
+$mailgroups = explode( ',', $state['mailgroup'] );
+$smarty->assign( 'mailgroups', $mailgroups );
 $smarty->assign('groups',PommoGroup::get());
 $smarty->assign($state);
 $smarty->display('admin/mailings/mailing/setup.tpl');

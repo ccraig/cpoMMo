@@ -21,7 +21,6 @@ body {
 }
 
 #content {
-	display: inline-block;
 	margin-left: 200px;
 	padding: 5px 15px;
 	background: #FFF;

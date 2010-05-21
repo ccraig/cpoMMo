@@ -136,6 +136,15 @@ class PommoAPI {
 		if(empty($defaults))
 			return $state;
 
+		//Add support for passing multi select options
+		if ( is_array($source) ) {
+			foreach( $source as $k => $v ) {
+				if ( is_array( $source[$k] ) ) {
+					$source[$k] = implode( ',', $source[$k] );
+				}
+			}
+		}
+
 		foreach(array_keys($state) as $key)
 			if (array_key_exists($key,$source))
 				$state[$key] = $source[$key];

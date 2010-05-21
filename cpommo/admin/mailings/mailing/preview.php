@@ -76,10 +76,27 @@ if(empty($tempbody) && empty($tempalt) || empty($state['subject'])) {
 	Pommo::kill();
 }
 
-// get the group
-$group = new PommoGroup($state['mailgroup'], 1);
-$state['tally'] = $group->_tally;
-$state['group'] = $group->_name;
+// get the groups
+$groups = explode( ',', $state['mailgroup'] );
+$memberIDs = array();
+$names = array();
+$tally = 0;
+foreach( $groups as $group ) {
+	$pgroup = new PommoGroup($group, 1);
+	$names []= $pgroup->_name;
+	if ( is_array( $pgroup->_memberIDs ) ) {
+		$memberIDs = array_merge( $memberIDs, $pgroup->_memberIDs );
+	}
+	$tally += $pgroup->_tally;
+}
+
+//If a user is in more than one group we don't want to send them the same email twice
+$memberIDs = array_unique( $memberIDs );
+$num_members = sizeof( $memberIDs );
+
+//If the size of $num_members is greater than 0 then we're not sending to 'All Subscribers'
+$state['tally'] = $num_members ? $num_members : $tally;
+$state['group'] = implode( ', ', $names );
 
 
 // determine html status
@@ -109,7 +126,7 @@ if (!empty ($_REQUEST['sendaway'])) {
 
 		$code = PommoMailing::add($mailing);
 		
-		if(!PommoMailCtl::queueMake($group->_memberIDs))
+		if(!PommoMailCtl::queueMake($memberIDs))
 			$json->fail('Unable to populate queue');
 			
 		if (!PommoMailCtl::spawn($pommo->_baseUrl.'admin/mailings/mailings_send4.php?code='.$code))
