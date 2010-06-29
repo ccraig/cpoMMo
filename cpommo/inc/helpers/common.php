@@ -52,7 +52,10 @@ class PommoHelper {
 		
 		@$file_content = file($file);
 		if (empty($file_content))
-			Pommo::kill('Could not read config file ('.$file.')');
+		{
+			//	Pommo::kill('Could not read config file ('.$file.')');
+			return false;
+		}
 		
 		foreach ($file_content as $rawLine) {
 			$line = trim($rawLine);
@@ -156,10 +159,9 @@ class PommoHelper {
 	function timeGetFormat() {
 		global $pommo;
 		switch ($pommo->_dateformat) {
-			case 1: $format = 'YYYY/MM/DD'; break;
 			case 2: $format = 'MM/DD/YYYY'; break;
 			case 3: $format = 'DD/MM/YYYY'; break;
-			default: Pommo::kill('Unknown dateformat', TRUE);
+			default: $format = 'YYYY/MM/DD'; break;
 		}
 		return $format;
 	}

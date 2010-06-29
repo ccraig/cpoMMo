@@ -40,7 +40,7 @@ if (isset($_GET['logout'])) {
 }
 
 // check if user is already logged in
-if ($pommo->_auth->isAuthenticated()) {
+if ($pommo->_hasConfigFile && $pommo->_auth->isAuthenticated()) {
 	// If user is authenticated (has logged in), redirect to admin.php
 	Pommo::redirect($pommo->_http . $pommo->_baseUrl . 'admin/admin.php');
 }
@@ -102,10 +102,80 @@ elseif (!empty ($_POST['resetPassword'])) { // TODO -- visit this function later
 		$logger->addMsg(Pommo::_T('Captcha did not match. Try again.'));
 	}
 }
+elseif (!$pommo->_hasConfigFile && $_POST['configure'])
+{
+	//	Try to connect to database with data entered from the user.
+	//	I am not using /inc/classes/db.php because it kills the proccess when
+	//	connection is not possible
+	//	TODO: db.php shouldnt kill the process
+	$link = @mysql_connect($_POST['dbhost'],
+			$_POST['dbuser'],
+			$_POST['dbpass']);
+			
+	if (!$link)
+	{
+		//	Could not connect
+		$configMessages[]	= 'Could not connect to host.';
+	}
+	else
+	{
+		if (!@mysql_select_db($_POST['dbname'], $link))
+		{
+			//	Database does not exist
+			//	TODO: Try to create it
+			$configMessages[]	= 'Database does not exist. You have to create
+					the database first.';
+		}
+		else
+		{
+			//	Create config.php file and go to installation file.
+			//	I am sure there must be better ways to do this, but this works
+			// 	for now.
+			//	TODO: Do this correctly
+			$handle = @fopen('config.php', 'w');
+			if (!$handle)
+			{
+				$configMessages[]	= 'Script was not able to create config.php
+						file. You should assign write permission for this script
+						to pommo root folder or create config.php yourself.';
+			}
+			else
+			{
+				$string = '<?php die(); /* DO NOT REMOVE THIS LINE! */ ?>'.
+						PHP_EOL.PHP_EOL
+						.'[db_hostname] = '.$_POST['dbhost'].PHP_EOL
+						.'[db_username] = '.$_POST['dbuser'].PHP_EOL
+						.'[db_password] = '.$_POST['dbpass'].PHP_EOL
+						.'[db_database] = '.$_POST['dbname'].PHP_EOL
+						.'[db_prefix] = pommo_'.PHP_EOL
+						.PHP_EOL
+						.'[lang] = en'.PHP_EOL
+						.'[debug] = off'.PHP_EOL
+						.'[verbosity] = 3'.PHP_EOL
+						.'[date_format] = 1'.PHP_EOL;
+				fwrite($handle, $string);
+				fclose($handle);
+				$redir = $pommo->_baseUrl.'install/install.php';
+				header('Location: '.$redir);
+			}
+		}
+	}
+}
 
-// referer (used to return user to requested page upon login success)
-$smarty->assign('referer',(isset($_REQUEST['referer']) ? $_REQUEST['referer'] : $pommo->_baseUrl . 'admin/admin.php'));
 
-$smarty->display('index.tpl');
+if ($pommo->_hasConfigFile)
+{
+	// referer (used to return user to requested page upon login success)
+	$smarty->assign('referer',
+			(isset($_REQUEST['referer']) ?
+			$_REQUEST['referer'] : $pommo->_baseUrl.'admin/admin.php'));
+
+	$smarty->display('index.tpl');
+}
+else
+{
+	$smarty->assign('messages', $configMessages);
+	$smarty->display('configure.tpl');
+}
 die();
 ?>

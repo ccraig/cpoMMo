@@ -44,6 +44,7 @@ class Pommo {
 	var $_dateformat; // prefered; 1: YYYY/MM/DD, 2: MM/DD/YYYY, 3: DD/MM/YYYY
 	var $_default_subscriber_sort; // what column (or field_id) should be used to sort the subscribers when managing them?
 
+	var $_hasConfigFile; // Tells us if config.php exists
 	var $_config; // configuration array to hold values loaded from the DB
 	var $_session;  // pointer to this install's/instance values in $_SESSION
 	
@@ -66,14 +67,6 @@ class Pommo {
 		// initialize logger
 		$this->_logger = new PommoLog(); // NOTE -> this clears messages that may have been retained (not outputted) from logger.
 		
-		// read in config.php (configured by user)
-		// TODO -> write a web-based frontend to config.php creation
-		$config = PommoHelper::parseConfig($this->_baseDir . 'config.php');
-		
-		// check to see if config.php was "properly" loaded
-		if (count($config) < 5)
-			Pommo::kill('Could not read config.php');
-
 		$this->_workDir = (empty($config['workDir'])) ? $this->_baseDir . 'cache' : $config['workDir'];
 		$this->_debug = (strtolower($config['debug']) != 'on') ? false : true; 
 		$this->_default_subscriber_sort = (empty($config['default_subscriber_sort'])) ? 'email' : $config['default_subscriber_sort'];
@@ -81,6 +74,36 @@ class Pommo {
 		$this->_logger->_verbosity = $this->_verbosity;
 		$this->_dateformat = ($config['date_format'] >= 1 && $cofig['date_format'] <= 3) ?
 			intval($config['date_format']) : 1;
+			
+		// set base URL (e.g. http://mysite.com/news/pommo => 'news/pommo/')
+		// TODO -> provide validation of baseURL ?
+		if (isset ($config['baseURL'])) {
+			$this->_baseUrl = $config['baseURL'];
+		} else {
+			// If we're called from an outside (embedded) script, read baseURL from "last known good".
+			// Else, set it based off of REQUEST
+			if (defined('_poMMo_embed')) {
+				Pommo::requireOnce($this->_baseDir . 'inc/helpers/maintenance.php');
+				$this->_baseUrl = PommoHelperMaintenance :: rememberBaseURL();
+			} else {
+				$baseUrl = preg_replace('@/(inc|setup|user|install|support(/tests)?|admin(/subscribers|/user|/mailings|/setup)?(/ajax|/mailing|/config)?)$@i', '', dirname($_SERVER['PHP_SELF']));
+				$this->_baseUrl = ($baseUrl == '/') ? $baseUrl : $baseUrl . '/';
+			}
+		}
+			
+		// read in config.php (configured by user)
+		// TODO -> write a web-based frontend to config.php creation
+		$config = PommoHelper::parseConfig($this->_baseDir . 'config.php');
+		
+		// check to see if config.php was "properly" loaded
+		if (count($config) < 5)
+		{
+			// Pommo::kill('Could not read config.php');
+			$this->_hasConfigFile = false;
+			return $this->_hasConfigFile;
+		}
+		
+		$this->_hasConfigFile = true;
 		
 		// the regex strips port info from hostname
 		$this->_hostname = (empty($config['hostname'])) ? preg_replace('/:\d+$/i', '', $_SERVER['HTTP_HOST']) : $config['hostname'];
@@ -100,23 +123,6 @@ class Pommo {
 			Pommo::requireOnce($this->_baseDir . 'inc/helpers/l10n.php');
 			PommoHelperL10n::init($this->_language, $this->_baseDir);
 		}
-		
-		// set base URL (e.g. http://mysite.com/news/pommo => 'news/pommo/')
-		// TODO -> provide validation of baseURL ?
-		if (isset ($config['baseURL'])) {
-			$this->_baseUrl = $config['baseURL'];
-		} else {
-			// If we're called from an outside (embedded) script, read baseURL from "last known good".
-			// Else, set it based off of REQUEST
-			if (defined('_poMMo_embed')) {
-				Pommo::requireOnce($this->_baseDir . 'inc/helpers/maintenance.php');
-				$this->_baseUrl = PommoHelperMaintenance :: rememberBaseURL();
-			} else {
-				$baseUrl = preg_replace('@/(inc|setup|user|install|support(/tests)?|admin(/subscribers|/user|/mailings|/setup)?(/ajax|/mailing|/config)?)$@i', '', dirname($_SERVER['PHP_SELF']));
-				$this->_baseUrl = ($baseUrl == '/') ? $baseUrl : $baseUrl . '/';
-			}
-		}
-		
 		
 		// make sure workDir is writable
 		if (!is_dir($this->_workDir . '/pommo/smarty')) {
@@ -181,6 +187,12 @@ class Pommo {
 	
 		// merge submitted parameters
 		$p = PommoAPI :: getParams($defaults, $args);
+		
+		// Return if not config.php file present
+		if (!$this->_hasConfigFile)
+		{
+			return false;
+		}
 		
 		// Bypass Reading of Config, SESSION creation, and authentication checks and return
 		//  if 'install' passed
