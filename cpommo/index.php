@@ -115,50 +115,56 @@ elseif (!$pommo->_hasConfigFile && $_POST['configure'])
 	if (!$link)
 	{
 		//	Could not connect
-		$configMessages[]	= 'Could not connect to host. Check your settings
+		$configErrors[]	= 'Could not connect to host. Check your settings
 				and try again.';
 	}
 	else
 	{
 		if (!@mysql_select_db($_POST['dbname'], $link))
 		{
-			//	Database does not exist
-			//	TODO: Try to create it
-			$configMessages[]	= 'Database does not exist. You have to create
-					the database first.';
+			//	Database does not exist. Lets try to create it.
+			if (!mysql_query('CREATE DATABASE '.$_POST['dbname'], $link))
+			{
+				$configErrors[]	= 'Database does not exist. And the provided
+						user does not have the necessary permissions to create
+						it. You will have to create it manually first.';
+			}
+		}
+	}
+	
+	//	If there were no errors then try to create the file
+	if (!$configErrors)
+	{
+		//	I am sure there must be better ways to do this, but this works
+		// 	for now.
+		//	TODO: If there is a better method change this, if not. Delete
+		//			this line.
+		$handle = @fopen('config.php', 'w');
+		if (!$handle)
+		{
+			$configMessages[]	= 'Script was not able to create config.php
+					file. You should assign write permission for this script
+					to pommo root folder or create config.php yourself.';
 		}
 		else
 		{
-			//	Create config.php file and go to installation file.
-			//	I am sure there must be better ways to do this, but this works
-			// 	for now.
-			//	TODO: Do this correctly
-			$handle = @fopen('config.php', 'w');
-			if (!$handle)
-			{
-				$configMessages[]	= 'Script was not able to create config.php
-						file. You should assign write permission for this script
-						to pommo root folder or create config.php yourself.';
-			}
-			else
-			{
-				$string = '<?php die(); /* DO NOT REMOVE THIS LINE! */ ?>'.
-						PHP_EOL.PHP_EOL
-						.'[db_hostname] = '.$_POST['dbhost'].PHP_EOL
-						.'[db_username] = '.$_POST['dbuser'].PHP_EOL
-						.'[db_password] = '.$_POST['dbpass'].PHP_EOL
-						.'[db_database] = '.$_POST['dbname'].PHP_EOL
-						.'[db_prefix] = pommo_'.PHP_EOL
-						.PHP_EOL
-						.'[lang] = en'.PHP_EOL
-						.'[debug] = off'.PHP_EOL
-						.'[verbosity] = 3'.PHP_EOL
-						.'[date_format] = 1'.PHP_EOL;
-				fwrite($handle, $string);
-				fclose($handle);
-				$redir = $pommo->_baseUrl.'install/install.php';
-				header('Location: '.$redir);
-			}
+			$string = '<?php die(); /* DO NOT REMOVE THIS LINE! */ ?>'.
+					PHP_EOL.PHP_EOL
+					.'[db_hostname] = '.$_POST['dbhost'].PHP_EOL
+					.'[db_username] = '.$_POST['dbuser'].PHP_EOL
+					.'[db_password] = '.$_POST['dbpass'].PHP_EOL
+					.'[db_database] = '.$_POST['dbname'].PHP_EOL
+					.'[db_prefix] = pommo_'.PHP_EOL
+					.PHP_EOL
+					.'[lang] = en'.PHP_EOL
+					.'[debug] = off'.PHP_EOL
+					.'[verbosity] = 3'.PHP_EOL
+					.'[date_format] = 1'.PHP_EOL;
+			fwrite($handle, $string);
+			fclose($handle);
+			$redir = $pommo->_baseUrl.'install/install.php';
+			header('Location: '.$redir);
+			exit();
 		}
 	}
 }
@@ -175,7 +181,7 @@ if ($pommo->_hasConfigFile)
 }
 else
 {
-	$smarty->assign('messages', $configMessages);
+	$smarty->assign('messages', $configErrors);
 	$smarty->assign('dbhost', $_POST['dbhost']);
 	$smarty->assign('dbname', $_POST['dbname']);
 	$smarty->assign('dbuser', $_POST['dbuser']);
