@@ -115,7 +115,8 @@ elseif (!$pommo->_hasConfigFile && $_POST['configure'])
 	if (!$link)
 	{
 		//	Could not connect
-		$configMessages[]	= 'Could not connect to host.';
+		$configMessages[]	= 'Could not connect to host. Check your settings
+				and try again.';
 	}
 	else
 	{
@@ -175,6 +176,9 @@ if ($pommo->_hasConfigFile)
 else
 {
 	$smarty->assign('messages', $configMessages);
+	$smarty->assign('dbhost', $_POST['dbhost']);
+	$smarty->assign('dbname', $_POST['dbname']);
+	$smarty->assign('dbuser', $_POST['dbuser']);
 	$smarty->display('configure.tpl');
 }
 die();

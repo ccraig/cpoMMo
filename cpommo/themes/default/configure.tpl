@@ -8,21 +8,19 @@
 <fieldset id="login">
 <legend>You need to configure pommo before being able to use it</legend>
 
-<input type="hidden" name="referer" value="{$referer}" />
-
 <div>
 <label for="dbhost">{t}Database Host{/t}</label>
-<input type="text" name="dbhost" id="dbhost" />
+<input type="text" name="dbhost" id="dbhost" value="{$dbhost}" />
 </div>
 
 <div>
 <label for="dbname">{t}Database Name{/t}</label>
-<input type="text" name="dbname" id="dbname" />
+<input type="text" name="dbname" id="dbname" value="{$dbname}" />
 </div>
 
 <div>
 <label for="dbuser">{t}Database User{/t}</label>
-<input type="text" name="dbuser" id="dbuser" />
+<input type="text" name="dbuser" id="dbuser" value="{$dbuser}" />
 </div>
 
 <div>
