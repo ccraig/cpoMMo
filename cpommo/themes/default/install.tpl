@@ -1,4 +1,4 @@
-{include file="inc/admin.header.tpl" sidebar='off'}
+{include file="inc/configure.header.tpl" sidebar='off'}
 
 <h2>{t}Installation{/t}</h2>
 
@@ -6,7 +6,6 @@
 
 <ul class="inpage_menu">
 <li>{$config.app.weblink}</li>
-<li><a href="{$url.base}admin/admin.php">{t}Admin Page{/t}</a></li>
 </ul>
 
 <p>{t}Welcome to the online installation process. We have connected to the database and set your language successfully. Fill in the values below, and you'll be on your way!{/t}</p>
