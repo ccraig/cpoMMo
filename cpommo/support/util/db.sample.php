@@ -49,4 +49,14 @@ $file = $pommo->_baseDir."install/sql.sample.php";
 if(!PommoInstall::parseSQL(false,$file))
 	die('Could not load sample data. Database Reset.');
 
-die('Database Reset. Sample Data Loaded.');
+/**********************************
+	SETUP TEMPLATE, PAGE
+ *********************************/
+Pommo::requireOnce($pommo->_baseDir.'inc/classes/template.php');
+$smarty = new PommoTemplate();
+
+$message[] = 'Database Reset. Sample Data Loaded.';
+$smarty->assign('messages', $message);
+$smarty->display('support/support.lib.tpl');
+Pommo::kill();
+

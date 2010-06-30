@@ -46,5 +46,15 @@ foreach($a as $id => $table) {
 	if(!$dbo->query($query))
 		die('ERROR setting AUTO_INCREMENT on '.$id); 
 }
-	
-die('Subscribers Reset.');
+
+/**********************************
+	SETUP TEMPLATE, PAGE
+ *********************************/
+Pommo::requireOnce($pommo->_baseDir.'inc/classes/template.php');
+$smarty = new PommoTemplate();
+
+$message[] = 'Subscribers Reset.';
+$smarty->assign('messages', $message);
+$smarty->display('support/support.lib.tpl');
+Pommo::kill();
+
