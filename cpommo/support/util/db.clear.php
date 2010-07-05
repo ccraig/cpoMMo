@@ -29,12 +29,15 @@ $pommo->init();
 	
 $dbo =& $pommo->_dbo;
 
-
-foreach($dbo->table as $id => $table) {
-	if($id == 'config' || $id == 'updates' || $id == 'group_criteria' || $id == 'templates')
+foreach($dbo->table as $id => $table)
+{
+	if ($id == 'config' || $id == 'updates' || $id == 'group_criteria'
+			|| $id == 'templates' || $id == 'subscriber_update')
+	{
 		continue;
+	}
 		
-	$query = "DELETE FROM ".$table;
+	$query = 'DELETE FROM '.$table;
 	if(!$dbo->query($query))
 		die('ERROR deleting '.$id); 
 		
