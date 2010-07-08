@@ -142,7 +142,7 @@ elseif (!$pommo->_hasConfigFile && $_POST['configure'])
 		$handle = @fopen('config.php', 'w');
 		if (!$handle)
 		{
-			$configMessages[]	= 'Script was not able to create config.php
+			$configErrors[]	= 'Script was not able to create config.php
 					file. You should assign write permission for this script
 					to pommo root folder or create config.php yourself.';
 		}
