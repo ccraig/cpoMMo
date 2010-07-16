@@ -18,27 +18,33 @@
  * Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+class PommoCSVStream
+{
+   	var $position;
+	var $varname;
 
-class PommoCSVStream{
-   var $position; 
-   var $varname; 
-   function stream_open($path, $mode, $options, &$opened_path){ 
-       $url = parse_url($path); 
-       $this->varname = $url['host'] ;
-       $this->position = 0; 
-       return true;
-   }
-  function stream_read($count){ 
-       $ret = substr($GLOBALS[$this->varname], $this->position, $count); 
-       $this->position += strlen($ret); 
-       return $ret; 
-   }
-  function stream_eof(){ 
-       return $this->position >= strlen($GLOBALS[$this->varname]); 
-   } 
-   function stream_tell(){ 
-       return $this->position; 
-   } 
+   	function stream_open($path, $mode, $options, &$opened_path)
+   	{
+    	$url = parse_url($path);
+       	$this->varname	= $url['host'];
+       	$this->position = 0;
+       	return true;
+   	}
+
+  	function stream_read($count)
+  	{
+       	$ret = substr($GLOBALS[$this->varname], $this->position, $count);
+       	$this->position += strlen($ret);
+       	return $ret;
+   	}
+
+  	function stream_eof()
+  	{
+    	return $this->position >= strlen($GLOBALS[$this->varname]);
+   	}
+
+   	function stream_tell()
+   	{
+    	return $this->position;
+   	}
 }
-
-?>
